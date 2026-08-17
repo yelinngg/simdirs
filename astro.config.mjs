@@ -8,7 +8,7 @@ import sitemap from '@astrojs/sitemap';
 // 2. CF_PAGES_URL — auto-injected by Cloudflare Pages, no setup needed
 // 3. fallback   — local builds
 const site =
-  process.env.SITE_URL ?? process.env.CF_PAGES_URL ?? 'https://simdirs.example.com';
+  process.env.SITE_URL ?? process.env.CF_PAGES_URL ?? 'https://simdirs.com';
 
 export default defineConfig({
   site,
