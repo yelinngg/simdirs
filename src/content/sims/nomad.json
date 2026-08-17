@@ -1,0 +1,37 @@
+{
+  "name": { "en": "Nomad", "zh": "Nomad" },
+  "tagline": {
+    "en": "Affordable eSIMs with flexible top-ups",
+    "zh": "价格实惠、续购灵活的eSIM"
+  },
+  "description": {
+    "en": "Nomad offers some of the most competitively priced eSIM plans on the market, covering 130+ destinations. Its flexible top-up system lets you extend data or validity mid-trip, and frequent promo codes make it even cheaper.",
+    "zh": "Nomad 提供市场上最具价格竞争力的eSIM套餐之一，覆盖130+目的地。灵活的续购系统允许你在旅途中随时延长流量或有效期，叠加优惠码后更划算。"
+  },
+  "regions": ["global", "asia", "europe", "north-america", "south-america", "oceania", "middle-east"],
+  "coverage": 130,
+  "plansFrom": 5,
+  "dataFrom": "1GB",
+  "validity": "7 days",
+  "network": "4G/5G",
+  "device": "esim",
+  "hotspot": true,
+  "rating": 4.3,
+  "website": "https://www.getnomad.app",
+  "features": {
+    "en": [
+      "Very competitive pricing",
+      "Extend data or validity mid-trip",
+      "Frequent promo discounts",
+      "Regional multi-country plans"
+    ],
+    "zh": [
+      "价格非常有竞争力",
+      "旅途中可延长流量或有效期",
+      "经常推出优惠活动",
+      "提供多国区域套餐"
+    ]
+  },
+  "featured": false,
+  "updatedAt": "2026-07-20"
+}

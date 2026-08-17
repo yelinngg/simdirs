@@ -1,0 +1,37 @@
+{
+  "name": { "en": "Drimsim", "zh": "Drimsim" },
+  "tagline": {
+    "en": "One SIM that works everywhere, pay per MB",
+    "zh": "一张卡走全球，按流量计费"
+  },
+  "description": {
+    "en": "Drimsim takes a different approach: one physical SIM or eSIM that works in 200+ countries with pure pay-per-MB pricing and no bundled plans. Great for multi-country trips and light users who only need messaging and navigation.",
+    "zh": "Drimsim 走的是另一条路线：一张实体SIM卡或eSIM即可在200+国家使用，纯按流量（MB）计费，无需选择套餐。适合多国行程以及只需即时通讯和导航的轻度用户。"
+  },
+  "regions": ["global", "asia", "europe", "north-america", "south-america", "africa", "oceania"],
+  "coverage": 200,
+  "plansFrom": 8,
+  "dataFrom": "Pay per MB",
+  "validity": "No expiry",
+  "network": "4G/5G",
+  "device": "both",
+  "hotspot": true,
+  "rating": 4.0,
+  "website": "https://drimsim.com",
+  "features": {
+    "en": [
+      "One SIM for all countries",
+      "Pay only for the data you use",
+      "Balance never expires",
+      "Available as physical SIM and eSIM"
+    ],
+    "zh": [
+      "一张卡覆盖所有国家",
+      "用多少付多少",
+      "余额永不过期",
+      "实体SIM与eSIM双版本可选"
+    ]
+  },
+  "featured": false,
+  "updatedAt": "2026-06-28"
+}

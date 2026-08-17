@@ -1,0 +1,103 @@
+---
+import '../styles/global.css';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import { localePath, locales, defaultLocale, type Locale } from '../i18n/utils';
+import { t } from '../i18n/ui';
+
+interface Props {
+  lang: Locale;
+  title: string;
+  description: string;
+  /** Locale-stripped canonical path, e.g. '/sims/airalo' */
+  path: string;
+  /** Alternate locale-stripped paths per locale; null removes that hreflang. Defaults to `path`. */
+  alternates?: Partial<Record<Locale, string | null>>;
+  type?: 'website' | 'article';
+  publishedTime?: Date;
+  /** Extra JSON-LD structured data objects. */
+  jsonLd?: Record<string, unknown>[];
+}
+
+const {
+  lang,
+  title,
+  description,
+  path,
+  alternates = {},
+  type = 'website',
+  publishedTime,
+  jsonLd = [],
+} = Astro.props;
+
+const tr = t(lang);
+const site = Astro.site ?? new URL('https://simdirs.example.com');
+const canonical = new URL(localePath(lang, path), site);
+
+function altHref(l: Locale): string | null {
+  const p = alternates[l];
+  if (p === null) return null;
+  return new URL(localePath(l, p ?? path), site).href;
+}
+
+const alternatesHtml = locales
+  .map((l) => ({ l, href: altHref(l) }))
+  .filter((a): a is { l: Locale; href: string } => a.href !== null);
+
+const ogLocale = lang === 'zh' ? 'zh_CN' : 'en_US';
+const ogLocaleAlt = lang === 'zh' ? 'en_US' : 'zh_CN';
+
+const websiteLd: Record<string, unknown> = {
+  '@context': 'https://schema.org',
+  '@type': 'WebSite',
+  name: tr.site.name,
+  description: tr.site.tagline,
+  url: site.href,
+  inLanguage: lang,
+};
+
+const allLd = [websiteLd, ...jsonLd];
+---
+
+<!doctype html>
+<html lang={lang}>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="generator" content={Astro.generator} />
+
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonical} />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="theme-color" content="#4f46e5" />
+
+    {alternatesHtml.map(({ l, href }) => <link rel="alternate" hreflang={l} href={href} />)}
+    <link rel="alternate" hreflang="x-default" href={altHref(defaultLocale) ?? canonical.href} />
+    <link rel="alternate" type="application/rss+xml" title={tr.seo.rss} href={lang === 'zh' ? '/zh/rss.xml' : '/rss.xml'} />
+
+    <meta property="og:type" content={type} />
+    <meta property="og:site_name" content={tr.site.name} />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:locale" content={ogLocale} />
+    <meta property="og:locale:alternate" content={ogLocaleAlt} />
+
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+
+    {publishedTime && <meta property="article:published_time" content={publishedTime.toISOString()} />}
+
+    {allLd.map((obj) => <script type="application/ld+json" set:html={JSON.stringify(obj)} />)}
+  </head>
+
+  <body class="flex min-h-screen flex-col bg-slate-50 font-sans text-slate-900 antialiased">
+    <Header lang={lang} currentPath={Astro.url.pathname} />
+    <main class="flex-1">
+      <slot />
+    </main>
+    <Footer lang={lang} />
+  </body>
+</html>

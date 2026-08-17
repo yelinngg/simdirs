@@ -1,0 +1,26 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import NewsCard from '../components/NewsCard.astro';
+import { type Locale } from '../i18n/utils';
+import { t } from '../i18n/ui';
+import { getNews } from '../lib/queries';
+
+interface Props {
+  lang: Locale;
+}
+
+const { lang } = Astro.props;
+const tr = t(lang);
+const news = await getNews(lang);
+---
+
+<BaseLayout lang={lang} title={tr.seo.news.title} description={tr.seo.news.description} path="/news">
+  <section class="mx-auto max-w-6xl px-4 py-12">
+    <h1 class="text-3xl font-extrabold tracking-tight text-slate-900 sm:text-4xl">{tr.news.title}</h1>
+    <p class="mt-2 text-slate-500">{tr.news.subtitle}</p>
+
+    <div class="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+      {news.map((entry) => <NewsCard entry={entry} lang={lang} />)}
+    </div>
+  </section>
+</BaseLayout>

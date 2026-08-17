@@ -1,0 +1,42 @@
+@import 'tailwindcss';
+
+@theme {
+  --font-sans:
+    'Inter', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', 'PingFang SC',
+    'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Markdown article styling for news posts */
+.news-article {
+  & h2 {
+    @apply mt-10 mb-3 text-2xl font-bold text-slate-900;
+  }
+  & h3 {
+    @apply mt-8 mb-2 text-xl font-semibold text-slate-900;
+  }
+  & p {
+    @apply my-4 leading-relaxed text-slate-700;
+  }
+  & ul {
+    @apply my-4 list-disc space-y-1 pl-6 text-slate-700;
+  }
+  & ol {
+    @apply my-4 list-decimal space-y-1 pl-6 text-slate-700;
+  }
+  & a {
+    @apply font-medium text-indigo-600 underline underline-offset-2 hover:text-indigo-700;
+  }
+  & blockquote {
+    @apply my-5 border-l-4 border-indigo-200 bg-indigo-50 px-4 py-2 text-slate-600 italic;
+  }
+  & code {
+    @apply rounded bg-slate-100 px-1.5 py-0.5 text-sm text-indigo-700;
+  }
+  & strong {
+    @apply font-semibold text-slate-900;
+  }
+}

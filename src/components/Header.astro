@@ -1,0 +1,59 @@
+---
+import { localePath, locales, translatePath, type Locale } from '../i18n/utils';
+import { t } from '../i18n/ui';
+
+interface Props {
+  lang: Locale;
+  currentPath: string;
+}
+
+const { lang, currentPath } = Astro.props;
+const tr = t(lang);
+const langLabel: Record<Locale, string> = { en: 'EN', zh: '中文' };
+---
+
+<header class="sticky top-0 z-40 border-b border-slate-200 bg-white/85 backdrop-blur">
+  <div class="mx-auto flex h-16 max-w-6xl items-center justify-between gap-3 px-4">
+    <a href={localePath(lang, '/')} class="flex shrink-0 items-center gap-2 text-lg font-extrabold tracking-tight text-slate-900">
+      <svg viewBox="0 0 64 64" class="h-8 w-8 rounded-lg" aria-hidden="true">
+        <rect x="6" y="2" width="52" height="60" rx="10" fill="#4f46e5" />
+        <path d="M22 14h10a16 16 0 0 1 16 16v14a8 8 0 0 1-8 8H22a8 8 0 0 1-8-8V22a8 8 0 0 1 8-8z" fill="#e0e7ff" />
+        <rect x="20" y="20" width="11" height="9" rx="1.5" fill="#4f46e5" />
+        <rect x="33" y="20" width="11" height="9" rx="1.5" fill="#6366f1" />
+        <rect x="20" y="31" width="11" height="9" rx="1.5" fill="#6366f1" />
+        <rect x="33" y="31" width="11" height="9" rx="1.5" fill="#4f46e5" />
+      </svg>
+      Sim<span class="text-indigo-600">Dirs</span>
+    </a>
+
+    <div class="flex items-center gap-1 sm:gap-2">
+      <nav class="hidden items-center gap-1 text-sm font-medium text-slate-600 sm:flex" aria-label="Main">
+        <a href={localePath(lang, '/sims')} class="rounded-lg px-3 py-2 transition hover:bg-slate-100 hover:text-slate-900">{tr.nav.sims}</a>
+        <a href={localePath(lang, '/news')} class="rounded-lg px-3 py-2 transition hover:bg-slate-100 hover:text-slate-900">{tr.nav.news}</a>
+      </nav>
+
+      <nav class="flex items-center gap-1 text-sm font-medium text-slate-600 sm:hidden" aria-label="Main mobile">
+        <a href={localePath(lang, '/sims')} class="rounded-lg px-2 py-2 transition hover:bg-slate-100 hover:text-slate-900">{tr.nav.sims}</a>
+        <a href={localePath(lang, '/news')} class="rounded-lg px-2 py-2 transition hover:bg-slate-100 hover:text-slate-900">{tr.nav.news}</a>
+      </nav>
+
+      <div class="flex items-center rounded-lg border border-slate-200 bg-white p-0.5 text-xs font-semibold" role="group" aria-label="Language">
+        {
+          locales.map((l) => (
+            <a
+              href={translatePath(currentPath, l)}
+              hreflang={l}
+              aria-current={l === lang ? 'true' : undefined}
+              class:list={[
+                'rounded-md px-2.5 py-1.5 transition',
+                l === lang ? 'bg-indigo-600 text-white' : 'text-slate-500 hover:text-slate-900',
+              ]}
+            >
+              {langLabel[l]}
+            </a>
+          ))
+        }
+      </div>
+    </div>
+  </div>
+</header>

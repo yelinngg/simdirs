@@ -1,0 +1,37 @@
+{
+  "name": { "en": "Holafly", "zh": "Holafly" },
+  "tagline": {
+    "en": "Unlimited data eSIMs for long stays",
+    "zh": "面向长住旅客的不限量流量eSIM"
+  },
+  "description": {
+    "en": "Holafly specializes in unlimited-data eSIMs available for almost any duration, from a few days up to 90 days. Ideal for heavy users, remote workers and travelers who don't want to worry about running out of data in 160+ destinations.",
+    "zh": "Holafly 专营不限量流量eSIM，有效期从数天到90天灵活可选，覆盖160+目的地。适合重度使用者、远程办公者以及不想为流量焦虑的旅行者。"
+  },
+  "regions": ["global", "asia", "europe", "north-america", "south-america", "oceania"],
+  "coverage": 160,
+  "plansFrom": 19,
+  "dataFrom": "Unlimited",
+  "validity": "Flexible (1–90 days)",
+  "network": "4G/5G",
+  "device": "esim",
+  "hotspot": true,
+  "rating": 4.5,
+  "website": "https://esim.holafly.com",
+  "features": {
+    "en": [
+      "Unlimited data plans",
+      "Flexible durations from 1 to 90 days",
+      "No speed throttling on most plans",
+      "24/7 chat support in multiple languages"
+    ],
+    "zh": [
+      "不限量流量套餐",
+      "1至90天灵活有效期",
+      "多数套餐不限速",
+      "7×24小时多语言在线客服"
+    ]
+  },
+  "featured": true,
+  "updatedAt": "2026-08-15"
+}

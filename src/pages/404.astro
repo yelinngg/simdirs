@@ -1,0 +1,19 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { localePath } from '../i18n/utils';
+import { t } from '../i18n/ui';
+
+const lang = 'en';
+const tr = t(lang);
+---
+
+<BaseLayout lang={lang} title={`404 – ${tr.site.name}`} description={tr.notFound.message} path="/404">
+  <section class="mx-auto flex max-w-6xl flex-col items-center px-4 py-24 text-center">
+    <p class="text-7xl font-extrabold text-indigo-600">404</p>
+    <h1 class="mt-4 text-2xl font-bold text-slate-900">{tr.notFound.title}</h1>
+    <p class="mt-2 text-slate-500">{tr.notFound.message}</p>
+    <a href={localePath(lang, '/')} class="mt-8 rounded-xl bg-indigo-600 px-6 py-3 text-sm font-bold text-white transition hover:bg-indigo-700">
+      {tr.notFound.back}
+    </a>
+  </section>
+</BaseLayout>

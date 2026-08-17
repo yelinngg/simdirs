@@ -1,0 +1,37 @@
+{
+  "name": { "en": "Ubigi", "zh": "Ubigi" },
+  "tagline": {
+    "en": "Global eSIM backed by Transatel (NTT)",
+    "zh": "Transatel（NTT旗下）出品的全球eSIM"
+  },
+  "description": {
+    "en": "Ubigi is a premium eSIM service operated by Transatel, an NTT Group company, with coverage in 200+ destinations. Strong in Europe and North America, it offers reliable networks, in-car connectivity partnerships and pay-as-you-go or subscription plans.",
+    "zh": "Ubigi 由 NTT 集团旗下的 Transatel 运营，覆盖200+目的地，是高端eSIM服务。在欧洲和北美网络表现尤为出色，支持按量付费或订阅制套餐，并与多家车企合作提供车载连接。"
+  },
+  "regions": ["global", "europe", "north-america", "asia", "middle-east", "africa"],
+  "coverage": 200,
+  "plansFrom": 2.9,
+  "dataFrom": "500MB",
+  "validity": "1 day",
+  "network": "4G/5G",
+  "device": "esim",
+  "hotspot": true,
+  "rating": 4.2,
+  "website": "https://www.ubigi.com",
+  "features": {
+    "en": [
+      "Operated by NTT Group company",
+      "Day passes from 500MB",
+      "Subscription plans for frequent travelers",
+      "Strong coverage in Europe and North America"
+    ],
+    "zh": [
+      "NTT 集团旗下公司运营",
+      "日套餐500MB起",
+      "为常旅客提供订阅制套餐",
+      "欧洲与北美覆盖表现出色"
+    ]
+  },
+  "featured": false,
+  "updatedAt": "2026-07-05"
+}

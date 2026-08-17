@@ -1,0 +1,37 @@
+{
+  "name": { "en": "Airalo", "zh": "Airalo" },
+  "tagline": {
+    "en": "The world's first eSIM store with 200+ destinations",
+    "zh": "全球首家eSIM商店，覆盖200+目的地"
+  },
+  "description": {
+    "en": "Airalo is the world's leading eSIM marketplace, offering prepaid data plans for more than 200 countries and regions. Plans start from 1GB for 7 days, install in minutes via the iOS/Android app, and top-ups are instant. A solid default choice for most travelers.",
+    "zh": "Airalo 是全球领先的eSIM商城，为200多个国家和地区提供预付费流量套餐。套餐从1GB/7天起，通过iOS/Android应用几分钟即可安装激活，续购即时生效。是大多数旅行者的稳妥之选。"
+  },
+  "regions": ["global", "asia", "europe", "north-america", "south-america", "africa", "oceania", "middle-east"],
+  "coverage": 200,
+  "plansFrom": 4.5,
+  "dataFrom": "1GB",
+  "validity": "7 days",
+  "network": "4G/5G",
+  "device": "esim",
+  "hotspot": true,
+  "rating": 4.7,
+  "website": "https://www.airalo.com",
+  "features": {
+    "en": [
+      "200+ country and regional plans",
+      "Instant installation via mobile app",
+      "Top up anytime without changing SIM",
+      "24/7 multilingual support"
+    ],
+    "zh": [
+      "200+ 国家及地区套餐",
+      "手机应用即时安装",
+      "随时续购，无需换卡",
+      "7×24小时多语言客服"
+    ]
+  },
+  "featured": true,
+  "updatedAt": "2026-08-12"
+}

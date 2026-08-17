@@ -1,0 +1,37 @@
+{
+  "name": { "en": "Saily", "zh": "Saily" },
+  "tagline": {
+    "en": "Privacy-first eSIM by the Nord Security team",
+    "zh": "Nord Security 团队打造的隐私优先eSIM"
+  },
+  "description": {
+    "en": "Saily is an eSIM service built by the team behind NordVPN, with a strong focus on privacy and security. Competitive prices across 150+ destinations, a clean app experience and flexible data-only plans make it a great pick for privacy-conscious travelers.",
+    "zh": "Saily 由 NordVPN 背后的团队打造，高度注重隐私与安全。在150+目的地提供有竞争力的价格、清爽的应用体验和灵活的纯流量套餐，是注重隐私的旅行者的优质选择。"
+  },
+  "regions": ["global", "asia", "europe", "north-america", "south-america", "africa", "oceania"],
+  "coverage": 150,
+  "plansFrom": 3.99,
+  "dataFrom": "1GB",
+  "validity": "7 days",
+  "network": "4G/5G",
+  "device": "esim",
+  "hotspot": true,
+  "rating": 4.4,
+  "website": "https://saily.com",
+  "features": {
+    "en": [
+      "Built by Nord Security team",
+      "DNS filtering for safer browsing",
+      "1GB, 3GB, 5GB, 10GB and 20GB plans",
+      "Instant eSIM activation"
+    ],
+    "zh": [
+      "Nord Security 团队出品",
+      "内置DNS过滤，浏览更安全",
+      "1GB/3GB/5GB/10GB/20GB 多档套餐",
+      "eSIM 即买即用"
+    ]
+  },
+  "featured": true,
+  "updatedAt": "2026-08-01"
+}

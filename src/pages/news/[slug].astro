@@ -1,0 +1,8 @@
+---
+import NewsDetailView from '../../views/NewsDetailView.astro';
+import { newsStaticPaths } from '../../lib/queries';
+
+export const getStaticPaths = () => newsStaticPaths('en');
+---
+
+<NewsDetailView lang="en" slug={Astro.params.slug!} />

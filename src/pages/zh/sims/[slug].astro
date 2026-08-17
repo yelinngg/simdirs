@@ -1,0 +1,8 @@
+---
+import SimDetailView from '../../../views/SimDetailView.astro';
+import { simStaticPaths } from '../../../lib/queries';
+
+export const getStaticPaths = simStaticPaths;
+---
+
+<SimDetailView lang="zh" slug={Astro.params.slug!} />
