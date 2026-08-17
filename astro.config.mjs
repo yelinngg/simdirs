@@ -2,6 +2,7 @@
 import { defineConfig } from 'astro/config';
 import tailwindcss from '@tailwindcss/vite';
 import sitemap from '@astrojs/sitemap';
+import compress from 'astro-compress';
 
 // Deployment URL, resolved at build time (Astro config runs in Node, so any env var is readable):
 // 1. SITE_URL   — set once in Cloudflare Workers Builds settings (or CI) to your workers.dev / custom domain
@@ -22,5 +23,5 @@ export default defineConfig({
   vite: {
     plugins: [tailwindcss()],
   },
-  integrations: [sitemap()],
+  integrations: [sitemap(), compress()],
 });

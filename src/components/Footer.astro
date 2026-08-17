@@ -23,7 +23,7 @@ const year = new Date().getFullYear();
       <ul class="mt-3 space-y-2 text-sm text-slate-500">
         <li><a href={localePath(lang, '/sims')} class="hover:text-indigo-600">{tr.nav.sims}</a></li>
         <li><a href={localePath(lang, '/news')} class="hover:text-indigo-600">{tr.nav.news}</a></li>
-        <li><a href="/" class="hover:text-indigo-600">SimDirs</a></li>
+        <li><a href={localePath(lang, '/')} class="hover:text-indigo-600">SimDirs</a></li>
       </ul>
     </div>
 

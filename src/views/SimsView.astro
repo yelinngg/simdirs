@@ -1,7 +1,7 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 import SimCard from '../components/SimCard.astro';
-import { type Locale } from '../i18n/utils';
+import { localePath, type Locale } from '../i18n/utils';
 import { t, REGION_KEYS } from '../i18n/ui';
 import { getAllSims } from '../lib/queries';
 
@@ -22,7 +22,7 @@ const itemListLd = {
     '@type': 'ListItem',
     position: i + 1,
     name: sim.data.name[lang] ?? sim.data.name.en,
-    url: new URL(`/sims/${sim.id}`, Astro.site).href,
+    url: new URL(localePath(lang, `/sims/${sim.id}`), Astro.site).href,
   })),
 };
 ---

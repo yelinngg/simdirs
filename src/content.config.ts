@@ -1,9 +1,10 @@
-import { defineCollection, z } from 'astro:content';
+import { defineCollection } from 'astro:content';
+import { z } from 'zod';
 import { glob } from 'astro/loaders';
 import { REGION_KEYS } from './i18n/ui';
 
 /** A field that must exist in both English and Chinese. */
-const localized = <T extends z.ZodType>(schema: T) => z.object({ en: schema, zh: schema });
+const localized = <T extends z.ZodTypeAny>(schema: T) => z.object({ en: schema, zh: schema });
 
 const sims = defineCollection({
   loader: glob({ pattern: '**/*.json', base: './src/content/sims' }),
@@ -20,7 +21,7 @@ const sims = defineCollection({
     device: z.enum(['esim', 'physical', 'both']),
     hotspot: z.boolean(),
     rating: z.number().min(0).max(5),
-    website: z.string().url(),
+    website: z.url(),
     features: localized(z.array(z.string())),
     featured: z.boolean().default(false),
     updatedAt: z.coerce.date(),

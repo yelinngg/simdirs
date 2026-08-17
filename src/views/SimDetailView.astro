@@ -54,7 +54,7 @@ const specs = [
   { label: tr.sim.validity, value: d.validity },
   { label: tr.sim.network, value: d.network },
   { label: tr.sim.hotspot, value: d.hotspot ? tr.sim.yes : tr.sim.no },
-  { label: tr.sim.device[d.device], value: `${d.coverage}+ ${tr.sim.countries}` },
+  { label: tr.sim.coverage, value: `${d.coverage}+ ${tr.sim.countries}` },
 ];
 ---
 
@@ -109,7 +109,7 @@ const specs = [
           <h2 class="text-xl font-bold text-slate-900">{tr.sim.features}</h2>
           <ul class="mt-4 grid gap-3 sm:grid-cols-2">
             {
-              features.map((f) => (
+              features.map((f: string) => (
                 <li class="flex items-start gap-2.5 text-sm text-slate-700">
                   <svg class="mt-0.5 h-5 w-5 shrink-0 text-emerald-500" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
                     <path fill-rule="evenodd" d="M10 18a8 8 0 1 0 0-16 8 8 0 0 0 0 16zm3.85-9.35a.75.75 0 0 0-1.22-.87l-2.97 3.83-1.63-1.62a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.13-.11l3.5-4.5z" clip-rule="evenodd"/>

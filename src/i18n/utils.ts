@@ -2,14 +2,6 @@ export const locales = ['en', 'zh'] as const;
 export type Locale = (typeof locales)[number];
 export const defaultLocale: Locale = 'en';
 
-/** Extract locale from a URL pathname: `/zh/sims` → 'zh', `/sims` → 'en' */
-export function getLocaleFromUrl(pathname: string): Locale {
-  const first = pathname.split('/')[1];
-  return locales.includes(first as Locale) && first !== defaultLocale
-    ? (first as Locale)
-    : defaultLocale;
-}
-
 /** Prefix a locale-stripped path with the locale route segment. */
 export function localePath(lang: Locale, path: string = '/'): string {
   const p = path.startsWith('/') ? path : `/${path}`;
