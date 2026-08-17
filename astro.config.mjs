@@ -3,9 +3,15 @@ import { defineConfig } from 'astro/config';
 import tailwindcss from '@tailwindcss/vite';
 import sitemap from '@astrojs/sitemap';
 
-// TODO: Replace with your real domain before deploying (used for canonical URLs, sitemap, RSS)
+// Deployment URL, resolved at build time (Astro config runs in Node, so any env var is readable):
+// 1. SITE_URL   — set once in Cloudflare Workers Builds settings (or CI) to your workers.dev / custom domain
+// 2. CF_PAGES_URL — auto-injected by Cloudflare Pages, no setup needed
+// 3. fallback   — local builds
+const site =
+  process.env.SITE_URL ?? process.env.CF_PAGES_URL ?? 'https://simdirs.example.com';
+
 export default defineConfig({
-  site: 'https://simdirs.example.com',
+  site,
   i18n: {
     defaultLocale: 'en',
     locales: ['en', 'zh'],
