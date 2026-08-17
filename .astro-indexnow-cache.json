@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "entries": {
+    "https://simdirs.com/": "sha256:377ad740d24419380d0997df6774c082897b0f57e76598fac92e78bc62170b02",
+    "https://simdirs.com/news/airalo-expands-5g": "sha256:401ba3fd8231ba25fba6541b44272dfa2c19e8e257786c14dcff6b2ffedae3c5",
+    "https://simdirs.com/news/esim-travel-tips": "sha256:0e6fa312b5d106f64932e342a6a2c7e7add965f168e731f7e1b90bbe975e007f",
+    "https://simdirs.com/news/holafly-unlimited-review": "sha256:1384ddd947e34b1ddb1eff9e03a2deb047934dca47bf6be4b15d74e22af3b5ab",
+    "https://simdirs.com/news": "sha256:f36ec534e9c6d9cd569a7a890ba8343376a620b6476e3b6a276494a23dbcb6fd",
+    "https://simdirs.com/sims/airalo": "sha256:cf4b5ef439ce26d4305780edae6cc17e4d4aa7dc0169f95770248db2f18dbd50",
+    "https://simdirs.com/sims/drimsim": "sha256:fb5588655a7fc8f01a9d9ca2b0c8dbe15a545fede71c0cd7e20b73b63e58176a",
+    "https://simdirs.com/sims/holafly": "sha256:f0f667a808c31089243deed32a7bc31b347ec03a753af86879aa5d0ddb6cbb4a",
+    "https://simdirs.com/sims": "sha256:58c971639b8e495be887bf77d323d236d9c5de7cca853bddfcf748c51ad01665",
+    "https://simdirs.com/sims/nomad": "sha256:4bda95fe00b4285e0d6189ac01fc1d81f3503dcc4d5eca0ce713bebc838a986c",
+    "https://simdirs.com/sims/saily": "sha256:257e06c26d5ef53c0173dc0bd26c826f5af2f891b299a4e5edd184030e2710ec",
+    "https://simdirs.com/sims/ubigi": "sha256:192c29d191b779036323218dea278a3cfbf51f08eeb961b069e7575c3961dc90",
+    "https://simdirs.com/zh": "sha256:1b5b6055186dc95fcd359b951b9e61b84eb07e090209e48aba9330db4699f565",
+    "https://simdirs.com/zh/news/airalo-expands-5g": "sha256:47112f4755e5c182068837eb5eedb32d124d5db041dd78fb0ad48cfbca8c1194",
+    "https://simdirs.com/zh/news/esim-travel-tips": "sha256:e0eac914c6e50ad6e9fd502afe98c90be3217f5998133c9cae204b571bb20303",
+    "https://simdirs.com/zh/news/holafly-unlimited-review": "sha256:bd2be586e36761b78b1396d72ba0ac9f1c5725bc4ab4935febf017ca51521580",
+    "https://simdirs.com/zh/news": "sha256:b593422af44ea0e9230321c39cff08581004aece550d3d325f1f6187917496da",
+    "https://simdirs.com/zh/sims/airalo": "sha256:3260f3c6a0fe6ab0402bdc40559f6aa4fc4e4ae95ce08627cf1cb5246f4aa543",
+    "https://simdirs.com/zh/sims/drimsim": "sha256:18979668a6547ae02e1bd0123d2b863971c5d1e8a8c62bf8aff32e7d6a10152e",
+    "https://simdirs.com/zh/sims/holafly": "sha256:214aa05c84d512074185e3e2b587492864dcb5d76c5a5a7d7820928773abf4f1",
+    "https://simdirs.com/zh/sims": "sha256:cab271165fc458d83470e1dbc175b45cacee98c2d2586df2ba6153db49f5fb76",
+    "https://simdirs.com/zh/sims/nomad": "sha256:a45962835ffb9cb180a87411bc841cea1fdca27c2ee5642df8231cbac175d1f9",
+    "https://simdirs.com/zh/sims/saily": "sha256:62c3f5cf7e0b96f4aa6c9341700d2e625b5cde3ef74b7990ef14c427e5f3bfb9",
+    "https://simdirs.com/zh/sims/ubigi": "sha256:40dbe57a20d7e685d8ec4b433f356aaace3ef9e7e9e38917de6dcb41055082b3"
+  }
+}

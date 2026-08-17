@@ -19,6 +19,7 @@
     "@tailwindcss/vite": "^4.3.3",
     "astro": "^6.2.1",
     "astro-compress": "^2.4.3",
+    "astro-indexnow": "^2.3.10",
     "tailwindcss": "^4.3.3",
     "zod": "^4.4.3"
   },
