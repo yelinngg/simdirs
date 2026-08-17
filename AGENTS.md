@@ -17,6 +17,7 @@ There is **no backend/CMS** — all content lives in files under `src/content/` 
 - `device` is one of `esim | physical | both`; `plansFrom` is a USD number; `rating` is 0–5; `updatedAt` is `YYYY-MM-DD`.
 - To feature a provider on the homepage, set `"featured": true` (keep ≤ 6).
 - Schema is defined in `src/content.config.ts` — the build fails on invalid data.
+- After adding/changing a provider, run `npm run og` to regenerate its Open Graph image (`public/og/sims-<slug>.png`) and commit the PNG. PNGs are committed so CI never depends on font rendering.
 
 ## Managing news posts (`src/content/news/{en,zh}/*.md`)
 

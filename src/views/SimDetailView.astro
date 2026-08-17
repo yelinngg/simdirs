@@ -36,6 +36,16 @@ const productLd = {
     availability: 'https://schema.org/InStock',
     url: new URL(localePath(lang, path), Astro.site).href,
   },
+  review: {
+    '@type': 'Review',
+    reviewRating: {
+      '@type': 'Rating',
+      ratingValue: d.rating,
+      bestRating: 5,
+      worstRating: 0,
+    },
+    author: { '@type': 'Organization', name: tr.site.name },
+  },
 };
 
 const breadcrumbLd = {
@@ -58,7 +68,7 @@ const specs = [
 ];
 ---
 
-<BaseLayout lang={lang} title={`${name} – ${tr.site.name}`} description={pick(d.tagline, lang)} path={path} jsonLd={[productLd, breadcrumbLd]}>
+<BaseLayout lang={lang} title={`${name} – ${tr.site.name}`} description={pick(d.tagline, lang)} path={path} ogImage={`/og/sims-${slug}.png`} jsonLd={[productLd, breadcrumbLd]}>
   <div class="mx-auto max-w-6xl px-4 py-10">
     <nav class="text-sm text-slate-500" aria-label="Breadcrumb">
       <a href={localePath(lang, '/')} class="hover:text-indigo-600">{tr.site.name}</a>

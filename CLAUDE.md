@@ -17,6 +17,7 @@ There is **no backend/CMS** — all content lives in files under `src/content/` 
 - `device` is one of `esim | physical | both`; `plansFrom` is a USD number; `rating` is 0–5; `updatedAt` is `YYYY-MM-DD`.
 - To feature a provider on the homepage, set `"featured": true` (keep ≤ 6).
 - Schema is defined in `src/content.config.ts` — the build fails on invalid data.
+- After adding/changing a provider, run `npm run og` to regenerate its Open Graph image (`public/og/sims-<slug>.png`) and commit the PNG. PNGs are committed so CI never depends on font rendering.
 
 ## Managing news posts (`src/content/news/{en,zh}/*.md`)
 
@@ -43,6 +44,7 @@ All interface labels (nav, buttons, region names, SEO titles/descriptions) live 
 - On **Cloudflare Workers Builds** (no URL env var is injected): set `SITE_URL=https://<name>.<subdomain>.workers.dev` (or the custom domain) once under Settings → Build → Environment variables. Preview deployments still canonical to `SITE_URL`, which is the SEO-correct behavior.
 - Deploy config is `wrangler.jsonc` (assets-only static deploy, no adapter, no bindings). CI: build `npm run build`, deploy `npx wrangler deploy`.
 - Sitemap is generated at `/sitemap-index.xml`; feeds at `/rss.xml` (EN) and `/zh/rss.xml` (ZH).
+- IndexNow (`astro-indexnow` integration) submits new/changed pages to search engines after each build. **Always commit `.astro-indexnow-cache.json`** — CI builds are ephemeral and without the cache every build resubmits all URLs. The key verification file is `public/<key>.txt`; the key itself is set in `astro.config.mjs` (overridable via `INDEXNOW_KEY` env var).
 
 ## Documentation
 
