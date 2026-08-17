@@ -1,0 +1,37 @@
+{
+  "name": { "en": "BCeSIM", "zh": "BCeSIM（亿点全球）" },
+  "tagline": {
+    "en": "Daily-pay eSIMs across 160+ destinations with carrier-grade plans",
+    "zh": "160+目的地按日计费eSIM，运营商级套餐"
+  },
+  "description": {
+    "en": "BCeSIM is the travel eSIM service of Billion Connect, offering plans for 160+ destinations from its official storefront. Most packages are daily plans billed per day — such as 1 GB/day or 10 Mbps/day unlimited — alongside fixed data bundles and true unlimited day passes on selected routes like Japan KDDI 4-day and South Korea SKT.",
+    "zh": "BCeSIM 是亿点全球（Billion Connect）旗下的旅行eSIM服务，官方商店覆盖160+目的地。多数套餐为按日计费的日付方案——如1 GB/日或10 Mbps/日不限量——同时提供固定流量包，以及日本KDDI 4天、韩国SKT等线路的真不限量日包。"
+  },
+  "regions": ["global", "asia", "europe", "north-america", "south-america", "africa", "oceania", "middle-east"],
+  "coverage": 160,
+  "plansFrom": 0.7,
+  "dataFrom": "1GB",
+  "validity": "Per-day plans (1 day+)",
+  "network": "4G/5G",
+  "device": "esim",
+  "hotspot": true,
+  "rating": 4.0,
+  "website": "https://www.billionconnect.net/",
+  "features": {
+    "en": [
+      "160+ destinations on the official storefront",
+      "Daily plans: 1 GB/day, 2 GB/day or 10 Mbps unlimited per day",
+      "True unlimited day passes on routes like Japan KDDI and Korea SKT",
+      "Regional bundles: Europe 33, Southeast Asia 5, USA+Canada"
+    ],
+    "zh": [
+      "官方商店覆盖160+目的地",
+      "日付套餐：1 GB/日、2 GB/日或10 Mbps不限量/日",
+      "日本KDDI、韩国SKT等线路提供真不限量日包",
+      "区域套餐：欧洲33国、东南亚5国、美加等"
+    ]
+  },
+  "featured": false,
+  "updatedAt": "2026-08-18"
+}

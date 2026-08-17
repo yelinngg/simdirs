@@ -1,0 +1,37 @@
+{
+  "name": { "en": "3HK DIY", "zh": "3HK DIY 储值卡" },
+  "tagline": {
+    "en": "Hutchison 3 Hong Kong's DIY prepaid SIM and travel top-up app",
+    "zh": "和记三方香港DIY储值卡及旅行增值服务"
+  },
+  "description": {
+    "en": "3HK DIY is the prepaid SIM line of Hutchison Telephone (Three Hong Kong), managed through the DIY Prepaid SIM app. It targets Hong Kong local users and travellers with DIY roaming day passes, local data top-ups and real-name registration, rather than a conventional travel eSIM storefront. Plan selection and purchase happen inside the app, so prices are not published as a static public catalogue.",
+    "zh": "3HK DIY 是香港和记电讯（3香港）旗下的储值卡产品线，通过「DIY 储值卡」App管理。它面向香港本地用户和旅客，提供DIY漫游日包、本地流量增值与实名登记，并非传统的旅行eSIM商店。套餐选购在App内完成，官网不提供静态公开价目表。"
+  },
+  "regions": ["asia"],
+  "coverage": 1,
+  "plansFrom": 8,
+  "dataFrom": "App-based",
+  "validity": "Varies by plan",
+  "network": "4G/5G",
+  "device": "both",
+  "hotspot": true,
+  "rating": 3.6,
+  "website": "https://www.three.com.hk/",
+  "features": {
+    "en": [
+      "Official prepaid brand of Three Hong Kong (Hutchison)",
+      "DIY roaming day passes configured in-app",
+      "Physical SIM with eSIM options on supported plans",
+      "Real-name registration handled in the DIY app"
+    ],
+    "zh": [
+      "3香港（和记电讯）官方储值卡品牌",
+      "DIY漫游日包在App内自选配置",
+      "实体SIM为主，部分套餐支持eSIM",
+      "实名登记通过DIY App完成"
+    ]
+  },
+  "featured": false,
+  "updatedAt": "2026-08-18"
+}

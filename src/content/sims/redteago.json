@@ -1,0 +1,37 @@
+{
+  "name": { "en": "RedteaGO", "zh": "RedteaGO" },
+  "tagline": {
+    "en": "Flexible day-pass eSIMs with pay-as-you-go daily plans",
+    "zh": "灵活的日包eSIM，支持按天自定义的出行方案"
+  },
+  "description": {
+    "en": "RedteaGO is the consumer eSIM brand of Redtea Mobile, covering 180+ countries and regions. Its signature Unlimited Packages let you pick anywhere from 1 to 180 days, refreshing a daily high-speed allowance (300 MB basic / 10 GB premium) with unlimited throttled usage afterwards, alongside classic 1–50 GB data-only bundles valid up to 15 days.",
+    "zh": "RedteaGO 是红茶移动（Redtea Mobile）旗下消费者eSIM品牌，覆盖180+国家和地区。招牌不限量套餐可自选1–180天，每天刷新高速流量（基础版300 MB/日，尊享版10 GB/日），用尽后降速不限量；同时提供1–50 GB经典数据套餐，有效期最长15天。"
+  },
+  "regions": ["global", "asia", "europe", "north-america", "south-america", "africa", "oceania", "middle-east"],
+  "coverage": 180,
+  "plansFrom": 0.9,
+  "dataFrom": "100MB",
+  "validity": "1–180 days",
+  "network": "4G/5G",
+  "device": "esim",
+  "hotspot": true,
+  "rating": 4.1,
+  "website": "https://www.redteago.com/",
+  "features": {
+    "en": [
+      "Unlimited packages with 1–180 day flexibility",
+      "Daily high-speed data refreshes every 24 hours",
+      "Classic 1–50 GB bundles up to 15 days",
+      "180+ countries and regions covered"
+    ],
+    "zh": [
+      "不限量套餐可自选1–180天",
+      "高速流量每24小时自动刷新",
+      "经典数据套餐1–50 GB、最长15天",
+      "覆盖180+国家和地区"
+    ]
+  },
+  "featured": false,
+  "updatedAt": "2026-08-18"
+}
