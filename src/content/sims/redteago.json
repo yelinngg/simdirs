@@ -6,11 +6,19 @@
   },
   "description": {
     "en": "RedteaGO is the consumer eSIM brand of Redtea Mobile, covering 180+ countries and regions. Its signature Unlimited Packages let you pick anywhere from 1 to 180 days, refreshing a daily high-speed allowance (300 MB basic / 10 GB premium) with unlimited throttled usage afterwards, alongside classic 1–50 GB data-only bundles valid up to 15 days.",
-    "zh": "RedteaGO 是红茶移动（Redtea Mobile）旗下消费者eSIM品牌，覆盖180+国家和地区。招牌不限量套餐可自选1–180天，每天刷新高速流量（基础版300 MB/日，尊享版10 GB/日），用尽后降速不限量；同时提供1–50 GB经典数据套餐，有效期最长15天。"
+    "zh": "RedteaGO 是红茶移动（Redtea Mobile）旗下的消费者eSIM品牌，覆盖180+国家和地区。招牌不限量套餐可自选1–180天，每天刷新高速流量（基础版300 MB/日，尊享版10 GB/日），用尽后降速不限量；同时提供1–50 GB经典数据套餐，有效期最长15天。"
+  },
+  "details": {
+    "en": "What makes RedteaGO different is how the Unlimited Package is priced: you pay a flat day rate instead of buying a fixed-duration bundle, so a 9-day trip or a 41-day working holiday costs exactly what it should — no rounding up to the next preset package. Day rates vary by destination: roughly $0.70/day (300 MB/day basic) or $3.90/day (10 GB/day premium) in Japan, $4.90/day for the 10 GB tier in the USA, and around $4.50/day in the UK. If you burn through the daily allowance, speeds drop but data keeps flowing — handy for maps, messaging and email. Classic data-only bundles (1–50 GB, 1–15 days) suit short trips with predictable usage, and multi-country regional packages undercut buying each country separately. US-destination bundles with calling and SMS are also available for travellers who still need a reachable number.",
+    "zh": "RedteaGO 的差异化在于不限量套餐的计价方式：按天计费而非固定时长打包，9 天行程或 41 天打工度假都只按实际天数付费，不必向上凑整到预设套餐。日费因目的地而异：日本约 0.70 美元/天（基础版 300 MB/日）或 3.90 美元/天（尊享版 10 GB/日），美国 10 GB 档为 4.90 美元/天，英国约 4.50 美元/天。当日高速额度用尽后降速但不断网，地图、即时通讯和邮件不受影响。经典数据套餐（1–50 GB、1–15 天有效）适合用量可预估的短途行程；覆盖多国的区域套餐（如含日本及周边的亚洲包、美加包）比逐国单买更划算；美国方向还提供带通话与短信的套餐，适合需要保持号码可接听的旅行者。"
+  },
+  "bestFor": {
+    "en": "Trips of unusual length (9, 12, 23 days...) where fixed 7/10/15-day bundles force overpaying, and travellers who want a daily throttled-unlimited safety net.",
+    "zh": "行程天数不规整（如 9、12、23 天）、买固定 7/10/15 天包必然浪费的旅行者，以及每天都要有“降速不断网”兜底流量的用户。"
   },
   "regions": ["global", "asia", "europe", "north-america", "south-america", "africa", "oceania", "middle-east"],
   "coverage": 180,
-  "plansFrom": 0.9,
+  "plansFrom": 0.7,
   "dataFrom": "100MB",
   "validity": "1–180 days",
   "network": "4G/5G",
@@ -30,6 +38,86 @@
       "高速流量每24小时自动刷新",
       "经典数据套餐1–50 GB、最长15天",
       "覆盖180+国家和地区"
+    ]
+  },
+  "plans": [
+    {
+      "name": { "en": "Japan Unlimited (basic)", "zh": "日本不限量（基础版）" },
+      "data": { "en": "300 MB/day high speed, then throttled unlimited", "zh": "300 MB/日高速，用尽降速不限量" },
+      "validity": { "en": "2–180 days, per-day pricing", "zh": "2–180 天，按天计费" },
+      "price": { "en": "US$0.70/day", "zh": "0.70 美元/天" }
+    },
+    {
+      "name": { "en": "Japan Unlimited (premium)", "zh": "日本不限量（尊享版）" },
+      "data": { "en": "10 GB/day high speed, then throttled unlimited", "zh": "10 GB/日高速，用尽降速不限量" },
+      "validity": { "en": "1–180 days, per-day pricing", "zh": "1–180 天，按天计费" },
+      "price": { "en": "US$3.90/day", "zh": "3.90 美元/天" }
+    },
+    {
+      "name": { "en": "USA Unlimited (premium)", "zh": "美国不限量（尊享版）" },
+      "data": { "en": "10 GB/day high speed, then throttled unlimited", "zh": "10 GB/日高速，用尽降速不限量" },
+      "validity": { "en": "1–180 days, per-day pricing", "zh": "1–180 天，按天计费" },
+      "price": { "en": "US$4.90/day", "zh": "4.90 美元/天" }
+    },
+    {
+      "name": { "en": "UK Unlimited (premium)", "zh": "英国不限量（尊享版）" },
+      "data": { "en": "10 GB/day high speed, then throttled unlimited", "zh": "10 GB/日高速，用尽降速不限量" },
+      "validity": { "en": "1–180 days, per-day pricing", "zh": "1–180 天，按天计费" },
+      "price": { "en": "US$4.50/day", "zh": "4.50 美元/天" }
+    },
+    {
+      "name": { "en": "Japan data-only bundle", "zh": "日本经典数据套餐" },
+      "data": { "en": "1 / 3 / 5 / 10 GB", "zh": "1 / 3 / 5 / 10 GB" },
+      "validity": { "en": "1–15 days", "zh": "1–15 天" },
+      "price": { "en": "US$2.50 (1 GB) – US$9.50 (10 GB)", "zh": "2.50 美元（1 GB）– 9.50 美元（10 GB）" }
+    },
+    {
+      "name": { "en": "USA data-only bundle", "zh": "美国经典数据套餐" },
+      "data": { "en": "1 / 3 / 5 / 10 GB", "zh": "1 / 3 / 5 / 10 GB" },
+      "validity": { "en": "1–15 days", "zh": "1–15 天" },
+      "price": { "en": "US$1.60 (1 GB) – US$8.30 (10 GB)", "zh": "1.60 美元（1 GB）– 8.30 美元（10 GB）" }
+    },
+    {
+      "name": { "en": "UK data-only bundle", "zh": "英国经典数据套餐" },
+      "data": { "en": "1 / 3 / 10 / 20 GB", "zh": "1 / 3 / 10 / 20 GB" },
+      "validity": { "en": "1–15 days", "zh": "1–15 天" },
+      "price": { "en": "US$0.98 (1 GB) – US$10.80 (20 GB)", "zh": "0.98 美元（1 GB）– 10.80 美元（20 GB）" }
+    },
+    {
+      "name": { "en": "USA bundle with calls & SMS", "zh": "美国含通话短信套餐" },
+      "data": { "en": "1–20 GB, includes US calls & SMS", "zh": "1–20 GB，含美国通话与短信" },
+      "validity": { "en": "1–15 days", "zh": "1–15 天" },
+      "price": { "en": "US$5.50 (1 GB) – US$29.90 (20 GB)", "zh": "5.50 美元（1 GB）– 29.90 美元（20 GB）" }
+    }
+  ],
+  "plansNote": {
+    "en": "Prices verified from the redteago.com official storefront in August 2026. Day-pass and bundle prices vary by destination; Japan, USA and UK shown as examples.",
+    "zh": "价格于 2026 年 8 月经 redteago.com 官方商店核验。日包与套餐价格因目的地而异，此处以日本、美国、英国为例。"
+  },
+  "pros": {
+    "en": [
+      "Pay-per-day pricing fits any trip length without overpaying",
+      "Daily-refreshed high-speed allowance instead of one shared pool",
+      "Throttled unlimited fallback keeps maps and messaging alive",
+      "Calling + SMS bundles available for US destinations"
+    ],
+    "zh": [
+      "按天计费适配任意行程长度，不为凑天数多付钱",
+      "高速流量按日刷新，不必整段行程共享一个流量池",
+      "降速不断网的兜底机制，地图和即时通讯始终可用",
+      "美国方向提供含通话短信的套餐"
+    ]
+  },
+  "cons": {
+    "en": [
+      "300 MB/day basic tier is tight for video or hotspot use",
+      "Regional bundle lists mix several similarly named sub-products — check coverage before checkout",
+      "Fewer user reviews and less brand recognition than Airalo or Holafly in Western markets"
+    ],
+    "zh": [
+      "基础版 300 MB/日对看视频或开热点比较紧张",
+      "区域套餐列表里多个子产品名称相近，下单前需核对覆盖范围",
+      "在欧美市场的用户评价和品牌知名度不及 Airalo、Holafly"
     ]
   },
   "featured": false,

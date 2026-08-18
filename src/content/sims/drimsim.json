@@ -8,6 +8,14 @@
     "en": "Drimsim takes a different approach: one physical SIM or eSIM that works in 200+ countries with pure pay-per-MB pricing and no bundled plans. Great for multi-country trips and light users who only need messaging and navigation.",
     "zh": "Drimsim 走的是另一条路线：一张实体SIM卡或eSIM即可在200+国家使用，纯按流量（MB）计费，无需选择套餐。适合多国行程以及只需即时通讯和导航的轻度用户。"
   },
+  "details": {
+    "en": "Drimsim flips the usual model: instead of destination-specific bundles, you top up a balance and every megabyte is billed at the local rate of wherever you land. That removes the entire buying workflow from each country — no per-country eSIM purchases, no plan expiries mid-trip, and one balance that follows you across borders. It shines on multi-country itineraries (say, five Balkan countries in two weeks) where buying five separate packages would leave unused data stranded in each, and for light users whose daily need is WhatsApp, maps and email — a few hundred MB can stretch across a whole trip. Heavy users should do the math: per-MB rates run higher than bulk bundles, so streaming-heavy trips are cheaper on bucket or unlimited plans from other providers. The balance never expires, the same SIM works at home as a backup, apps (iOS/Android) show per-country rates and live usage, and both physical SIM and eSIM formats are offered. Coverage rides partner carriers in 200+ countries, with speed varying by local partner rather than by plan.",
+    "zh": "Drimsim 把常规模式翻了过来：不是按目的地买包，而是充值余额，落地后每一 MB 按当地费率扣费。这把“每到一个国家买一次套餐”的流程彻底删掉——没有逐国购买、没有行程中套餐过期，一份余额跨境通用。它在多国行程中最能发挥价值（比如两周走五个巴尔干国家，逐国买包会让剩余流量滞留在每个国家），也适合日均只需 WhatsApp、地图和邮件的轻度用户——几百 MB 可以撑完一整趟行程。重度用户则要先算账：按 MB 计费的单价高于批量套餐，以看视频为主的行程用别家的流量桶或不限量更便宜。余额永不过期，这张卡在家还能当备用卡；iOS/Android App 展示各国费率与实时用量；实体 SIM 与 eSIM 两种形态都有。覆盖依赖 200+ 国家的合作运营商，网速取决于当地合作伙伴而非套餐档位。"
+  },
+  "bestFor": {
+    "en": "Multi-country itineraries and light data users (messaging, maps, email) who hate buying a package per country and leaving unused data behind.",
+    "zh": "多国行程与轻度流量用户（即时通讯、地图、邮件）——不想逐国买包、不想把没用完的流量浪费在每个国家。"
+  },
   "regions": ["global", "asia", "europe", "north-america", "south-america", "africa", "oceania"],
   "coverage": 200,
   "plansFrom": 8,
@@ -32,6 +40,37 @@
       "实体SIM与eSIM双版本可选"
     ]
   },
+  "plans": [],
+  "plansNote": {
+    "en": "Drimsim has no plan table by design — pricing is per-MB by country, published live in its app and website. Top up a balance instead of buying bundles.",
+    "zh": "Drimsim 本就没有套餐表——按国家/MB 计费，费率在 App 与官网实时公布。充值余额即可，无需购买套餐。"
+  },
+  "pros": {
+    "en": [
+      "No per-country buying workflow — one balance across borders",
+      "Balance never expires; usable as home backup SIM",
+      "Perfect economics for messaging-and-maps light users",
+      "Physical SIM available for non-eSIM phones"
+    ],
+    "zh": [
+      "没有逐国购买流程——一份余额跨境通用",
+      "余额永不过期，在家可当备用卡",
+      "对“即时通讯+地图”型轻度用户经济学最优",
+      "提供实体 SIM，适配不支持 eSIM 的手机"
+    ]
+  },
+  "cons": {
+    "en": [
+      "Per-MB rates are pricier than bulk bundles — bad for streaming",
+      "Speeds depend on whatever local partner carrier you land on",
+      "No unlimited option at all"
+    ],
+    "zh": [
+      "按 MB 单价比批量套餐贵——不适合看视频",
+      "网速取决于落地接入的当地合作运营商",
+      "完全不限量的选项没有"
+    ]
+  },
   "featured": false,
-  "updatedAt": "2026-06-28"
+  "updatedAt": "2026-08-18"
 }

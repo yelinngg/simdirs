@@ -8,6 +8,14 @@
     "en": "Saily is an eSIM service built by the team behind NordVPN, with a strong focus on privacy and security. Competitive prices across 150+ destinations, a clean app experience and flexible data-only plans make it a great pick for privacy-conscious travelers.",
     "zh": "Saily 由 NordVPN 背后的团队打造，高度注重隐私与安全。在150+目的地提供有竞争力的价格、清爽的应用体验和灵活的纯流量套餐，是注重隐私的旅行者的优质选择。"
   },
+  "details": {
+    "en": "Saily's pitch is a trusted name in privacy applied to travel data: the Nord Security team built it, and the app carries that DNA — clean onboarding, no ads, and built-in DNS-level filtering that blocks known malicious domains while you roam. Plans are classic data buckets (1 / 3 / 5 / 10 / 20 GB) with 7-day minimum validity, extendable by top-up, and a flexible renewal model where unused data can roll over on auto-renewing plans in supported destinations. Coverage spans 150+ destinations with multi-network routing in many markets, which reduces dead zones compared with single-network local plans. The app supports installing the eSIM before travel and activating on arrival, and support is in-app chat. Saily frequently bundles promos (e.g. first-plan discounts) and the price per GB undercuts Airalo on many routes, though it does not offer unlimited plans or phone numbers — it is data-only, full stop. If you already live in the Nord ecosystem (NordVPN, NordPass), the single-account experience is the most seamless on this list.",
+    "zh": "Saily 的卖点是隐私领域的可靠品牌切入旅行流量：由 Nord Security 团队打造，App 也继承了这一基因——引导流程清爽、无广告，并内置 DNS 级过滤，漫游时自动拦截已知恶意域名。套餐是经典的流量桶（1 / 3 / 5 / 10 / 20 GB），有效期最少 7 天，可续购延长；支持自动续费的目的地上，未用完的流量可结转。覆盖 150+ 目的地，不少市场支持多网络智能选路，相比单网络本地包能减少信号盲区。App 支持出发前安装、落地后激活，客服为应用内聊天。Saily 经常有首单折扣类促销，多数线路的每 GB 单价低于 Airalo；但注意它是不折不扣的纯数据服务——没有不限量套餐，也不提供电话号码。如果你已在 Nord 生态（NordVPN、NordPass）里，同一账号的体验是这份名单里最顺滑的。"
+  },
+  "bestFor": {
+    "en": "Privacy-conscious travelers and Nord ecosystem users who want a trustworthy data-only eSIM with clean UX at competitive per-GB prices.",
+    "zh": "注重隐私的旅行者与 Nord 生态用户——想要靠谱的纯数据 eSIM、清爽体验加有竞争力的每 GB 单价。"
+  },
   "regions": ["global", "asia", "europe", "north-america", "south-america", "africa", "oceania"],
   "coverage": 150,
   "plansFrom": 3.99,
@@ -32,6 +40,37 @@
       "eSIM 即买即用"
     ]
   },
+  "plans": [],
+  "plansNote": {
+    "en": "Saily's storefront is behind a bot challenge, so per-destination plan tables are not republished here. Data bucket sizes and validity are stable; prices vary by destination and promo.",
+    "zh": "Saily 商店有反爬验证，此处不转载逐目的地套餐表。流量档位与有效期稳定，价格随目的地与促销浮动。"
+  },
+  "pros": {
+    "en": [
+      "Nord Security pedigree — trustworthy privacy handling",
+      "Built-in DNS filtering blocks malicious domains while roaming",
+      "Clean, ad-free app with pre-travel install supported",
+      "Per-GB pricing often undercuts Airalo"
+    ],
+    "zh": [
+      "Nord Security 出品，隐私处理可信",
+      "内置 DNS 过滤，漫游时拦截恶意域名",
+      "App 清爽无广告，支持出发前预装",
+      "每 GB 单价常低于 Airalo"
+    ]
+  },
+  "cons": {
+    "en": [
+      "Data-only: no phone number, SMS or calling products",
+      "No unlimited plans at all",
+      "Storefront blocks scrapers, so third-party price tracking is thin"
+    ],
+    "zh": [
+      "纯数据：无电话号码、短信或通话产品",
+      "完全没有不限量套餐",
+      "商店反爬，第三方价格追踪数据较薄"
+    ]
+  },
   "featured": true,
-  "updatedAt": "2026-08-01"
+  "updatedAt": "2026-08-18"
 }

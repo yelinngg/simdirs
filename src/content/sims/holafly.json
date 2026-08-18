@@ -8,6 +8,14 @@
     "en": "Holafly specializes in unlimited-data eSIMs available for almost any duration, from a few days up to 90 days. Ideal for heavy users, remote workers and travelers who don't want to worry about running out of data in 160+ destinations.",
     "zh": "Holafly 专营不限量流量eSIM，有效期从数天到90天灵活可选，覆盖160+目的地。适合重度使用者、远程办公者以及不想为流量焦虑的旅行者。"
   },
+  "details": {
+    "en": "Holafly's entire catalogue is built around one promise: never think about gigabytes again. Instead of data buckets, you buy a duration — 5 to 90 days, selectable day by day — and the data is unlimited for that window. That pricing model shines on long single-country stays: a month of working remotely in Spain or Portugal with daily video calls costs a flat rate, with no anxiety about hitting a cap mid-call. Two caveats from the plan terms: hotspot tethering is supported on most destinations but a few limit sharing speed, and a fair-use policy applies — after very high consumption (typically hundreds of GB in a billing cycle) speeds may be reduced, so it is unlimited for travel use, not a home-broadband replacement. Installation is via QR from the web store or app, activation is automatic on first connection, and plans can be extended mid-trip from the app. Note that Holafly's per-day cost is higher than capped plans from budget providers — the premium buys the removal of the data counter, not a cheaper gigabyte.",
+    "zh": "Holafly 的整个产品目录围绕一个承诺：再也不用盯着流量数字。你买的不是流量桶，而是一段时间——5 到 90 天逐日可选——期间流量不限量。这种计价方式在单国长住场景最为划算：在西班牙或葡萄牙远程办公一个月、每天开视频会议，也只付一个固定价，不用怕会议中途断网。条款里有两个注意点：多数目的地支持热点共享，但少数国家会限制共享速度；另外适用公平使用政策——单周期用量极高（通常数百 GB）后可能降速，所以它是旅行意义上的不限量，不是家庭宽带替代品。安装通过官网或 App 的二维码完成，首次联网自动激活，行程中可在 App 内直接延期。需要留意的是，Holafly 的日均成本高于预算型供应商的限量套餐——溢价买的是“流量清零焦虑”的消失，而不是更便宜的每 GB 单价。"
+  },
+  "bestFor": {
+    "en": "Long single-country stays, remote workers on video calls all day, and anyone who wants zero data anxiety for the whole trip.",
+    "zh": "单国长住、整天开视频会议的远程办公者，以及全程不想看流量计数器的旅行者。"
+  },
   "regions": ["global", "asia", "europe", "north-america", "south-america", "oceania"],
   "coverage": 160,
   "plansFrom": 19,
@@ -32,6 +40,39 @@
       "7×24小时多语言在线客服"
     ]
   },
+  "plans": [],
+  "plansNote": {
+    "en": "Holafly sells duration-based unlimited plans (e.g. 5/10/15/20/30... days) with prices set per destination and season. Its storefront is behind a bot challenge, so per-destination day prices are not republished here — check the official site for live rates.",
+    "zh": "Holafly 按有效期售卖不限量套餐（如 5/10/15/20/30 天等），价格随目的地与季节变动。其商店有反爬验证，此处不转载逐目的地日价——请以官网实时价为准。"
+  },
+  "pros": {
+    "en": [
+      "True unlimited data — the data counter disappears entirely",
+      "Day-by-day duration selection up to 90 days",
+      "24/7 chat support with fast human responses",
+      "Ideal pricing model for remote-work months abroad"
+    ],
+    "zh": [
+      "真不限量——流量计数器彻底消失",
+      "有效期逐日可选，最长 90 天",
+      "7×24 小时在线客服，人工响应快",
+      "海外远程办公数月的理想计价模式"
+    ]
+  },
+  "cons": {
+    "en": [
+      "Per-day cost is higher than capped plans from budget providers",
+      "Fair-use policy can throttle extreme usage (hundreds of GB)",
+      "Hotspot speed limited on a few destinations",
+      "No fixed-GB budget options for light users"
+    ],
+    "zh": [
+      "日均成本高于预算型供应商的限量套餐",
+      "公平使用政策下极端用量（数百 GB）可能降速",
+      "少数目的地限制热点共享速度",
+      "没有面向轻度用户的固定流量低价档"
+    ]
+  },
   "featured": true,
-  "updatedAt": "2026-08-15"
+  "updatedAt": "2026-08-18"
 }

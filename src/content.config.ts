@@ -23,6 +23,21 @@ const sims = defineCollection({
     rating: z.number().min(0).max(5),
     website: z.url(),
     features: localized(z.array(z.string())),
+    plans: z
+      .array(
+        z.object({
+          name: localized(z.string()),
+          data: localized(z.string()),
+          validity: localized(z.string()),
+          price: localized(z.string()),
+        }),
+      )
+      .default([]),
+    bestFor: localized(z.string()).optional(),
+    details: localized(z.string()).optional(),
+    pros: localized(z.array(z.string())).optional(),
+    cons: localized(z.array(z.string())).optional(),
+    plansNote: localized(z.string()).optional(),
     featured: z.boolean().default(false),
     updatedAt: z.coerce.date(),
   }),
