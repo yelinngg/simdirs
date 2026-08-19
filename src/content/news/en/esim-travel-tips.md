@@ -14,7 +14,7 @@ Airport Wi-Fi is slow and prices at physical counters are inflated. Buy and inst
 
 There is also a troubleshooting margin to consider: if installation hits a device-compatibility snag, an expired QR code, or a support ticket, fixing it at home beats fixing it 40 minutes before boarding. Queuing at a arrivals-hall counter for a physical SIM averages 20+ minutes; a pre-installed eSIM connects the moment you land.
 
-**Do this:** treat the eSIM purchase as part of packing — buy and install within 48 hours of departure, and do one dry-run install on your home Wi-Fi.
+**Do this:** treat the eSIM purchase as part of packing — buy and install within 48 hours of departure, and do one dry-run install on your home Wi-Fi. Note that most travel eSIM vendors only accept international cards (Visa/Mastercard), so if your local card does not work for cross-border payments, check a [virtual credit card review site](https://virtualcardx.com/en/ "virtual credit card reviews") before checkout.
 
 ## 2. Installing but not activating
 

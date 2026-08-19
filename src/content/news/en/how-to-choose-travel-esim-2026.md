@@ -59,4 +59,4 @@ Once you know the models, "which is cheapest" becomes "which model's sweet spot 
 
 ## The final step
 
-With the model chosen, the rest is comparing specific providers. Open the [SIM directory](/sims), filter by region — every provider's detail page carries an officially verified plan table, pros/cons and a best-for note. Or shortcut the whole thing: pick your trip type above, open the two or three matching providers, and compare prices for your destination.
+With the model chosen, the rest is comparing specific providers. Open the [SIM directory](/sims), filter by region — every provider's detail page carries an officially verified plan table, pros/cons and a best-for note. Or shortcut the whole thing: pick your trip type above, open the two or three matching providers, and compare prices for your destination. One payment note: the vendors in the directory all bill in USD via Visa/Mastercard, so if your local bank card cannot handle cross-border payments, a [virtual credit card for cross-border payments](https://virtualcardx.com/en/ "virtual credit card for cross-border payments") can get you through checkout.
