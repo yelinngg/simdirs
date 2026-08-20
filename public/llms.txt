@@ -1,0 +1,12 @@
+# SimDirs
+
+> Travel SIM & eSIM directory: compare providers by coverage, price, validity and network. Includes buying guides and payment tips for overseas travel eSIMs.
+
+## Directory
+
+- [All SIM/eSIM providers](https://simdirs.com/sims/): Full directory with ratings and prices
+- [Japan eSIM guide 2026](https://simdirs.com/news/japan-esim-guide-2026/): KDDI/IIJ routes, unlimited plans, price comparison
+- [How to choose a travel eSIM 2026](https://simdirs.com/news/how-to-choose-travel-esim-2026/): Coverage, price and validity explained
+- [eSIM travel tips](https://simdirs.com/news/esim-travel-tips/): Buying and payment tips for cross-border eSIMs
+
+中文版: https://simdirs.com/zh/
