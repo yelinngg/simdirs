@@ -1,0 +1,87 @@
+{
+  "name": { "en": "Vodafone Germany CallYa", "zh": "Vodafone 德国 CallYa" },
+  "tagline": {
+    "en": "Free-to-apply German eSIM (passport AutoID) — €20/year keep-alive, EU number",
+    "zh": "免费申请的德国eSIM（护照AutoID认证）——年保号约20欧元，欧盟号码"
+  },
+  "description": {
+    "en": "Vodafone Germany's CallYa prepaid eSIM is free to apply for: fill a German address on the official page, verify email, then complete passport KYC via the POSTIDENT app (AutoID video self-check, ~3-4h review). No bank card or IBAN binding required — rare in Europe. Keep-alive: any balance change per 90 days (€5 manual top-up works, PayPal/card), about €20/year. In mainland China, receiving SMS is free; calls and data are prohibitively priced.",
+    "zh": "Vodafone德国的CallYa预付费eSIM免费申请：官网填写德国地址、邮箱验证，再用POSTIDENT App完成护照实名（AutoID自助视频认证，审核约3-4小时）。全程无需绑卡或IBAN——在欧洲已属罕见。保号：每90天内一次余额变动（手动充€5即可，支持PayPal/信用卡），年约€20。中国大陆漫游收短信免费；通话与数据资费极高。"
+  },
+  "details": {
+    "en": "German CallYa is currently the only 'zero-cost application + ultra-low keep-alive' eSIM left in the European market, per the 2026-01 source review: most European operators now demand payment-method verification, monthly fees or steep activation charges (the earlier Ireland eSIM route has expired). Application: open the CallYa Classic form on vodafone.de, choose eSIM, enter a German address (Google Maps), verify email, create a password — then passport KYC via POSTIDENT: install the app, scan the on-screen QR, follow prompts (AutoID selfie video). Review took the reviewer ~4 hours plus one re-verification before the confirmation email arrived; ~20 minutes later another email with the eSIM QR (password-protected; includes number and PIN). Activation on native-eSIM phones scans that QR directly; others use blank eSIM chips via EasyEUICC (Android; iOS first-write needs an Android device or PC). Keep-alive: any account balance change per 90 days — manual €5 top-ups via MeinVodafone app or the website (PayPal or credit card; third-party top-up services also work) put the year at ~€20, and if a balance already sits in the account, occasional small consumption alone can keep it alive for less. China roaming rates: receiving SMS free; sending SMS to mainland €0.84/message; calls €4.32/min out, €0.96/min in; data €0.58/50KB (≈€11.6/MB) — effectively data- and call-unusable; check balance free via *100#. In Germany/EU: €0.09/min calls, free incoming, €0.03/MB data — get a data pass in-app for real usage. Caveats: a German IP during application improves pass rates; the address need not be your own (any real address works); passport KYC means an identity document is on file with the carrier — weigh privacy accordingly; and POSTIDENT review times vary.",
+    "zh": "德国CallYa是2026-01源盘点口径下欧洲仅存的「零成本申请+超低保号」eSIM：多数欧洲运营商已要求支付方式验证、月租或高额开卡费（此前的爱尔兰eSIM路线已失效）。申请：打开vodafone.de的CallYa Classic表单、选eSIM、填德国地址（Google地图上找即可）、邮箱验证、创建密码——随后走POSTIDENT护照实名：装App、扫网页二维码、按提示完成AutoID自拍视频认证。源测评中审核等了约4小时并做了一次二次认证才收到确认邮件；约20分钟后收到带密码的eSIM二维码邮件（内含号码与PIN）。原生eSIM手机直接扫码激活；其他设备用eSIM白板芯片+EasyEUICC（安卓；iOS首次写卡需安卓设备或电脑辅助）。保号：每90天内一次账户余额变动——通过MeinVodafone App或官网手动充€5即可（PayPal或信用卡，也有第三方代充），一年约€20；若账户已有余额，仅靠偶尔小额消费变动余额，年均成本还能更低。中国漫游资费：收短信免费；发短信至内地0.84欧/条；拨打4.32欧/分钟、接听0.96欧/分钟；数据0.58欧/50KB（约11.6欧/MB）——通话与数据实际不可用；*100#查余额免费。德国本地面：通话0.09欧/分钟、接听免费、数据0.03欧/MB——真实上网建议在App内临时订流量包。注意：申请时用德国IP提高通过率；地址无需自有（任意真实地址即可）；护照实名意味着身份文件留存在运营商处，隐私需自行权衡；POSTIDENT审核时长不稳定。"
+  },
+  "bestFor": {
+    "en": "Verification-code receivers: a free EU (+49) number that costs ~€20/year and never needs to make a call.",
+    "zh": "验证码接收党：免费到手的欧盟（+49）号码，年约20欧元，完全不用来通话。"
+  },
+  "regions": ["europe"],
+  "coverage": 1,
+  "plansFrom": 0,
+  "dataFrom": "Pay per use",
+  "validity": "90 days per balance change",
+  "network": "Vodafone DE (own network)",
+  "device": "esim",
+  "hotspot": false,
+  "rating": 3.9,
+  "website": "https://www.vodafone.de/freikarten/callya-classic-form/",
+  "features": {
+    "en": [
+      "Free application — no card or IBAN binding at signup",
+      "Passport KYC via POSTIDENT AutoID video (~3-4h review)",
+      "Keep-alive: €5 top-up per 90 days (~€20/year), PayPal/card",
+      "Free SMS receiving in China roaming; *100# balance check free"
+    ],
+    "zh": [
+      "免费申请——注册无需绑卡或IBAN",
+      "POSTIDENT AutoID视频护照实名（审核约3-4小时）",
+      "保号：每90天充€5（年约€20），支持PayPal/信用卡",
+      "中国漫游收短信免费；*100#查余额免费"
+    ]
+  },
+  "plans": [
+    {
+      "name": { "en": "CallYa Classic (prepaid)", "zh": "CallYa Classic（预付费）" },
+      "data": { "en": "Pay per use (€0.03/MB in DE/EU)", "zh": "按量计费（德国/欧盟内0.03欧/MB）" },
+      "validity": { "en": "90 days per balance change", "zh": "每次余额变动后90天" },
+      "price": { "en": "Free to apply; ~€20/year keep-alive", "zh": "免费申请；年保号约20欧元" }
+    }
+  ],
+  "plansNote": {
+    "en": "Rates per Vodafone DE official pages as reviewed 2026-01. China roaming: SMS in free; SMS out €0.84; calls €4.32/min; data ≈€11.6/MB — do not use for data.",
+    "zh": "资费按Vodafone德国官网（2026-01盘点）。中国漫游：收短信免费；发短信0.84欧；通话4.32欧/分钟；数据约11.6欧/MB——切勿用于上网。"
+  },
+  "pros": {
+    "en": [
+      "Zero application cost — the last such route in Europe per the source review",
+      "No bank card, IBAN or EU residency needed; passport AutoID only",
+      "EU German +49 number useful for registrations",
+      "Keep-alive as low as ~€20/year (less with existing balance)"
+    ],
+    "zh": [
+      "申请零费用——源盘点称这是欧洲最后的此类路线",
+      "无需银行卡、IBAN或欧盟居留；仅需护照AutoID",
+      "德国+49号码可用于注册",
+      "保号低至年约20欧元（有余额时更低）"
+    ]
+  },
+  "cons": {
+    "en": [
+      "Passport KYC — identity document on file with the carrier",
+      "POSTIDENT review took ~4h in testing and needed a re-verification",
+      "China roaming data ≈€11.6/MB and calls €4.32/min — unusable",
+      "German address + German IP recommended for pass rates",
+      "€0.84 SMS to mainland China adds up for 2FA-heavy users"
+    ],
+    "zh": [
+      "护照实名——身份文件留存于运营商",
+      "POSTIDENT实测审核约4小时，且做了一次二次认证",
+      "中国漫游数据约11.6欧/MB、通话4.32欧/分钟——实际不可用",
+      "申请建议德国地址+德国IP，否则通过率下降",
+      "发短信至内地0.84欧/条，重度2FA用户成本会累积"
+    ]
+  },
+  "featured": false,
+  "updatedAt": "2026-08-21"
+}
