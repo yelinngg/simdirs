@@ -1,0 +1,83 @@
+{
+  "name": { "en": "CMLink UK", "zh": "CMLink 英国" },
+  "tagline": {
+    "en": "China Mobile International's UK service on EE — dual-number SIM for UK–China commuters",
+    "zh": "中国移动国际英国品牌（EE网络）——中英双号、回国流量包"
+  },
+  "description": {
+    "en": "CMLink UK is China Mobile International's MVNO on EE's network, aimed at students and UK–China travellers. First activation needs a £2+ top-up; keep the number by ordering a new bundle within 90 days (monthly/annual) or 30 days (travel/one-off bundles). Best value: £19 / 90 days with 40GB China-roaming data. Must first activate in the UK or EU.",
+    "zh": "CMLink UK 是中国移动国际（CMI）在英国推出的虚商服务，走EE网络，面向留学生与中英往返人群。eSIM首次激活需充值至少2英镑；月套餐/年包到期后90天内、旅游/回国等一次性套餐到期后30天内需订购新套餐，否则自动销户。性价比之选：19英镑90天40GB回国流量包。需在英国或欧盟当地首次激活。"
+  },
+  "details": {
+    "en": "CMLink UK is the pick when your traffic is China-bound: mainland-China roaming rides EE's network with a native UK IP, mainland apps like TikTok work normally while roaming, and bundle prices are fixed and repeat-orderable. Its signature is one-card-two-numbers — a UK number plus a Chinese secondary number for receiving SMS and verification codes in mainland China. Acquisition flow (2026-03 review): pick a bundle on the official site, choose eSIM as the SIM type at checkout (the direct eSIM option has been removed from the storefront at times — order the physical SIM and convert via customer service if absent), fill in email/name/phone, agree to terms, pay, and receive the eSIM QR code by email. Activation must happen with signal in the UK or EU (mainland China activation is not supported; Hong Kong activation has been reported unreliable). Number-keeping: monthly/annual bundles — auto-cancellation after 90 consecutive days without a new bundle; travel/China/one-off/keep-alive/trial bundles — 30 days. 5G supported, data quality rated better than CTExcel's, and it is the better choice of the two Chinese-operator UK brands for receiving mainland verification codes.",
+    "zh": "如果主要需求是「回国可用」，CMLink UK 是首选：中国大陆漫游走EE网络、英国原生IP，漫游时TikTok等应用可正常使用，套餐可重复订购且价格固定。招牌是一卡双号——英国号码+中国副号，方便在内地接收短信验证码。获取流程（2026-03盘点口径）：官网选套餐、结账时SIM类型直接选eSIM（目前官网购买页已无常驻eSIM选项时，可先订实体卡再联系人工客服转eSIM）、填写邮箱姓名电话、同意条款支付后，eSIM二维码发送到邮箱。激活须在英国或欧盟当地有信号后进行（不支持中国内地激活；有用户反馈香港也无法激活）。保号：月套餐/年包套餐到期后连续90天未订购新套餐销户；旅游/回国/一次性/保号/体验套餐到期后连续30天销户。支持5G，数据质量在两家中国运营商英国卡中更好，接收内地验证码场景首选。"
+  },
+  "bestFor": {
+    "en": "Students and frequent UK–China travellers who need a UK number plus a Chinese secondary number for mainland SMS verification.",
+    "zh": "留学生与中英频繁往返人群：既要英国号码，又要中国副号收内地短信验证码。"
+  },
+  "regions": ["europe"],
+  "coverage": 1,
+  "plansFrom": 2,
+  "dataFrom": "Bundle-based",
+  "validity": "30–90 days after bundle expiry",
+  "network": "EE (4G/5G)",
+  "device": "both",
+  "hotspot": true,
+  "rating": 4.0,
+  "website": "https://www.cmlink.com/uk/zh/",
+  "features": {
+    "en": [
+      "UK number + Chinese secondary number on one SIM",
+      "£19 / 90 days bundle with 40GB China-roaming data",
+      "Native UK EE IP while roaming in mainland China",
+      "First activation requires £2+ top-up, in UK/EU only"
+    ],
+    "zh": [
+      "一卡双号：英国号码+中国副号",
+      "19英镑90天40GB回国流量包",
+      "中国大陆漫游为EE原生英国IP",
+      "首充至少2英镑，须在英国/欧盟激活"
+    ]
+  },
+  "plans": [
+    {
+      "name": { "en": "China data bundle", "zh": "回国流量包" },
+      "data": { "en": "40GB (UK + China shared)", "zh": "40GB（英国与大陆共享）" },
+      "validity": { "en": "90 days", "zh": "90天" },
+      "price": { "en": "£19", "zh": "19英镑" }
+    }
+  ],
+  "plansNote": {
+    "en": "Plan terms per CMLink UK official pages as reviewed 2026-03; activation location restrictions apply.",
+    "zh": "套餐口径来自CMLink UK官网（2026-03盘点）；激活地有限制条款。"
+  },
+  "pros": {
+    "en": [
+      "One card, two numbers — mainland SMS verification solved",
+      "Stable mainland-China roaming on EE with native UK IP",
+      "5G supported; repeat-orderable fixed-price bundles",
+      "Low £2 first top-up to activate"
+    ],
+    "zh": [
+      "一卡双号，解决内地短信验证码接收",
+      "EE网络中国大陆漫游稳定、原生英国IP",
+      "支持5G，套餐可重复订购、价格固定",
+      "首充仅2英镑即可激活"
+    ]
+  },
+  "cons": {
+    "en": [
+      "Must first activate in the UK or EU (not mainland China; HK unreliable)",
+      "eSIM storefront option comes and goes — may need CS-assisted conversion",
+      "30-day re-order window for one-off bundles is strict"
+    ],
+    "zh": [
+      "须在英国或欧盟首次激活（内地不可，香港不稳）",
+      "官网eSIM购买选项时有时无，可能需客服协助转卡",
+      "一次性套餐到期后30天内必须续订，窗口较紧"
+    ]
+  },
+  "featured": false,
+  "updatedAt": "2026-08-21"
+}

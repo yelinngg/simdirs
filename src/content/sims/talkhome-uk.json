@@ -1,0 +1,81 @@
+{
+  "name": { "en": "TalkHome Mobile", "zh": "TalkHome Mobile 英国" },
+  "tagline": {
+    "en": "EE MVNO — a £5 / 7GB bundle with a 12-month validity out of the box",
+    "zh": "EE虚商——5英镑7GB套餐自带12个月有效期"
+  },
+  "description": {
+    "en": "TalkHome Mobile is an EE MVNO owned by Nowtel Distribution. Order a £5 7GB eSIM bundle on the official site and the number arrives with 12 months of validity — the longest out-of-the-box keep-alive among budget UK eSIMs, with 7GB of UK data usable during that year.",
+    "zh": "TalkHome Mobile是Nowtel Distribution旗下的EE虚商。官网下单5英镑7GB的eSIM套餐，号码自带12个月有效期——是低价英国eSIM中开箱即得最长的保号周期，且这一年内有7GB英国本地流量可用。"
+  },
+  "details": {
+    "en": "TalkHome's edge is simplicity: one £5 purchase buys a UK number, 7GB of UK data and a full 12-month validity window — no 30/90-day reorder chore, no balance-change ritual. It runs EE's 2G–5G infrastructure, and its annual plans price well for UK-local use. The trade-off is direction: like other budget MVNOs reviewed alongside it, it is not designed as a mainland-China roaming card — the 7GB is UK-local, so cloud residents using it primarily from China are paying for data they cannot roam cheaply. For a UK number you will actually use in the UK (or keep alive with zero effort for a year), it is the least fussy option reviewed; for China-roaming-first needs, giffgaff/CTExcel/CMLink fit better.",
+    "zh": "TalkHome的优势是省心：一次5英镑购入英国号码+7GB英国本地流量+整整12个月有效期——没有30/90天续订义务，也没有余额变动仪式。它走EE的2G-5G网络设施，年付套餐在英国本地使用场景下价格实惠。取舍在方向性：与同批盘点的低价虚商一样，它并非为中国大陆漫游设计——7GB是英国本地流量，主要人在中国的云居民等于花钱买了不便宜漫游的数据。如果你要的是「真会在英国用」或「一年零操心保号」的英国号码，它是本轮盘点中最省事的选择；回国漫游优先则选giffgaff/CTExcel/CMLink更合适。"
+  },
+  "bestFor": {
+    "en": "Set-and-forget users: buy once, valid 12 months, with UK data included.",
+    "zh": "怕折腾的用户：一次购买、12个月有效、还带英国本地流量。"
+  },
+  "regions": ["europe"],
+  "coverage": 1,
+  "plansFrom": 5,
+  "dataFrom": "7GB",
+  "validity": "12 months",
+  "network": "EE (4G/5G)",
+  "device": "esim",
+  "hotspot": true,
+  "rating": 3.5,
+  "website": "https://mobile.talk-home.com/",
+  "features": {
+    "en": [
+      "£5 bundle includes 7GB UK data and 12-month validity",
+      "EE 2G–5G network infrastructure",
+      "Flexible plans; annual plans price well",
+      "eSIM ordered directly on the official site"
+    ],
+    "zh": [
+      "5英镑套餐含7GB英国流量与12个月有效期",
+      "EE 2G–5G网络设施",
+      "套餐灵活，年付套餐划算",
+      "官网直接下单eSIM"
+    ]
+  },
+  "plans": [
+    {
+      "name": { "en": "eSIM bundle", "zh": "eSIM套餐" },
+      "data": { "en": "7GB (UK local)", "zh": "7GB（英国本地）" },
+      "validity": { "en": "12 months", "zh": "12个月" },
+      "price": { "en": "£5", "zh": "5英镑" }
+    }
+  ],
+  "plansNote": {
+    "en": "Bundle terms per TalkHome Mobile official site (2026-03 review); data is UK-local, not China-roaming.",
+    "zh": "套餐口径按TalkHome官网（2026-03盘点）；流量为英国本地，非回国漫游流量。"
+  },
+  "pros": {
+    "en": [
+      "12-month validity from day one — no reorder ritual",
+      "Cheapest bundled-UK-data entry among reviewed UK eSIMs",
+      "EE 2G–5G network quality"
+    ],
+    "zh": [
+      "开箱即12个月有效期，无需续订仪式",
+      "本轮盘点中含英国流量的最低入门价",
+      "EE 2G–5G网络质量"
+    ]
+  },
+  "cons": {
+    "en": [
+      "Data is UK-local — weak fit for China-roaming cloud residents",
+      "MVNO priority below EE's own subscribers",
+      "Smaller brand with less community documentation"
+    ],
+    "zh": [
+      "流量仅限英国本地——不适合以中国漫游为主的云居民",
+      "虚商优先级低于EE本网用户",
+      "品牌较小，社区资料少"
+    ]
+  },
+  "featured": false,
+  "updatedAt": "2026-08-21"
+}

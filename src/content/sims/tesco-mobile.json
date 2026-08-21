@@ -1,0 +1,81 @@
+{
+  "name": { "en": "Tesco Mobile", "zh": "Tesco Mobile 英国" },
+  "tagline": {
+    "en": "O2-based UK MVNO — 6-month activity keep-alive, eSIM only after physical-SIM conversion",
+    "zh": "O2网络英国虚商——每半年使用保号，eSIM须先实体卡再转换"
+  },
+  "description": {
+    "en": "Tesco Mobile is a 50/50 JV between retailer Tesco and O2, running on O2's network (99% 4G population coverage, 5G supported) across the UK, Ireland, Slovakia and Czechia. Entry eSIM route: order a £10/12GB plan with a physical SIM, then convert to eSIM — the website does not support direct eSIM selection. Keep-alive: one usage record every 6 months.",
+    "zh": "Tesco Mobile是零售巨头Tesco与O2各持股50%的合资虚商，走O2网络（4G覆盖99%人口，支持5G），在英国、爱尔兰、斯洛伐克和捷克提供服务。入门路径：订购10英镑/12GB套餐并先拿实体SIM，再转换为eSIM——官网不支持在线直接选eSIM。保号：每6个月内有一次使用记录（拨打电话、发短信、计费通信等）。"
+  },
+  "details": {
+    "en": "Tesco Mobile's profile is retail-brand trust on O2 infrastructure: 99% 4G coverage claim with 5G, monthly and PAYG plans, and a keep-alive cadence of one usage record per 6 months. The friction is eSIM onboarding: the site cannot sell eSIM directly — you order a plan bundled with a physical SIM (entry around £10/12GB), then convert inside the account/app afterwards. That makes it the least eSIM-friendly of the reviewed UK options and awkward for buyers outside the UK who cannot easily receive a physical card. Once converted, it behaves like the other budget MVNOs: priority below O2's own subscribers, monthly-or-PAYG flexibility, and a China-roaming story the source review does not emphasise — group it with the low-cost/flexible tier rather than the China-roaming specialists.",
+    "zh": "Tesco Mobile的卖点是零售品牌信任度+O2网络设施：宣称4G覆盖99%人口并支持5G，月付与Paygo并存，保号节奏为每6个月一次使用记录。摩擦在eSIM入手：官网不能直接卖eSIM——须先订购搭配实体SIM的套餐（入门约10英镑/12GB），之后在账户/App内转换。这使它成为本轮英国选项中对eSIM最不友好的一个，对不在英国、难收实体卡的用户尤其别扭。转换后与其他低价虚商无异：优先级低于O2本网用户、月付/Paygo灵活，源盘点也未强调其中国漫游能力——归入「低价灵活」梯队而非回国漫游专用梯队。"
+  },
+  "bestFor": {
+    "en": "UK-based shoppers who like the Tesco brand and can do the physical-SIM-to-eSIM conversion.",
+    "zh": "人在英国、认可Tesco品牌并能完成实体卡转eSIM的用户。"
+  },
+  "regions": ["europe"],
+  "coverage": 1,
+  "plansFrom": 10,
+  "dataFrom": "12GB",
+  "validity": "6 months per activity",
+  "network": "O2 (4G/5G)",
+  "device": "both",
+  "hotspot": true,
+  "rating": 3.7,
+  "website": "https://www.tescomobile.com/",
+  "features": {
+    "en": [
+      "O2 network: 99% 4G coverage claim, 5G supported",
+      "One usage record per 6 months keeps the number",
+      "Monthly and PAYG plans",
+      "Physical-SIM-first flow, convert to eSIM afterwards"
+    ],
+    "zh": [
+      "O2网络：宣称4G覆盖99%人口，支持5G",
+      "每6个月一次使用记录即可保号",
+      "月付与Paygo并存",
+      "先实体卡后转eSIM的流程"
+    ]
+  },
+  "plans": [
+    {
+      "name": { "en": "Entry plan (with physical SIM)", "zh": "入门套餐（含实体卡）" },
+      "data": { "en": "12GB", "zh": "12GB" },
+      "validity": { "en": "Monthly; 6-month activity keep-alive", "zh": "按月；每半年使用保号" },
+      "price": { "en": "£10", "zh": "10英镑" }
+    }
+  ],
+  "plansNote": {
+    "en": "Plan terms per Tesco Mobile official site (2026-03 review); eSIM requires post-purchase conversion.",
+    "zh": "套餐口径按Tesco Mobile官网（2026-03盘点）；eSIM需购后转换。"
+  },
+  "pros": {
+    "en": [
+      "Trusted retail brand on O2's network",
+      "Relaxed 6-month keep-alive cadence",
+      "99% 4G claim with 5G support"
+    ],
+    "zh": [
+      "可信零售品牌+O2网络",
+      "6个月保号节奏宽松",
+      "宣称4G覆盖99%人口并支持5G"
+    ]
+  },
+  "cons": {
+    "en": [
+      "No direct eSIM checkout — physical SIM must ship first",
+      "Impractical for buyers outside the UK",
+      "MVNO priority below O2's own customers"
+    ],
+    "zh": [
+      "不能直接下单eSIM——须先邮寄实体卡",
+      "对英国以外的买家不实用",
+      "虚商优先级低于O2本网用户"
+    ]
+  },
+  "featured": false,
+  "updatedAt": "2026-08-21"
+}

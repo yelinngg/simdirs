@@ -1,0 +1,81 @@
+{
+  "name": { "en": "Lycamobile UK", "zh": "Lycamobile 英国" },
+  "tagline": {
+    "en": "Global MVNO on O2/EE in the UK — £10 top-up stretches 180 days",
+    "zh": "全球性虚商（英国走O2/EE）——充10镑延长180天"
+  },
+  "description": {
+    "en": "Lycamobile is a UK-headquartered global MVNO active in 60 countries; in the UK it runs mainly on O2 and EE networks. Order online and pick eSIM at checkout; a top-up extends the number's validity by 180 days (minimum £10). No long-term contract — cancel or change anytime; voucher top-ups supported.",
+    "zh": "Lycamobile是总部位于英国的全球性虚商，在60个国家开展业务；在英国主要使用O2和EE网络。官网直接下单，结账时可选eSIM；每次充值延长号码有效期180天，最低充值10英镑。无长期合约，可随时取消或更改，支持充值卡密充值。"
+  },
+  "details": {
+    "en": "Lycamobile is the call-centric global MVNO: its bundles skew toward international minutes rather than China-roaming data, and its keep-alive is top-up based — £10 per 180 days, worse value than giffgaff's £0.30 SMS or VOXI's £5. The upside is familiarity and reach: it operates in 60 countries, so the same account logic works for relatives abroad, and voucher-based top-ups (scratch cards) exist where cards aren't an option. eSIM can be selected during bundle purchase on the official site. No contract lock-in. Trade-offs: mainland-China roaming is not its design centre (the source review does not recommend it for China-roaming cloud residents); network priority as an MVNO sits below host-network subscribers; and bundle-heavy marketing means the cheapest keep-alive path is simply topping up and not buying anything.",
+    "zh": "Lycamobile是以通话为中心的全球性虚商：套餐偏国际通话分钟而非回国流量，保号走充值制——每180天充10英镑，成本高于giffgaff的0.3镑短信或VOXI的5英镑。优势是规模与触达：业务覆盖60个国家，海外亲属也能用同一套账户逻辑，没有信用卡时可用充值卡密。官网购买套餐时可直接选eSIM，无长期合约锁定。取舍：中国大陆漫游并非其设计场景（源盘点不推荐云居民为漫游首选）；虚商网络优先级低于宿主网络用户；营销以套餐为主，最省的保号路径是只充值不购套餐。"
+  },
+  "bestFor": {
+    "en": "Users who mainly call internationally and want a no-contract UK number with voucher top-up options.",
+    "zh": "以国际通话为主、想要无合约英国号码并支持卡密充值的用户。"
+  },
+  "regions": ["europe"],
+  "coverage": 1,
+  "plansFrom": 10,
+  "dataFrom": "Pay per use",
+  "validity": "180 days per top-up",
+  "network": "O2 / EE (4G)",
+  "device": "both",
+  "hotspot": true,
+  "rating": 3.4,
+  "website": "https://www.lycamobile.co.uk/en/",
+  "features": {
+    "en": [
+      "£10 top-up extends validity 180 days",
+      "eSIM selectable at bundle checkout",
+      "No contract; change or cancel anytime",
+      "Voucher/scratch-card top-ups supported"
+    ],
+    "zh": [
+      "每次充值延长有效期180天",
+      "购套餐时可选eSIM",
+      "无长期合约，随时取消或更改",
+      "支持充值卡密充值"
+    ]
+  },
+  "plans": [
+    {
+      "name": { "en": "Pay-as-you-go keep-alive", "zh": "充值保号" },
+      "data": { "en": "Pay per use", "zh": "按量计费" },
+      "validity": { "en": "180 days per top-up", "zh": "每次充值后180天" },
+      "price": { "en": "£10 minimum top-up", "zh": "最低充值10英镑" }
+    }
+  ],
+  "plansNote": {
+    "en": "Keep-alive terms per Lycamobile UK official site (2026-03 review); bundle prices change frequently.",
+    "zh": "保号规则按Lycamobile英国官网（2026-03盘点）；套餐价格变动频繁。"
+  },
+  "pros": {
+    "en": [
+      "Present in 60 countries — one brand logic worldwide",
+      "No contract lock-in; eSIM at checkout",
+      "Voucher top-ups when no bank card is available"
+    ],
+    "zh": [
+      "覆盖60个国家，全球一套品牌逻辑",
+      "无合约锁定；下单即选eSIM",
+      "没有银行卡时可用卡密充值"
+    ]
+  },
+  "cons": {
+    "en": [
+      "£10/180 days keep-alive costs more than giffgaff/VOXI",
+      "Bundles favour international calls, not China-roaming data",
+      "MVNO priority below host network; not recommended for China-roaming primary use"
+    ],
+    "zh": [
+      "每180天10英镑的保号成本高于giffgaff/VOXI",
+      "套餐偏国际通话，回国流量不是强项",
+      "虚商优先级低于宿主网络；不推荐作为中国漫游主力卡"
+    ]
+  },
+  "featured": false,
+  "updatedAt": "2026-08-21"
+}

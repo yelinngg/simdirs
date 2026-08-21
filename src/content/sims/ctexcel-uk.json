@@ -1,0 +1,89 @@
+{
+  "name": { "en": "CTExcel UK", "zh": "CTExcel 英国（中国电信英国卡）" },
+  "tagline": {
+    "en": "China Telecom Europe's UK brand on EE — 180-day keep-alive with one SMS, China data bundles",
+    "zh": "中国电信（欧洲）英国品牌（EE网络）——一条短信保号180天，含回国流量包"
+  },
+  "description": {
+    "en": "CTExcel UK is China Telecom (Europe)'s MVNO on EE, built for students, travellers and UK–China commuters. Keep the number with any charged usage within 180 days (sending 'BAL' to 888 counts). Signature plan: £15/year with 15GB, plus a £36/year 50GB China-roaming bundle; unlimited calls to 15 international directions; Wi-Fi Calling enabled. First activation must happen in the UK/EU with usage within 10 days.",
+    "zh": "CTExcel UK 是中国电信（欧洲）旗下英国虚商品牌，走EE网络，面向留学生、旅客与中英往返人群。180天内任意一次计费使用（如发短信BAL到888查余额）即可保号；主打365天15英镑15GB套餐，另有36英镑/年50GB回国流量包；支持Wi-Fi Calling下无限拨打15个国际方向（含中国大陆）。需在英国/欧盟激活，且激活后10天内需有使用记录。"
+  },
+  "details": {
+    "en": "CTExcel UK is the value pick among the two Chinese-operator UK brands: bundles are cheaper per GB than CMLink's, and the keep-alive bar is refreshingly low — any charged activity within 180 days (a call, an SMS, data use, a top-up or a bundle order) resets the clock; texting BAL to 888 for a balance check already counts. Official FAQ states numbers terminated after 180 days of total inactivity cannot be reactivated, with an SMS warning sent around day 60. Signature plans: £15 for 365 days with 15GB (UK and mainland-China shared), and a £36/year 50GB China bundle; when annual data runs out you can still receive SMS without renewing. One card can carry a UK number plus a Chinese secondary number; with Wi-Fi Calling on, calls to Chinese numbers from within China are unlimited, TikTok/Telegram register fine, and the roaming IP is a genuine clean UK IP. Roaming works across 34 countries (4G only). Like CMLink, first activation must be in the UK or EU (CTExcel: UK/EU only, not Hong Kong), and you need usage within 10 days of activation. Best for: heavy China-traffic users who want more data per pound and unlimited calls home; pick CMLink instead if 5G and mainland verification codes matter more.",
+    "zh": "在两家中国运营商英国卡中，CTExcel UK 是性价比之选：单位流量价格比CMLink更低，保号门槛也极低——180天内任意一次计费行为（打电话、发短信、用流量、充值或订购套餐）即算使用，给888发短信BAL查余额都算。官方FAQ明确：连续180天无任何使用将终止服务且号码无法重新激活，约60天时会收到短信提醒。主打套餐：365天15英镑15GB（英国与大陆流量共享）、36英镑/年50GB回国流量包；年包流量用完后不续费仍可继续收短信。支持一卡双号（英国号码+中国副号码）；开启Wi-Fi Calling后在中国境内可给中国号码无限通话，注册TikTok、Telegram等境外应用正常，上网IP为真正纯净的英国IP。可在34个国家漫游（目前仅4G）。与CMLink一样需在英国或欧盟首次激活（CTExcel仅限英国/欧盟，不含香港），且激活后10天内需有使用记录。适合流量需求大、想要更多每英镑数据和无限拨打国内电话的用户；若更看重5G与内地验证码接收，选CMLink。"
+  },
+  "bestFor": {
+    "en": "Heavy UK–China data users: cheap annual bundles, unlimited Wi-Fi Calling to China, and a £0 keep-alive trick (balance-check SMS).",
+    "zh": "中英往返大流量用户：年包便宜、Wi-Fi Calling无限拨打国内、查余额短信即可零成本保号。"
+  },
+  "regions": ["europe"],
+  "coverage": 1,
+  "plansFrom": 15,
+  "dataFrom": "15GB",
+  "validity": "365 days",
+  "network": "EE (4G)",
+  "device": "both",
+  "hotspot": true,
+  "rating": 4.0,
+  "website": "https://www.ctexcel.com/uk/",
+  "features": {
+    "en": [
+      "£15 / 365 days bundle with 15GB (UK + China shared)",
+      "Any charged usage per 180 days keeps the number alive",
+      "Unlimited calls to 15 international directions incl. mainland China",
+      "UK number + Chinese secondary number; clean native UK IP"
+    ],
+    "zh": [
+      "365天15英镑15GB套餐（英国与大陆共享）",
+      "180天内任意计费使用即可保号",
+      "Wi-Fi Calling下无限拨打15个国际方向（含中国大陆）",
+      "一卡双号；漫游IP为纯净英国原生IP"
+    ]
+  },
+  "plans": [
+    {
+      "name": { "en": "Annual bundle", "zh": "年套餐" },
+      "data": { "en": "15GB (UK + mainland China shared)", "zh": "15GB（英国与大陆共享）" },
+      "validity": { "en": "365 days", "zh": "365天" },
+      "price": { "en": "£15", "zh": "15英镑" }
+    },
+    {
+      "name": { "en": "China data bundle", "zh": "回国流量包" },
+      "data": { "en": "50GB", "zh": "50GB" },
+      "validity": { "en": "365 days", "zh": "365天" },
+      "price": { "en": "£36", "zh": "36英镑" }
+    }
+  ],
+  "plansNote": {
+    "en": "Bundle prices per CTExcel UK official site as reviewed 2026-03; SMS receiving continues after data exhaustion.",
+    "zh": "套餐价格按CTExcel英国官网（2026-03盘点）；流量用尽后仍可接收短信。"
+  },
+  "pros": {
+    "en": [
+      "£15/year for 15GB is the cheapest China-roaming data per pound",
+      "Keep-alive costs nothing (balance-check SMS counts as usage)",
+      "Unlimited Wi-Fi Calling to China and 14 other directions",
+      "One card, two numbers; clean UK IP for app registrations"
+    ],
+    "zh": [
+      "15英镑/年15GB，是每英镑回国流量最便宜的方案",
+      "保号零成本：查余额短信即算使用",
+      "Wi-Fi Calling下无限拨打中国及另外14个方向",
+      "一卡双号；注册应用时是纯净英国IP"
+    ]
+  },
+  "cons": {
+    "en": [
+      "First activation UK/EU only, with usage required within 10 days",
+      "4G only while roaming (no 5G), 34 roaming countries",
+      "No 5G support — CMLink is the pick if you need it"
+    ],
+    "zh": [
+      "须在英国/欧盟首次激活，且激活后10天内需有使用记录",
+      "漫游仅4G（无5G），可漫游34个国家",
+      "不支持5G——需要5G就选CMLink"
+    ]
+  },
+  "featured": false,
+  "updatedAt": "2026-08-21"
+}
