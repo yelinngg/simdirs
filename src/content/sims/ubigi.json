@@ -1,5 +1,8 @@
 {
-  "name": { "en": "Ubigi", "zh": "Ubigi" },
+  "name": {
+    "en": "Ubigi",
+    "zh": "Ubigi"
+  },
   "tagline": {
     "en": "Global eSIM backed by Transatel (NTT)",
     "zh": "Transatel（NTT旗下）出品的全球eSIM"
@@ -9,14 +12,21 @@
     "zh": "Ubigi 由 NTT 集团旗下的 Transatel 运营，覆盖200+目的地，是高端eSIM服务。在欧洲和北美网络表现尤为出色，支持按量付费或订阅制套餐，并与多家车企合作提供车载连接。"
   },
   "details": {
-    "en": "Ubigi's differentiator is telecom-industry depth: Transatel is a full MVNO operator inside the NTT Group, not a travel-tech startup, and it shows — Ubigi ships preinstalled in cars from Jaguar Land Rover, BMW and others, and its network agreements favour premium carriers in Europe and North America. For travellers, the catalogue mixes day passes (from 500 MB / 1 day), 30-day bundles (1 GB to 50+ GB), regional Europe/USA/Asia packs, and monthly subscription plans (e.g. 10 GB/month recurring) aimed at frequent flyers and expat families — the subscription angle is rare among travel eSIM brands. Installation can start from the car dashboard or the Ubigi app/web account; the same account tops up across countries. Pricing sits in the middle of the pack: not the cheapest per GB, but the network quality in Europe (often multi-carrier) is consistently reported as excellent. Pay-as-you-go credit never expires, which suits occasional travellers who want a set-and-forget eSIM that stays valid between trips.",
-    "zh": "Ubigi 的差异化在电信行业纵深：Transatel 是 NTT 集团内的完整 MVNO 运营商，而非旅行科技创业公司——Ubigi 预装在捷豹路虎、宝马等多家车企的车机里，其网络协议在欧洲与北美倾向优质运营商。面向旅行者的目录混合了日包（500 MB / 1 天起）、30 天流量包（1 GB 到 50+ GB）、欧洲/美国/亚洲区域包，以及面向常旅客与海外家庭的按月订阅（如 10 GB/月自动续费）——订阅制在旅行 eSIM 品牌中相当少见。安装可从车机或 Ubigi App/网页账号开始，同一账号跨国续费通用。价格处于中游：每 GB 不是最便宜，但欧洲的网络质量（常为多运营商）口碑一贯出色。按量付费余额永不过期，适合偶尔出行、希望 eSIM 在两次旅行之间一直可用的人。"
+    "en": "Ubigi's differentiator is telecom-industry depth: Transatel is a full MVNO operator inside the NTT Group, not a travel-tech startup, and it shows — Ubigi ships preinstalled in cars from Jaguar Land Rover, BMW and others, and its network agreements favour premium carriers in Europe and North America.\n\nFor travellers, the catalogue mixes day passes (from 500 MB / 1 day), 30-day bundles (1 GB to 50+ GB), regional Europe/USA/Asia packs, and monthly subscription plans (e.g. 10 GB/month recurring) aimed at frequent flyers and expat families — the subscription angle is rare among travel eSIM brands. Installation can start from the car dashboard or the Ubigi app/web account; the same account tops up across countries. Pricing sits in the middle of the pack: not the cheapest per GB, but the network quality in Europe (often multi-carrier) is consistently reported as excellent. Pay-as-you-go credit never expires, which suits occasional travellers who want a set-and-forget eSIM that stays valid between trips.",
+    "zh": "Ubigi 的差异化在电信行业纵深：Transatel 是 NTT 集团内的完整 MVNO 运营商，而非旅行科技创业公司——Ubigi 预装在捷豹路虎、宝马等多家车企的车机里，其网络协议在欧洲与北美倾向优质运营商。\n\n面向旅行者的目录混合了日包（500 MB / 1 天起）、30 天流量包（1 GB 到 50+ GB）、欧洲/美国/亚洲区域包，以及面向常旅客与海外家庭的按月订阅（如 10 GB/月自动续费）——订阅制在旅行 eSIM 品牌中相当少见。\n\n安装可从车机或 Ubigi App/网页账号开始，同一账号跨国续费通用。价格处于中游：每 GB 不是最便宜，但欧洲的网络质量（常为多运营商）口碑一贯出色。\n\n按量付费余额永不过期，适合偶尔出行、希望 eSIM 在两次旅行之间一直可用的人。"
   },
   "bestFor": {
     "en": "Frequent flyers to Europe/North America, car connectivity users, and travellers who want a never-expiring set-and-forget eSIM or a monthly subscription.",
     "zh": "常飞欧洲/北美的旅客、车载连接用户，以及想要“余额永不过期、装一次管很久”或按月订阅的人。"
   },
-  "regions": ["global", "europe", "north-america", "asia", "middle-east", "africa"],
+  "regions": [
+    "global",
+    "europe",
+    "north-america",
+    "asia",
+    "middle-east",
+    "africa"
+  ],
   "coverage": 200,
   "plansFrom": 2.9,
   "dataFrom": "500MB",

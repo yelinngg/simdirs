@@ -1,5 +1,8 @@
 {
-  "name": { "en": "Nomad", "zh": "Nomad" },
+  "name": {
+    "en": "Nomad",
+    "zh": "Nomad"
+  },
   "tagline": {
     "en": "Affordable eSIMs with flexible top-ups",
     "zh": "价格实惠、续购灵活的eSIM"
@@ -9,14 +12,22 @@
     "zh": "Nomad 提供市场上最具价格竞争力的eSIM套餐之一，覆盖130+目的地。灵活的续购系统允许你在旅途中随时延长流量或有效期，叠加优惠码后更划算。"
   },
   "details": {
-    "en": "Nomad's edge is straightforward: aggressive pricing. Across popular routes it consistently lands among the cheapest per-GB offers, and its referral/promo ecosystem (frequent discount codes) pushes effective prices lower still. Plans are data buckets from 1 GB up to 50+ GB with 7–45 day validity, plus regional multi-country plans (Asia, Europe) and a small set of unlimited options on select routes. The standout feature is flexible top-ups: unlike providers whose top-up just adds data to the same plan, Nomad lets you extend validity or stack a new bundle mid-trip without reinstalling, which rescues long trips from expiry anxiety. The app is functional and keeps a clear usage dashboard. Trade-offs to know: Nomad rides fewer premium carriers in some destinations, so speeds can lag Airalo/Ubigi in congested tourist areas; customer support is chat-based with slower peaks; and its destination list (130+) is narrower than the 200+ players. For price-led travellers on standard leisure routes, though, it is hard to beat.",
-    "zh": "Nomad 的优势很直接：价格激进。在热门线路上，它的每 GB 价格常年处于最低一档，叠加推荐返利与频繁的优惠码后实际到手价更低。套餐为 1 GB 到 50+ GB 的流量桶，有效期 7–45 天，另有亚洲、欧洲等区域多国包及少数线路的不限量选项。最大亮点是灵活续购：别家续购往往只是给原套餐加流量，Nomad 可以在行程中直接延长有效期或叠加新包、无需重装，长途旅行的“过期焦虑”因此缓解。App 功能完备，用量面板清晰。需要了解的取舍：部分目的地 Nomad 接入的优质运营商较少，在拥挤景区网速可能落后 Airalo/Ubigi；客服为聊天式，高峰响应偏慢；目的地数量（130+）少于 200+ 量级的玩家。但对以价格为先、走常规休闲线路的旅行者来说，它很难被击败。"
+    "en": "Nomad's edge is straightforward: aggressive pricing. Across popular routes it consistently lands among the cheapest per-GB offers, and its referral/promo ecosystem (frequent discount codes) pushes effective prices lower still.\n\nPlans are data buckets from 1 GB up to 50+ GB with 7–45 day validity, plus regional multi-country plans (Asia, Europe) and a small set of unlimited options on select routes. The standout feature is flexible top-ups: unlike providers whose top-up just adds data to the same plan, Nomad lets you extend validity or stack a new bundle mid-trip without reinstalling, which rescues long trips from expiry anxiety.\n\nThe app is functional and keeps a clear usage dashboard. Trade-offs to know: Nomad rides fewer premium carriers in some destinations, so speeds can lag Airalo/Ubigi in congested tourist areas; customer support is chat-based with slower peaks; and its destination list (130+) is narrower than the 200+ players.\n\nFor price-led travellers on standard leisure routes, though, it is hard to beat.",
+    "zh": "Nomad 的优势很直接：价格激进。在热门线路上，它的每 GB 价格常年处于最低一档，叠加推荐返利与频繁的优惠码后实际到手价更低。\n\n套餐为 1 GB 到 50+ GB 的流量桶，有效期 7–45 天，另有亚洲、欧洲等区域多国包及少数线路的不限量选项。最大亮点是灵活续购：别家续购往往只是给原套餐加流量，Nomad 可以在行程中直接延长有效期或叠加新包、无需重装，长途旅行的“过期焦虑”因此缓解。App 功能完备，用量面板清晰。需要了解的取舍：部分目的地 Nomad 接入的优质运营商较少，在拥挤景区网速可能落后 Airalo/Ubigi；客服为聊天式，高峰响应偏慢；目的地数量（130+）少于 200+ 量级的玩家。但对以价格为先、走常规休闲线路的旅行者来说，它很难被击败。"
   },
   "bestFor": {
     "en": "Budget-led travellers on popular leisure routes who want the lowest effective price and the ability to extend validity mid-trip.",
     "zh": "以预算为先、走热门休闲线路，想要最低实际价格且能中途延长有效期的旅行者。"
   },
-  "regions": ["global", "asia", "europe", "north-america", "south-america", "oceania", "middle-east"],
+  "regions": [
+    "global",
+    "asia",
+    "europe",
+    "north-america",
+    "south-america",
+    "oceania",
+    "middle-east"
+  ],
   "coverage": 130,
   "plansFrom": 5,
   "dataFrom": "1GB",

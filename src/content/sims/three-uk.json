@@ -1,5 +1,8 @@
 {
-  "name": { "en": "Three UK", "zh": "Three UK（英国3）" },
+  "name": {
+    "en": "Three UK",
+    "zh": "Three UK（英国3）"
+  },
   "tagline": {
     "en": "UK MNO (now merged with Vodafone UK) — CS-only £7/£8 budget monthly plans",
     "zh": "英国实体运营商（已与沃达丰英国合并）——7/8镑便宜月付需找客服开通"
@@ -9,14 +12,16 @@
     "zh": "Three是拥有自有4G/5G网络设施的英国实体运营商（宣称4G覆盖99%人口），已与Vodafone英国完成合并。公开渠道最划算的eSIM套餐约60GB/10英镑/月；更便宜的7英镑（无限通话短信+3GB）与8英镑（无限通话短信+8GB）月付仅客服渠道可办。Paygo号码每180天内有一次任意金额消费即可保号。"
   },
   "details": {
-    "en": "Three matters here as one of the four UK MNOs: its merger with Vodafone UK is completed, reshaping the UK market, and its network hosts iD Mobile as MVNO. For eSIM buyers the quirk is channel-based pricing: the storefront's best PAYG deal is £10/month for 60GB, while CS-only monthly plans at £7 (unlimited calls/texts, 3GB) and £8 (unlimited calls/texts, 8GB) are not published — you must chat with customer service to order them. Account login needs a Three UK number besides email/password. Keep-alive for PAYG numbers: one charged event of any amount (an SMS or a call both count) per 180 days. Best suited to users physically in the UK/EU wanting big data on a top-tier network; the source review flags Three for heavy UK/EU data users rather than China-roaming cloud residents, and notes remote-area coverage as its weak spot.",
-    "zh": "Three的价值在于它是英国四大实体运营商之一：与Vodafone英国的合并已完成，重塑英国市场格局，iD Mobile作为虚商挂在其网络上。对eSIM买家而言特别之处是渠道定价：官网最划算的Paygo是60GB/10英镑/月，而7英镑（无限通话短信+3GB）与8英镑（无限通话短信+8GB）的月付官网不挂出，必须找人工客服才能办理。账户登录除邮箱密码外还需一个Three UK号码。Paygo保号：每180天内一次任意金额计费（发条短信或打个电话都算）。最适合人在英国/欧盟、想要一线网络大流量的用户；源盘点认为Three适合英国与欧盟大流量需求者而非中国漫游云居民，并指出偏远地区覆盖是其弱项。"
+    "en": "Three matters here as one of the four UK MNOs: its merger with Vodafone UK is completed, reshaping the UK market, and its network hosts iD Mobile as MVNO. For eSIM buyers the quirk is channel-based pricing: the storefront's best PAYG deal is £10/month for 60GB, while CS-only monthly plans at £7 (unlimited calls/texts, 3GB) and £8 (unlimited calls/texts, 8GB) are not published — you must chat with customer service to order them. Account login needs a Three UK number besides email/password.\n\nKeep-alive for PAYG numbers: one charged event of any amount (an SMS or a call both count) per 180 days. Best suited to users physically in the UK/EU wanting big data on a top-tier network; the source review flags Three for heavy UK/EU data users rather than China-roaming cloud residents, and notes remote-area coverage as its weak spot.",
+    "zh": "Three的价值在于它是英国四大实体运营商之一：与Vodafone英国的合并已完成，重塑英国市场格局，iD Mobile作为虚商挂在其网络上。对eSIM买家而言特别之处是渠道定价：官网最划算的Paygo是60GB/10英镑/月，而7英镑（无限通话短信+3GB）与8英镑（无限通话短信+8GB）的月付官网不挂出，必须找人工客服才能办理。账户登录除邮箱密码外还需一个Three UK号码。\n\nPaygo保号：每180天内一次任意金额计费（发条短信或打个电话都算）。最适合人在英国/欧盟、想要一线网络大流量的用户；源盘点认为Three适合英国与欧盟大流量需求者而非中国漫游云居民，并指出偏远地区覆盖是其弱项。"
   },
   "bestFor": {
     "en": "Heavy UK/EU data users who don't mind contacting CS to unlock the cheaper monthly plans.",
     "zh": "英国/欧盟本地大流量用户，不介意找客服解锁更便宜的月付套餐。"
   },
-  "regions": ["europe"],
+  "regions": [
+    "europe"
+  ],
   "coverage": 1,
   "plansFrom": 7,
   "dataFrom": "3GB",
@@ -42,16 +47,40 @@
   },
   "plans": [
     {
-      "name": { "en": "PAYG (storefront best)", "zh": "Paygo（官网最优）" },
-      "data": { "en": "60GB", "zh": "60GB" },
-      "validity": { "en": "Monthly", "zh": "按月" },
-      "price": { "en": "£10", "zh": "10英镑" }
+      "name": {
+        "en": "PAYG (storefront best)",
+        "zh": "Paygo（官网最优）"
+      },
+      "data": {
+        "en": "60GB",
+        "zh": "60GB"
+      },
+      "validity": {
+        "en": "Monthly",
+        "zh": "按月"
+      },
+      "price": {
+        "en": "£10",
+        "zh": "10英镑"
+      }
     },
     {
-      "name": { "en": "CS-only monthly", "zh": "客服专享月付" },
-      "data": { "en": "3GB / 8GB", "zh": "3GB / 8GB" },
-      "validity": { "en": "Monthly", "zh": "按月" },
-      "price": { "en": "£7 / £8", "zh": "7英镑 / 8英镑" }
+      "name": {
+        "en": "CS-only monthly",
+        "zh": "客服专享月付"
+      },
+      "data": {
+        "en": "3GB / 8GB",
+        "zh": "3GB / 8GB"
+      },
+      "validity": {
+        "en": "Monthly",
+        "zh": "按月"
+      },
+      "price": {
+        "en": "£7 / £8",
+        "zh": "7英镑 / 8英镑"
+      }
     }
   ],
   "plansNote": {

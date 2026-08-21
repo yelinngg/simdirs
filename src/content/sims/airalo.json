@@ -1,5 +1,8 @@
 {
-  "name": { "en": "Airalo", "zh": "Airalo" },
+  "name": {
+    "en": "Airalo",
+    "zh": "Airalo"
+  },
   "tagline": {
     "en": "The world's first eSIM store with 200+ destinations",
     "zh": "全球首家eSIM商店，覆盖200+目的地"
@@ -9,14 +12,23 @@
     "zh": "Airalo 是全球领先的eSIM商城，为200多个国家和地区提供预付费流量套餐。套餐从1GB/7天起，通过iOS/Android应用几分钟即可安装激活，续购即时生效。是大多数旅行者的稳妥之选。"
   },
   "details": {
-    "en": "Airalo's strength is consistency at scale: 200+ destinations with a uniform buying flow, an app that stores all your eSIMs in one place, and instant top-ups that add data to a running eSIM without reinstalling. Its catalogue splits into three tiers — local plans for a single country, regional plans (Asia, Europe, Africa and more) covering dozens of countries each, and a global plan usable almost everywhere — which makes it easy to pick the right scope. Verified pricing from the official storefront: a Japan eSIM runs US$4.50 for 1 GB / 7 days up to US$25.50 for 20 GB / 30 days, and the USA is similar (1 GB / 7 days from US$4.00, 20 GB / 30 days US$37.00). Airalo also runs Discover+ global multi-network plans and frequent seasonal discounts in the app. Support is 24/7 and genuinely multilingual, and the regional packages (e.g. shared data across 10+ Asian countries) remain the reference point that other providers' regional offers are compared against.",
-    "zh": "Airalo 的强项在于规模化的一致性：200+ 目的地统一购买流程，App 集中管理所有 eSIM，续购即时生效且无需重装。套餐目录分三层——单国本地包、覆盖数十国的区域包（亚洲、欧洲、非洲等）以及几乎全球通用的全球包——选择范围一目了然。经官方商店核验的价格：日本 eSIM 从 1 GB / 7 天 4.50 美元到 20 GB / 30 天 25.50 美元，美国相近（1 GB / 7 天 4.00 美元起，20 GB / 30 天 37.00 美元）。App 内还有 Discover+ 全球多网络套餐与季节性折扣。客服 7×24 小时多语言在线；区域包（如 10+ 亚洲国家共享流量）是全行业区域套餐的比价基准。"
+    "en": "Airalo's strength is consistency at scale: 200+ destinations with a uniform buying flow, an app that stores all your eSIMs in one place, and instant top-ups that add data to a running eSIM without reinstalling. Its catalogue splits into three tiers — local plans for a single country, regional plans (Asia, Europe, Africa and more) covering dozens of countries each, and a global plan usable almost everywhere — which makes it easy to pick the right scope. Verified pricing from the official storefront: a Japan eSIM runs US$4.50 for 1 GB / 7 days up to US$25.50 for 20 GB / 30 days, and the USA is similar (1 GB / 7 days from US$4.00, 20 GB / 30 days US$37.00). Airalo also runs Discover+ global multi-network plans and frequent seasonal discounts in the app.\n\nSupport is 24/7 and genuinely multilingual, and the regional packages (e.g. shared data across 10+ Asian countries) remain the reference point that other providers' regional offers are compared against.",
+    "zh": "Airalo 的强项在于规模化的一致性：200+ 目的地统一购买流程，App 集中管理所有 eSIM，续购即时生效且无需重装。\n\n套餐目录分三层——单国本地包、覆盖数十国的区域包（亚洲、欧洲、非洲等）以及几乎全球通用的全球包——选择范围一目了然。经官方商店核验的价格：日本 eSIM 从 1 GB / 7 天 4.50 美元到 20 GB / 30 天 25.50 美元，美国相近（1 GB / 7 天 4.00 美元起，20 GB / 30 天 37.00 美元）。App 内还有 Discover+ 全球多网络套餐与季节性折扣。客服 7×24 小时多语言在线；区域包（如 10+ 亚洲国家共享流量）是全行业区域套餐的比价基准。"
   },
   "bestFor": {
     "en": "First-time eSIM users and multi-country itineraries — the safest default with the widest catalogue and the most predictable app experience.",
     "zh": "首次使用 eSIM 的用户与多国行程——目录最全、App 体验最可预期的稳妥默认选择。"
   },
-  "regions": ["global", "asia", "europe", "north-america", "south-america", "africa", "oceania", "middle-east"],
+  "regions": [
+    "global",
+    "asia",
+    "europe",
+    "north-america",
+    "south-america",
+    "africa",
+    "oceania",
+    "middle-east"
+  ],
   "coverage": 200,
   "plansFrom": 4.5,
   "dataFrom": "1GB",
@@ -42,28 +54,76 @@
   },
   "plans": [
     {
-      "name": { "en": "Japan local eSIM", "zh": "日本本地 eSIM" },
-      "data": { "en": "1 / 2 / 3 / 5 / 10 / 20 GB", "zh": "1 / 2 / 3 / 5 / 10 / 20 GB" },
-      "validity": { "en": "7–30 days by size", "zh": "按容量 7–30 天" },
-      "price": { "en": "US$4.50 (1 GB/7d) – US$25.50 (20 GB/30d)", "zh": "4.50 美元（1 GB/7天）– 25.50 美元（20 GB/30天）" }
+      "name": {
+        "en": "Japan local eSIM",
+        "zh": "日本本地 eSIM"
+      },
+      "data": {
+        "en": "1 / 2 / 3 / 5 / 10 / 20 GB",
+        "zh": "1 / 2 / 3 / 5 / 10 / 20 GB"
+      },
+      "validity": {
+        "en": "7–30 days by size",
+        "zh": "按容量 7–30 天"
+      },
+      "price": {
+        "en": "US$4.50 (1 GB/7d) – US$25.50 (20 GB/30d)",
+        "zh": "4.50 美元（1 GB/7天）– 25.50 美元（20 GB/30天）"
+      }
     },
     {
-      "name": { "en": "USA local eSIM", "zh": "美国本地 eSIM" },
-      "data": { "en": "1 / 2 / 3 / 5 / 10 / 20 GB", "zh": "1 / 2 / 3 / 5 / 10 / 20 GB" },
-      "validity": { "en": "7–30 days by size", "zh": "按容量 7–30 天" },
-      "price": { "en": "US$4.00 (1 GB/7d) – US$37.00 (20 GB/30d)", "zh": "4.00 美元（1 GB/7天）– 37.00 美元（20 GB/30天）" }
+      "name": {
+        "en": "USA local eSIM",
+        "zh": "美国本地 eSIM"
+      },
+      "data": {
+        "en": "1 / 2 / 3 / 5 / 10 / 20 GB",
+        "zh": "1 / 2 / 3 / 5 / 10 / 20 GB"
+      },
+      "validity": {
+        "en": "7–30 days by size",
+        "zh": "按容量 7–30 天"
+      },
+      "price": {
+        "en": "US$4.00 (1 GB/7d) – US$37.00 (20 GB/30d)",
+        "zh": "4.00 美元（1 GB/7天）– 37.00 美元（20 GB/30天）"
+      }
     },
     {
-      "name": { "en": "Discover+ Global", "zh": "Discover+ 全球包" },
-      "data": { "en": "Multi-network data in 100+ countries", "zh": "100+ 国家多网络流量" },
-      "validity": { "en": "7–30 days", "zh": "7–30 天" },
-      "price": { "en": "from US$9.00 (1 GB/7d)", "zh": "9.00 美元（1 GB/7天）起" }
+      "name": {
+        "en": "Discover+ Global",
+        "zh": "Discover+ 全球包"
+      },
+      "data": {
+        "en": "Multi-network data in 100+ countries",
+        "zh": "100+ 国家多网络流量"
+      },
+      "validity": {
+        "en": "7–30 days",
+        "zh": "7–30 天"
+      },
+      "price": {
+        "en": "from US$9.00 (1 GB/7d)",
+        "zh": "9.00 美元（1 GB/7天）起"
+      }
     },
     {
-      "name": { "en": "Asia regional", "zh": "亚洲区域包" },
-      "data": { "en": "Shared data across 10+ Asian countries", "zh": "10+ 亚洲国家共享流量" },
-      "validity": { "en": "7–30 days", "zh": "7–30 天" },
-      "price": { "en": "from US$5.00 (1 GB/7d)", "zh": "5.00 美元（1 GB/7天）起" }
+      "name": {
+        "en": "Asia regional",
+        "zh": "亚洲区域包"
+      },
+      "data": {
+        "en": "Shared data across 10+ Asian countries",
+        "zh": "10+ 亚洲国家共享流量"
+      },
+      "validity": {
+        "en": "7–30 days",
+        "zh": "7–30 天"
+      },
+      "price": {
+        "en": "from US$5.00 (1 GB/7d)",
+        "zh": "5.00 美元（1 GB/7天）起"
+      }
     }
   ],
   "plansNote": {

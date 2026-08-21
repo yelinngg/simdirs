@@ -1,5 +1,8 @@
 {
-  "name": { "en": "BCeSIM", "zh": "BCeSIM（亿点全球）" },
+  "name": {
+    "en": "BCeSIM",
+    "zh": "BCeSIM（亿点全球）"
+  },
   "tagline": {
     "en": "Daily-pay eSIMs across 160+ destinations with carrier-grade plans",
     "zh": "160+目的地按日计费eSIM，运营商级套餐"
@@ -9,14 +12,23 @@
     "zh": "BCeSIM 是亿点全球（Billion Connect）旗下的旅行eSIM服务，官方商店覆盖160+目的地。多数套餐为按日计费的日付方案——如1 GB/日或10 Mbps/日不限量——同时提供固定流量包，以及日本KDDI 4天、韩国SKT等线路的真不限量日包。"
   },
   "details": {
-    "en": "BCeSIM's catalogue is built around per-day pricing, which makes it easy to price out a trip precisely. On the Japan route, the IIJ-backed fixed bundles give you a full day of data at 256 kbps after the high-speed slice — 3 GB at US$3.20, 5 GB at US$4.10, 10 GB at US$8.90, 20 GB at US$13.10 and 30 GB at US$18.50 — while the KDDI 5G line is genuinely unlimited at full speed: US$10.70 for 4 days, US$17.60 for 7 days, US$33.80 for 15 days and US$71.20 for 31 days. South Korea runs on SKT with true unlimited data (US$23.58 / 7 days, US$48.40 / 30 days). In the USA, day plans start at US$1.07 for 1 GB/day, fixed bundles run 5 GB / US$3.90 to 50 GB / US$29.60, and an unlimited 10 Mbps tier costs US$2.31/day. Regional products such as USA+Canada, HK+Macau and multi-country Asia packs round out the catalogue. Most plans list hotspot support explicitly, and eSIM carrier validity is generous (60–180 days from installation before activation).",
-    "zh": "BCeSIM 的价目以按日计费为骨架，行程成本可以算得很精确。日本线方面，IIJ 线路的固定包在高速流量用尽后以 256 kbps 降速续用——3 GB 3.20 美元、5 GB 4.10 美元、10 GB 8.90 美元、20 GB 13.10 美元、30 GB 18.50 美元；KDDI 5G 线路则是全程真不限量：4 天 10.70 美元、7 天 17.60 美元、15 天 33.80 美元、31 天 71.20 美元。韩国线走 SKT 真不限量（7 天 23.58 美元、30 天 48.40 美元）。美国方向 1 GB/日 1.07 美元起，固定包 5 GB 3.90 美元至 50 GB 29.60 美元，另有 10 Mbps 不限量 2.31 美元/日的档位。区域产品覆盖美加、港澳及多国亚洲包。多数套餐明确标注支持热点，且 eSIM 载体有效期宽松（安装后 60–180 天内激活均可）。"
+    "en": "BCeSIM's catalogue is built around per-day pricing, which makes it easy to price out a trip precisely. On the Japan route, the IIJ-backed fixed bundles give you a full day of data at 256 kbps after the high-speed slice — 3 GB at US$3.20, 5 GB at US$4.10, 10 GB at US$8.90, 20 GB at US$13.10 and 30 GB at US$18.50 — while the KDDI 5G line is genuinely unlimited at full speed: US$10.70 for 4 days, US$17.60 for 7 days, US$33.80 for 15 days and US$71.20 for 31 days.\n\nSouth Korea runs on SKT with true unlimited data (US$23.58 / 7 days, US$48.40 / 30 days).\n\nIn the USA, day plans start at US$1.07 for 1 GB/day, fixed bundles run 5 GB / US$3.90 to 50 GB / US$29.60, and an unlimited 10 Mbps tier costs US$2.31/day.\n\nRegional products such as USA+Canada, HK+Macau and multi-country Asia packs round out the catalogue.\n\nMost plans list hotspot support explicitly, and eSIM carrier validity is generous (60–180 days from installation before activation).",
+    "zh": "BCeSIM 的价目以按日计费为骨架，行程成本可以算得很精确。日本线方面，IIJ 线路的固定包在高速流量用尽后以 256 kbps 降速续用——3 GB 3.20 美元、5 GB 4.10 美元、10 GB 8.90 美元、20 GB 13.10 美元、30 GB 18.50 美元；KDDI 5G 线路则是全程真不限量：4 天 10.70 美元、7 天 17.60 美元、15 天 33.80 美元、31 天 71.20 美元。韩国线走 SKT 真不限量（7 天 23.58 美元、30 天 48.40 美元）。美国方向 1 GB/日 1.07 美元起，固定包 5 GB 3.90 美元至 50 GB 29.60 美元，另有 10 Mbps 不限量 2.31 美元/日的档位。区域产品覆盖美加、港澳及多国亚洲包。\n\n多数套餐明确标注支持热点，且 eSIM 载体有效期宽松（安装后 60–180 天内激活均可）。"
   },
   "bestFor": {
     "en": "Travellers who want carrier-grade unlimited routes (Japan KDDI, Korea SKT) at transparent per-day prices, and long validity windows between buying and flying.",
     "zh": "想要运营商级真不限量线路（日本 KDDI、韩国 SKT）且按日透明计价的旅行者，以及买了先囤着、激活窗口长的用户。"
   },
-  "regions": ["global", "asia", "europe", "north-america", "south-america", "africa", "oceania", "middle-east"],
+  "regions": [
+    "global",
+    "asia",
+    "europe",
+    "north-america",
+    "south-america",
+    "africa",
+    "oceania",
+    "middle-east"
+  ],
   "coverage": 160,
   "plansFrom": 0.7,
   "dataFrom": "1GB",
@@ -42,46 +54,130 @@
   },
   "plans": [
     {
-      "name": { "en": "Japan KDDI 5G Unlimited", "zh": "日本 KDDI 5G 不限量" },
-      "data": { "en": "True unlimited at full speed", "zh": "全程不限速不限量" },
-      "validity": { "en": "4 / 7 / 15 / 31 days", "zh": "4 / 7 / 15 / 31 天" },
-      "price": { "en": "US$10.70 (4d) – US$71.20 (31d)", "zh": "10.70 美元（4天）– 71.20 美元（31天）" }
+      "name": {
+        "en": "Japan KDDI 5G Unlimited",
+        "zh": "日本 KDDI 5G 不限量"
+      },
+      "data": {
+        "en": "True unlimited at full speed",
+        "zh": "全程不限速不限量"
+      },
+      "validity": {
+        "en": "4 / 7 / 15 / 31 days",
+        "zh": "4 / 7 / 15 / 31 天"
+      },
+      "price": {
+        "en": "US$10.70 (4d) – US$71.20 (31d)",
+        "zh": "10.70 美元（4天）– 71.20 美元（31天）"
+      }
     },
     {
-      "name": { "en": "Japan IIJ fixed bundle", "zh": "日本 IIJ 固定包" },
-      "data": { "en": "3–30 GB, throttled to 256 kbps after cap", "zh": "3–30 GB，用尽后 256 kbps 降速续用" },
-      "validity": { "en": "Natural-day based", "zh": "按自然日计" },
-      "price": { "en": "US$3.20 (3 GB) – US$18.50 (30 GB)", "zh": "3.20 美元（3 GB）– 18.50 美元（30 GB）" }
+      "name": {
+        "en": "Japan IIJ fixed bundle",
+        "zh": "日本 IIJ 固定包"
+      },
+      "data": {
+        "en": "3–30 GB, throttled to 256 kbps after cap",
+        "zh": "3–30 GB，用尽后 256 kbps 降速续用"
+      },
+      "validity": {
+        "en": "Natural-day based",
+        "zh": "按自然日计"
+      },
+      "price": {
+        "en": "US$3.20 (3 GB) – US$18.50 (30 GB)",
+        "zh": "3.20 美元（3 GB）– 18.50 美元（30 GB）"
+      }
     },
     {
-      "name": { "en": "South Korea SKT Unlimited", "zh": "韩国 SKT 不限量" },
-      "data": { "en": "True unlimited on SKT network", "zh": "SKT 网络真不限量" },
-      "validity": { "en": "7 / 15 / 20 / 30 days", "zh": "7 / 15 / 20 / 30 天" },
-      "price": { "en": "US$23.58 (7d) – US$48.40 (30d)", "zh": "23.58 美元（7天）– 48.40 美元（30天）" }
+      "name": {
+        "en": "South Korea SKT Unlimited",
+        "zh": "韩国 SKT 不限量"
+      },
+      "data": {
+        "en": "True unlimited on SKT network",
+        "zh": "SKT 网络真不限量"
+      },
+      "validity": {
+        "en": "7 / 15 / 20 / 30 days",
+        "zh": "7 / 15 / 20 / 30 天"
+      },
+      "price": {
+        "en": "US$23.58 (7d) – US$48.40 (30d)",
+        "zh": "23.58 美元（7天）– 48.40 美元（30天）"
+      }
     },
     {
-      "name": { "en": "USA daily plans", "zh": "美国日付套餐" },
-      "data": { "en": "1 GB/day or 2 GB/day, or 10 Mbps unlimited", "zh": "1 GB/日、2 GB/日或 10 Mbps 不限量" },
-      "validity": { "en": "Per-day billing", "zh": "按日计费" },
-      "price": { "en": "US$1.07/day (1 GB) – US$3.13/day (2 GB)", "zh": "1.07 美元/日（1 GB）– 3.13 美元/日（2 GB）" }
+      "name": {
+        "en": "USA daily plans",
+        "zh": "美国日付套餐"
+      },
+      "data": {
+        "en": "1 GB/day or 2 GB/day, or 10 Mbps unlimited",
+        "zh": "1 GB/日、2 GB/日或 10 Mbps 不限量"
+      },
+      "validity": {
+        "en": "Per-day billing",
+        "zh": "按日计费"
+      },
+      "price": {
+        "en": "US$1.07/day (1 GB) – US$3.13/day (2 GB)",
+        "zh": "1.07 美元/日（1 GB）– 3.13 美元/日（2 GB）"
+      }
     },
     {
-      "name": { "en": "USA fixed bundle", "zh": "美国固定流量包" },
-      "data": { "en": "5 / 10 / 20 / 30 / 50 GB", "zh": "5 / 10 / 20 / 30 / 50 GB" },
-      "validity": { "en": "90-day carrier validity", "zh": "载体有效期 90 天" },
-      "price": { "en": "US$3.90 (5 GB) – US$29.60 (50 GB)", "zh": "3.90 美元（5 GB）– 29.60 美元（50 GB）" }
+      "name": {
+        "en": "USA fixed bundle",
+        "zh": "美国固定流量包"
+      },
+      "data": {
+        "en": "5 / 10 / 20 / 30 / 50 GB",
+        "zh": "5 / 10 / 20 / 30 / 50 GB"
+      },
+      "validity": {
+        "en": "90-day carrier validity",
+        "zh": "载体有效期 90 天"
+      },
+      "price": {
+        "en": "US$3.90 (5 GB) – US$29.60 (50 GB)",
+        "zh": "3.90 美元（5 GB）– 29.60 美元（50 GB）"
+      }
     },
     {
-      "name": { "en": "Hong Kong day plans", "zh": "香港日付套餐" },
-      "data": { "en": "1–50 GB or 10 Mbps unlimited", "zh": "1–50 GB 或 10 Mbps 不限量" },
-      "validity": { "en": "90-day carrier validity", "zh": "载体有效期 90 天" },
-      "price": { "en": "US$0.70 (1 GB) – US$2.90 (unlimited/day)", "zh": "0.70 美元（1 GB）– 2.90 美元（不限量/日）" }
+      "name": {
+        "en": "Hong Kong day plans",
+        "zh": "香港日付套餐"
+      },
+      "data": {
+        "en": "1–50 GB or 10 Mbps unlimited",
+        "zh": "1–50 GB 或 10 Mbps 不限量"
+      },
+      "validity": {
+        "en": "90-day carrier validity",
+        "zh": "载体有效期 90 天"
+      },
+      "price": {
+        "en": "US$0.70 (1 GB) – US$2.90 (unlimited/day)",
+        "zh": "0.70 美元（1 GB）– 2.90 美元（不限量/日）"
+      }
     },
     {
-      "name": { "en": "USA + Canada regional", "zh": "美加区域包" },
-      "data": { "en": "1 GB/day regional day pass", "zh": "1 GB/日 区域日包" },
-      "validity": { "en": "Per-day billing", "zh": "按日计费" },
-      "price": { "en": "from US$1.90/day", "zh": "1.90 美元/天起" }
+      "name": {
+        "en": "USA + Canada regional",
+        "zh": "美加区域包"
+      },
+      "data": {
+        "en": "1 GB/day regional day pass",
+        "zh": "1 GB/日 区域日包"
+      },
+      "validity": {
+        "en": "Per-day billing",
+        "zh": "按日计费"
+      },
+      "price": {
+        "en": "from US$1.90/day",
+        "zh": "1.90 美元/天起"
+      }
     }
   ],
   "plansNote": {

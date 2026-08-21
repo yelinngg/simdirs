@@ -1,5 +1,8 @@
 {
-  "name": { "en": "RedteaGO", "zh": "RedteaGO" },
+  "name": {
+    "en": "RedteaGO",
+    "zh": "RedteaGO"
+  },
   "tagline": {
     "en": "Flexible day-pass eSIMs with pay-as-you-go daily plans",
     "zh": "灵活的日包eSIM，支持按天自定义的出行方案"
@@ -9,14 +12,23 @@
     "zh": "RedteaGO 是红茶移动（Redtea Mobile）旗下的消费者eSIM品牌，覆盖180+国家和地区。招牌不限量套餐可自选1–180天，每天刷新高速流量（基础版300 MB/日，尊享版10 GB/日），用尽后降速不限量；同时提供1–50 GB经典数据套餐，有效期最长15天。"
   },
   "details": {
-    "en": "What makes RedteaGO different is how the Unlimited Package is priced: you pay a flat day rate instead of buying a fixed-duration bundle, so a 9-day trip or a 41-day working holiday costs exactly what it should — no rounding up to the next preset package. Day rates vary by destination: roughly $0.70/day (300 MB/day basic) or $3.90/day (10 GB/day premium) in Japan, $4.90/day for the 10 GB tier in the USA, and around $4.50/day in the UK. If you burn through the daily allowance, speeds drop but data keeps flowing — handy for maps, messaging and email. Classic data-only bundles (1–50 GB, 1–15 days) suit short trips with predictable usage, and multi-country regional packages undercut buying each country separately. US-destination bundles with calling and SMS are also available for travellers who still need a reachable number. Beyond travel data, RedteaGO also sells a keep-alive global eSIM (~$3 first year, $3.3/year renewal) that bundles an Austrian phone number with 100 MB and unlimited SMS receiving for 365 days — verified receiving SMS while roaming in mainland China; it must be activated within 3 months of purchase, and the yearly clock starts at activation.",
-    "zh": "RedteaGO 的差异化在于不限量套餐的计价方式：按天计费而非固定时长打包，9 天行程或 41 天打工度假都只按实际天数付费，不必向上凑整到预设套餐。日费因目的地而异：日本约 0.70 美元/天（基础版 300 MB/日）或 3.90 美元/天（尊享版 10 GB/日），美国 10 GB 档为 4.90 美元/天，英国约 4.50 美元/天。当日高速额度用尽后降速但不断网，地图、即时通讯和邮件不受影响。经典数据套餐（1–50 GB、1–15 天有效）适合用量可预估的短途行程；覆盖多国的区域套餐（如含日本及周边的亚洲包、美加包）比逐国单买更划算；美国方向还提供带通话与短信的套餐，适合需要保持号码可接听的旅行者。此外 RedteaGO 还提供保号向的全球 eSIM（首年约 3 美元，续期 3.3 美元/年）：自带奥地利号码+100MB流量+365天无限收短信，实测中国大陆漫游可正常收短信；须在购买后 3 个月内激活，有效期自激活起算。"
+    "en": "What makes RedteaGO different is how the Unlimited Package is priced: you pay a flat day rate instead of buying a fixed-duration bundle, so a 9-day trip or a 41-day working holiday costs exactly what it should — no rounding up to the next preset package. Day rates vary by destination: roughly $0.70/day (300 MB/day basic) or $3.90/day (10 GB/day premium) in Japan, $4.90/day for the 10 GB tier in the USA, and around $4.50/day in the UK. If you burn through the daily allowance, speeds drop but data keeps flowing — handy for maps, messaging and email. Classic data-only bundles (1–50 GB, 1–15 days) suit short trips with predictable usage, and multi-country regional packages undercut buying each country separately. US-destination bundles with calling and SMS are also available for travellers who still need a reachable number.\n\nBeyond travel data, RedteaGO also sells a keep-alive global eSIM (~$3 first year, $3.3/year renewal) that bundles an Austrian phone number with 100 MB and unlimited SMS receiving for 365 days — verified receiving SMS while roaming in mainland China; it must be activated within 3 months of purchase, and the yearly clock starts at activation.",
+    "zh": "RedteaGO 的差异化在于不限量套餐的计价方式：按天计费而非固定时长打包，9 天行程或 41 天打工度假都只按实际天数付费，不必向上凑整到预设套餐。日费因目的地而异：日本约 0.70 美元/天（基础版 300 MB/日）或 3.90 美元/天（尊享版 10 GB/日），美国 10 GB 档为 4.90 美元/天，英国约 4.50 美元/天。当日高速额度用尽后降速但不断网，地图、即时通讯和邮件不受影响。经典数据套餐（1–50 GB、1–15 天有效）适合用量可预估的短途行程；覆盖多国的区域套餐（如含日本及周边的亚洲包、美加包）比逐国单买更划算；美国方向还提供带通话与短信的套餐，适合需要保持号码可接听的旅行者。\n\n此外 RedteaGO 还提供保号向的全球 eSIM（首年约 3 美元，续期 3.3 美元/年）：自带奥地利号码+100MB流量+365天无限收短信，实测中国大陆漫游可正常收短信；\n\n须在购买后 3 个月内激活，有效期自激活起算。"
   },
   "bestFor": {
     "en": "Trips of unusual length (9, 12, 23 days...) where fixed 7/10/15-day bundles force overpaying, and travellers who want a daily throttled-unlimited safety net.",
     "zh": "行程天数不规整（如 9、12、23 天）、买固定 7/10/15 天包必然浪费的旅行者，以及每天都要有“降速不断网”兜底流量的用户。"
   },
-  "regions": ["global", "asia", "europe", "north-america", "south-america", "africa", "oceania", "middle-east"],
+  "regions": [
+    "global",
+    "asia",
+    "europe",
+    "north-america",
+    "south-america",
+    "africa",
+    "oceania",
+    "middle-east"
+  ],
   "coverage": 180,
   "plansFrom": 0.7,
   "dataFrom": "100MB",
@@ -42,58 +54,166 @@
   },
   "plans": [
     {
-      "name": { "en": "Japan Unlimited (basic)", "zh": "日本不限量（基础版）" },
-      "data": { "en": "300 MB/day high speed, then throttled unlimited", "zh": "300 MB/日高速，用尽降速不限量" },
-      "validity": { "en": "2–180 days, per-day pricing", "zh": "2–180 天，按天计费" },
-      "price": { "en": "US$0.70/day", "zh": "0.70 美元/天" }
+      "name": {
+        "en": "Japan Unlimited (basic)",
+        "zh": "日本不限量（基础版）"
+      },
+      "data": {
+        "en": "300 MB/day high speed, then throttled unlimited",
+        "zh": "300 MB/日高速，用尽降速不限量"
+      },
+      "validity": {
+        "en": "2–180 days, per-day pricing",
+        "zh": "2–180 天，按天计费"
+      },
+      "price": {
+        "en": "US$0.70/day",
+        "zh": "0.70 美元/天"
+      }
     },
     {
-      "name": { "en": "Japan Unlimited (premium)", "zh": "日本不限量（尊享版）" },
-      "data": { "en": "10 GB/day high speed, then throttled unlimited", "zh": "10 GB/日高速，用尽降速不限量" },
-      "validity": { "en": "1–180 days, per-day pricing", "zh": "1–180 天，按天计费" },
-      "price": { "en": "US$3.90/day", "zh": "3.90 美元/天" }
+      "name": {
+        "en": "Japan Unlimited (premium)",
+        "zh": "日本不限量（尊享版）"
+      },
+      "data": {
+        "en": "10 GB/day high speed, then throttled unlimited",
+        "zh": "10 GB/日高速，用尽降速不限量"
+      },
+      "validity": {
+        "en": "1–180 days, per-day pricing",
+        "zh": "1–180 天，按天计费"
+      },
+      "price": {
+        "en": "US$3.90/day",
+        "zh": "3.90 美元/天"
+      }
     },
     {
-      "name": { "en": "USA Unlimited (premium)", "zh": "美国不限量（尊享版）" },
-      "data": { "en": "10 GB/day high speed, then throttled unlimited", "zh": "10 GB/日高速，用尽降速不限量" },
-      "validity": { "en": "1–180 days, per-day pricing", "zh": "1–180 天，按天计费" },
-      "price": { "en": "US$4.90/day", "zh": "4.90 美元/天" }
+      "name": {
+        "en": "USA Unlimited (premium)",
+        "zh": "美国不限量（尊享版）"
+      },
+      "data": {
+        "en": "10 GB/day high speed, then throttled unlimited",
+        "zh": "10 GB/日高速，用尽降速不限量"
+      },
+      "validity": {
+        "en": "1–180 days, per-day pricing",
+        "zh": "1–180 天，按天计费"
+      },
+      "price": {
+        "en": "US$4.90/day",
+        "zh": "4.90 美元/天"
+      }
     },
     {
-      "name": { "en": "UK Unlimited (premium)", "zh": "英国不限量（尊享版）" },
-      "data": { "en": "10 GB/day high speed, then throttled unlimited", "zh": "10 GB/日高速，用尽降速不限量" },
-      "validity": { "en": "1–180 days, per-day pricing", "zh": "1–180 天，按天计费" },
-      "price": { "en": "US$4.50/day", "zh": "4.50 美元/天" }
+      "name": {
+        "en": "UK Unlimited (premium)",
+        "zh": "英国不限量（尊享版）"
+      },
+      "data": {
+        "en": "10 GB/day high speed, then throttled unlimited",
+        "zh": "10 GB/日高速，用尽降速不限量"
+      },
+      "validity": {
+        "en": "1–180 days, per-day pricing",
+        "zh": "1–180 天，按天计费"
+      },
+      "price": {
+        "en": "US$4.50/day",
+        "zh": "4.50 美元/天"
+      }
     },
     {
-      "name": { "en": "Japan data-only bundle", "zh": "日本经典数据套餐" },
-      "data": { "en": "1 / 3 / 5 / 10 GB", "zh": "1 / 3 / 5 / 10 GB" },
-      "validity": { "en": "1–15 days", "zh": "1–15 天" },
-      "price": { "en": "US$2.50 (1 GB) – US$9.50 (10 GB)", "zh": "2.50 美元（1 GB）– 9.50 美元（10 GB）" }
+      "name": {
+        "en": "Japan data-only bundle",
+        "zh": "日本经典数据套餐"
+      },
+      "data": {
+        "en": "1 / 3 / 5 / 10 GB",
+        "zh": "1 / 3 / 5 / 10 GB"
+      },
+      "validity": {
+        "en": "1–15 days",
+        "zh": "1–15 天"
+      },
+      "price": {
+        "en": "US$2.50 (1 GB) – US$9.50 (10 GB)",
+        "zh": "2.50 美元（1 GB）– 9.50 美元（10 GB）"
+      }
     },
     {
-      "name": { "en": "USA data-only bundle", "zh": "美国经典数据套餐" },
-      "data": { "en": "1 / 3 / 5 / 10 GB", "zh": "1 / 3 / 5 / 10 GB" },
-      "validity": { "en": "1–15 days", "zh": "1–15 天" },
-      "price": { "en": "US$1.60 (1 GB) – US$8.30 (10 GB)", "zh": "1.60 美元（1 GB）– 8.30 美元（10 GB）" }
+      "name": {
+        "en": "USA data-only bundle",
+        "zh": "美国经典数据套餐"
+      },
+      "data": {
+        "en": "1 / 3 / 5 / 10 GB",
+        "zh": "1 / 3 / 5 / 10 GB"
+      },
+      "validity": {
+        "en": "1–15 days",
+        "zh": "1–15 天"
+      },
+      "price": {
+        "en": "US$1.60 (1 GB) – US$8.30 (10 GB)",
+        "zh": "1.60 美元（1 GB）– 8.30 美元（10 GB）"
+      }
     },
     {
-      "name": { "en": "UK data-only bundle", "zh": "英国经典数据套餐" },
-      "data": { "en": "1 / 3 / 10 / 20 GB", "zh": "1 / 3 / 10 / 20 GB" },
-      "validity": { "en": "1–15 days", "zh": "1–15 天" },
-      "price": { "en": "US$0.98 (1 GB) – US$10.80 (20 GB)", "zh": "0.98 美元（1 GB）– 10.80 美元（20 GB）" }
+      "name": {
+        "en": "UK data-only bundle",
+        "zh": "英国经典数据套餐"
+      },
+      "data": {
+        "en": "1 / 3 / 10 / 20 GB",
+        "zh": "1 / 3 / 10 / 20 GB"
+      },
+      "validity": {
+        "en": "1–15 days",
+        "zh": "1–15 天"
+      },
+      "price": {
+        "en": "US$0.98 (1 GB) – US$10.80 (20 GB)",
+        "zh": "0.98 美元（1 GB）– 10.80 美元（20 GB）"
+      }
     },
     {
-      "name": { "en": "USA bundle with calls & SMS", "zh": "美国含通话短信套餐" },
-      "data": { "en": "1–20 GB, includes US calls & SMS", "zh": "1–20 GB，含美国通话与短信" },
-      "validity": { "en": "1–15 days", "zh": "1–15 天" },
-      "price": { "en": "US$5.50 (1 GB) – US$29.90 (20 GB)", "zh": "5.50 美元（1 GB）– 29.90 美元（20 GB）" }
+      "name": {
+        "en": "USA bundle with calls & SMS",
+        "zh": "美国含通话短信套餐"
+      },
+      "data": {
+        "en": "1–20 GB, includes US calls & SMS",
+        "zh": "1–20 GB，含美国通话与短信"
+      },
+      "validity": {
+        "en": "1–15 days",
+        "zh": "1–15 天"
+      },
+      "price": {
+        "en": "US$5.50 (1 GB) – US$29.90 (20 GB)",
+        "zh": "5.50 美元（1 GB）– 29.90 美元（20 GB）"
+      }
     },
     {
-      "name": { "en": "Global eSIM with Austrian number", "zh": "全球eSIM（自带奥地利号码）" },
-      "data": { "en": "100 MB + unlimited SMS receiving", "zh": "100 MB + 无限收短信" },
-      "validity": { "en": "365 days; activate within 3 months of purchase; renew at US$3.3/year", "zh": "365天；购买后3个月内激活；3.3美元/年续期" },
-      "price": { "en": "~US$3 (first year)", "zh": "约3美元（首年）" }
+      "name": {
+        "en": "Global eSIM with Austrian number",
+        "zh": "全球eSIM（自带奥地利号码）"
+      },
+      "data": {
+        "en": "100 MB + unlimited SMS receiving",
+        "zh": "100 MB + 无限收短信"
+      },
+      "validity": {
+        "en": "365 days; activate within 3 months of purchase; renew at US$3.3/year",
+        "zh": "365天；购买后3个月内激活；3.3美元/年续期"
+      },
+      "price": {
+        "en": "~US$3 (first year)",
+        "zh": "约3美元（首年）"
+      }
     }
   ],
   "plansNote": {

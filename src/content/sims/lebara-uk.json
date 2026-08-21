@@ -1,5 +1,8 @@
 {
-  "name": { "en": "Lebara UK", "zh": "Lebara 英国" },
+  "name": {
+    "en": "Lebara UK",
+    "zh": "Lebara 英国"
+  },
   "tagline": {
     "en": "Vodafone-based UK MVNO — £5 top-up per 90 days, Wi-Fi Calling",
     "zh": "Vodafone网络英国虚商——充5镑延90天，支持Wi-Fi Calling"
@@ -9,14 +12,16 @@
     "zh": "Lebara是走Vodafone英国网络的国际虚商。官网可直接下单eSIM；最低充值5英镑延长号码有效期90天——单次便宜但一年要充两次。支持Wi-Fi Calling；曾短暂推出中国漫游流量包后又取消。"
   },
   "details": {
-    "en": "Lebara's keep-alive economics: £5 per 90 days — the lowest per-event top-up among reviewed UK options, but at twice-a-year cadence it lands near Lycamobile's £10/180 days and above giffgaff's near-zero SMS route. It rides Vodafone's infrastructure (good coverage quality), supports Wi-Fi Calling, and sells eSIM directly at checkout. The China-relevant caveat is directional: Lebara briefly launched a China-roaming data bundle and then cancelled it, and its marketing centres on international calls to South Asia — the source review files it in the low-cost/flexible MVNO tier, not the China-roaming tier. For a UK number kept alive from anywhere with minimal fuss and Vodafone-grade coverage, it works; for mainland-China data use, look at CTExcel/CMLink instead.",
-    "zh": "Lebara的保号经济账：每90天充5英镑——单次充值门槛是本轮英国选项中最低的，但一年两次的节奏算下来与Lycamobile的10英镑/180天相近，高于giffgaff近乎为零的短信路线。它走Vodafone网络设施（覆盖质量好）、支持Wi-Fi Calling、官网结账可直接选eSIM。与中国相关的注意点是方向性：Lebara曾短暂上线中国漫游流量包后又取消，营销重心在南亚国际通话——源盘点将其归入低价灵活虚商梯队，而非回国漫游梯队。要一个在哪都能低操心保号、Vodafone级别覆盖的英国号码，它可用；要中国大陆流量，请看CTExcel/CMLink。"
+    "en": "Lebara's keep-alive economics: £5 per 90 days — the lowest per-event top-up among reviewed UK options, but at twice-a-year cadence it lands near Lycamobile's £10/180 days and above giffgaff's near-zero SMS route.\n\nIt rides Vodafone's infrastructure (good coverage quality), supports Wi-Fi Calling, and sells eSIM directly at checkout. The China-relevant caveat is directional: Lebara briefly launched a China-roaming data bundle and then cancelled it, and its marketing centres on international calls to South Asia — the source review files it in the low-cost/flexible MVNO tier, not the China-roaming tier.\n\nFor a UK number kept alive from anywhere with minimal fuss and Vodafone-grade coverage, it works; for mainland-China data use, look at CTExcel/CMLink instead.",
+    "zh": "Lebara的保号经济账：每90天充5英镑——单次充值门槛是本轮英国选项中最低的，但一年两次的节奏算下来与Lycamobile的10英镑/180天相近，高于giffgaff近乎为零的短信路线。它走Vodafone网络设施（覆盖质量好）、支持Wi-Fi Calling、官网结账可直接选eSIM。\n\n与中国相关的注意点是方向性：Lebara曾短暂上线中国漫游流量包后又取消，营销重心在南亚国际通话——源盘点将其归入低价灵活虚商梯队，而非回国漫游梯队。\n\n要一个在哪都能低操心保号、Vodafone级别覆盖的英国号码，它可用；要中国大陆流量，请看CTExcel/CMLink。"
   },
   "bestFor": {
     "en": "Low-effort keep-alive on Vodafone-grade coverage with small £5 top-ups.",
     "zh": "想以5英镑小额充值在Vodafone级覆盖上低操心保号的用户。"
   },
-  "regions": ["europe"],
+  "regions": [
+    "europe"
+  ],
   "coverage": 1,
   "plansFrom": 5,
   "dataFrom": "Pay per use",
@@ -42,10 +47,22 @@
   },
   "plans": [
     {
-      "name": { "en": "Pay-as-you-go keep-alive", "zh": "充值保号" },
-      "data": { "en": "Pay per use", "zh": "按量计费" },
-      "validity": { "en": "90 days per top-up", "zh": "每次充值后90天" },
-      "price": { "en": "£5 minimum top-up", "zh": "最低充值5英镑" }
+      "name": {
+        "en": "Pay-as-you-go keep-alive",
+        "zh": "充值保号"
+      },
+      "data": {
+        "en": "Pay per use",
+        "zh": "按量计费"
+      },
+      "validity": {
+        "en": "90 days per top-up",
+        "zh": "每次充值后90天"
+      },
+      "price": {
+        "en": "£5 minimum top-up",
+        "zh": "最低充值5英镑"
+      }
     }
   ],
   "plansNote": {

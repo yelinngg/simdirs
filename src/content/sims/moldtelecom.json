@@ -1,5 +1,8 @@
 {
-  "name": { "en": "Moldtelecom", "zh": "Moldtelecom 摩尔多瓦" },
+  "name": {
+    "en": "Moldtelecom",
+    "zh": "Moldtelecom 摩尔多瓦"
+  },
   "tagline": {
     "en": "Moldova's largest carrier — a €0.4/year-to-keep EU-adjacent number, no ID required",
     "zh": "摩尔多瓦最大运营商——年保号成本约0.4元人民币的号码，无需实名"
@@ -9,14 +12,16 @@
     "zh": "Moldtelecom 是摩尔多瓦历史最悠久、规模最大的电信运营商。其eSIM套餐40摩尔多瓦列伊（约17元人民币）起，自带摩尔多瓦号码，中国大陆漫游可免费收短信；开通后6个月有效期+6个月宽限期。每6个月充值1 MDL即可保号，一年约2 MDL（约0.82元人民币）。无需实名，支持Visa/Mastercard支付。"
   },
   "details": {
-    "en": "Moldtelecom's eSIM is the cheapest documented keep-alive number in this catalogue: the entry eSIM plan costs 40 MDL (~¥17.35), paid with a Visa or Mastercard, and the number works in mainland China right after activation — receiving SMS is free, though calls and outgoing SMS are not supported on the default balance (further top-up required even to test). Validity: 6 months after activation plus a 6-month grace period during which the number can still receive SMS and dial special numbers (200/300/700) and 112; after the grace period the number is recycled. Keep-alive: 1 MDL minimum top-up every 6 months — about ¥0.82 per year, the lowest recurring cost reviewed on this site. Purchase flow (2025-09 source review): pick the eSIM plan on the official site, verify by email code, choose a number (with an 'other numbers' reshuffle option), skip optional add-on packs, pay by card; activation completes in about a minute and three emails arrive (invoice, number info, eSIM QR code). Works on native-eSIM phones via the QR code, or via eSIM-chip readers like Xesim on ordinary phones. Caveats: no calls/outgoing SMS in China roaming per the source test; Moldova is outside the EU so this is not an EU number for regulatory purposes; and the storefront is Moldovan — expect a mostly non-English checkout.",
-    "zh": "Moldtelecom的eSIM是本目录中保号成本最低的号码：入门套餐40 MDL（约17.35元），Visa/Mastercard支付，激活后在中国大陆即有漫游信号——收短信免费，但默认余额下不支持接打电话和发短信（需充值更多余额才能测试）。有效期：激活后6个月+6个月宽限期（宽限期内仍可收短信、接听电话、拨打200/300/700等Moldtelecom业务号码和紧急电话112），宽限期后号码收回。保号：每6个月最低充值1 MDL——一年约2 MDL（约0.82元人民币），是本站盘点过的最低持有成本。购买流程（2025-09源测评）：官网选eSIM套餐、邮箱验证码验证、挑选号码（可点other numbers换一批）、附加资源包无需选、刷卡支付；约一分钟激活完成，收到账单/号码信息/eSIM二维码三封邮件。原生eSIM手机直接扫码，普通手机可用Xesim等eSIM芯片写入。注意：源实测中国漫游不能通话和发短信；摩尔多瓦非欧盟，号码不具欧盟属性；官网界面以摩尔多瓦语为主。"
+    "en": "Moldtelecom's eSIM is the cheapest documented keep-alive number in this catalogue: the entry eSIM plan costs 40 MDL (~¥17.35), paid with a Visa or Mastercard, and the number works in mainland China right after activation — receiving SMS is free, though calls and outgoing SMS are not supported on the default balance (further top-up required even to test).\n\nValidity: 6 months after activation plus a 6-month grace period during which the number can still receive SMS and dial special numbers (200/300/700) and 112; after the grace period the number is recycled.\n\nKeep-alive: 1 MDL minimum top-up every 6 months — about ¥0.82 per year, the lowest recurring cost reviewed on this site.\n\nPurchase flow (2025-09 source review): pick the eSIM plan on the official site, verify by email code, choose a number (with an 'other numbers' reshuffle option), skip optional add-on packs, pay by card; activation completes in about a minute and three emails arrive (invoice, number info, eSIM QR code). Works on native-eSIM phones via the QR code, or via eSIM-chip readers like Xesim on ordinary phones.\n\nCaveats: no calls/outgoing SMS in China roaming per the source test; Moldova is outside the EU so this is not an EU number for regulatory purposes; and the storefront is Moldovan — expect a mostly non-English checkout.",
+    "zh": "Moldtelecom的eSIM是本目录中保号成本最低的号码：入门套餐40 MDL（约17.35元），Visa/Mastercard支付，激活后在中国大陆即有漫游信号——收短信免费，但默认余额下不支持接打电话和发短信（需充值更多余额才能测试）。\n\n有效期：激活后6个月+6个月宽限期（宽限期内仍可收短信、接听电话、拨打200/300/700等Moldtelecom业务号码和紧急电话112），宽限期后号码收回。\n\n保号：每6个月最低充值1 MDL——一年约2 MDL（约0.82元人民币），是本站盘点过的最低持有成本。\n\n购买流程（2025-09源测评）：官网选eSIM套餐、邮箱验证码验证、挑选号码（可点other numbers换一批）、附加资源包无需选、刷卡支付；\n\n约一分钟激活完成，收到账单/号码信息/eSIM二维码三封邮件。原生eSIM手机直接扫码，普通手机可用Xesim等eSIM芯片写入。\n\n注意：源实测中国漫游不能通话和发短信；摩尔多瓦非欧盟，号码不具欧盟属性；官网界面以摩尔多瓦语为主。"
   },
   "bestFor": {
     "en": "Extreme-budget keep-alive users: a working roaming number in China for under ¥1/year after entry.",
     "zh": "极限保号党：入门后每年不到1元人民币即可维持一个中国可漫游的号码。"
   },
-  "regions": ["europe"],
+  "regions": [
+    "europe"
+  ],
   "coverage": 1,
   "plansFrom": 17,
   "dataFrom": "Pay per use",
@@ -42,10 +47,22 @@
   },
   "plans": [
     {
-      "name": { "en": "eSIM simple plan", "zh": "eSIM简单版套餐" },
-      "data": { "en": "Pay per use", "zh": "按量计费" },
-      "validity": { "en": "6 months + 6-month grace; 1 MDL top-up renews 6 months", "zh": "6个月+6个月宽限；充1 MDL续6个月" },
-      "price": { "en": "40 MDL (~¥17.35)", "zh": "40列伊（约17.35元）" }
+      "name": {
+        "en": "eSIM simple plan",
+        "zh": "eSIM简单版套餐"
+      },
+      "data": {
+        "en": "Pay per use",
+        "zh": "按量计费"
+      },
+      "validity": {
+        "en": "6 months + 6-month grace; 1 MDL top-up renews 6 months",
+        "zh": "6个月+6个月宽限；充1 MDL续6个月"
+      },
+      "price": {
+        "en": "40 MDL (~¥17.35)",
+        "zh": "40列伊（约17.35元）"
+      }
     }
   ],
   "plansNote": {

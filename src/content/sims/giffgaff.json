@@ -1,5 +1,8 @@
 {
-  "name": { "en": "giffgaff", "zh": "giffgaff" },
+  "name": {
+    "en": "giffgaff",
+    "zh": "giffgaff"
+  },
   "tagline": {
     "en": "UK MVNO on O2 — near-zero-cost UK number you can keep alive from China",
     "zh": "依托O2网络的英国虚商——可在中国低成本保号的英国号码"
@@ -9,14 +12,16 @@
     "zh": "giffgaff是英国知名虚商（O2全资子品牌），走O2基站网络。官网免费下单SIM卡，充10英镑激活Pay as you go，再在App内转eSIM。每180天内有任意一次余额变动（如发一条0.3镑短信）即可保号，首次激活充10镑送5镑；在中国大陆可直接漫游使用。"
   },
   "details": {
-    "en": "giffgaff is the classic choice for a low-cost UK number that keeps working while you live in mainland China. Activation: order the free SIM on the official site (note: giffgaff has stopped shipping physical SIMs to China — choose eSIM in the app instead), top up £10 with a Visa/Mastercard credit card and pick Pay as you go; first top-up of £10 comes with £5 bonus credit. Number-keeping rule: any balance change within each 180-day window (a top-up or any charged usage — one £0.30 SMS is enough) resets the clock; miss it and the number is recycled with no refund. Converting a physical card to eSIM happens in the giffgaff app under SIM management and requires passing IMEI verification of your phone. In mainland China the SIM roams with signal right after activation, supports Wi-Fi Calling, and data packs can be added on demand. No real-name ID is required for ordering. Watch-outs: the £10+£5 welcome credit is forfeited if the 180-day rule is missed; customer service is community/app based with no physical stores.",
-    "zh": "giffgaff是「人在中国、低成本持有英国号码」的经典选择。激活：官网免费下单SIM卡（注意：官方已停止向中国邮寄实体卡，建议直接在App内走eSIM），用Visa/Mastercard信用卡充10英镑并选择Pay as you go，首充10镑送5镑。保号规则：每180天内账户有任意一次余额变动（充值或计费消费，发一条0.3镑短信即可）即可续期；逾期未用号码直接回收且余额不退。实体卡转eSIM在giffgaff App的SIM管理内操作，需通过手机IMEI验证才能下发eSIM配置。在中国大陆激活后即有漫游信号，支持Wi-Fi Calling，可按需开流量包。下单无需实名。注意：错过180天规则时充值余额不退；客服以社区和App在线为主，没有实体门店。"
+    "en": "giffgaff is the classic choice for a low-cost UK number that keeps working while you live in mainland China.\n\nActivation: order the free SIM on the official site (note: giffgaff has stopped shipping physical SIMs to China — choose eSIM in the app instead), top up £10 with a Visa/Mastercard credit card and pick Pay as you go; first top-up of £10 comes with £5 bonus credit. Number-keeping rule: any balance change within each 180-day window (a top-up or any charged usage — one £0.30 SMS is enough) resets the clock; miss it and the number is recycled with no refund. Converting a physical card to eSIM happens in the giffgaff app under SIM management and requires passing IMEI verification of your phone.\n\nIn mainland China the SIM roams with signal right after activation, supports Wi-Fi Calling, and data packs can be added on demand. No real-name ID is required for ordering. Watch-outs: the £10+£5 welcome credit is forfeited if the 180-day rule is missed; customer service is community/app based with no physical stores.",
+    "zh": "giffgaff是「人在中国、低成本持有英国号码」的经典选择。\n\n激活：官网免费下单SIM卡（注意：官方已停止向中国邮寄实体卡，建议直接在App内走eSIM），用Visa/Mastercard信用卡充10英镑并选择Pay as you go，首充10镑送5镑。\n\n保号规则：每180天内账户有任意一次余额变动（充值或计费消费，发一条0.3镑短信即可）即可续期；逾期未用号码直接回收且余额不退。实体卡转eSIM在giffgaff App的SIM管理内操作，需通过手机IMEI验证才能下发eSIM配置。\n\n在中国大陆激活后即有漫游信号，支持Wi-Fi Calling，可按需开流量包。下单无需实名。\n\n注意：错过180天规则时充值余额不退；客服以社区和App在线为主，没有实体门店。"
   },
   "bestFor": {
     "en": "Cloud residents who want a UK number for registrations, receiving SMS and light roaming use at near-zero annual cost.",
     "zh": "需要英国号码注册账号、收短信、轻度漫游使用的云居民，年度持有成本接近于零。"
   },
-  "regions": ["europe"],
+  "regions": [
+    "europe"
+  ],
   "coverage": 1,
   "plansFrom": 10,
   "dataFrom": "Pay per use",
@@ -42,10 +47,22 @@
   },
   "plans": [
     {
-      "name": { "en": "Pay as you go (keep-alive base)", "zh": "Pay as you go（保号基础）" },
-      "data": { "en": "Pay per use", "zh": "按量计费" },
-      "validity": { "en": "180 days per activity", "zh": "每次使用后180天" },
-      "price": { "en": "£10 first top-up (with £5 bonus); one £0.30 SMS per 180 days keeps it alive", "zh": "首充10镑（送5镑）；每180天发一条0.3镑短信即可保号" }
+      "name": {
+        "en": "Pay as you go (keep-alive base)",
+        "zh": "Pay as you go（保号基础）"
+      },
+      "data": {
+        "en": "Pay per use",
+        "zh": "按量计费"
+      },
+      "validity": {
+        "en": "180 days per activity",
+        "zh": "每次使用后180天"
+      },
+      "price": {
+        "en": "£10 first top-up (with £5 bonus); one £0.30 SMS per 180 days keeps it alive",
+        "zh": "首充10镑（送5镑）；每180天发一条0.3镑短信即可保号"
+      }
     }
   ],
   "plansNote": {

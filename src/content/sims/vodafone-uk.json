@@ -1,5 +1,8 @@
 {
-  "name": { "en": "Vodafone UK", "zh": "Vodafone 英国" },
+  "name": {
+    "en": "Vodafone UK",
+    "zh": "Vodafone 英国"
+  },
   "tagline": {
     "en": "UK MNO — premium coverage; cheap PAYG eSIM exists only via CS chat",
     "zh": "英国实体运营商——覆盖顶级，便宜Paygo eSIM只在客服渠道"
@@ -9,14 +12,16 @@
     "zh": "Vodafone英国是拥有自有网络的实体运营商（已与Three合并）。官网在售eSIM套餐偏贵；据2026-03盘点，划算的选项——10英镑Paygo eSIM与基础月付——仅客服渠道提供。保号：每180天内任意一次余额变动。无需实名认证，欧盟漫游覆盖较好。"
   },
   "details": {
-    "en": "Vodafone UK is the premium tier of this UK roundup: own-network coverage (and post-merger scale with Three), good EU roaming, no real-name ID — but you pay for it unless you haggle. The storefront's eSIM plans run expensive; repeated CS chats in the source review confirmed the cheapest routes are a £10 Pay-as-you-go eSIM and a basic monthly plan, both CS-only, with nothing cheaper available. Free-trial eSIM promos (a 7-day trial announced in May, an expanded free-join pilot in June 2026) were both found dead on arrival when actually attempted. Keep-alive is the familiar 180-day balance-change rule. Best for high-budget users who need top-tier network stability; cloud residents roaming mainly in China get better value from giffgaff, CTExcel or CMLink.",
-    "zh": "Vodafone英国是本轮英国盘点的「高配档」：自有网络覆盖（与Three合并后规模更大）、欧盟漫游好、无需实名——但不还价就要多花钱。官网在售eSIM套餐贵；源盘点中多轮客服对话确认，最便宜路径是10英镑Paygo eSIM与基础月付，均仅客服可办，且再无更低价格。免费试用eSIM的促销（2026年5月宣布的7天试用、6月扩大的免费加入试点）在实际尝试时均已失效。保号是熟悉的180天余额变动规则。最适合预算充足、要顶级网络稳定的用户；以中国漫游为主的云居民，giffgaff/CTExcel/CMLink性价比更高。"
+    "en": "Vodafone UK is the premium tier of this UK roundup: own-network coverage (and post-merger scale with Three), good EU roaming, no real-name ID — but you pay for it unless you haggle. The storefront's eSIM plans run expensive; repeated CS chats in the source review confirmed the cheapest routes are a £10 Pay-as-you-go eSIM and a basic monthly plan, both CS-only, with nothing cheaper available. Free-trial eSIM promos (a 7-day trial announced in May, an expanded free-join pilot in June 2026) were both found dead on arrival when actually attempted.\n\nKeep-alive is the familiar 180-day balance-change rule. Best for high-budget users who need top-tier network stability; cloud residents roaming mainly in China get better value from giffgaff, CTExcel or CMLink.",
+    "zh": "Vodafone英国是本轮英国盘点的「高配档」：自有网络覆盖（与Three合并后规模更大）、欧盟漫游好、无需实名——但不还价就要多花钱。官网在售eSIM套餐贵；源盘点中多轮客服对话确认，最便宜路径是10英镑Paygo eSIM与基础月付，均仅客服可办，且再无更低价格。免费试用eSIM的促销（2026年5月宣布的7天试用、6月扩大的免费加入试点）在实际尝试时均已失效。\n\n保号是熟悉的180天余额变动规则。最适合预算充足、要顶级网络稳定的用户；以中国漫游为主的云居民，giffgaff/CTExcel/CMLink性价比更高。"
   },
   "bestFor": {
     "en": "High-budget users who prioritise network stability and EU roaming on a full MNO.",
     "zh": "预算充足、最看重实体运营商网络稳定性与欧盟漫游的用户。"
   },
-  "regions": ["europe"],
+  "regions": [
+    "europe"
+  ],
   "coverage": 1,
   "plansFrom": 10,
   "dataFrom": "Pay per use",
@@ -42,10 +47,22 @@
   },
   "plans": [
     {
-      "name": { "en": "PAYG eSIM (CS-only)", "zh": "Paygo eSIM（仅客服）" },
-      "data": { "en": "Pay per use", "zh": "按量计费" },
-      "validity": { "en": "180 days per activity", "zh": "每次余额变动后180天" },
-      "price": { "en": "£10", "zh": "10英镑" }
+      "name": {
+        "en": "PAYG eSIM (CS-only)",
+        "zh": "Paygo eSIM（仅客服）"
+      },
+      "data": {
+        "en": "Pay per use",
+        "zh": "按量计费"
+      },
+      "validity": {
+        "en": "180 days per activity",
+        "zh": "每次余额变动后180天"
+      },
+      "price": {
+        "en": "£10",
+        "zh": "10英镑"
+      }
     }
   ],
   "plansNote": {

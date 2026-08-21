@@ -1,5 +1,8 @@
 {
-  "name": { "en": "3HK DIY", "zh": "3HK DIY 储值卡" },
+  "name": {
+    "en": "3HK DIY",
+    "zh": "3HK DIY 储值卡"
+  },
   "tagline": {
     "en": "Hutchison 3 Hong Kong's DIY prepaid SIM and travel top-up app",
     "zh": "和记三方香港DIY储值卡及旅行增值服务"
@@ -9,14 +12,16 @@
     "zh": "3HK DIY 是香港和记电讯（3香港）旗下的储值卡产品线，通过「DIY 储值卡」App管理。它面向香港本地用户和旅客，提供DIY漫游日包、本地流量增值与实名登记，并非传统的旅行eSIM商店。"
   },
   "details": {
-    "en": "3HK DIY is not a travel eSIM store — it is a Hong Kong carrier's official prepaid product, and that is exactly its value. For visitors to Hong Kong, a DIY SIM gives you a real local 3HK number with local rates, supported by a physical retailer network (convenience stores, MTR shops) for top-ups, plus real-name registration handled in the app as HK law requires. For Hong Kong residents, the DIY app doubles as a roaming manager: buy destination day passes (mainland China, Macau, Japan, Korea, Taiwan, Southeast Asia and more) that bill to your existing SIM, often cheaper than travel-brand eSIMs on the same 3HK network infrastructure. Plan selection, purchase and activation all happen inside the app rather than on a public web catalogue, which is why no static price table is published here. Trade-offs: coverage is Asia-centric (mainland China, Macau, Asia day passes), the experience assumes the app and registration flow, and it lacks the instant-QR simplicity of global eSIM brands. But if your trip is Hong Kong-centric or you want an official local number, it beats generic travel eSIMs on local rates and physical availability.",
-    "zh": "3HK DIY 不是旅行 eSIM 商店——它是香港运营商的官方储值卡产品，而这恰恰是它的价值。对访港旅客而言，DIY 卡提供真实的 3HK 本地号码与本地费率，有实体零售网络（便利店、港铁门店）可充值，实名登记按香港法例在 App 内完成。对香港居民而言，DIY App 同时是漫游管理器：为已有号码购买目的地日包（中国内地、澳门、日本、韩国、台湾、东南亚等），走同样的 3HK 网络设施，常比旅行品牌 eSIM 便宜。套餐的选购、支付与激活全部在 App 内完成，官网不发布静态价目表，因此此处不转载价格。取舍：覆盖以亚洲为中心（内地、澳门及亚洲日包）；体验以 App 和登记流程为前提；也没有全球 eSIM 品牌即扫即用的简洁。但如果你的行程以香港为中心，或想要一个官方本地号码，它在本地费率与线下可得性上都胜过通用旅行 eSIM。"
+    "en": "3HK DIY is not a travel eSIM store — it is a Hong Kong carrier's official prepaid product, and that is exactly its value.\n\nFor visitors to Hong Kong, a DIY SIM gives you a real local 3HK number with local rates, supported by a physical retailer network (convenience stores, MTR shops) for top-ups, plus real-name registration handled in the app as HK law requires.\n\nFor Hong Kong residents, the DIY app doubles as a roaming manager: buy destination day passes (mainland China, Macau, Japan, Korea, Taiwan, Southeast Asia and more) that bill to your existing SIM, often cheaper than travel-brand eSIMs on the same 3HK network infrastructure. Plan selection, purchase and activation all happen inside the app rather than on a public web catalogue, which is why no static price table is published here. Trade-offs: coverage is Asia-centric (mainland China, Macau, Asia day passes), the experience assumes the app and registration flow, and it lacks the instant-QR simplicity of global eSIM brands. But if your trip is Hong Kong-centric or you want an official local number, it beats generic travel eSIMs on local rates and physical availability.",
+    "zh": "3HK DIY 不是旅行 eSIM 商店——它是香港运营商的官方储值卡产品，而这恰恰是它的价值。对访港旅客而言，DIY 卡提供真实的 3HK 本地号码与本地费率，有实体零售网络（便利店、港铁门店）可充值，实名登记按香港法例在 App 内完成。对香港居民而言，DIY App 同时是漫游管理器：为已有号码购买目的地日包（中国内地、澳门、日本、韩国、台湾、东南亚等），走同样的 3HK 网络设施，常比旅行品牌 eSIM 便宜。\n\n套餐的选购、支付与激活全部在 App 内完成，官网不发布静态价目表，因此此处不转载价格。取舍：覆盖以亚洲为中心（内地、澳门及亚洲日包）；体验以 App 和登记流程为前提；也没有全球 eSIM 品牌即扫即用的简洁。\n\n但如果你的行程以香港为中心，或想要一个官方本地号码，它在本地费率与线下可得性上都胜过通用旅行 eSIM。"
   },
   "bestFor": {
     "en": "Visitors to Hong Kong who want a real local number and local rates, and HK residents managing Asia roaming day passes on their existing SIM.",
     "zh": "想要真实本地号码与本地费率的访港旅客，以及用现有号码管理亚洲漫游日包的香港居民。"
   },
-  "regions": ["asia"],
+  "regions": [
+    "asia"
+  ],
   "coverage": 1,
   "plansFrom": 8,
   "dataFrom": "App-based",

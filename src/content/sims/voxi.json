@@ -1,5 +1,8 @@
 {
-  "name": { "en": "VOXI", "zh": "VOXI" },
+  "name": {
+    "en": "VOXI",
+    "zh": "VOXI"
+  },
   "tagline": {
     "en": "Vodafone-owned UK MVNO — hidden edu-email free first month, 180-day keep-alive",
     "zh": "沃达丰旗下英国虚商——教育邮箱隐藏首月0元，180天保号"
@@ -9,14 +12,16 @@
     "zh": "VOXI是沃达丰英国子品牌虚商，走Vodafone网络。下单时可直接选eSIM；保号逻辑与giffgaff相同——任意余额变动（通话、短信、充值）即延长180天，最低充值5英镑。隐藏福利：教育邮箱可申请首月0元套餐（国内教育邮箱也有成功案例），建议从20英镑套餐进入、临近30天时取消，之后以Paygo状态低成本保号。"
   },
   "details": {
-    "en": "VOXI rides Vodafone UK's network (the same coverage and 5G as the parent), which makes it the cheapest clean way onto a top-tier UK network: Pay-as-you-go keep-alive needs any balance change per 180 days, minimum top-up £5, with an SMS warning ~90 days before expiry. The documented student route: enter via the official £20 plan page, verify an education email (Chinese edu addresses have been reported to pass — though at least one reviewer's attempt failed, so treat it as environment-sensitive), receive a discount code, apply it so the first month totals £0, choose eSIM, fill in personal details — the birth date you enter doubles as the PDF password protecting the eSIM QR code emailed to you — then bind a payment card and cancel before day 30 to drop to a bare PAYG keep-alive state; any activity in the following 150 days renews the 180-day window. Failed student verification just means paying normal PAYG rates — still low-cost. Trade-offs shared with all MVNOs: data priority sits below Vodafone's own subscribers, so mainland-China roaming experience can lag the parent network; and the free-month offer is a limited-time promo that may vanish.",
-    "zh": "VOXI走Vodafone英国网络（覆盖与5G与母公司相同），是上英国一线网络最便宜的干净途径：Paygo保号只需每180天任意一次余额变动，最低充值5英镑，到期前约90天会收到短信提醒。实测过的学生路线：从官网20英镑套餐页进入，用教育邮箱验证（国内教育邮箱也有通过案例，但也有实测失败的记录，成功与否与环境相关），获得优惠码后应用，首月变0元；选eSIM、填个人信息——生日同时是 emailed eSIM 二维码 PDF 的密码——绑卡后在临近30天时取消套餐，落到空套餐Paygo保号状态，其后150天内再产生一次变动即可续满180天。学生验证失败则按正常Paygo资费持有，成本仍然很低。与其他虚商相同的取舍：数据优先级低于母公司用户，中国大陆漫游体验可能不及Vodafone本尊；首月免费属限时活动，可能随时下线。"
+    "en": "VOXI rides Vodafone UK's network (the same coverage and 5G as the parent), which makes it the cheapest clean way onto a top-tier UK network: Pay-as-you-go keep-alive needs any balance change per 180 days, minimum top-up £5, with an SMS warning ~90 days before expiry.\n\nThe documented student route: enter via the official £20 plan page, verify an education email (Chinese edu addresses have been reported to pass — though at least one reviewer's attempt failed, so treat it as environment-sensitive), receive a discount code, apply it so the first month totals £0, choose eSIM, fill in personal details — the birth date you enter doubles as the PDF password protecting the eSIM QR code emailed to you — then bind a payment card and cancel before day 30 to drop to a bare PAYG keep-alive state; any activity in the following 150 days renews the 180-day window. Failed student verification just means paying normal PAYG rates — still low-cost.\n\nTrade-offs shared with all MVNOs: data priority sits below Vodafone's own subscribers, so mainland-China roaming experience can lag the parent network; and the free-month offer is a limited-time promo that may vanish.",
+    "zh": "VOXI走Vodafone英国网络（覆盖与5G与母公司相同），是上英国一线网络最便宜的干净途径：Paygo保号只需每180天任意一次余额变动，最低充值5英镑，到期前约90天会收到短信提醒。\n\n实测过的学生路线：从官网20英镑套餐页进入，用教育邮箱验证（国内教育邮箱也有通过案例，但也有实测失败的记录，成功与否与环境相关），获得优惠码后应用，首月变0元；选eSIM、填个人信息——生日同时是 emailed eSIM 二维码 PDF 的密码——绑卡后在临近30天时取消套餐，落到空套餐Paygo保号状态，其后150天内再产生一次变动即可续满180天。学生验证失败则按正常Paygo资费持有，成本仍然很低。与其他虚商相同的取舍：数据优先级低于母公司用户，中国大陆漫游体验可能不及Vodafone本尊；首月免费属限时活动，可能随时下线。"
   },
   "bestFor": {
     "en": "Budget hunters with an education email who want Vodafone-grade coverage at PAYG keep-alive cost.",
     "zh": "手握教育邮箱、想以Paygo保号成本用上沃达丰级别网络的性价比用户。"
   },
-  "regions": ["europe"],
+  "regions": [
+    "europe"
+  ],
   "coverage": 1,
   "plansFrom": 5,
   "dataFrom": "Pay per use",
@@ -42,10 +47,22 @@
   },
   "plans": [
     {
-      "name": { "en": "PAYG keep-alive", "zh": "Paygo保号" },
-      "data": { "en": "Pay per use", "zh": "按量计费" },
-      "validity": { "en": "180 days per activity (min top-up £5)", "zh": "每次余额变动后180天（最低充值5英镑）" },
-      "price": { "en": "From £0 with edu first-month offer", "zh": "教育邮箱首月0元起" }
+      "name": {
+        "en": "PAYG keep-alive",
+        "zh": "Paygo保号"
+      },
+      "data": {
+        "en": "Pay per use",
+        "zh": "按量计费"
+      },
+      "validity": {
+        "en": "180 days per activity (min top-up £5)",
+        "zh": "每次余额变动后180天（最低充值5英镑）"
+      },
+      "price": {
+        "en": "From £0 with edu first-month offer",
+        "zh": "教育邮箱首月0元起"
+      }
     }
   ],
   "plansNote": {

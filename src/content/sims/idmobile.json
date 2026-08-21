@@ -1,5 +1,8 @@
 {
-  "name": { "en": "ID Mobile", "zh": "iD Mobile" },
+  "name": {
+    "en": "ID Mobile",
+    "zh": "iD Mobile"
+  },
   "tagline": {
     "en": "Three-powered UK MVNO — £6 PAYG eSIM, keep alive with one event per 6 months",
     "zh": "走Three网络的英国虚商——6英镑Paygo eSIM，每半年一次使用即保号"
@@ -9,14 +12,16 @@
     "zh": "iD Mobile是2014年成立于伦敦的英国虚商，走Three网络，以灵活高性价比著称。其6英镑Paygo eSIM含无限通话短信与1GB流量；每6个月内有一次充值或计费使用即可保号。"
   },
   "details": {
-    "en": "iD Mobile is the low-cost way onto Three's UK network (the network now merged with Vodafone UK, though integration is ongoing): £6 pay-as-you-go buys unlimited UK calls and texts plus 1GB — usable as a keep-alive base with light real usage. Keep-alive bar: at least one top-up or charged usage per 6 months, the most relaxed cadence among reviewed UK options (giffgaff/VOXI/Lycamobile use 180-day windows). Monthly plans and PAYG both exist; eSIM is selectable at checkout. Trade-offs common to budget MVNOs apply: traffic priority sits below Three's own subscribers, and the source review groups iD with the budget-MVNO tier — fine for a cheap UK number, not the first pick for mainland-China roaming reliability.",
-    "zh": "iD Mobile是上Three英国网络的低价途径（该网络已与Vodafone英国合并，整合进行中）：6英镑Paygo含英国无限通话短信+1GB流量，可当保号底座轻度使用。保号门槛：每6个月至少一次充值或计费使用，是本轮盘点英国选项中最宽松的节奏（giffgaff/VOXI/Lycamobile均为180天窗口）。月付与Paygo并存，下单可选eSIM。低价虚商的共性取舍：流量优先级低于Three本网用户；源盘点将其归入低价虚商梯队——适合低成本持有英国号码，但不是中国大陆漫游稳定性的首选。"
+    "en": "iD Mobile is the low-cost way onto Three's UK network (the network now merged with Vodafone UK, though integration is ongoing): £6 pay-as-you-go buys unlimited UK calls and texts plus 1GB — usable as a keep-alive base with light real usage.\n\nKeep-alive bar: at least one top-up or charged usage per 6 months, the most relaxed cadence among reviewed UK options (giffgaff/VOXI/Lycamobile use 180-day windows). Monthly plans and PAYG both exist; eSIM is selectable at checkout.\n\nTrade-offs common to budget MVNOs apply: traffic priority sits below Three's own subscribers, and the source review groups iD with the budget-MVNO tier — fine for a cheap UK number, not the first pick for mainland-China roaming reliability.",
+    "zh": "iD Mobile是上Three英国网络的低价途径（该网络已与Vodafone英国合并，整合进行中）：6英镑Paygo含英国无限通话短信+1GB流量，可当保号底座轻度使用。\n\n保号门槛：每6个月至少一次充值或计费使用，是本轮盘点英国选项中最宽松的节奏（giffgaff/VOXI/Lycamobile均为180天窗口）。月付与Paygo并存，下单可选eSIM。低价虚商的共性取舍：流量优先级低于Three本网用户；源盘点将其归入低价虚商梯队——适合低成本持有英国号码，但不是中国大陆漫游稳定性的首选。"
   },
   "bestFor": {
     "en": "Budget users wanting Three-network coverage with the most relaxed 6-month keep-alive cadence.",
     "zh": "预算有限、想要Three网络覆盖且接受最宽松6个月保号节奏的用户。"
   },
-  "regions": ["europe"],
+  "regions": [
+    "europe"
+  ],
   "coverage": 1,
   "plansFrom": 6,
   "dataFrom": "1GB",
@@ -42,10 +47,22 @@
   },
   "plans": [
     {
-      "name": { "en": "PAYG eSIM", "zh": "Paygo eSIM" },
-      "data": { "en": "1GB", "zh": "1GB" },
-      "validity": { "en": "6 months per activity", "zh": "每次使用后6个月" },
-      "price": { "en": "£6", "zh": "6英镑" }
+      "name": {
+        "en": "PAYG eSIM",
+        "zh": "Paygo eSIM"
+      },
+      "data": {
+        "en": "1GB",
+        "zh": "1GB"
+      },
+      "validity": {
+        "en": "6 months per activity",
+        "zh": "每次使用后6个月"
+      },
+      "price": {
+        "en": "£6",
+        "zh": "6英镑"
+      }
     }
   ],
   "plansNote": {
