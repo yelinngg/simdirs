@@ -1,0 +1,85 @@
+{
+  "name": { "en": "eSIM Plus (Estonia number)", "zh": "eSIM Plus 爱沙尼亚号码" },
+  "tagline": {
+    "en": "Global eSIM marketplace — its global plan bundles a permanent Estonian number with free SMS receiving",
+    "zh": "全球eSIM市场——全球套餐自带永久有效的爱沙尼亚号码，免费收短信"
+  },
+  "description": {
+    "en": "eSIM Plus (esimplus.me) is a global eSIM marketplace; its Global plan ships with an Estonian phone number, free SMS receiving and no expiry date — buy once, keep forever without top-ups. Pay by Visa/Mastercard or Google Pay; the QR code arrives in your order page. No real-name registration.",
+    "zh": "eSIM Plus（esimplus.me）是全球eSIM交易平台；其全球套餐自带爱沙尼亚电话号码，免费收短信且无到期日——一次购买永久可用，无需充值保号。支持Visa/Mastercard与Google Pay支付，二维码在订单页获取。无需实名。"
+  },
+  "details": {
+    "en": "eSIM Plus is an aggregator rather than a carrier: its Estonia-numbered global plan is the zero-maintenance option in this catalogue — the number is permanent, SMS receiving is free, and there is no keep-alive ritual at all (contrast giffgaff's 180-day rule or Moldtelecom's 6-month top-up). Purchase flow per the 2025-09 source review: create an account with email, choose the global plan (which includes the Estonian number), pay by Visa/Mastercard/Google Pay, wait 2–3 minutes for confirmation, then fetch the number and eSIM QR code from the orders page. Activation: native-eSIM phones scan the QR directly; others use an eSIM chip (e.g. Xesim) via the app's +/scan flow, about two minutes to load. In mainland China the number roams with signal and SMS reception was verified working. Caveats: this is a marketplace product — the underlying number's long-term fate depends on eSIM Plus's carrier arrangements, not a national carrier's retail arm; outbound calls/SMS and data are priced as add-ons; and 'permanent' means no expiry date is stated, not a regulator-guaranteed lifetime.",
+    "zh": "eSIM Plus是聚合平台而非运营商：其带爱沙尼亚号码的全球套餐是本目录中的「零维护」选项——号码永久有效、收短信免费、完全不需要保号仪式（对比giffgaff的180天规则或Moldtelecom的6个月充值）。购买流程（2025-09源测评）：邮箱注册账号、选择全球套餐（自带爱沙尼亚号码）、Visa/Mastercard/Google Pay支付、等2-3分钟确认，随后在订单页查看号码与eSIM二维码。激活：原生eSIM手机直接扫码；其他手机用eSIM芯片（如Xesim）经App的+/扫码流程写入，约两分钟加载完成。在中国大陆漫游有信号，实测可正常收短信。注意：这是平台产品——号码的长期存续取决于eSIM Plus与上游运营商的协议，而非国家级运营商的零售业务；通话/发短信与流量按叠加包计价；「永久」指官方不设到期日，并非监管担保的终身。"
+  },
+  "bestFor": {
+    "en": "Zero-maintenance SMS receiving: buy once, no top-up schedule, ever.",
+    "zh": "零维护收短信：一次购买，永远不需要按日历充值。"
+  },
+  "regions": ["europe"],
+  "coverage": 1,
+  "plansFrom": 5,
+  "dataFrom": "Pay per use",
+  "validity": "Permanent (no expiry)",
+  "network": "Partner networks (marketplace)",
+  "device": "esim",
+  "hotspot": false,
+  "rating": 3.7,
+  "website": "https://esimplus.me/esim-global",
+  "features": {
+    "en": [
+      "Estonian number included in the global plan",
+      "Permanent validity — no expiry date, no keep-alive top-ups",
+      "Free SMS receiving; works roaming in mainland China",
+      "Visa/Mastercard/Google Pay; no real-name registration"
+    ],
+    "zh": [
+      "全球套餐自带爱沙尼亚号码",
+      "永久有效——无到期日，无需充值保号",
+      "免费收短信；中国大陆漫游实测可用",
+      "支持Visa/Mastercard/Google Pay；无需实名"
+    ]
+  },
+  "plans": [
+    {
+      "name": { "en": "Global plan (Estonia number)", "zh": "全球套餐（爱沙尼亚号码）" },
+      "data": { "en": "Pay per use (add-ons)", "zh": "按量计费（叠加包）" },
+      "validity": { "en": "Permanent, no expiry date", "zh": "永久，无到期日" },
+      "price": { "en": "From ~$5 (plan tiers vary)", "zh": "约5美元起（档位各异）" }
+    }
+  ],
+  "plansNote": {
+    "en": "Plan tiers and pricing vary on the esimplus.me storefront; entry per 2025-09 source review. 'Permanent' = no stated expiry, not a regulator-guaranteed lifetime.",
+    "zh": "套餐档位与价格以esimplus.me官网为准，入门价按2025-09源测评；「永久」指官方不设到期日，非监管担保。"
+  },
+  "pros": {
+    "en": [
+      "No keep-alive schedule at all — the only zero-maintenance option here",
+      "Free SMS receiving with an EU (Estonian) +372 number",
+      "Google Pay supported besides cards",
+      "QR code and number retrievable from the order page"
+    ],
+    "zh": [
+      "完全没有保号日程——本目录唯一的零维护选项",
+      "免费收短信，号码为欧盟（爱沙尼亚）+372",
+      "除银行卡外还支持Google Pay",
+      "二维码与号码在订单页随时可取"
+    ]
+  },
+  "cons": {
+    "en": [
+      "Marketplace product — number's fate tied to eSIM Plus's carrier deals",
+      "Calls, outgoing SMS and data are extra-cost add-ons",
+      "Requires an account (email login) unlike anonymous carrier checkouts",
+      "'Permanent' has no contractual regulator guarantee"
+    ],
+    "zh": [
+      "平台产品——号码存续取决于eSIM Plus的上游运营商协议",
+      "通话、发短信与流量均为额外计费叠加包",
+      "需邮箱注册账号，不像运营商官网可匿名下单",
+      "「永久」无监管层面的合同担保"
+    ]
+  },
+  "featured": false,
+  "updatedAt": "2026-08-21"
+}

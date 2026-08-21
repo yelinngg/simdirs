@@ -9,8 +9,8 @@
     "zh": "RedteaGO 是红茶移动（Redtea Mobile）旗下的消费者eSIM品牌，覆盖180+国家和地区。招牌不限量套餐可自选1–180天，每天刷新高速流量（基础版300 MB/日，尊享版10 GB/日），用尽后降速不限量；同时提供1–50 GB经典数据套餐，有效期最长15天。"
   },
   "details": {
-    "en": "What makes RedteaGO different is how the Unlimited Package is priced: you pay a flat day rate instead of buying a fixed-duration bundle, so a 9-day trip or a 41-day working holiday costs exactly what it should — no rounding up to the next preset package. Day rates vary by destination: roughly $0.70/day (300 MB/day basic) or $3.90/day (10 GB/day premium) in Japan, $4.90/day for the 10 GB tier in the USA, and around $4.50/day in the UK. If you burn through the daily allowance, speeds drop but data keeps flowing — handy for maps, messaging and email. Classic data-only bundles (1–50 GB, 1–15 days) suit short trips with predictable usage, and multi-country regional packages undercut buying each country separately. US-destination bundles with calling and SMS are also available for travellers who still need a reachable number.",
-    "zh": "RedteaGO 的差异化在于不限量套餐的计价方式：按天计费而非固定时长打包，9 天行程或 41 天打工度假都只按实际天数付费，不必向上凑整到预设套餐。日费因目的地而异：日本约 0.70 美元/天（基础版 300 MB/日）或 3.90 美元/天（尊享版 10 GB/日），美国 10 GB 档为 4.90 美元/天，英国约 4.50 美元/天。当日高速额度用尽后降速但不断网，地图、即时通讯和邮件不受影响。经典数据套餐（1–50 GB、1–15 天有效）适合用量可预估的短途行程；覆盖多国的区域套餐（如含日本及周边的亚洲包、美加包）比逐国单买更划算；美国方向还提供带通话与短信的套餐，适合需要保持号码可接听的旅行者。"
+    "en": "What makes RedteaGO different is how the Unlimited Package is priced: you pay a flat day rate instead of buying a fixed-duration bundle, so a 9-day trip or a 41-day working holiday costs exactly what it should — no rounding up to the next preset package. Day rates vary by destination: roughly $0.70/day (300 MB/day basic) or $3.90/day (10 GB/day premium) in Japan, $4.90/day for the 10 GB tier in the USA, and around $4.50/day in the UK. If you burn through the daily allowance, speeds drop but data keeps flowing — handy for maps, messaging and email. Classic data-only bundles (1–50 GB, 1–15 days) suit short trips with predictable usage, and multi-country regional packages undercut buying each country separately. US-destination bundles with calling and SMS are also available for travellers who still need a reachable number. Beyond travel data, RedteaGO also sells a keep-alive global eSIM (~$3 first year, $3.3/year renewal) that bundles an Austrian phone number with 100 MB and unlimited SMS receiving for 365 days — verified receiving SMS while roaming in mainland China; it must be activated within 3 months of purchase, and the yearly clock starts at activation.",
+    "zh": "RedteaGO 的差异化在于不限量套餐的计价方式：按天计费而非固定时长打包，9 天行程或 41 天打工度假都只按实际天数付费，不必向上凑整到预设套餐。日费因目的地而异：日本约 0.70 美元/天（基础版 300 MB/日）或 3.90 美元/天（尊享版 10 GB/日），美国 10 GB 档为 4.90 美元/天，英国约 4.50 美元/天。当日高速额度用尽后降速但不断网，地图、即时通讯和邮件不受影响。经典数据套餐（1–50 GB、1–15 天有效）适合用量可预估的短途行程；覆盖多国的区域套餐（如含日本及周边的亚洲包、美加包）比逐国单买更划算；美国方向还提供带通话与短信的套餐，适合需要保持号码可接听的旅行者。此外 RedteaGO 还提供保号向的全球 eSIM（首年约 3 美元，续期 3.3 美元/年）：自带奥地利号码+100MB流量+365天无限收短信，实测中国大陆漫游可正常收短信；须在购买后 3 个月内激活，有效期自激活起算。"
   },
   "bestFor": {
     "en": "Trips of unusual length (9, 12, 23 days...) where fixed 7/10/15-day bundles force overpaying, and travellers who want a daily throttled-unlimited safety net.",
@@ -88,6 +88,12 @@
       "data": { "en": "1–20 GB, includes US calls & SMS", "zh": "1–20 GB，含美国通话与短信" },
       "validity": { "en": "1–15 days", "zh": "1–15 天" },
       "price": { "en": "US$5.50 (1 GB) – US$29.90 (20 GB)", "zh": "5.50 美元（1 GB）– 29.90 美元（20 GB）" }
+    },
+    {
+      "name": { "en": "Global eSIM with Austrian number", "zh": "全球eSIM（自带奥地利号码）" },
+      "data": { "en": "100 MB + unlimited SMS receiving", "zh": "100 MB + 无限收短信" },
+      "validity": { "en": "365 days; activate within 3 months of purchase; renew at US$3.3/year", "zh": "365天；购买后3个月内激活；3.3美元/年续期" },
+      "price": { "en": "~US$3 (first year)", "zh": "约3美元（首年）" }
     }
   ],
   "plansNote": {
@@ -112,14 +118,16 @@
     "en": [
       "300 MB/day basic tier is tight for video or hotspot use",
       "Regional bundle lists mix several similarly named sub-products — check coverage before checkout",
-      "Fewer user reviews and less brand recognition than Airalo or Holafly in Western markets"
+      "Fewer user reviews and less brand recognition than Airalo or Holafly in Western markets",
+      "Austrian-number global eSIM must be activated within 3 months of purchase or it lapses"
     ],
     "zh": [
       "基础版 300 MB/日对看视频或开热点比较紧张",
       "区域套餐列表里多个子产品名称相近，下单前需核对覆盖范围",
-      "在欧美市场的用户评价和品牌知名度不及 Airalo、Holafly"
+      "在欧美市场的用户评价和品牌知名度不及 Airalo、Holafly",
+      "奥地利号码全球eSIM须在购买后3个月内激活，逾期作废"
     ]
   },
   "featured": false,
-  "updatedAt": "2026-08-18"
+  "updatedAt": "2026-08-21"
 }
