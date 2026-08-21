@@ -40,3 +40,34 @@ html {
     @apply font-semibold text-slate-900;
   }
 }
+
+/* Markdown-rendered provider overview (marked + set:html) */
+.prose-sim-body {
+  & p {
+    @apply text-pretty;
+  }
+  & p + p {
+    @apply mt-3;
+  }
+  & strong {
+    @apply font-semibold text-slate-900;
+  }
+  & em {
+    @apply italic;
+  }
+  & ul {
+    @apply my-3 list-disc space-y-1 pl-6;
+  }
+  & ol {
+    @apply my-3 list-decimal space-y-1 pl-6;
+  }
+  & a {
+    @apply font-medium text-indigo-600 underline underline-offset-2 hover:text-indigo-700;
+  }
+  & code {
+    @apply rounded bg-slate-100 px-1.5 py-0.5 text-sm text-indigo-700;
+  }
+  & h3 {
+    @apply mt-4 mb-1 text-base font-semibold text-slate-900;
+  }
+}
