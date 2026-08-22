@@ -1,0 +1,87 @@
+{
+  "name": {
+    "en": "Cellfie (Georgia)",
+    "zh": "Cellfie（格鲁吉亚）"
+  },
+  "tagline": {
+    "en": "Budget Georgian eSIM fine for local use — but roaming SMS reception fails outside the MyCellfie app",
+    "zh": "格鲁吉亚本地用的廉价 eSIM——漫游后除官方 App 验证码外短信基本收不到"
+  },
+  "description": {
+    "en": "Cellfie (rebranded from MagtiCom's consumer line in 2023, \"Cellfie Mobile\" LLC, Tbilisi) is one of Georgia's three mobile operators, alongside Magti and Silknet/Geocell. Prepaid eSIM numbers are cheap to start (~1 GEL top-up activates service) with local bundles from 7 GEL/month. However, field reports and Cellfie's own terms show a harsh validity model — 90 days of inactivity triggers a 0.50 GEL daily subscription fee until the balance hits zero, and the line drops as soon as it does — plus roaming behavior that makes it unusable as an overseas SMS-receiving backup number.",
+    "zh": "Cellfie（2023 年由 MagtiCom 消费品牌改组而来，Cellfie Mobile LLC，第比利斯）是格鲁吉亚三大运营商之一（另两家 Magti、Silknet/Geocell）。预付 eSIM 起步便宜（充值约 1 GEL 即可激活信号），本地套餐 7 GEL/月起。但官方条款与用户实测都指向严苛的号码有效期模型——90 天不活跃即每日扣 0.50 GEL 订阅费直到余额归零，余额一空信号立断——且漫游表现使其完全不适合当海外收码备用号。"
+  },
+  "details": {
+    "en": "Cellfie Mobile LLC (identification code 204450584, Bambis Rigi 8, Tbilisi) runs its own national network in Georgia. The consumer buy flow is fully online: cellfie.ge → Buy Number → eSIM, with QR activation standard iOS/Android. Local tariffs: Mini 7 GEL (1.5 GB), Pro 17 GEL (7 GB), Maxi 25 GEL (20 GB) per month. Roaming data passes are sold by zone: Europe 1 GB = 8 GEL/30 days up to 10 GB = 52 GEL, with zero-rated apps limited to Google Maps, WhatsApp, Messenger, Uber, Bolt and MyCellfie.\n\n**The validity trap (official terms)**: after 90 days without an outgoing/incoming call, service purchase, or similar transaction, a daily 0.50 GEL subscription fee is deducted \"until the balance is expired\" — the line then goes one-way restricted for 45 days, fully disconnected after that, and cancelled 10 days later. In roaming this bites faster: users report the signal dropping the moment the balance zeroes out, with no grace window.\n\n**Roaming SMS field report (2026-08)**: after activating with a 1 GEL top-up and roaming to China, only verification codes from the official MyCellfie app arrived; third-party SMS and calls from other services never delivered. A further $2 top-up changed nothing. The roaming pass design (zero-rating only Cellfie's own app ecosystem) matches this experience — the card is effectively a local-use product.\n\n**Verdict**: fine as a cheap in-Georgia number for travel or local registration; avoid as a low-cost overseas keep-alive/verification number — the number dies with the balance and roaming SMS delivery is unreliable outside Cellfie's own app. Sources: cellfie.ge tariff/roaming/validity pages + user field test, verified 2026-08-22.",
+    "zh": "Cellfie Mobile LLC（识别码 204450584，第比利斯 Bambis Rigi 8）运营格鲁吉亚自有全国网络。消费者购买流程全线上：cellfie.ge → Buy Number → eSIM，扫码激活。本地套餐：Mini 7 GEL（1.5GB）、Pro 17 GEL（7GB）、Maxi 25 GEL（20GB）/月。漫游流量包按区域卖：欧洲区 1GB=8 GEL/30天 到 10GB=52 GEL，免流 App 仅限 Google Maps、WhatsApp、Messenger、Uber、Bolt 和自家 MyCellfie。\n\n**有效期陷阱（官方条款原文）**：90 天内无主叫/被叫、无服务购买等交易，自第 91 天起每日扣 0.50 GEL 订阅费，\"until the balance is expired\"（扣到余额耗尽）——随后单向停机 45 天、双向停机、10 天后销号。漫游状态下更狠：用户实测余额一归零信号立即断开，没有缓冲期。\n\n**漫游收码实测（2026-08）**：充值 1 GEL 激活信号后漫游到中国，只有官方 MyCellfie App 的验证码能收到；第三方服务短信与来电均无法送达。追加充值 $2 无任何改善。漫游包只给自家 App 生态免流的设计与这个体验互相印证——它本质是本地化产品。\n\n**结论**：当格鲁吉亚旅行/本地注册的廉价号可以；当低成本海外保号/收码号请避开——余额断号加漫游收码不可靠，两条都是硬伤。来源：cellfie.ge 套餐/漫游/有效期页+用户实测，核验于 2026-08-22。"
+  },
+  "bestFor": {
+    "en": "Travelers staying in Georgia who want a cheap local +995 number",
+    "zh": "在格鲁吉亚本地停留、要一个便宜 +995 号码的旅行者"
+  },
+  "regions": ["asia"],
+  "coverage": 1,
+  "plansFrom": 3,
+  "dataFrom": "1.5 GB/month (Mini, 7 GEL)",
+  "validity": "90d activity rule, then 0.50 GEL/day fee until zero balance",
+  "network": "Cellfie Mobile (own network, ex-MagtiCom)",
+  "device": "esim",
+  "hotspot": true,
+  "rating": 2.8,
+  "website": "https://cellfie.ge/",
+  "features": {
+    "en": [
+      "Cheap entry: ~1 GEL top-up activates service",
+      "Fully online eSIM ordering with QR activation",
+      "Local bundles from 7 GEL/month (1.5 GB)",
+      "Roaming data passes for Europe/World zones"
+    ],
+    "zh": [
+      "起步便宜：充值约 1 GEL 即激活",
+      "eSIM 全线上下单、扫码激活",
+      "本地套餐 7 GEL/月起（1.5GB）",
+      "欧洲/世界区漫游流量包"
+    ]
+  },
+  "plans": [
+    {
+      "name": { "en": "eSIM activation (prepaid)", "zh": "eSIM 激活（预付）" },
+      "data": { "en": "Credit-based, no bundled data", "zh": "按量计费，无附带流量" },
+      "validity": { "en": "90-day activity rule applies", "zh": "适用 90 天活跃规则" },
+      "price": { "en": "from 1 GEL", "zh": "1 GEL 起" }
+    },
+    {
+      "name": { "en": "Mini (monthly)", "zh": "Mini（月套餐）" },
+      "data": { "en": "1.5 GB + on-net minutes", "zh": "1.5GB+网内通话" },
+      "validity": { "en": "30 days", "zh": "30 天" },
+      "price": { "en": "7 GEL", "zh": "7 GEL" }
+    },
+    {
+      "name": { "en": "Europe roaming pass", "zh": "欧洲漫游包" },
+      "data": { "en": "1 GB (zero-rated: Maps/WhatsApp/Messenger/Uber/Bolt/MyCellfie)", "zh": "1GB（免流：地图/WhatsApp/Messenger/Uber/Bolt/MyCellfie）" },
+      "validity": { "en": "30 days", "zh": "30 天" },
+      "price": { "en": "8 GEL", "zh": "8 GEL" }
+    }
+  ],
+  "cons": {
+    "en": [
+      "Roaming SMS: only MyCellfie app codes delivered; third-party SMS and calls fail (2026-08 China test)",
+      "Extra top-ups do not fix roaming SMS delivery",
+      "Signal drops immediately when balance zeroes out — no grace period",
+      "90 days of inactivity triggers 0.50 GEL/day fee until balance is gone, then number cancellation",
+      "Unusable as an overseas keep-alive or verification number"
+    ],
+    "zh": [
+      "漫游收码：仅 MyCellfie 官方 App 验证码可达，第三方短信与来电不通（2026-08 中国实测）",
+      "追加充值无法改善漫游收码",
+      "余额归零信号立即断开，无宽限期",
+      "90 天不活跃每日扣 0.50 GEL 至余额耗尽，随后销号",
+      "完全不能当海外保号/收码号用"
+    ]
+  },
+  "plansNote": {
+    "en": "Prices from cellfie.ge (tariffs, roaming, validity-of-number pages), verified 2026-08-22. Roaming SMS results are a single-user field test in China (2026-08); delivery varies by destination network, but the zero-balance cutoff and validity-fee rules are carrier terms.",
+    "zh": "价格来自 cellfie.ge（套餐/漫游/号码有效期页），核验于 2026-08-22。漫游收码为中国单用户实测（2026-08）；可达性因漫游网络而异，但余额断号与不活跃扣费为运营商官方条款。"
+  },
+  "updatedAt": "2026-08-22"
+}
