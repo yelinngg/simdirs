@@ -1,0 +1,122 @@
+{
+  "name": {
+    "en": "CelcomDigi Prepaid (Purple SIM)",
+    "zh": "CelcomDigi 紫卡预付卡"
+  },
+  "tagline": {
+    "en": "Malaysia's largest network: 95-country roaming passes, free SMS reception in China",
+    "zh": "马来西亚最大运营商：95国漫游包，中国漫游免费收短信"
+  },
+  "description": {
+    "en": "CelcomDigi prepaid (the classic \"purple SIM\") runs on Malaysia's largest merged Celcom-Digi network. The 30-Day Unlimited roaming pass (RM118, 3GB daily high-speed + unlimited 1Mbps) covers 95 countries including China, Hong Kong, Japan, Korea, US and UK. Receiving SMS while roaming in mainland China is free with zero balance — its core keep-alive value. Since the 2022-2023 merger, everything moved to celcomdigi.com, the CelcomDigi app, and *118#/*124# USSD menus.",
+    "zh": "CelcomDigi 预付卡（经典\"紫卡\"）运行在 Celcom 与 Digi 合并后的马来西亚最大网络上。30 天无限漫游包（RM118，每日 3GB 高速+无限 1Mbps）覆盖含中国、香港、日本、韩国、英美在内的 95 国。在中国大陆漫游接收短信免费、零余额即可收到——这是它保号场景的核心价值。2022-2023 合并后，所有操作迁移到 celcomdigi.com、CelcomDigi app 与 *118#/*124# 指令。"
+  },
+  "details": {
+    "en": "Celcom (founded 1988, Malaysia's oldest operator) merged with Digi to form CelcomDigi Berhad (reg. 425190-X), the country's largest carrier — 20M+ subscribers, 98% population coverage. Old purple prepaid SIMs keep working in the new system.\n\n**China roaming in practice**: SMS reception is free on insertion; data attaches to China Mobile / China Unicom 4G (5G requires prior local Malaysian activation). The classic APN trap survives: Androids defaulting to a \"celcom4g\" APN stick on EDGE — switch APN to celcom3g and toggle airplane mode. Voice is expensive (RM6/min incoming, up to RM12/min outgoing): treat it as a data-and-SMS card.\n\n**2026 roaming passes (one-time, prepaid-eligible)**: RM28/3 days 4GB (SG/ID/TH only); RM48/3 days, RM58/7 days (2GB daily), RM98/14 days, RM118/30 days (3GB daily, unlimited 1Mbps) — all covering 95 countries, each with 15 min voice and AeroMobile in-flight roaming. Postpaid 5G 120+ subscribers get 50% off and monthly options (RM40/30GB 3-country, RM70/80GB 95-country); prepaid is one-time-pass only.\n\n**Keep-alive rules changed post-merger**. Reload extends validity by amount: RM5=5d, RM10=10d, RM30=30d, RM50=50d, RM100=100d (Digi side: 120d). After credit expiry a 50-day grace period allows top-up only. Super Long Life extensions via *118#: RM1/1d, RM2/3d, RM8/15d (Celcom) and RM108/365d on Digi plans. Credit caps at RM1,000; reloads carry a 6% service tax.\n\n**eKYC is mandatory**: passport photo + liveness check at activation. Buy from sellers who complete registration with your own passport where possible — pre-registered SIMs carry reclaim risk. An un-eKYC'd SIM shows no signal in China; *124# responding confirms registration took. Sources: celcomdigi.com roaming pages + third-party tests, verified 2026-08-22.",
+    "zh": "Celcom（1988 年成立，马来西亚最老牌运营商）与 Digi 合并组建 CelcomDigi Berhad（注册号 425190-X），为马来西亚用户量最大的运营商——2000 万+用户、98% 人口覆盖。老紫卡在新体系下继续可用。\n\n**中国漫游实测**：插卡即免费收短信；数据走中国移动/联通 4G（5G 需先在马来西亚本地开通激活）。经典 APN 坑依旧存在：安卓默认 \"celcom4g\" APN 会卡 EDGE——改成 celcom3g 再开关飞行模式即可。通话很贵（接听 RM6/分钟、拨打最高 RM12/分钟），把它当流量+收码卡用。\n\n**2026 漫游包（一次性，预付可买）**：RM28/3天 4GB（仅新印泰）；RM48/3天、RM58/7天（每日 2GB）、RM98/14天、RM118/30天（每日 3GB+无限 1Mbps）——均覆盖 95 国，各含 15 分钟通话与 AeroMobile 机上漫游。后付 5G 120 及以上套餐半价且有月付选项（RM40/30GB 三国、RM70/80GB 95国）；预付只能买一次性包。\n\n**保号规则合并后已改**。充值按额延期：RM5=5天、RM10=10天、RM30=30天、RM50=50天、RM100=100天（Digi 侧 120 天）。余额过期后有 50 天宽限期（仅可充值）。Super Long Life 延期走 *118#：RM1/1天、RM2/3天、RM8/15天（Celcom 侧），Digi 套餐另有 RM108/365天。余额上限 RM1,000；充值含 6% 服务税。\n\n**eKYC 强制实名**：激活需护照拍照+人脸识别。尽量选用自己的护照完成注册的渠道——预实名的卡有被原持有人找回的风险。未完成 eKYC 的卡在国内无信号；*124# 能回即实名成功。来源：celcomdigi.com 漫游页+第三方实测，核验于 2026-08-22。"
+  },
+  "bestFor": {
+    "en": "Travelers wanting unlimited multi-country data on Malaysia's strongest network, plus a +60 number for SEA service registrations",
+    "zh": "要在马来西亚最强网络上用多国无限流量、并持有 +60 号码注册东南亚服务的用户"
+  },
+  "regions": ["asia"],
+  "coverage": 95,
+  "plansFrom": 6,
+  "dataFrom": "3GB/day roaming pass",
+  "validity": "50 days grace after credit expiry",
+  "network": "CelcomDigi (merged Celcom+Digi, 4G/5G)",
+  "device": "physical",
+  "hotspot": true,
+  "rating": 4.1,
+  "website": "https://www.celcomdigi.com/",
+  "features": {
+    "en": [
+      "Free SMS reception in mainland China",
+      "95-country unlimited roaming passes (3GB daily high-speed)",
+      "Super Long Life validity extensions via *118#",
+      "*124# balance & validity check",
+      "Malaysia's largest merged network"
+    ],
+    "zh": [
+      "中国大陆漫游免费收短信",
+      "95 国无限漫游包（每日 3GB 高速）",
+      "*118# Super Long Life 延期",
+      "*124# 查余额与有效期",
+      "马来西亚最大合并网络"
+    ]
+  },
+  "plans": [
+    {
+      "name": { "en": "3-Day Pass (SG/ID/TH)", "zh": "3天包（新印泰）" },
+      "data": { "en": "4GB high-speed", "zh": "4GB 高速" },
+      "validity": { "en": "3 days", "zh": "3天" },
+      "price": { "en": "RM28", "zh": "RM28" }
+    },
+    {
+      "name": { "en": "3-Day Unlimited Pass (95 countries)", "zh": "3天无限包（95国）" },
+      "data": { "en": "2GB/day high-speed + unlimited 1Mbps", "zh": "每日2GB高速+无限1Mbps" },
+      "validity": { "en": "3 days", "zh": "3天" },
+      "price": { "en": "RM48", "zh": "RM48" }
+    },
+    {
+      "name": { "en": "7-Day Unlimited Pass (95 countries)", "zh": "7天无限包（95国）" },
+      "data": { "en": "2GB/day high-speed + unlimited 1Mbps", "zh": "每日2GB高速+无限1Mbps" },
+      "validity": { "en": "7 days", "zh": "7天" },
+      "price": { "en": "RM58", "zh": "RM58" }
+    },
+    {
+      "name": { "en": "14-Day Unlimited Pass (95 countries)", "zh": "14天无限包（95国）" },
+      "data": { "en": "3GB/day high-speed + unlimited 1Mbps", "zh": "每日3GB高速+无限1Mbps" },
+      "validity": { "en": "14 days", "zh": "14天" },
+      "price": { "en": "RM98", "zh": "RM98" }
+    },
+    {
+      "name": { "en": "30-Day Unlimited Pass (95 countries)", "zh": "30天无限包（95国）" },
+      "data": { "en": "3GB/day high-speed + unlimited 1Mbps", "zh": "每日3GB高速+无限1Mbps" },
+      "validity": { "en": "30 days", "zh": "30天" },
+      "price": { "en": "RM118", "zh": "RM118" }
+    },
+    {
+      "name": { "en": "Keep-alive (reload-based)", "zh": "保号（充值延期）" },
+      "data": { "en": "Pay per use", "zh": "按需付费" },
+      "validity": { "en": "RM5=5d … RM100=100d (+50d grace)", "zh": "RM5=5天 … RM100=100天（另50天宽限）" },
+      "price": { "en": "from RM5, ~RM192/year via SLL", "zh": "RM5起，Super Long Life年约RM192" }
+    }
+  ],
+  "plansNote": {
+    "en": "Pass prices verified on celcomdigi.com/roaming (2026-08-22); validity rules per CelcomDigi prepaid T&C and Malaysian prepaid termination rules (50-day grace). RM1 ≈ USD 0.21.",
+    "zh": "漫游包价格核验自 celcomdigi.com/roaming（2026-08-22）；有效期规则依据 CelcomDigi 预付条款与马来西亚预付卡终止规则（50 天宽限期）。RM1 ≈ USD 0.21。"
+  },
+  "pros": {
+    "en": [
+      "Strongest network in Malaysia post-merger",
+      "Free SMS reception while roaming in China",
+      "95-country roaming footprint (was 57 pre-merger)",
+      "In-flight roaming included in every pass"
+    ],
+    "zh": [
+      "合并后马来西亚最强网络",
+      "中国漫游免费收短信",
+      "95 国漫游覆盖（合并前 57 国）",
+      "每个漫游包含机上漫游"
+    ]
+  },
+  "cons": {
+    "en": [
+      "Keep-alive costs rose sharply: the old RM1/50-day trick is gone",
+      "6% service tax on every reload; credit caps at RM1,000",
+      "5G roaming gated behind local Malaysian activation",
+      "Mandatory eKYC (passport + liveness) at activation",
+      "Expensive voice rates (RM6/min incoming while roaming)"
+    ],
+    "zh": [
+      "保号成本大涨：老的 RM1/50天 通道已消失",
+      "每次充值含 6% 服务税；余额上限 RM1,000",
+      "5G 漫游需先在马来西亚本地开通激活",
+      "激活强制 eKYC（护照+人脸识别）",
+      "漫游通话贵（接听 RM6/分钟）"
+    ]
+  },
+  "featured": false,
+  "updatedAt": "2026-08-22"
+}
