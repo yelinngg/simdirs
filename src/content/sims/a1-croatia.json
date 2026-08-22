@@ -1,0 +1,83 @@
+{
+  "name": {
+    "en": "A1 Croatia Prepaid eSIM",
+    "zh": "克罗地亚 A1 预付 eSIM"
+  },
+  "tagline": {
+    "en": "EUR 3 eSIM with credit back: a +385 number for low-frequency backup use, keep-alive at ~EUR 2 per cycle",
+    "zh": "EUR3 开卡还返余额：+385 备用号，每周期约 EUR2 保号"
+  },
+  "description": {
+    "en": "A1 Hrvatska (A1 Croatia) sells a prepaid eSIM with a new +385 number entirely online: EUR 3 on the SIM-promo page, QR code and number delivered by email, and the EUR 3 returned as account credit. First activation grants 180 days of full service; later top-ups extend 92 days per EUR 2, and after expiry a 270-day recharge window keeps the number reachable for calls and SMS. No ID upload was observed in practice, making it a popular low-cost backup number for overseas service sign-ups.",
+    "zh": "克罗地亚 A1（A1 Hrvatska）在线销售带新 +385 号码的预付 eSIM：SIM-promo 页 EUR3 下单，二维码与号码发到邮箱，EUR3 返还为话费余额。首次激活得 180 天正常使用期；后续每充 EUR2 延 92 天；到期后还有 270 天恢复窗口，窗口内可接电话/短信、可充值复活。实测开卡未见证件上传，是海外服务注册常用的低成本备用号。"
+  },
+  "details": {
+    "en": "A1 Hrvatska is the Croatian arm of A1 Group (Telekom Austria), running its own national network. The eSIM flow is fully online: a1.hr/privatni/mobiteli/sim-promo → \"Želim novi eSIM broj\" → pay EUR 3 (card / Apple Pay / Google Pay) → QR code + number arrive by email → scan to activate. The EUR 3 comes back as account credit, so the effective first-year cost is near zero beyond the initial outlay.\n\n**Validity mechanics (the part most guides get wrong)**: EUR 2 is NOT a 365-day extension. It buys 92 days of full service; after those lapse, a 270-day recharge window follows in which the number can still receive calls and SMS but cannot reliably originate traffic. 92 + 270 = 362 days per EUR 2 cycle — that arithmetic is the whole \"EUR 2 per year\" trick. For continuous full service, top up EUR 2 every ~80-90 days.\n\n**Top-up**: a1.hr/kupi-bon accepts custom amounts from EUR 2 (fixed vouchers EUR 5/10/15/20/35 with bonus MB online), paid by card, PayPal, Keks Pay or A1 account.\n\n**China roaming field test (2026-08-17)**: on China Mobile the SIM registered but could not receive SMS; on China Unicom, SMS from ChatGPT, Tiger Brokers and BIT arrived, while \"你好China\" failed. Reception depends on platform risk control and SMS routing — treat it as a receive-mostly backup line, never the sole number for banks, brokers or exchange accounts.\n\n**Practical notes**: no KYC upload observed at order time (rules can change; Croatian registration law still applies formally); eSIM can be activated while roaming abroad; device must support eSIM; moving the profile to another device requires deleting it from the old one first. Sources: a1.hr SIM-promo and kupi-bon pages + third-party tests, verified 2026-08-22.",
+    "zh": "A1 Hrvatska 是 A1 集团（奥地利电信旗下）的克罗地亚公司，运营自有全国网络。eSIM 流程全线上：a1.hr/privatni/mobiteli/sim-promo → 点 \"Želim novi eSIM broj\" → 支付 EUR3（信用卡/Apple Pay/Google Pay）→ 二维码+号码发到邮箱 → 扫码激活。EUR3 会返还为账户余额，首年实际成本近乎零。\n\n**有效期机制（多数攻略讲错的部分）**：EUR2 不是 365 天延期。它买的是 92 天正常使用期；到期后跟 270 天恢复窗口，窗口内号码仍可接听来电和短信，但不能稳定主叫/发短信/用数据。92+270=362 天——这就是\"EUR2 保一年\"的全部算术。要持续完整服务，每 80-90 天充一次 EUR2。\n\n**充值**：a1.hr/kupi-bon 支持自定义金额（最低实测 EUR2；固定档 EUR5/10/15/20/35 在线购送流量），支付方式含卡、PayPal、Keks Pay、A1 账户。\n\n**中国漫游实测（2026-08-17）**：中国移动有信号但收不到短信；中国联通可收 ChatGPT、老虎证券、BIT 的验证码，\"你好China\"收不到。能否收到取决于平台风控与短信通道——把它当\"以收为主\"的备用线，绝不做银行、券商、交易所的唯一手机号。\n\n**实用备注**：下单时未见 KYC 证件上传（规则可能变化，克罗地亚实名法规形式上仍适用）；eSIM 可在海外漫游状态激活；设备须支持 eSIM；换设备需先在旧设备删除配置文件。来源：a1.hr SIM-promo 与 kupi-bon 页面+第三方实测，核验于 2026-08-22。"
+  },
+  "bestFor": {
+    "en": "A near-free +385 backup number for non-critical overseas service sign-ups and pre-travel Croatia numbers",
+    "zh": "近乎零成本的 +385 备用号：海外服务非关键绑定、行前备好克罗地亚号码"
+  },
+  "regions": ["europe"],
+  "coverage": 1,
+  "plansFrom": 3,
+  "dataFrom": "pay-as-you-go data (no bundled GB)",
+  "validity": "180d on activation; +92d per EUR2; 270d recharge window",
+  "network": "A1 Hrvatska (own national network)",
+  "device": "esim",
+  "hotspot": true,
+  "rating": 3.8,
+  "website": "https://www.a1.hr/",
+  "features": {
+    "en": [
+      "EUR 3 eSIM with the amount returned as credit",
+      "Fully online ordering — QR code by email, no store visit",
+      "No ID upload observed at order time",
+      "+385 number usable for overseas service sign-ups",
+      "Custom top-ups from EUR 2 at a1.hr/kupi-bon"
+    ],
+    "zh": [
+      "EUR3 开卡金额返还为余额",
+      "全线上下单——二维码发邮箱，无需到店",
+      "实测下单未见证件上传",
+      "+385 号码可注册海外服务",
+      "a1.hr/kupi-bon 自定义金额充值（低至 EUR2）"
+    ]
+  },
+  "plans": [
+    {
+      "name": { "en": "New eSIM number", "zh": "eSIM 新号开卡" },
+      "data": { "en": "Credit-based (EUR 3 returned as balance)", "zh": "按量计费（EUR3 返还为余额）" },
+      "validity": { "en": "180 days on first activation", "zh": "首次激活 180 天" },
+      "price": { "en": "EUR 3", "zh": "EUR3" }
+    },
+    {
+      "name": { "en": "Keep-alive top-up (custom amount)", "zh": "保号充值（自定义金额）" },
+      "data": { "en": "Adds to existing balance", "zh": "累加到现有余额" },
+      "validity": { "en": "+92 days full service, then 270-day recharge window", "zh": "+92 天正常期，后接 270 天恢复窗口" },
+      "price": { "en": "EUR 2 (minimum tested)", "zh": "EUR2（实测最低）" }
+    }
+  ],
+  "cons": {
+    "en": [
+      "270-day window is receive-only, not full service",
+      "China Mobile roaming registered but received no SMS (2026-08 test)",
+      "SMS reception varies by platform risk control — unsuitable as sole number for banks/exchanges",
+      "Croatian SIM registration law formally applies; no-KYC status may change",
+      "EU roaming surcharges may apply on some data bundles"
+    ],
+    "zh": [
+      "270 天窗口只能接收，不是完整服务期",
+      "中国移动漫游实测有信号收不到短信（2026-08）",
+      "收码因平台风控而异——不适合做银行/交易所唯一号码",
+      "克罗地亚实名法规形式上适用，免 KYC 状态可能变化",
+      "部分流量套餐在欧盟漫游或有附加费"
+    ]
+  },
+  "plansNote": {
+    "en": "Prices from a1.hr SIM-promo and kupi-bon pages, verified 2026-08-22. EUR3 back-as-credit is a webshop promotion and may end. China roaming results are a single-round field test (2026-08-17), not a guarantee.",
+    "zh": "价格来自 a1.hr SIM-promo 与 kupi-bon 页面，核验于 2026-08-22。EUR3 返还是 webshop 促销，可能随时结束。中国漫游结果为单轮实测（2026-08-17），不构成保证。"
+  },
+  "updatedAt": "2026-08-22"
+}
