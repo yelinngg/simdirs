@@ -5,8 +5,9 @@ export const defaultLocale: Locale = 'en';
 /** Prefix a locale-stripped path with the locale route segment. */
 export function localePath(lang: Locale, path: string = '/'): string {
   const p = path.startsWith('/') ? path : `/${path}`;
-  if (lang === defaultLocale) return p;
-  return `/${lang}${p}`;
+  const withSlash = p.length > 1 && !p.endsWith('/') && !/\.[a-z0-9]+$/i.test(p) ? `${p}/` : p;
+  if (lang === defaultLocale) return withSlash;
+  return `/${lang}${withSlash}`;
 }
 
 /** Remove the locale prefix: `/zh/sims/x` → `/sims/x`, `/sims` → `/sims` */
