@@ -1,6 +1,6 @@
 ---
 lang: en
-title: "Japan Travel eSIM Guide 2026: KDDI/IIJ Routes, True Unlimited and Price Comparison"
+title: "Japan Travel eSIM Guide 2026: Best Networks & Prices"
 description: How to pick a Japan eSIM — verified KDDI 5G unlimited, IIJ throttled bundles and daily-refresh plans, matched to your trip length and usage.
 date: 2026-08-18
 tags: [japan, guide, esim]

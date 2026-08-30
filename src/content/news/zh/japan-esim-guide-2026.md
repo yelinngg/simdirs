@@ -1,6 +1,6 @@
 ---
 lang: zh
-title: 日本 eSIM 2026 完全指南：KDDI/IIJ 线路、真不限量与价格对比
+title: 日本 eSIM 2026 指南：线路与价格对比
 description: 日本旅行 eSIM 怎么选——已核验的 KDDI 5G 不限量、IIJ 降速包、按日刷新套餐价格，按天数与用量对号入座。
 date: 2026-08-18
 tags: [日本, 指南, esim]

@@ -24,6 +24,9 @@ const escape = (s) =>
 
 function svg({ title, subtitle, big = false }) {
   const titleSize = big ? 84 : 64;
+  // Long titles overflow the 1200px canvas — shrink the font until it fits
+  // (~0.56em average glyph width for bold sans).
+  const effSize = Math.max(40, Math.min(titleSize, Math.floor(1040 / (title.length * 0.56))));
   return `<svg width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
@@ -37,7 +40,7 @@ function svg({ title, subtitle, big = false }) {
   <circle cx="130" cy="580" r="180" fill="#ffffff" opacity="0.06"/>
   ${chip(80, 80, 1.6)}
   <text x="80" y="${big ? 400 : 350}" font-family="Arial, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif"
-        font-size="${titleSize}" font-weight="800" fill="#ffffff">${escape(title)}</text>
+        font-size="${effSize}" font-weight="800" fill="#ffffff">${escape(title)}</text>
   <text x="80" y="${big ? 480 : 440}" font-family="Arial, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif"
         font-size="34" fill="#c7d2fe">${escape(subtitle)}</text>
   <text x="80" y="560" font-family="Arial, 'Segoe UI', sans-serif"
@@ -65,4 +68,18 @@ for (const file of await readdir('src/content/sims')) {
     subtitle: `From $${Number(d.plansFrom).toFixed(2)} · ${d.coverage}+ countries · ${d.network}`,
     big: true,
   });
+}
+
+// News posts: per-post OG image (title + date), wired via NewsDetailView.
+// ZH and EN share one image keyed by slug — the EN title renders on it.
+for (const file of await readdir('src/content/news/en')) {
+  if (!file.endsWith('.md')) continue;
+  const slug = file.replace('.md', '');
+  const raw = await readFile(`src/content/news/en/${file}`, 'utf8');
+  const fm = raw.match(/^---\n([\s\S]*?)\n---/);
+  if (!fm) continue;
+  const title = (fm[1].match(/^title:\s*"?(.+?)"?\s*$/m) || [])[1];
+  const date = (fm[1].match(/^date:\s*(\S+)/) || [])[1] || '';
+  if (!title) continue;
+  await render(`news-${slug}`, { title, subtitle: `SimDirs · ${date}` });
 }

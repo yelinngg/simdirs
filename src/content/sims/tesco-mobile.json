@@ -13,7 +13,7 @@
   },
   "details": {
     "en": "Tesco Mobile's profile is retail-brand trust on O2 infrastructure: 99% 4G coverage claim with 5G, monthly and PAYG plans, and a keep-alive cadence of one usage record per 6 months.\n\nThe friction is eSIM onboarding: the site cannot sell eSIM directly — you order a plan bundled with a physical SIM (entry around £10/12GB), then convert inside the account/app afterwards. That makes it the least eSIM-friendly of the reviewed UK options and awkward for buyers outside the UK who cannot easily receive a physical card.\n\nOnce converted, it behaves like the other budget MVNOs: priority below O2's own subscribers, monthly-or-PAYG flexibility, and a China-roaming story the source review does not emphasise — group it with the low-cost/flexible tier rather than the China-roaming specialists.",
-    "zh": "Tesco Mobile的卖点是零售品牌信任度+O2网络设施：宣称4G覆盖99%人口并支持5G，月付与Paygo并存，保号节奏为每6个月一次使用记录。\n\n摩擦在eSIM入手：官网不能直接卖eSIM——须先订购搭配实体SIM的套餐（入门约10英镑/12GB），之后在账户/App内转换。这使它成为本轮英国选项中对eSIM最不友好的一个，对不在英国、难收实体卡的用户尤其别扭。\n\n转换后与其他低价虚商无异：优先级低于O2本网用户、月付/Paygo灵活，源盘点也未强调其中国漫游能力——归入「低价灵活」梯队而非回国漫游专用梯队。"
+    "zh": "Tesco Mobile 的卖点是零售品牌信任度加 O2 网络设施：宣称 4G 人口覆盖 99% 并支持 5G，月付与 Paygo 并存，保号节奏也宽松——每 6 个月有一次使用记录即可。\n\n主要摩擦在 eSIM 入手：官网不能直接售卖 eSIM——必须先订购搭配实体 SIM 的套餐（入门约 10 英镑/12GB），收卡激活后再在账户或 App 内转换为 eSIM。这使它成为本轮英国选项中对 eSIM 最不友好的一个：人身处英国之外、收实体卡困难的话，基本可以放弃这条路。\n\n转换完成后它与其他低价虚商无异：流量优先级低于 O2 本网用户，月付/Paygo 灵活切换，源盘点也未强调其中国漫游能力——归入「低价灵活」梯队，而非回国漫游专用梯队。\n\n适合的场景：人就在英国（或能收到英国邮寄的实体卡）、想要大品牌背书的低成本号码；云居民回国场景请直接看 giffgaff/CTExcel/CMLink。"
   },
   "bestFor": {
     "en": "UK-based shoppers who like the Tesco brand and can do the physical-SIM-to-eSIM conversion.",

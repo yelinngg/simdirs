@@ -29,7 +29,9 @@ export default defineConfig({
     plugins: [tailwindcss()],
   },
   integrations: [
-    sitemap(),
+    // lastmod MUST be a Date object — a string logs "[WARN] Invalid input:
+    // expected date…" and emits ZERO lastmod tags (verified on aixcove).
+    sitemap({ lastmod: new Date() }),
     compress(),
     indexnow({
       key: process.env.INDEXNOW_KEY ?? INDEXNOW_KEY,

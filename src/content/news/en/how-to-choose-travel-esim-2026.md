@@ -1,6 +1,6 @@
 ---
 lang: en
-title: "How to Choose a Travel eSIM in 2026: Match the Plan to Your Trip Type"
+title: "How to Choose a Travel eSIM in 2026 (by Trip Type)"
 description: City break, multi-country hop, remote-work month, or minimal safety net — the best eSIM strategy for four typical trip shapes, with verified price ranges.
 date: 2026-08-18
 tags: [guide, buying-guide, esim]

@@ -29,10 +29,22 @@ export default {
         return Response.redirect(dest.href, r.code);
       }
     }
-    // normal traffic -> static assets; guard against missing binding so a
-    // config regression 500s loudly in tail instead of silently.
+    // normal traffic -> static assets; binding must be declared
+    // in wrangler.jsonc (assets.binding = "ASSETS") + run_worker_first = true.
     if (env && env.ASSETS && typeof env.ASSETS.fetch === "function") {
-      return env.ASSETS.fetch(request);
+      // Static-asset 307s (no-slash -> slash) are temporary by default; make
+      // them permanent 301s so crawlers consolidate link equity on one form.
+      const res = await env.ASSETS.fetch(request);
+      if (res.status === 307 || res.status === 302) {
+        const loc = res.headers.get("Location");
+        if (loc) {
+          return new Response(null, {
+            status: 301,
+            headers: { Location: loc, "Cache-Control": "public, max-age=3600" },
+          });
+        }
+      }
+      return res;
     }
     return new Response(
       "asset binding unavailable — check wrangler.jsonc assets.binding",

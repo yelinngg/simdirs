@@ -13,7 +13,7 @@
   },
   "details": {
     "en": "Three matters here as one of the four UK MNOs: its merger with Vodafone UK is completed, reshaping the UK market, and its network hosts iD Mobile as MVNO. For eSIM buyers the quirk is channel-based pricing: the storefront's best PAYG deal is £10/month for 60GB, while CS-only monthly plans at £7 (unlimited calls/texts, 3GB) and £8 (unlimited calls/texts, 8GB) are not published — you must chat with customer service to order them. Account login needs a Three UK number besides email/password.\n\nKeep-alive for PAYG numbers: one charged event of any amount (an SMS or a call both count) per 180 days. Best suited to users physically in the UK/EU wanting big data on a top-tier network; the source review flags Three for heavy UK/EU data users rather than China-roaming cloud residents, and notes remote-area coverage as its weak spot.",
-    "zh": "Three的价值在于它是英国四大实体运营商之一：与Vodafone英国的合并已完成，重塑英国市场格局，iD Mobile作为虚商挂在其网络上。对eSIM买家而言特别之处是渠道定价：官网最划算的Paygo是60GB/10英镑/月，而7英镑（无限通话短信+3GB）与8英镑（无限通话短信+8GB）的月付官网不挂出，必须找人工客服才能办理。账户登录除邮箱密码外还需一个Three UK号码。\n\nPaygo保号：每180天内一次任意金额计费（发条短信或打个电话都算）。最适合人在英国/欧盟、想要一线网络大流量的用户；源盘点认为Three适合英国与欧盟大流量需求者而非中国漫游云居民，并指出偏远地区覆盖是其弱项。"
+    "zh": "Three 的价值在于它是英国四大实体运营商（MNO）之一：与 Vodafone 英国的合并已完成，英国市场格局因此重塑，iD Mobile 等虚商就挂在其网络上——网络规格本身是一线水平。\n\n对 eSIM 买家而言它的特别之处是渠道定价：官网最划算的 Paygo 是 10 英镑/月含 60GB，而 7 英镑（无限通话短信+3GB）与 8 英镑（无限通话短信+8GB）的月付套餐官网并不挂出，必须找人工客服才能办理。另外账户登录除邮箱密码外还需要一个 Three UK 号码，纯新用户首次开通要走套餐页流程。\n\nPaygo 保号：每 180 天内一次任意金额的计费事件（发条短信或打个电话都算）即可续期，保号成本是短信级。\n\n适合谁：人在英国/欧盟、想要一线网络大流量的用户；源盘点认为 Three 适合英国与欧盟大流量需求者，而非中国漫游云居民，并指出偏远地区覆盖是其弱项——回国场景请看 giffgaff/CTExcel/CMLink。"
   },
   "bestFor": {
     "en": "Heavy UK/EU data users who don't mind contacting CS to unlock the cheaper monthly plans.",
