@@ -28,14 +28,39 @@ const alternates = translation
   ? { [otherLang]: path }
   : { [otherLang]: null };
 
+const articleUrl = new URL(localePath(lang, path), Astro.site).href;
+const articleImage = new URL(`/og/news-${slug}.png`, Astro.site).href;
+const publisher = {
+  '@type': 'Organization',
+  name: tr.site.name,
+  url: new URL(localePath(lang, '/'), Astro.site).href,
+  logo: {
+    '@type': 'ImageObject',
+    url: new URL('/favicon.svg', Astro.site).href,
+  },
+};
+
 const articleLd = {
   '@context': 'https://schema.org',
   '@type': 'NewsArticle',
   headline: entry.data.title,
   description: entry.data.description,
   datePublished: entry.data.date.toISOString(),
+  dateModified: entry.data.date.toISOString(),
   inLanguage: lang,
-  mainEntityOfPage: new URL(localePath(lang, path), Astro.site).href,
+  url: articleUrl,
+  mainEntityOfPage: {
+    '@type': 'WebPage',
+    '@id': articleUrl,
+  },
+  image: {
+    '@type': 'ImageObject',
+    url: articleImage,
+    width: 1200,
+    height: 630,
+  },
+  author: publisher,
+  publisher,
 };
 
 const breadcrumbLd = {
