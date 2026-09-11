@@ -8,8 +8,14 @@ const HOST_REDIR = [
 // EN is the default locale at "/", so /en and /en/ have no page. Bing has
 // been probing both (4xx crawl noise since launch); 301 them to the correct
 // canonical instead of serving the assets 404.
+// 2026-09-11: legacy /post/* URLs still holding Bing impressions (12i total)
+// were 404ing after the content restructure; mapped to the closest live page.
 const PATH_REDIR = [
   { prefix: "/en", code: 301 },
+  { from: "/post/hong-kong-sim-card-esim-guide-2026", to: "/sims/3hk-diy/", code: 301 },
+  { from: "/post/united-kingdom-sim-card-esim-guide-2026", to: "/sims/giffgaff/", code: 301 },
+  { from: "/post/united-states-sim-card-esim-guide-2026", to: "/news/how-to-choose-travel-esim-2026/", code: 301 },
+  { from: "/post/eskimo-esim-review", to: "/sims/", code: 301 },
 ];
 
 export default {
@@ -22,6 +28,13 @@ export default {
       }
     }
     for (const r of PATH_REDIR) {
+      // exact-match entries first (from+to), then prefix entries
+      if (r.from) {
+        if (url.pathname === r.from) {
+          return Response.redirect(new URL(r.to, "https://simdirs.com").href, r.code);
+        }
+        continue;
+      }
       // match "/en" exactly or any "/en/..." path; strip the segment
       if (url.pathname === r.prefix || url.pathname.startsWith(r.prefix + "/")) {
         const rest = url.pathname.slice(r.prefix.length);
