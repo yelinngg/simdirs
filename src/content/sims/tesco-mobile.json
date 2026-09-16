@@ -8,12 +8,12 @@
     "zh": "O2网络英国虚商——每半年使用保号，eSIM须先实体卡再转换"
   },
   "description": {
-    "en": "Tesco Mobile is a 50/50 JV between retailer Tesco and O2, running on O2's network (99% 4G population coverage, 5G supported) across the UK, Ireland, Slovakia and Czechia. Entry eSIM route: order a plan bundled with a physical SIM (plans from £6/6GB; the ~£9.50-10/12GB tier is the common pick), then convert to eSIM — the website does not support direct eSIM selection. Keep-alive: one usage record every 6 months. Keep-alive is a hard rule, not a perk: per Tesco Mobile's official terms, no usage for six months or more means disconnection and possible loss of the number and remaining credit.",
-    "zh": "Tesco Mobile是零售巨头Tesco与O2各持股50%的合资虚商，走O2网络（4G覆盖99%人口，支持5G），在英国、爱尔兰、斯洛伐克和捷克提供服务。入门路径：订购带实体SIM的套餐（£6/6GB 起，12GB 档约 £9.50-10），再转换为eSIM——官网不支持在线直接选eSIM。保号：每6个月内有一次使用记录（拨打电话、发短信、计费通信等）。 注意：6个月保号是官方硬性条款而非福利——超过6个月无使用会被断开，可能失去号码与余额（官方条款原文）。"
+    "en": "Tesco Mobile is a 50/50 JV between retailer Tesco and O2, running on O2's network (99% 4G population coverage, 5G supported) across the UK, Ireland, Slovakia and Czechia. Entry eSIM route: order a plan bundled with a physical SIM (PAYG Essentials 30-day bundles: £5/500MB, £10/10GB, £15/25GB, £20/50GB, £30/100GB), then convert to eSIM — the website does not support direct eSIM selection. Keep-alive: one usage record every 6 months. Keep-alive is a hard rule, not a perk: per Tesco Mobile's official terms, no usage for six months or more means disconnection and possible loss of the number and remaining credit.",
+    "zh": "Tesco Mobile是零售巨头Tesco与O2各持股50%的合资虚商，走O2网络（4G覆盖99%人口，支持5G），在英国、爱尔兰、斯洛伐克和捷克提供服务。入门路径：订购带实体SIM的套餐（PAYG Essentials 30天套餐：£5/500MB、£10/10GB、£15/25GB、£20/50GB、£30/100GB），再转换为eSIM——官网不支持在线直接选eSIM。保号：每6个月内有一次使用记录（拨打电话、发短信、计费通信等）。 注意：6个月保号是官方硬性条款而非福利——超过6个月无使用会被断开，可能失去号码与余额（官方条款原文）。"
   },
   "details": {
-    "en": "Tesco Mobile's profile is retail-brand trust on O2 infrastructure: 99% 4G coverage claim with 5G, monthly and PAYG plans, and a keep-alive cadence of one usage record per 6 months.\n\nThe friction is eSIM onboarding: the site cannot sell eSIM directly — you order a plan bundled with a physical SIM (entry from £6/6GB; the ~£9.50-10/12GB tier is the common pick), then convert inside the account/app afterwards. That makes it the least eSIM-friendly of the reviewed UK options and awkward for buyers outside the UK who cannot easily receive a physical card.\n\nOnce converted, it behaves like the other budget MVNOs: priority below O2's own subscribers, monthly-or-PAYG flexibility, and a China-roaming story the source review does not emphasise — group it with the low-cost/flexible tier rather than the China-roaming specialists. Note: the 6-month keep-alive is an official disconnection rule - after six months without usage Tesco Mobile may disconnect the number and keep any remaining credit.",
-    "zh": "Tesco Mobile 的卖点是零售品牌信任度加 O2 网络设施：宣称 4G 人口覆盖 99% 并支持 5G，月付与 Paygo 并存，保号节奏也宽松——每 6 个月有一次使用记录即可。\n\n主要摩擦在 eSIM 入手：官网不能直接售卖 eSIM——必须先订购搭配实体 SIM 的套餐（£6/6GB 起，12GB 档约 £9.50-10），收卡激活后再在账户或 App 内转换为 eSIM。这使它成为本轮英国选项中对 eSIM 最不友好的一个：人身处英国之外、收实体卡困难的话，基本可以放弃这条路。\n\n转换完成后它与其他低价虚商无异：流量优先级低于 O2 本网用户，月付/Paygo 灵活切换，源盘点也未强调其中国漫游能力——归入「低价灵活」梯队，而非回国漫游专用梯队。\n\n适合的场景：人就在英国（或能收到英国邮寄的实体卡）、想要大品牌背书的低成本号码；云居民回国场景请直接看 giffgaff/CTExcel/CMLink。 注意：6个月保号是官方断开条款——超过6个月无使用可能被断开号码并失去余额（Tesco Mobile 官方条款）。"
+    "en": "Tesco Mobile's profile is retail-brand trust on O2 infrastructure: 99% 4G coverage claim with 5G, monthly and PAYG plans, and a keep-alive cadence of one usage record per 6 months.\n\nThe friction is eSIM onboarding: the site cannot sell eSIM directly — you order a plan bundled with a physical SIM (PAYG Essentials from £5/500MB up to £30/100GB, all 30-day bundles), then convert inside the account/app afterwards. That makes it the least eSIM-friendly of the reviewed UK options and awkward for buyers outside the UK who cannot easily receive a physical card.\n\nOnce converted, it behaves like the other budget MVNOs: priority below O2's own subscribers, monthly-or-PAYG flexibility, and a China-roaming story the source review does not emphasise — group it with the low-cost/flexible tier rather than the China-roaming specialists. Note: the 6-month keep-alive is an official disconnection rule - after six months without usage Tesco Mobile may disconnect the number and keep any remaining credit.",
+    "zh": "Tesco Mobile 的卖点是零售品牌信任度加 O2 网络设施：宣称 4G 人口覆盖 99% 并支持 5G，月付与 Paygo 并存，保号节奏也宽松——每 6 个月有一次使用记录即可。\n\n主要摩擦在 eSIM 入手：官网不能直接售卖 eSIM——必须先订购搭配实体 SIM 的套餐（PAYG Essentials 从 £5/500MB 到 £30/100GB，均为 30 天套餐），收卡激活后再在账户或 App 内转换为 eSIM。这使它成为本轮英国选项中对 eSIM 最不友好的一个：人身处英国之外、收实体卡困难的话，基本可以放弃这条路。\n\n转换完成后它与其他低价虚商无异：流量优先级低于 O2 本网用户，月付/Paygo 灵活切换，源盘点也未强调其中国漫游能力——归入「低价灵活」梯队，而非回国漫游专用梯队。\n\n适合的场景：人就在英国（或能收到英国邮寄的实体卡）、想要大品牌背书的低成本号码；云居民回国场景请直接看 giffgaff/CTExcel/CMLink。 注意：6个月保号是官方断开条款——超过6个月无使用可能被断开号码并失去余额（Tesco Mobile 官方条款）。"
   },
   "bestFor": {
     "en": "UK-based shoppers who like the Tesco brand and can do the physical-SIM-to-eSIM conversion.",
@@ -23,8 +23,8 @@
     "europe"
   ],
   "coverage": 1,
-  "plansFrom": 10,
-  "dataFrom": "12GB",
+  "plansFrom": 5,
+  "dataFrom": "500MB",
   "validity": "6 months per activity",
   "network": "O2 (4G/5G)",
   "device": "both",
@@ -48,26 +48,26 @@
   "plans": [
     {
       "name": {
-        "en": "Entry plan (with physical SIM)",
-        "zh": "入门套餐（含实体卡）"
+        "en": "PAYG Essentials (entry bundle)",
+        "zh": "PAYG Essentials（入门套餐）"
       },
       "data": {
-        "en": "12GB",
-        "zh": "12GB"
+        "en": "500MB – 100GB (Essentials tiers)",
+        "zh": "500MB – 100GB（Essentials 各档）"
       },
       "validity": {
-        "en": "Monthly; 6-month activity keep-alive",
-        "zh": "按月；每半年使用保号"
+        "en": "30-day bundles; 6-month activity keep-alive",
+        "zh": "30天套餐；每半年使用保号"
       },
       "price": {
-        "en": "£10",
-        "zh": "10英镑"
+        "en": "£5/500MB → £10/10GB → £15/25GB → £20/50GB → £30/100GB",
+        "zh": "£5/500MB → £10/10GB → £15/25GB → £20/50GB → £30/100GB"
       }
     }
   ],
   "plansNote": {
-    "en": "Plan terms per Tesco Mobile official site (2026-03 review); eSIM requires post-purchase conversion.",
-    "zh": "套餐口径按Tesco Mobile官网（2026-03盘点）；eSIM需购后转换。"
+    "en": "PAYG Essentials tiers per Tesco Mobile official help page (2026-09 re-verify); eSIM requires post-purchase conversion.",
+    "zh": "PAYG Essentials 梯度按Tesco Mobile官方帮助页（2026-09复核）；eSIM需购后转换。"
   },
   "pros": {
     "en": [
@@ -94,5 +94,5 @@
     ]
   },
   "featured": false,
-  "updatedAt": "2026-08-21"
+  "updatedAt": "2026-09-16"
 }

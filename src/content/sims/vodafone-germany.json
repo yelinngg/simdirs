@@ -8,12 +8,12 @@
     "zh": "免费申请的德国eSIM（护照AutoID认证）——年保号约20欧元，欧盟号码"
   },
   "description": {
-    "en": "Vodafone Germany's CallYa prepaid eSIM is free to apply for: fill a German address on the official page, verify email, then complete passport KYC via the POSTIDENT app (AutoID video self-check, ~3-4h review). No bank card or IBAN binding required — rare in Europe. Keep-alive: any balance change per 90 days (€5 manual top-up works, PayPal/card), about €20/year. In mainland China, receiving SMS is free; calls and data are prohibitively priced.",
-    "zh": "Vodafone德国的CallYa预付费eSIM免费申请：官网填写德国地址、邮箱验证，再用POSTIDENT App完成护照实名（AutoID自助视频认证，审核约3-4小时）。全程无需绑卡或IBAN——在欧洲已属罕见。保号：每90天内一次余额变动（手动充€5即可，支持PayPal/信用卡），年约€20。中国大陆漫游收短信免费；通话与数据资费极高。"
+    "en": "Vodafone Germany's CallYa prepaid eSIM is free to apply for: fill a German address on the official page, verify email, then complete passport KYC via the POSTIDENT app (AutoID video self-check, ~3-4h review). No bank card or IBAN binding required — rare in Europe. Keep-alive: any balance change per 90 days (€5 manual top-up works, PayPal/card), about €20/year (per the 2026-01 review; not re-confirmable on public pages as of 2026-09 — official copy frames non-top-up as an automatic tariff pause, with the definitive terms in the CallYa price-list PDF). In mainland China, receiving SMS is free; calls and data are prohibitively priced.",
+    "zh": "Vodafone德国的CallYa预付费eSIM免费申请：官网填写德国地址、邮箱验证，再用POSTIDENT App完成护照实名（AutoID自助视频认证，审核约3-4小时）。全程无需绑卡或IBAN——在欧洲已属罕见。保号：每90天内一次余额变动（手动充€5即可，支持PayPal/信用卡），年约€20（2026-01盘点口径；2026-09公开页无法复核——官方文案称不充值仅“套餐自动暂停”，最终权威以CallYa资费PDF为准）。中国大陆漫游收短信免费；通话与数据资费极高。"
   },
   "details": {
-    "en": "German CallYa is currently the only 'zero-cost application + ultra-low keep-alive' eSIM left in the European market, per the 2026-01 source review: most European operators now demand payment-method verification, monthly fees or steep activation charges (the earlier Ireland eSIM route has expired).\n\nApplication: open the CallYa Classic form on vodafone.de, choose eSIM, enter a German address (Google Maps), verify email, create a password — then passport KYC via POSTIDENT: install the app, scan the on-screen QR, follow prompts (AutoID selfie video). Review took the reviewer ~4 hours plus one re-verification before the confirmation email arrived; ~20 minutes later another email with the eSIM QR (password-protected; includes number and PIN).\n\nActivation on native-eSIM phones scans that QR directly; others use blank eSIM chips via EasyEUICC (Android; iOS first-write needs an Android device or PC).\n\nKeep-alive: any account balance change per 90 days — manual €5 top-ups via MeinVodafone app or the website (PayPal or credit card; third-party top-up services also work) put the year at ~€20, and if a balance already sits in the account, occasional small consumption alone can keep it alive for less.\n\nChina roaming rates: receiving SMS free; sending SMS to mainland €0.84/message; calls €4.32/min out, €0.96/min in; data €0.58/50KB (≈€11.6/MB) — effectively data- and call-unusable; check balance free via *100#. In Germany/EU: €0.09/min calls, free incoming, €0.03/MB data — get a data pass in-app for real usage.\n\nCaveats: a German IP during application improves pass rates; the address need not be your own (any real address works); passport KYC means an identity document is on file with the carrier — weigh privacy accordingly; and POSTIDENT review times vary.",
-    "zh": "德国CallYa是2026-01源盘点口径下欧洲仅存的「零成本申请+超低保号」eSIM：多数欧洲运营商已要求支付方式验证、月租或高额开卡费（此前的爱尔兰eSIM路线已失效）。\n\n申请：打开vodafone.de的CallYa Classic表单、选eSIM、填德国地址（Google地图上找即可）、邮箱验证、创建密码——随后走POSTIDENT护照实名：装App、扫网页二维码、按提示完成AutoID自拍视频认证。源测评中审核等了约4小时并做了一次二次认证才收到确认邮件；约20分钟后收到带密码的eSIM二维码邮件（内含号码与PIN）。\n\n原生eSIM手机直接扫码激活；其他设备用eSIM白板芯片+EasyEUICC（安卓；iOS首次写卡需安卓设备或电脑辅助）。\n\n保号：每90天内一次账户余额变动——通过MeinVodafone App或官网手动充€5即可（PayPal或信用卡，也有第三方代充），一年约€20；若账户已有余额，仅靠偶尔小额消费变动余额，年均成本还能更低。\n\n中国漫游资费：收短信免费；发短信至内地0.84欧/条；拨打4.32欧/分钟、接听0.96欧/分钟；数据0.58欧/50KB（约11.6欧/MB）——通话与数据实际不可用；*100#查余额免费。德国本地面：通话0.09欧/分钟、接听免费、数据0.03欧/MB——真实上网建议在App内临时订流量包。\n\n注意：申请时用德国IP提高通过率；地址无需自有（任意真实地址即可）；护照实名意味着身份文件留存在运营商处，隐私需自行权衡；POSTIDENT审核时长不稳定。"
+    "en": "German CallYa is currently the only 'zero-cost application + ultra-low keep-alive' eSIM left in the European market, per the 2026-01 source review: most European operators now demand payment-method verification, monthly fees or steep activation charges (the earlier Ireland eSIM route has expired).\n\nApplication: open the CallYa Classic form on vodafone.de, choose eSIM, enter a German address (Google Maps), verify email, create a password — then passport KYC via POSTIDENT: install the app, scan the on-screen QR, follow prompts (AutoID selfie video). Review took the reviewer ~4 hours plus one re-verification before the confirmation email arrived; ~20 minutes later another email with the eSIM QR (password-protected; includes number and PIN).\n\nActivation on native-eSIM phones scans that QR directly; others use blank eSIM chips via EasyEUICC (Android; iOS first-write needs an Android device or PC).\n\nKeep-alive: any account balance change per 90 days — manual €5 top-ups via MeinVodafone app or the website (PayPal or credit card; third-party top-up services also work) put the year at ~€20, and if a balance already sits in the account, occasional small consumption alone can keep it alive for less. (Status 2026-09-16: this rule could not be re-confirmed on public pages — the only '90 Tage' text on the order form concerns porting windows, and the travel-eSIM page says 'Lädst Du nicht auf, pausiert Dein Tarif automatisch' [not topping up auto-pauses the tariff]; nothing contradicts the 90-day rule, whose definitive source is the CallYa price list PDF. Also note the CallYa tariff itself cycles every 28 days unless you top up or switch — treat the 90-day balance-change rule as the keep-alive practice and re-verify against the PDF.)\n\nChina roaming rates: receiving SMS free; sending SMS to mainland €0.84/message; calls €4.32/min out, €0.96/min in; data €0.58/50KB (≈€11.6/MB) — effectively data- and call-unusable; check balance free via *100#. In Germany/EU: €0.09/min calls, free incoming, €0.03/MB data — get a data pass in-app for real usage.\n\nCaveats: a German IP during application improves pass rates; the address need not be your own (any real address works); passport KYC means an identity document is on file with the carrier — weigh privacy accordingly; and POSTIDENT review times vary.",
+    "zh": "德国CallYa是2026-01源盘点口径下欧洲仅存的「零成本申请+超低保号」eSIM：多数欧洲运营商已要求支付方式验证、月租或高额开卡费（此前的爱尔兰eSIM路线已失效）。\n\n申请：打开vodafone.de的CallYa Classic表单、选eSIM、填德国地址（Google地图上找即可）、邮箱验证、创建密码——随后走POSTIDENT护照实名：装App、扫网页二维码、按提示完成AutoID自拍视频认证。源测评中审核等了约4小时并做了一次二次认证才收到确认邮件；约20分钟后收到带密码的eSIM二维码邮件（内含号码与PIN）。\n\n原生eSIM手机直接扫码激活；其他设备用eSIM白板芯片+EasyEUICC（安卓；iOS首次写卡需安卓设备或电脑辅助）。\n\n保号：每90天内一次账户余额变动——通过MeinVodafone App或官网手动充€5即可（PayPal或信用卡，也有第三方代充），一年约€20；若账户已有余额，仅靠偶尔小额消费变动余额，年均成本还能更低。（2026-09-16状态：该规则无法在公开页复核——订购表单上唯一的“90 Tage”是携号转网窗口，travel-eSIM页则称“不充值套餐自动暂停”；无任何来源与90天规则矛盾，权威出处是CallYa资费PDF。另注意CallYa资费本身以28天为周期，不充值即“暂停”而非立即销号——90天余额变动规则作为保号实践沿用，建议对照PDF复核。）\n\n中国漫游资费：收短信免费；发短信至内地0.84欧/条；拨打4.32欧/分钟、接听0.96欧/分钟；数据0.58欧/50KB（约11.6欧/MB）——通话与数据实际不可用；*100#查余额免费。德国本地面：通话0.09欧/分钟、接听免费、数据0.03欧/MB——真实上网建议在App内临时订流量包。\n\n注意：申请时用德国IP提高通过率；地址无需自有（任意真实地址即可）；护照实名意味着身份文件留存在运营商处，隐私需自行权衡；POSTIDENT审核时长不稳定。"
   },
   "bestFor": {
     "en": "Verification-code receivers: a free EU (+49) number that costs ~€20/year and never needs to make a call.",
@@ -35,13 +35,13 @@
     "en": [
       "Free application — no card or IBAN binding at signup",
       "Passport KYC via POSTIDENT AutoID video (~3-4h review)",
-      "Keep-alive: €5 top-up per 90 days (~€20/year), PayPal/card",
+      "Keep-alive: €5 top-up per 90 days (~€20/year), PayPal/card (per 2026-01 review; not re-confirmed on public pages 2026-09)",
       "Free SMS receiving in China roaming; *100# balance check free"
     ],
     "zh": [
       "免费申请——注册无需绑卡或IBAN",
       "POSTIDENT AutoID视频护照实名（审核约3-4小时）",
-      "保号：每90天充€5（年约€20），支持PayPal/信用卡",
+      "保号：每90天充€5（年约€20），支持PayPal/信用卡（2026-01口径；2026-09公开页未再核到）",
       "中国漫游收短信免费；*100#查余额免费"
     ]
   },
@@ -66,21 +66,21 @@
     }
   ],
   "plansNote": {
-    "en": "Rates per Vodafone DE official pages as reviewed 2026-01. China roaming: SMS in free; SMS out €0.84; calls €4.32/min; data ≈€11.6/MB — do not use for data.",
-    "zh": "资费按Vodafone德国官网（2026-01盘点）。中国漫游：收短信免费；发短信0.84欧；通话4.32欧/分钟；数据约11.6欧/MB——切勿用于上网。"
+    "en": "Rates per Vodafone DE official pages as reviewed 2026-01; SIM/eSIM still 0 € with free shipping and AutoID selfie ID re-confirmed 2026-09-16. The 90-day keep-alive rule is per the 2026-01 review — public pages now only state that not topping up auto-pauses the tariff; definitive terms in the CallYa price list PDF, to re-verify. China roaming: SMS in free; SMS out €0.84; calls €4.32/min; data ≈€11.6/MB — do not use for data.",
+    "zh": "资费按Vodafone德国官网（2026-01盘点）；SIM/eSIM仍0欧+免邮、AutoID自拍认证于2026-09-16复核确认。90天保号规则为2026-01口径——现行公开页仅称“不充值套餐自动暂停”；权威条款在CallYa资费PDF，待复核。中国漫游：收短信免费；发短信0.84欧；通话4.32欧/分钟；数据约11.6欧/MB——切勿用于上网。"
   },
   "pros": {
     "en": [
       "Zero application cost — the last such route in Europe per the source review",
       "No bank card, IBAN or EU residency needed; passport AutoID only",
       "EU German +49 number useful for registrations",
-      "Keep-alive as low as ~€20/year (less with existing balance)"
+      "Keep-alive as low as ~€20/year (per 2026-01 review; not re-confirmed 2026-09 — tariff pauses, not dies, without top-up)"
     ],
     "zh": [
       "申请零费用——源盘点称这是欧洲最后的此类路线",
       "无需银行卡、IBAN或欧盟居留；仅需护照AutoID",
       "德国+49号码可用于注册",
-      "保号低至年约20欧元（有余额时更低）"
+      "保号低至年约20欧元（2026-01口径；2026-09未复核——不充值为套餐暂停而非销号）"
     ]
   },
   "cons": {
@@ -100,5 +100,5 @@
     ]
   },
   "featured": false,
-  "updatedAt": "2026-08-21"
+  "updatedAt": "2026-09-16"
 }

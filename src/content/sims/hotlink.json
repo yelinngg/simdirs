@@ -8,12 +8,12 @@
     "zh": "马来西亚最大运营商预付费品牌——原生MY号码，护照实名，支持回国漫游流量包"
   },
   "description": {
-    "en": "Hotlink is the prepaid brand of Maxis Berhad, Malaysia's largest mobile operator (launched 1999, own network — not an MVNO). Get the eSIM in-app for RM5 with passport KYC and a Malaysian address, top up RM20+ for signal, then buy roaming packs for China (e.g. RM100/40GB/30 days). Best keep-alive: RM30 for 180 days with 30GB — about RM60/year. WhatsApp registration verified; Google SMS verification failed in testing.",
-    "zh": "Hotlink是马来西亚最大移动运营商Maxis Berhad（明讯）旗下的预付费品牌（1999年推出，自有网络非虚商）。App内护照实名+马来地址即可RM5开通eSIM，充值20RM以上来信号，再购买中国漫游包（如RM100/40GB/30天）。最划算保号：RM30得180天有效期+30GB流量，年保号约RM60。实测注册WhatsApp成功；Google账号短信验证失败。"
+    "en": "Hotlink is the prepaid brand of Maxis Berhad, Malaysia's largest mobile operator (launched 1999, own network — not an MVNO). Get the eSIM in-app for RM5 with passport KYC and a Malaysian address, top up RM20+ for signal, then buy roaming packs for China (e.g. RM100/40GB/30 days). Best keep-alive (per app): RM30 for 180 days with 30GB — about RM60/year. WhatsApp registration verified; Google SMS verification failed in testing.",
+    "zh": "Hotlink是马来西亚最大移动运营商Maxis Berhad（明讯）旗下的预付费品牌（1999年推出，自有网络非虚商）。App内护照实名+马来地址即可RM5开通eSIM，充值20RM以上来信号，再购买中国漫游包（如RM100/40GB/30天）。最划算保号（App内口径）：RM30得180天有效期+30GB流量，年保号约RM60。实测注册WhatsApp成功；Google账号短信验证失败。"
   },
   "details": {
-    "en": "Hotlink is the quality route to a native Malaysian +60 number: Maxis's own network (fast and stable in cities), full in-app onboarding, and roaming packs that actually work in mainland China — a 1-day 1GB pack tested at a genuine Malaysian IP (Maxis network) with Speedtest at 58.59 Mbps, fine for video or streaming.\n\nAcquisition (2026-01 source review): install the Hotlink app on a native-eSIM phone (eSIM chips like Xesim/9eSIM are NOT supported), choose 'Activate or Get New SIM' → eSIM → RM5 plan → passport photo KYC → pick a number → enter email plus a Malaysian address found on Google Maps → pay by Visa/Mastercard. Key trap: after download the eSIM shows NO signal until you top up at least RM20 — smaller top-ups leave it dead, and it looks like failed activation.\n\nSecond trap: do NOT turn on data roaming before buying a roaming pack — base roaming rates silently burn your balance.\n\nRoaming packs live under Home → Roaming → China: the value pick is 30 days / 40GB / RM100 (a 1-day/1GB/RM20 pack exists for quick tests).\n\nKeep-alive: plain top-ups are poor value (RM10 = +30 days, RM5 = +5 days, ~RM120/year); the smart route is the 180-day 30GB pass at RM30 — about RM60/year. A legendary RM30/365-day no-data pass has been delisted and no longer appears in-app.\n\nRegistration reality check: WhatsApp signup worked; Google account SMS verification failed even with balance — the source suspects the bundle only covers ordinary domestic P2P SMS, not short-code or international destinations. Passport KYC is mandatory.",
-    "zh": "Hotlink是获取马来西亚原生+60号码的品质路线：Maxis自有网络（城市快且稳）、全流程App内办理、中国大陆漫游包真实可用——实测1天1GB包为真马来西亚IP（Maxis网络），Speedtest 58.59Mbps，看视频直播没问题。获取流程（2026-01源测评）：原生eSIM手机装Hotlink App（不支持Xesim/9esim等eSIM芯片卡）→「Activate or Get New SIM」→eSIM→RM5套餐→拍护照实名→选号→填邮箱+Google地图上找的马来西亚地址→Visa/Mastercard支付。\n\n关键坑一：eSIM下载后无余额无信号，须充值至少20RM才有信号，充少了照样无服务，别误以为激活失败。\n\n关键坑二：买漫游包之前千万别开数据漫游，基础漫游资费会静默扣掉余额。\n\n漫游包在App主页Roaming→China：性价比之选是30天40GB RM100（还有1天1GB RM20供快速测试）。\n\n保号：纯充值不划算（RM10加30天、RM5加5天，一年约RM120）；聪明路线是RM30的180天30GB套餐，年保号约RM60。曾经的RM30保一年（无流量）神套餐已下架，App内找不到了。\n\n注册实测：WhatsApp注册成功；Google账号短信验证失败（充值后仍发不出），源推测套餐只含普通国内点对点短信、不含短号或国际短信。护照实名强制。"
+    "en": "Hotlink is the quality route to a native Malaysian +60 number: Maxis's own network (fast and stable in cities), full in-app onboarding, and roaming packs that actually work in mainland China — a 1-day 1GB pack tested at a genuine Malaysian IP (Maxis network) with Speedtest at 58.59 Mbps, fine for video or streaming.\n\nAcquisition (2026-01 source review): install the Hotlink app on a native-eSIM phone (eSIM chips like Xesim/9eSIM are NOT supported), choose 'Activate or Get New SIM' → eSIM → RM5 plan → passport photo KYC → pick a number → enter email plus a Malaysian address found on Google Maps → pay by Visa/Mastercard. Key trap: after download the eSIM shows NO signal until you top up at least RM20 — smaller top-ups leave it dead, and it looks like failed activation.\n\nSecond trap: do NOT turn on data roaming before buying a roaming pack — base roaming rates silently burn your balance.\n\nRoaming packs live under Home → Roaming → China: the value pick is 30 days / 40GB / RM100 (confirmed on the official roaming page 2026-09, now under the 'Over 100 countries' family; China also sits in the Asia+Pacific RM55/7d/15GB list). Per the current official single-country sheet, 1-day passes price at RM10 (ASEAN) / RM38 (other countries — China is in the RM38 tier); the earlier RM20/1GB/1-day China test pack no longer appears on the public price sheet.\n\nKeep-alive: plain top-ups are poor value (RM10 = +30 days, RM5 = +5 days, ~RM120/year); the smart route is the 180-day 30GB pass at RM30 — about RM60/year (local validity passes are app-only and were not re-verifiable on public web pages as of 2026-09). A legendary RM30/365-day no-data pass has been delisted and no longer appears in-app.\n\nRegistration reality check: WhatsApp signup worked; Google account SMS verification failed even with balance — the source suspects the bundle only covers ordinary domestic P2P SMS, not short-code or international destinations. Passport KYC is mandatory.",
+    "zh": "Hotlink是获取马来西亚原生+60号码的品质路线：Maxis自有网络（城市快且稳）、全流程App内办理、中国大陆漫游包真实可用——实测1天1GB包为真马来西亚IP（Maxis网络），Speedtest 58.59Mbps，看视频直播没问题。获取流程（2026-01源测评）：原生eSIM手机装Hotlink App（不支持Xesim/9esim等eSIM芯片卡）→「Activate or Get New SIM」→eSIM→RM5套餐→拍护照实名→选号→填邮箱+Google地图上找的马来西亚地址→Visa/Mastercard支付。\n\n关键坑一：eSIM下载后无余额无信号，须充值至少20RM才有信号，充少了照样无服务，别误以为激活失败。\n\n关键坑二：买漫游包之前千万别开数据漫游，基础漫游资费会静默扣掉余额。\n\n漫游包在App主页Roaming→China：性价比之选是30天40GB RM100（2026-09官方漫游页确认，现归入「Over 100 countries」档；中国也在亚太区 RM55/7天/15GB 名单内）。按现行官方单国价表，1天包为 RM10（东盟）/ RM38（其他国家——中国属RM38档）；此前的1天1GB RM20中国测试包已不在公开价表。\n\n保号：纯充值不划算（RM10加30天、RM5加5天，一年约RM120）；聪明路线是RM30的180天30GB套餐，年保号约RM60（本地有效期套餐仅App内可见，2026-09公开网页无法复核）。曾经的RM30保一年（无流量）神套餐已下架，App内找不到了。\n\n注册实测：WhatsApp注册成功；Google账号短信验证失败（充值后仍发不出），源推测套餐只含普通国内点对点短信、不含短号或国际短信。护照实名强制。"
   },
   "bestFor": {
     "en": "Users who need a native Malaysian number (WhatsApp etc.) with real China-roaming data, and accept passport KYC plus ~RM60/year.",
@@ -35,13 +35,13 @@
     "en": [
       "Native Malaysian +60 number on Maxis's own network",
       "In-app eSIM activation with passport KYC (RM5 starter)",
-      "China roaming packs: RM100/40GB/30d, RM20/1GB/1d",
+      "China roaming packs: RM100/40GB/30d; 1-day China pass RM38 (2026-09 sheet)",
       "Keep-alive: RM30 pass = 180 days + 30GB (~RM60/year)"
     ],
     "zh": [
       "Maxis自有网络的马来西亚原生+60号码",
       "App内eSIM开通，护照实名（RM5入门）",
-      "中国漫游包：RM100/40GB/30天、RM20/1GB/1天",
+      "中国漫游包：RM100/40GB/30天；中国1天包RM38（2026-09价表）",
       "保号：RM30套餐=180天+30GB（年约RM60）"
     ]
   },
@@ -84,20 +84,20 @@
     },
     {
       "name": {
-        "en": "China roaming pack (test)",
-        "zh": "中国漫游包（测试）"
+        "en": "Single-country 1-day pass (China tier)",
+        "zh": "单国1天漫游包（中国档）"
       },
       "data": {
-        "en": "1GB",
-        "zh": "1GB"
+        "en": "Zone quota (per official 1-day table)",
+        "zh": "按区域额度（官方1天价表）"
       },
       "validity": {
         "en": "1 day",
         "zh": "1天"
       },
       "price": {
-        "en": "RM20",
-        "zh": "RM20"
+        "en": "RM38 (2026-09 sheet; RM20/1GB test pack delisted)",
+        "zh": "RM38（2026-09价表；RM20/1GB测试包已下架）"
       }
     },
     {
@@ -120,8 +120,8 @@
     }
   ],
   "plansNote": {
-    "en": "Pricing per Hotlink app as tested 2026-01; the former RM30/365-day no-data keep-alive pass has been delisted.",
-    "zh": "价格按Hotlink App（2026-01实测）；曾经的RM30保一年无流量套餐已下架。"
+    "en": "Pricing per Hotlink app as tested 2026-01; roaming-pass sheet re-verified on the official roaming/FAQ pages 2026-09-16: RM100/30d/40GB 'Over 100 countries' confirmed; single-country 1-day RM10 (ASEAN) / RM38 (other, incl. China); the former RM20/1GB/1-day China test pack and RM30/365-day no-data pass are both gone from public sheets. Local validity / keep-alive passes remain app-only and could not be re-verified on the web.",
+    "zh": "价格按Hotlink App（2026-01实测）；漫游价表已于2026-09-16在官方漫游/FAQ页复核：RM100/30天/40GB「Over 100 countries」档确认；单国1天包 RM10（东盟）/ RM38（其他国家，含中国）；此前的RM20/1GB/1天中国测试包与RM30保一年无流量套餐均已从公开价表消失。本地有效期/保号套餐仍仅App内可见，网页无法复核。"
   },
   "pros": {
     "en": [
@@ -154,5 +154,5 @@
     ]
   },
   "featured": false,
-  "updatedAt": "2026-08-21"
+  "updatedAt": "2026-09-16"
 }

@@ -4,20 +4,20 @@
     "zh": "TalkHome Mobile 英国"
   },
   "tagline": {
-    "en": "EE MVNO — a £5 / 7GB bundle with a 12-month validity out of the box",
-    "zh": "EE虚商——5英镑7GB套餐自带12个月有效期"
+    "en": "EE MVNO — £5/month Starter Max 12 (7GB) on a 12-month contract",
+    "zh": "EE虚商——5英镑/月的12个月合约套餐（7GB）"
   },
   "description": {
-    "en": "TalkHome Mobile is an EE MVNO owned by Nowtel Distribution. Order a £5 7GB eSIM bundle on the official site and the number arrives with 12 months of validity — the longest out-of-the-box keep-alive among budget UK eSIMs, with 7GB of UK data usable during that year.",
-    "zh": "TalkHome Mobile是Nowtel Distribution旗下的EE虚商。官网下单5英镑7GB的eSIM套餐，号码自带12个月有效期——是低价英国eSIM中开箱即得最长的保号周期，且这一年内有7GB英国本地流量可用。"
+    "en": "TalkHome Mobile is an EE MVNO owned by Nowtel Distribution. The headline £5/7GB 'Starter Max 12' is £5 per month on a 12-month contract (£60/year) — not a one-off purchase with 12-month validity. A true 30-day PAYG route exists at £5 (Starter, 4GB). Prices on 12-month plans are fixed until 2027.",
+    "zh": "TalkHome Mobile是Nowtel Distribution旗下的EE虚商。主打的 5 英镑 7GB「Starter Max 12」是 12 个月合约的月费（一年合计 60 英镑），并非一次买断自带 12 个月有效期；也有 5 英镑/30 天的 PAYG 路线（Starter，4GB）。12 个月合约价格锁定至 2027 年。"
   },
   "details": {
-    "en": "TalkHome's edge is simplicity: one £5 purchase buys a UK number, 7GB of UK data and a full 12-month validity window — no 30/90-day reorder chore, no balance-change ritual. It runs EE's 2G–5G infrastructure, and its annual plans price well for UK-local use.\n\nThe trade-off is direction: like other budget MVNOs reviewed alongside it, it is not designed as a mainland-China roaming card — the 7GB is UK-local, so cloud residents using it primarily from China are paying for data they cannot roam cheaply. For a UK number you will actually use in the UK (or keep alive with zero effort for a year), it is the least fussy option reviewed; for China-roaming-first needs, giffgaff/CTExcel/CMLink fit better.",
-    "zh": "TalkHome 的优势是省心：一次 5 英镑购入英国号码 + 7GB 英国本地流量 + 整整 12 个月有效期——没有 30/90 天的续订义务，也没有余额变动的保号仪式，买完放着一年不用管。它走 EE 的 2G–5G 网络设施，年付套餐在英国本地使用场景下价格实惠，当英国主力卡也够用。\n\n取舍在方向性：与同批盘点的低价虚商一样，它并非为中国大陆漫游设计——7GB 是英国本地流量，主要人在中国的云居民等于花钱买了无法便宜漫游的数据。\n\n结论：如果你要的是「真会在英国用」或「一年零操心保号」的英国号码，它是本轮盘点中最省事的选择；回国漫游优先，则 giffgaff/CTExcel/CMLink 更合适。"
+    "en": "TalkHome's headline offer is the Starter Max 12: £5 per month for 7GB on a 12-month contract (£60/year) — despite the '12' in the name it is billed every 30 days, not a one-off purchase with 12-month validity. It runs EE's 2G–5G infrastructure, prices are fixed until 2027, and a genuine 30-day PAYG route (Starter, 4GB for £5) exists for avoiding contracts. No-usage/disconnection terms are not published on official pages.\n\nThe trade-off is direction: like other budget MVNOs reviewed alongside it, it is not designed as a mainland-China roaming card — the 7GB is UK-local, so cloud residents using it primarily from China are paying for data they cannot roam cheaply. For a UK number you will actually use in the UK on a cheap monthly bundle, it is a fuss-free option reviewed; for China-roaming-first needs, giffgaff/CTExcel/CMLink fit better.",
+    "zh": "TalkHome 的主打产品是 Starter Max 12：12 个月合约、每月 5 英镑含 7GB（一年合计 60 英镑）——名字里的「12」指合约期，实际每 30 天扣一次费，并非一次买断自带 12 个月有效期。它走 EE 的 2G–5G 网络设施，12 个月合约价格锁定至 2027 年；不想签合约的话也有真正的 30 天 PAYG 路线（Starter，5 英镑 4GB）。官方页面未公布不使用断号条款。\n\n取舍在方向性：与同批盘点的低价虚商一样，它并非为中国大陆漫游设计——7GB 是英国本地流量，主要人在中国的云居民等于花钱买了无法便宜漫游的数据。\n\n结论：如果你要的是「真会在英国用」的便宜月付英国号码，它算省事的选择；回国漫游优先，则 giffgaff/CTExcel/CMLink 更合适。"
   },
   "bestFor": {
-    "en": "Set-and-forget users: buy once, valid 12 months, with UK data included.",
-    "zh": "怕折腾的用户：一次购买、12个月有效、还带英国本地流量。"
+    "en": "UK residents wanting 7GB/month at £5 on a fixed-price 12-month contract.",
+    "zh": "人在英国、想要每月5英镑7GB且价格锁定12个月的用户。"
   },
   "regions": [
     "europe"
@@ -25,7 +25,7 @@
   "coverage": 1,
   "plansFrom": 5,
   "dataFrom": "7GB",
-  "validity": "12 months",
+  "validity": "12-month contract (monthly billing)",
   "network": "EE (4G/5G)",
   "device": "esim",
   "hotspot": true,
@@ -48,51 +48,53 @@
   "plans": [
     {
       "name": {
-        "en": "eSIM bundle",
-        "zh": "eSIM套餐"
+        "en": "Starter Max 12 (12-month contract)",
+        "zh": "Starter Max 12（12个月合约）"
       },
       "data": {
         "en": "7GB (UK local)",
         "zh": "7GB（英国本地）"
       },
       "validity": {
-        "en": "12 months",
-        "zh": "12个月"
+        "en": "12-month contract, billed every 30 days",
+        "zh": "12个月合约，每30天扣费"
       },
       "price": {
-        "en": "£5",
-        "zh": "5英镑"
+        "en": "£5/month (12-month contract, £60/year)",
+        "zh": "5英镑/月（12个月合约，年付60英镑）"
       }
     }
   ],
   "plansNote": {
-    "en": "Bundle terms per TalkHome Mobile official site (2026-03 review); data is UK-local, not China-roaming.",
-    "zh": "套餐口径按TalkHome官网（2026-03盘点）；流量为英国本地，非回国漫游流量。"
+    "en": "Terms per TalkHome Mobile official site (2026-09 re-verify): Starter Max 12 is a 12-month contract at £5/month (£60/year); data is UK-local, not China-roaming; no-usage/disconnection terms are not published.",
+    "zh": "套餐口径按TalkHome官网（2026-09复核）：Starter Max 12为12个月合约、月付5英镑（年合计60英镑）；流量为英国本地，非回国漫游流量；官方未公布不使用断号条款。"
   },
   "pros": {
     "en": [
-      "12-month validity from day one — no reorder ritual",
-      "Cheapest bundled-UK-data entry among reviewed UK eSIMs",
+      "£5/month with prices fixed until 2027 on 12-month plans",
+      "7GB for £5/month — cheap bundled UK data",
       "EE 2G–5G network quality"
     ],
     "zh": [
-      "开箱即12个月有效期，无需续订仪式",
-      "本轮盘点中含英国流量的最低入门价",
+      "12个月合约价格锁定至2027年",
+      "每月5英镑含7GB英国流量，单价低",
       "EE 2G–5G网络质量"
     ]
   },
   "cons": {
     "en": [
+      "It's a 12-month contract — £5/month (£60/year), not a one-off £5 purchase",
       "Data is UK-local — weak fit for China-roaming cloud residents",
       "MVNO priority below EE's own subscribers",
       "Smaller brand with less community documentation"
     ],
     "zh": [
+      "这是12个月合约——每月5英镑（年合计60英镑），并非一次5英镑买断",
       "流量仅限英国本地——不适合以中国漫游为主的云居民",
       "虚商优先级低于EE本网用户",
       "品牌较小，社区资料少"
     ]
   },
   "featured": false,
-  "updatedAt": "2026-08-21"
+  "updatedAt": "2026-09-16"
 }

@@ -8,12 +8,12 @@
     "zh": "Vodafone网络英国虚商——充5镑延90天，支持Wi-Fi Calling"
   },
   "description": {
-    "en": "Lebara is an international MVNO running on Vodafone UK's network. Order eSIM directly on the official site; a minimum £5 top-up extends the number's validity by 90 days — cheap per event but a 2x/year cadence. Wi-Fi Calling supported; a China-roaming data bundle was briefly offered and then withdrawn.",
-    "zh": "Lebara是走Vodafone英国网络的国际虚商。官网可直接下单eSIM；最低充值5英镑延长号码有效期90天——单次便宜但一年要充两次。支持Wi-Fi Calling；曾短暂推出中国漫游流量包后又取消。"
+    "en": "Lebara is an international MVNO running on Vodafone UK's network. Order eSIM directly on the official site; after 90 consecutive days without top-up or chargeable usage you lose any remaining balance, while the number itself is terminated only after a further 365 days of inactivity — cheap per event but a 2x/year cadence to protect your credit. Wi-Fi Calling supported; a China-roaming data bundle was briefly offered and then withdrawn.",
+    "zh": "Lebara是走Vodafone英国网络的国际虚商。官网可直接下单eSIM；连续90天无充值或计费使用会失去剩余余额，但号码本身要再连续365天不活跃才被终止——单次便宜，但为保住余额一年要充两次。支持Wi-Fi Calling；曾短暂推出中国漫游流量包后又取消。"
   },
   "details": {
-    "en": "Lebara's keep-alive economics: £5 per 90 days — the lowest per-event top-up among reviewed UK options, but at twice-a-year cadence it lands near Lycamobile's £10/180 days and above giffgaff's near-zero SMS route.\n\nIt rides Vodafone's infrastructure (good coverage quality), supports Wi-Fi Calling, and sells eSIM directly at checkout. The China-relevant caveat is directional: Lebara briefly launched a China-roaming data bundle and then cancelled it, and its marketing centres on international calls to South Asia — the source review files it in the low-cost/flexible MVNO tier, not the China-roaming tier.\n\nFor a UK number kept alive from anywhere with minimal fuss and Vodafone-grade coverage, it works; for mainland-China data use, look at CTExcel/CMLink instead.",
-    "zh": "Lebara 的保号经济账：每 90 天充值 5 英镑——单次充值门槛是本轮英国选项中最低的，但按一年两次的节奏算下来，总成本与 Lycamobile 的 10 英镑/180天 相近，明显高于 giffgaff 近乎为零的短信路线。\n\n网络与体验：走 Vodafone 网络设施、覆盖质量好，支持 Wi-Fi Calling（对收验证码友好），官网结账时可直接勾选 eSIM，入手流程在低价虚商里属于顺畅的一档。\n\n与中国相关的注意点是方向性的：Lebara 曾短暂上线中国漫游流量包后又取消，营销重心一直在南亚方向的国际化通话——源盘点将其归入低价灵活虚商梯队，而非回国漫游梯队。\n\n结论：要一个在哪儿都能低操心保号、Vodafone 级覆盖的英国号码，它可用；要中国大陆流量，请直接看 CTExcel/CMLink。"
+    "en": "Lebara's keep-alive is two-tier: after 90 consecutive days without a top-up or chargeable usage you forfeit any remaining credit, but full termination of the number comes only after a further 365 days of inactivity — a missed 90-day window costs money, not immediately the number. £5 per 90 days remains the lowest per-event top-up among reviewed UK options, but at twice-a-year cadence it lands near Lycamobile's £10/90 days and above giffgaff's near-zero SMS route.\n\nIt rides Vodafone's infrastructure (good coverage quality), supports Wi-Fi Calling, and sells eSIM directly at checkout. The China-relevant caveat is directional: Lebara briefly launched a China-roaming data bundle and then cancelled it, and its marketing centres on international calls to South Asia — the source review files it in the low-cost/flexible MVNO tier, not the China-roaming tier.\n\nFor a UK number kept alive from anywhere with minimal fuss and Vodafone-grade coverage, it works; for mainland-China data use, look at CTExcel/CMLink instead.",
+    "zh": "Lebara 的保号规则分两层：连续 90 天无充值或计费使用即失去剩余余额，但号码要再连续 365 天不活跃才会被终止协议并断开——错过 90 天窗口损失的是余额，不会立刻丢号。每 90 天 5 英镑仍是本轮英国选项中单次充值门槛最低的，但按一年两次的节奏算下来，总成本与 Lycamobile 的 10 英镑/90天 相近，明显高于 giffgaff 近乎为零的短信路线。\n\n网络与体验：走 Vodafone 网络设施、覆盖质量好，支持 Wi-Fi Calling（对收验证码友好），官网结账时可直接勾选 eSIM，入手流程在低价虚商里属于顺畅的一档。\n\n与中国相关的注意点是方向性的：Lebara 曾短暂上线中国漫游流量包后又取消，营销重心一直在南亚方向的国际化通话——源盘点将其归入低价灵活虚商梯队，而非回国漫游梯队。\n\n结论：要一个在哪儿都能低操心保号、Vodafone 级覆盖的英国号码，它可用；要中国大陆流量，请直接看 CTExcel/CMLink。"
   },
   "bestFor": {
     "en": "Low-effort keep-alive on Vodafone-grade coverage with small £5 top-ups.",
@@ -25,7 +25,7 @@
   "coverage": 1,
   "plansFrom": 5,
   "dataFrom": "Pay per use",
-  "validity": "90 days per top-up",
+  "validity": "90 days per activity (credit expiry; number terminated after 365 more days)",
   "network": "Vodafone (4G/5G)",
   "device": "esim",
   "hotspot": true,
@@ -56,8 +56,8 @@
         "zh": "按量计费"
       },
       "validity": {
-        "en": "90 days per top-up",
-        "zh": "每次充值后90天"
+        "en": "90 days per activity (credit expiry); number kept a further 365 days",
+        "zh": "每次充值/使用后90天（余额过期）；号码再保留365天"
       },
       "price": {
         "en": "£5 minimum top-up",
@@ -66,8 +66,8 @@
     }
   ],
   "plansNote": {
-    "en": "Keep-alive terms per Lebara UK official site (2026-03 review); China-roaming bundle was withdrawn.",
-    "zh": "保号规则按Lebara英国官网（2026-03盘点）；中国漫游流量包已下线。"
+    "en": "Keep-alive terms per Lebara UK T&C (2026-09 re-verify via search index; site region-blocked): credit lost at 90 days of inactivity, number terminated after a further 365 days; China-roaming bundle was withdrawn.",
+    "zh": "保号规则按Lebara英国条款（2026-09经搜索索引复核；官网对数据中心IP区域封锁）：90天不活动失余额、再365天终止号码；中国漫游流量包已下线。"
   },
   "pros": {
     "en": [
@@ -94,5 +94,5 @@
     ]
   },
   "featured": false,
-  "updatedAt": "2026-08-21"
+  "updatedAt": "2026-09-16"
 }

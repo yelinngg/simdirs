@@ -8,12 +8,12 @@
     "zh": "全球首家eSIM商店，覆盖200+目的地"
   },
   "description": {
-    "en": "Airalo is the world's leading eSIM marketplace, offering prepaid data plans for more than 200 countries and regions. Plans start from 1GB for 7 days, install in minutes via the iOS/Android app, and top-ups are instant. A solid default choice for most travelers.",
-    "zh": "Airalo 是全球领先的eSIM商城，为200多个国家和地区提供预付费流量套餐。套餐从1GB/7天起，通过iOS/Android应用几分钟即可安装激活，续购即时生效。是大多数旅行者的稳妥之选。"
+    "en": "Airalo is the world's leading eSIM marketplace, offering prepaid data plans for more than 200 countries and regions. Plans start from 1GB for 3 days, install in minutes via the iOS/Android app, and top-ups are instant. A solid default choice for most travelers.",
+    "zh": "Airalo 是全球领先的eSIM商城，为200多个国家和地区提供预付费流量套餐。套餐从1GB/3天起，通过iOS/Android应用几分钟即可安装激活，续购即时生效。是大多数旅行者的稳妥之选。"
   },
   "details": {
-    "en": "Airalo's strength is consistency at scale: 200+ destinations with a uniform buying flow, an app that stores all your eSIMs in one place, and instant top-ups that add data to a running eSIM without reinstalling. Its catalogue splits into three tiers — local plans for a single country, regional plans (Asia, Europe, Africa and more) covering dozens of countries each, and a global plan usable almost everywhere — which makes it easy to pick the right scope. Verified pricing from the official storefront: a Japan eSIM runs US$4.50 for 1 GB / 7 days up to US$25.50 for 20 GB / 30 days, and the USA is similar (1 GB / 7 days from US$4.00, 20 GB / 30 days US$37.00). Airalo also runs Discover+ global multi-network plans and frequent seasonal discounts in the app.\n\nSupport is 24/7 and genuinely multilingual, and the regional packages (e.g. shared data across 10+ Asian countries) remain the reference point that other providers' regional offers are compared against.",
-    "zh": "Airalo 的强项在于规模化的一致性：200+ 目的地统一购买流程，App 集中管理所有 eSIM，续购即时生效且无需重装。\n\n套餐目录分三层——单国本地包、覆盖数十国的区域包（亚洲、欧洲、非洲等）以及几乎全球通用的全球包——选择范围一目了然。经官方商店核验的价格：日本 eSIM 从 1 GB / 7 天 4.50 美元到 20 GB / 30 天 25.50 美元，美国相近（1 GB / 7 天 4.00 美元起，20 GB / 30 天 37.00 美元）。App 内还有 Discover+ 全球多网络套餐与季节性折扣。客服 7×24 小时多语言在线；区域包（如 10+ 亚洲国家共享流量）是全行业区域套餐的比价基准。"
+    "en": "Airalo's strength is consistency at scale: 200+ destinations with a uniform buying flow, an app that stores all your eSIMs in one place, and instant top-ups that add data to a running eSIM without reinstalling. Its catalogue splits into three tiers — local plans for a single country, regional plans (Asia, Europe, Africa and more) covering dozens of countries each, and a global plan usable almost everywhere — which makes it easy to pick the right scope. Verified pricing from the official storefront: a Japan eSIM runs US$4.00 for 1 GB / 3 days up to US$25.00 for 20 GB / 30 days, with unlimited options from US$11.50 / 3 days; the USA is similar (1 GB / 3 days from US$4.00, 20 GB / 30 days US$36.50, plus 50 GB and unlimited tiers). Airalo also runs Discover+ global multi-network plans and frequent seasonal discounts in the app.\n\nSupport is 24/7 and genuinely multilingual, and the regional packages (e.g. shared data across 10+ Asian countries) remain the reference point that other providers' regional offers are compared against.",
+    "zh": "Airalo 的强项在于规模化的一致性：200+ 目的地统一购买流程，App 集中管理所有 eSIM，续购即时生效且无需重装。\n\n套餐目录分三层——单国本地包、覆盖数十国的区域包（亚洲、欧洲、非洲等）以及几乎全球通用的全球包——选择范围一目了然。经官方商店核验的价格：日本 eSIM 从 1 GB / 3 天 4.00 美元到 20 GB / 30 天 25.00 美元，另有 11.50 美元/3 天起的不限量档；美国相近（1 GB / 3 天 4.00 美元起，20 GB / 30 天 36.50 美元，另有 50 GB 与不限量档）。App 内还有 Discover+ 全球多网络套餐与季节性折扣。客服 7×24 小时多语言在线；区域包（如 10+ 亚洲国家共享流量）是全行业区域套餐的比价基准。"
   },
   "bestFor": {
     "en": "First-time eSIM users and multi-country itineraries — the safest default with the widest catalogue and the most predictable app experience.",
@@ -30,9 +30,9 @@
     "middle-east"
   ],
   "coverage": 200,
-  "plansFrom": 4.5,
+  "plansFrom": 4.0,
   "dataFrom": "1GB",
-  "validity": "7 days",
+  "validity": "3 days",
   "network": "4G/5G",
   "device": "esim",
   "hotspot": true,
@@ -59,16 +59,16 @@
         "zh": "日本本地 eSIM"
       },
       "data": {
-        "en": "1 / 2 / 3 / 5 / 10 / 20 GB",
-        "zh": "1 / 2 / 3 / 5 / 10 / 20 GB"
+        "en": "1 / 3 / 5 / 10 / 20 GB + Unlimited",
+        "zh": "1 / 3 / 5 / 10 / 20 GB + 不限量"
       },
       "validity": {
-        "en": "7–30 days by size",
-        "zh": "按容量 7–30 天"
+        "en": "3–30 days by size",
+        "zh": "按容量 3–30 天"
       },
       "price": {
-        "en": "US$4.50 (1 GB/7d) – US$25.50 (20 GB/30d)",
-        "zh": "4.50 美元（1 GB/7天）– 25.50 美元（20 GB/30天）"
+        "en": "US$4.00 (1 GB/3d) – US$25.00 (20 GB/30d); Unlimited US$11.50 (3d) – US$69.00 (30d)",
+        "zh": "4.00 美元（1 GB/3天）– 25.00 美元（20 GB/30天）；不限量 11.50 美元（3天）– 69.00 美元（30天）"
       }
     },
     {
@@ -77,16 +77,16 @@
         "zh": "美国本地 eSIM"
       },
       "data": {
-        "en": "1 / 2 / 3 / 5 / 10 / 20 GB",
-        "zh": "1 / 2 / 3 / 5 / 10 / 20 GB"
+        "en": "1 / 3 / 5 / 10 / 20 / 50 GB + Unlimited",
+        "zh": "1 / 3 / 5 / 10 / 20 / 50 GB + 不限量"
       },
       "validity": {
-        "en": "7–30 days by size",
-        "zh": "按容量 7–30 天"
+        "en": "3–30 days by size",
+        "zh": "按容量 3–30 天"
       },
       "price": {
-        "en": "US$4.00 (1 GB/7d) – US$37.00 (20 GB/30d)",
-        "zh": "4.00 美元（1 GB/7天）– 37.00 美元（20 GB/30天）"
+        "en": "US$4.00 (1 GB/3d) – US$36.50 (20 GB/30d); 50 GB/30d US$42.00; Unlimited US$11.50 (3d) – US$68.00 (30d)",
+        "zh": "4.00 美元（1 GB/3天）– 36.50 美元（20 GB/30天）；50 GB/30天 42.00 美元；不限量 11.50 美元（3天）– 68.00 美元（30天）"
       }
     },
     {
@@ -127,8 +127,8 @@
     }
   ],
   "plansNote": {
-    "en": "Japan/USA single-country prices verified from airalo.com in August 2026. Regional and Discover+ pricing varies by promotion — check the app for live rates.",
-    "zh": "日本/美国单国价格于 2026 年 8 月经 airalo.com 核验。区域包与 Discover+ 价格随促销浮动，以 App 内实时价为准。"
+    "en": "Japan/USA single-country prices verified from airalo.com in September 2026. Regional and Discover+ pricing varies by promotion — check the app for live rates.",
+    "zh": "日本/美国单国价格于 2026 年 9 月经 airalo.com 核验。区域包与 Discover+ 价格随促销浮动，以 App 内实时价为准。"
   },
   "pros": {
     "en": [
@@ -147,15 +147,13 @@
   "cons": {
     "en": [
       "Rarely the absolute cheapest per GB — discount brands undercut it",
-      "Local plans are single-network in some countries, so coverage can dip indoors",
-      "No unlimited plans in most destinations (Japan/USA included)"
+      "Local plans are single-network in some countries, so coverage can dip indoors"
     ],
     "zh": [
       "单价很少是全场最低，低价品牌常能再压一档",
-      "部分目的地单国包为单网络，室内覆盖可能打折",
-      "多数目的地（含日本/美国）无不限量套餐"
+      "部分目的地单国包为单网络，室内覆盖可能打折"
     ]
   },
   "featured": true,
-  "updatedAt": "2026-08-18"
+  "updatedAt": "2026-09-16"
 }

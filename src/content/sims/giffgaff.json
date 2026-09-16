@@ -9,11 +9,11 @@
   },
   "description": {
     "en": "giffgaff is a UK MVNO running on O2's network. Order a free SIM, top up £10 to activate on Pay as you go, then swap to eSIM in the giffgaff app. Keep the number alive with any balance change (e.g. one £0.30 SMS) every 180 days; roaming in mainland China works out of the box.",
-    "zh": "giffgaff是英国知名虚商（O2全资子品牌），走O2基站网络。官网免费下单SIM卡，充10英镑激活Pay as you go，再在App内转eSIM。每180天内有任意一次余额变动（如发一条0.3镑短信）即可保号，首次激活充10镑送5镑；在中国大陆可直接漫游使用。"
+    "zh": "giffgaff是英国知名虚商（O2全资子品牌），走O2基站网络。官网免费下单SIM卡，充10英镑激活Pay as you go，再在App内转eSIM。每180天内有任意一次余额变动（如发一条0.3镑短信）即可保号，首次激活充10镑（送5镑需好友推荐链接）；在中国大陆可直接漫游使用。"
   },
   "details": {
-    "en": "giffgaff is the classic choice for a low-cost UK number that keeps working while you live in mainland China.\n\nActivation: order the free SIM on the official site (note: giffgaff has stopped shipping physical SIMs to China — choose eSIM in the app instead), top up £10 with a Visa/Mastercard credit card and pick Pay as you go; first top-up of £10 comes with £5 bonus credit. Number-keeping rule: any balance change within each 180-day window (a top-up or any charged usage — one £0.30 SMS is enough) resets the clock; miss it and the number is recycled with no refund. Converting a physical card to eSIM happens in the giffgaff app under SIM management and requires passing IMEI verification of your phone.\n\nIn mainland China the SIM roams with signal right after activation, supports Wi-Fi Calling, and data packs can be added on demand. No real-name ID is required for ordering. Watch-outs: the £10+£5 welcome credit is forfeited if the 180-day rule is missed; customer service is community/app based with no physical stores.",
-    "zh": "giffgaff 是「人在中国大陆、低成本持有英国号码」的经典选择：走 O2 网络，下单无需实名，对中国用户的主要门槛只有支付方式一条。\n\n激活流程：官网免费下单 SIM（注意：官方已停止向中国邮寄实体卡，建议直接在 App 内申请 eSIM），用 Visa/Mastercard 信用卡充值 10 英镑并选择 Pay as you go，首充 10 镑附赠 5 镑话费。实体卡转 eSIM 在 giffgaff App 的 SIM 管理里操作，需通过手机 IMEI 验证后才会下发 eSIM 配置文件。\n\n保号规则：每个 180 天窗口内账户发生任意一次余额变动（充值或计费消费均可，发一条 0.3 镑短信就够了）即视为活跃、窗口重置；错过窗口号码会被回收，且余额不予退还。\n\n在中国大陆激活后即有漫游信号，支持 Wi-Fi Calling（收短信验证码稳定），流量包可按需随时叠加。注意两点：错过 180 天规则时赠送话费与余额都不退；客服以社区论坛和 App 在线为主，没有实体门店，出问题只能在线解决。"
+    "en": "giffgaff is the classic choice for a low-cost UK number that keeps working while you live in mainland China.\n\nActivation: order the free SIM on the official site (note: giffgaff has stopped shipping physical SIMs to China — choose eSIM in the app instead), top up £10 with a Visa/Mastercard credit card and pick Pay as you go; the £5 joiner credit is the standard refer-a-friend reward and requires activating via a referral link (as of Sept 2026 — the August 2026 £10 \"Double Reward\" promo ended 31 Aug 2026). Number-keeping rule: any balance change within each 180-day window (a top-up or any charged usage — one £0.30 SMS is enough) resets the clock; miss it and the number is recycled with no refund. Converting a physical card to eSIM happens in the giffgaff app under SIM management and requires passing IMEI verification of your phone.\n\nIn mainland China the SIM roams with signal right after activation, supports Wi-Fi Calling, and data packs can be added on demand. No real-name ID is required for ordering. Watch-outs: the £5 referral credit is forfeited if the 180-day rule is missed; customer service is community/app based with no physical stores.\n\nNew since July 2026 — roaming fair-use crackdown: terms clause 2.9 permits use in the EU and selected destinations only for periodic travel (holidays, short breaks). Since late July 2026 giffgaff has been bulk-disconnecting SIMs used for long-term roaming outside the UK under this clause (\"We're disconnecting your service\" notices). Long-term China-based use therefore carries a real disconnection risk — do not rely on giffgaff as your only number.",
+    "zh": "giffgaff 是「人在中国大陆、低成本持有英国号码」的经典选择：走 O2 网络，下单无需实名，对中国用户的主要门槛只有支付方式一条。\n\n激活流程：官网免费下单 SIM（注意：官方已停止向中国邮寄实体卡，建议直接在 App 内申请 eSIM），用 Visa/Mastercard 信用卡充值 10 英镑并选择 Pay as you go，首充 10 镑（5 镑赠送需通过好友推荐链接激活——2026 年 9 月标准为推荐返 5 镑，8 月「双倍奖励」送 10 镑活动已于 8 月 31 日截止）。实体卡转 eSIM 在 giffgaff App 的 SIM 管理里操作，需通过手机 IMEI 验证后才会下发 eSIM 配置文件。\n\n保号规则：每个 180 天窗口内账户发生任意一次余额变动（充值或计费消费均可，发一条 0.3 镑短信就够了）即视为活跃、窗口重置；错过窗口号码会被回收，且余额不予退还。\n\n在中国大陆激活后即有漫游信号，支持 Wi-Fi Calling（收短信验证码稳定），流量包可按需随时叠加。注意两点：错过 180 天规则时赠送话费与余额都不退；客服以社区论坛和 App 在线为主，没有实体门店，出问题只能在线解决。\n\n2026 年 7 月起的新风险——漫游公平使用收紧：条款 2.9 规定欧盟及指定地区漫游仅限周期性旅行（度假、短途）。2026 年 7 月底起，giffgaff 已依该条款批量断开长期在英国境外漫游的卡（「We're disconnecting your service」通知）。长期在中国大陆使用存在真实的被断网风险，不要把 giffgaff 当作唯一号码依赖。"
   },
   "bestFor": {
     "en": "Cloud residents who want a UK number for registrations, receiving SMS and light roaming use at near-zero annual cost.",
@@ -33,13 +33,13 @@
   "website": "https://www.giffgaff.com/",
   "features": {
     "en": [
-      "Free SIM order, £10 activation top-up with £5 bonus credit",
+      "Free SIM order, £10 activation top-up (£5 joiner credit via referral link)",
       "Any balance change per 180 days keeps the number alive",
       "eSIM swap inside the giffgaff app (IMEI verification)",
       "No real-name ID required; Wi-Fi Calling supported"
     ],
     "zh": [
-      "免费下单SIM卡，充10镑激活并送5镑",
+      "免费下单SIM卡，充10镑激活（送5镑需好友推荐链接）",
       "每180天任意一次余额变动即可保号",
       "giffgaff App内可转eSIM（需IMEI验证）",
       "无需实名认证；支持Wi-Fi Calling"
@@ -60,8 +60,8 @@
         "zh": "每次使用后180天"
       },
       "price": {
-        "en": "£10 first top-up (with £5 bonus); one £0.30 SMS per 180 days keeps it alive",
-        "zh": "首充10镑（送5镑）；每180天发一条0.3镑短信即可保号"
+        "en": "£10 first top-up (£5 joiner credit only via referral link); one £0.30 SMS per 180 days keeps it alive",
+        "zh": "首充10镑（送5镑需好友推荐链接）；每180天发一条0.3镑短信即可保号"
       }
     }
   ],
@@ -72,13 +72,13 @@
   "pros": {
     "en": [
       "Cheapest mainstream UK number to keep alive (£0.30 SMS / 180 days)",
-      "First top-up £10 + £5 bonus credit",
+      "First top-up £10 + £5 joiner credit via referral link",
       "Works in mainland China right after activation, Wi-Fi Calling supported",
       "No real-name registration required"
     ],
     "zh": [
       "主流英国号码中保号成本最低（每180天一条0.3镑短信）",
-      "首充10镑送5镑",
+      "首充10镑，推荐链接激活再送5镑",
       "激活后在中国大陆直接有信号，支持Wi-Fi Calling",
       "无需实名认证"
     ]
@@ -87,14 +87,16 @@
     "en": [
       "Missing the 180-day activity window forfeits the number and all credit",
       "Official SIM shipping to China has stopped — eSIM app flow required",
-      "Community-based support, no physical stores"
+      "Community-based support, no physical stores",
+      "Since July 2026, terms clause 2.9 fair-use enforcement has bulk-disconnected SIMs roaming outside the UK long-term — a real risk for China-based keep-alive"
     ],
     "zh": [
       "错过180天使用窗口号码即回收，余额不退",
       "官方已停寄实体卡到中国，需走App内eSIM流程",
-      "客服以社区为主，无实体门店"
+      "客服以社区为主，无实体门店",
+      "2026年7月起依条款2.9公平使用批量断开长期境外漫游卡——对中国保号用户构成实质风险"
     ]
   },
   "featured": false,
-  "updatedAt": "2026-08-21"
+  "updatedAt": "2026-09-16"
 }

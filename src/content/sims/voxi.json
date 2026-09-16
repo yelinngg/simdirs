@@ -4,20 +4,20 @@
     "zh": "VOXI"
   },
   "tagline": {
-    "en": "Vodafone-owned UK MVNO — hidden edu-email free first month, 180-day keep-alive",
-    "zh": "沃达丰旗下英国虚商——教育邮箱隐藏首月0元，180天保号"
+    "en": "Vodafone-owned UK MVNO — hidden UNiDAYS student free first month, 180-day keep-alive",
+    "zh": "沃达丰旗下英国虚商——UNiDAYS学生认证隐藏首月0元，180天保号"
   },
   "description": {
-    "en": "VOXI is Vodafone UK's sub-brand MVNO on Vodafone's network. Pick eSIM directly at checkout; keep-alive works like giffgaff's — any balance change (call, SMS, top-up) extends the number by 180 days, minimum top-up £5. Hidden perk: an education-email offer can land the first month free (even Chinese edu emails have been reported to pass), best combined with the £20 plan then cancelled before day 30.",
-    "zh": "VOXI是沃达丰英国子品牌虚商，走Vodafone网络。下单时可直接选eSIM；保号逻辑与giffgaff相同——任意余额变动（通话、短信、充值）即延长180天，最低充值5英镑。隐藏福利：教育邮箱可申请首月0元套餐（国内教育邮箱也有成功案例），建议从20英镑套餐进入、临近30天时取消，之后以Paygo状态低成本保号。"
+    "en": "VOXI is Vodafone UK's sub-brand MVNO on Vodafone's network. Pick eSIM directly at checkout; keep-alive works like giffgaff's — any balance change (call, SMS, top-up) extends the number by 180 days, minimum top-up £5. Hidden perk: a student offer verified through UNiDAYS can land the first month free (e.g. 80GB for £10/month with month 1 free; Chinese edu emails have been reported to pass verification; UCAS and promo SIM-pack routes also appear) — cancel before day 30 to drop to PAYG.",
+    "zh": "VOXI是沃达丰英国子品牌虚商，走Vodafone网络。下单时可直接选eSIM；保号逻辑与giffgaff相同——任意余额变动（通话、短信、充值）即延长180天，最低充值5英镑。隐藏福利：通过UNiDAYS学生认证可获首月0元（如10镑/月80GB档首月免费，国内教育邮箱也有通过案例；另有UCAS与促销SIM包入口）——临近30天时取消，之后以Paygo状态低成本保号。"
   },
   "details": {
-    "en": "VOXI rides Vodafone UK's network (the same coverage and 5G as the parent), which makes it the cheapest clean way onto a top-tier UK network: Pay-as-you-go keep-alive needs any balance change per 180 days, minimum top-up £5, with an SMS warning ~90 days before expiry.\n\nThe documented student route: enter via the official £20 plan page, verify an education email (Chinese edu addresses have been reported to pass — though at least one reviewer's attempt failed, so treat it as environment-sensitive), receive a discount code, apply it so the first month totals £0, choose eSIM, fill in personal details — the birth date you enter doubles as the PDF password protecting the eSIM QR code emailed to you — then bind a payment card and cancel before day 30 to drop to a bare PAYG keep-alive state; any activity in the following 150 days renews the 180-day window. Failed student verification just means paying normal PAYG rates — still low-cost.\n\nTrade-offs shared with all MVNOs: data priority sits below Vodafone's own subscribers, so mainland-China roaming experience can lag the parent network; and the free-month offer is a limited-time promo that may vanish.",
-    "zh": "VOXI 走 Vodafone 英国网络（覆盖与 5G 规格与母公司一致），是登上英国一线网络最便宜的干净途径：Paygo 保号只需每 180 天任意一次余额变动，最低充值 5 英镑，到期前约 90 天还会收到短信提醒，不容易失手。\n\n实测过的学生路线：从官网 20 英镑套餐页进入，用教育邮箱验证（国内教育邮箱有通过案例，但也有实测失败的记录，成功与否与环境相关），获得优惠码应用后首月 0 元；随后选 eSIM、填写个人信息——注意生日同时是邮件发来的 eSIM 二维码 PDF 的密码——绑卡后在临近第 30 天时取消套餐，落到空套餐的 Paygo 保号状态，其后 150 天内再产生任意一次变动即可把 180 天窗口续满。\n\n学生验证失败也不亏：按正常 Paygo 资费持有，成本仍然很低。\n\n与其他虚商相同的取舍：数据优先级低于 Vodafone 本网用户，中国大陆漫游体验可能不及 Vodafone 本尊；首月免费属限时活动，可能随时下线，办理前先确认活动仍在。"
+    "en": "VOXI rides Vodafone UK's network (the same coverage and 5G as the parent), which makes it the cheapest clean way onto a top-tier UK network: Pay-as-you-go keep-alive needs any balance change per 180 days, minimum top-up £5, with an SMS warning ~90 days before expiry.\n\nThe documented student route: verify student status via UNiDAYS (the old £20-plan-page entry point is stale; UCAS and promo SIM-pack routes also exist) (Chinese edu addresses have been reported to pass — though at least one reviewer's attempt failed, so treat it as environment-sensitive), receive a discount code, apply it so the first month totals £0, choose eSIM, fill in personal details — the birth date you enter doubles as the PDF password protecting the eSIM QR code emailed to you — then bind a payment card and cancel before day 30 to drop to a bare PAYG keep-alive state; any activity in the following 150 days renews the 180-day window. Failed student verification just means paying normal PAYG rates — still low-cost.\n\nTrade-offs shared with all MVNOs: data priority sits below Vodafone's own subscribers, so mainland-China roaming experience can lag the parent network; and the free-month offer is a limited-time promo that may vanish.",
+    "zh": "VOXI 走 Vodafone 英国网络（覆盖与 5G 规格与母公司一致），是登上英国一线网络最便宜的干净途径：Paygo 保号只需每 180 天任意一次余额变动，最低充值 5 英镑，到期前约 90 天还会收到短信提醒，不容易失手。\n\n实测过的学生路线：通过 UNiDAYS 完成学生验证（旧的 20 英镑套餐页入口已过时，另有 UCAS 与促销 SIM 包入口；国内教育邮箱有通过案例，但也有实测失败的记录，成功与否与环境相关），获得优惠码应用后首月 0 元；随后选 eSIM、填写个人信息——注意生日同时是邮件发来的 eSIM 二维码 PDF 的密码——绑卡后在临近第 30 天时取消套餐，落到空套餐的 Paygo 保号状态，其后 150 天内再产生任意一次变动即可把 180 天窗口续满。\n\n学生验证失败也不亏：按正常 Paygo 资费持有，成本仍然很低。\n\n与其他虚商相同的取舍：数据优先级低于 Vodafone 本网用户，中国大陆漫游体验可能不及 Vodafone 本尊；首月免费属限时活动，可能随时下线，办理前先确认活动仍在。"
   },
   "bestFor": {
-    "en": "Budget hunters with an education email who want Vodafone-grade coverage at PAYG keep-alive cost.",
-    "zh": "手握教育邮箱、想以Paygo保号成本用上沃达丰级别网络的性价比用户。"
+    "en": "Budget hunters with a UNiDAYS-verifiable student account who want Vodafone-grade coverage at PAYG keep-alive cost.",
+    "zh": "有可过UNiDAYS验证的学生账号、想以Paygo保号成本用上沃达丰级别网络的性价比用户。"
   },
   "regions": [
     "europe"
@@ -60,41 +60,41 @@
         "zh": "每次余额变动后180天（最低充值5英镑）"
       },
       "price": {
-        "en": "From £0 with edu first-month offer",
-        "zh": "教育邮箱首月0元起"
+        "en": "From £0 first month via UNiDAYS student offer; standard SIM plans from £10 (45GB; 60GB with the 3x-data promo ending 30/09/2026)",
+        "zh": "UNiDAYS学生认证首月0元起；标准套餐10镑/月起（45GB，3倍流量促销60GB，2026-09-30截止）"
       }
     }
   ],
   "plansNote": {
-    "en": "PAYG terms per VOXI official site (2026-03 review); the edu offer is promotional and unverified for all regions — failures reported.",
-    "zh": "Paygo规则按VOXI官网（2026-03盘点）；教育优惠属限时活动，非所有环境可用——有失败记录。"
+    "en": "PAYG terms per VOXI official site (2026-03 review); the UNiDAYS student offer is promotional and unverified for all regions — failures reported.",
+    "zh": "Paygo规则按VOXI官网（2026-03盘点）；UNiDAYS学生优惠属限时活动，非所有环境可用——有失败记录。"
   },
   "pros": {
     "en": [
       "Parent-grade Vodafone coverage and 5G at sub-brand prices",
       "Same easy 180-day keep-alive as giffgaff",
       "eSIM chosen at checkout, no CS call needed",
-      "Potential first month free via edu email"
+      "Potential first month free via UNiDAYS student verification"
     ],
     "zh": [
       "以子品牌价格获得母公司级Vodafone覆盖与5G",
       "与giffgaff同款的180天保号逻辑，简单",
       "下单直接选eSIM，无需找客服",
-      "教育邮箱有机会首月0元"
+      "UNiDAYS学生认证有机会首月0元"
     ]
   },
   "cons": {
     "en": [
       "MVNO data priority below Vodafone's own customers",
-      "Edu free-month route is environment-sensitive and may fail",
+      "UNiDAYS free-month route is environment-sensitive and may fail",
       "Promotional offers can be withdrawn at any time"
     ],
     "zh": [
       "虚商数据优先级低于Vodafone本网用户",
-      "教育首月0元路线对环境敏感，有失败案例",
+      "UNiDAYS首月0元路线对环境敏感，有失败案例",
       "促销活动随时可能下线"
     ]
   },
   "featured": false,
-  "updatedAt": "2026-08-21"
+  "updatedAt": "2026-09-16"
 }
