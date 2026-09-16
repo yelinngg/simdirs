@@ -12,8 +12,8 @@
     "zh": "RedteaGO 是红茶移动（Redtea Mobile）旗下的消费者eSIM品牌，覆盖180+国家和地区。招牌不限量套餐可自选1–180天，每天刷新高速流量（基础版300 MB/日，尊享版10 GB/日），用尽后降速不限量；同时提供1–50 GB经典数据套餐，有效期最长15天。"
   },
   "details": {
-    "en": "What makes RedteaGO different is how the Unlimited Package is priced: you pay a flat day rate instead of buying a fixed-duration bundle, so a 9-day trip or a 41-day working holiday costs exactly what it should — no rounding up to the next preset package. Day rates vary by destination: roughly $0.70/day (300 MB/day basic) or $3.90/day (10 GB/day premium) in Japan, $4.90/day for the 10 GB tier in the USA, and around $4.50/day in the UK. If you burn through the daily allowance, speeds drop but data keeps flowing — handy for maps, messaging and email. Classic data-only bundles (1–50 GB, 1–15 days) suit short trips with predictable usage, and multi-country regional packages undercut buying each country separately. US-destination bundles with calling and SMS are also available for travellers who still need a reachable number.\n\nBeyond travel data, RedteaGO also sells a keep-alive global eSIM (~$3 first year, $3.3/year renewal) that bundles an Austrian phone number with 100 MB and unlimited SMS receiving for 365 days — verified receiving SMS while roaming in mainland China; it must be activated within 3 months of purchase, and the yearly clock starts at activation.",
-    "zh": "RedteaGO 的差异化在于不限量套餐的计价方式：按天计费而非固定时长打包，9 天行程或 41 天打工度假都只按实际天数付费，不必向上凑整到预设套餐。日费因目的地而异：日本约 0.70 美元/天（基础版 300 MB/日）或 3.90 美元/天（尊享版 10 GB/日），美国 10 GB 档为 4.90 美元/天，英国约 4.50 美元/天。当日高速额度用尽后降速但不断网，地图、即时通讯和邮件不受影响。经典数据套餐（1–50 GB、1–15 天有效）适合用量可预估的短途行程；覆盖多国的区域套餐（如含日本及周边的亚洲包、美加包）比逐国单买更划算；美国方向还提供带通话与短信的套餐，适合需要保持号码可接听的旅行者。\n\n此外 RedteaGO 还提供保号向的全球 eSIM（首年约 3 美元，续期 3.3 美元/年）：自带奥地利号码+100MB流量+365天无限收短信，实测中国大陆漫游可正常收短信；\n\n须在购买后 3 个月内激活，有效期自激活起算。"
+    "en": "What makes RedteaGO different is how the Unlimited Package is priced: you pay a flat day rate instead of buying a fixed-duration bundle, so a 9-day trip or a 41-day working holiday costs exactly what it should — no rounding up to the next preset package. Day rates vary by destination: roughly $0.70/day (300 MB/day basic) or $3.90/day (10 GB/day premium) in Japan, $4.90/day for the 10 GB tier in the USA, and around $4.50/day in the UK. If you burn through the daily allowance, speeds drop but data keeps flowing — handy for maps, messaging and email. Classic data-only bundles (1–50 GB, 1–15 days) suit short trips with predictable usage, and multi-country regional packages undercut buying each country separately. US-destination bundles with calling and SMS are also available for travellers who still need a reachable number.\n\nBeyond travel data, RedteaGO also sells a keep-alive global eSIM (~$3 first year, $3.3/year renewal) that bundles an Austrian phone number with 100 MB and unlimited SMS receiving for 365 days — verified receiving SMS while roaming in mainland China; it must be activated within 3 months of purchase, and the yearly clock starts at activation.\n\n**Roaming package payment methods (2026-09 user report).** Standalone China, Asia and China-Hong Kong-Macau roaming bundles cannot be paid with Alipay, WeChat Pay or credit cards issued in Hong Kong/Macau; global roaming data packages accept Alipay, WeChat Pay, cryptocurrency and account balance. The official checkout decides - payment rails vary by package and region.",
+    "zh": "RedteaGO 的差异化在于不限量套餐的计价方式：按天计费而非固定时长打包，9 天行程或 41 天打工度假都只按实际天数付费，不必向上凑整到预设套餐。日费因目的地而异：日本约 0.70 美元/天（基础版 300 MB/日）或 3.90 美元/天（尊享版 10 GB/日），美国 10 GB 档为 4.90 美元/天，英国约 4.50 美元/天。当日高速额度用尽后降速但不断网，地图、即时通讯和邮件不受影响。经典数据套餐（1–50 GB、1–15 天有效）适合用量可预估的短途行程；覆盖多国的区域套餐（如含日本及周边的亚洲包、美加包）比逐国单买更划算；美国方向还提供带通话与短信的套餐，适合需要保持号码可接听的旅行者。\n\n此外 RedteaGO 还提供保号向的全球 eSIM（首年约 3 美元，续期 3.3 美元/年）：自带奥地利号码+100MB流量+365天无限收短信，实测中国大陆漫游可正常收短信；\n\n须在购买后 3 个月内激活，有效期自激活起算。\n\n**漫游套餐支付方式（2026-09 用户实测）。** 单独的中国漫游、亚洲漫游、中港澳漫游套餐不支持支付宝、微信以及中国香港、中国澳门发行的信用卡付款；全球漫游流量套餐支持支付宝、微信、加密货币及账户余额付款。官方按套餐与地区动态开放支付通道，购买前以 App 结账页实际显示为准。"
   },
   "bestFor": {
     "en": "Trips of unusual length (9, 12, 23 days...) where fixed 7/10/15-day bundles force overpaying, and travellers who want a daily throttled-unlimited safety net.",
@@ -217,8 +217,8 @@
     }
   ],
   "plansNote": {
-    "en": "Prices verified from the redteago.com official storefront in August 2026. Day-pass and bundle prices vary by destination; Japan, USA and UK shown as examples.",
-    "zh": "价格于 2026 年 8 月经 redteago.com 官方商店核验。日包与套餐价格因目的地而异，此处以日本、美国、英国为例。"
+    "en": "Prices verified from the redteago.com official storefront in August 2026. Day-pass and bundle prices vary by destination; Japan, USA and UK shown as examples. Roaming payment restrictions per user reports, Sept 2026.",
+    "zh": "价格于 2026 年 8 月经 redteago.com 官方商店核验。日包与套餐价格因目的地而异，此处以日本、美国、英国为例。 漫游套餐支付限制为 2026-09 用户实测口径。"
   },
   "pros": {
     "en": [
@@ -239,15 +239,17 @@
       "300 MB/day basic tier is tight for video or hotspot use",
       "Regional bundle lists mix several similarly named sub-products — check coverage before checkout",
       "Fewer user reviews and less brand recognition than Airalo or Holafly in Western markets",
-      "Austrian-number global eSIM must be activated within 3 months of purchase or it lapses"
+      "Austrian-number global eSIM must be activated within 3 months of purchase or it lapses",
+      "Roaming package payment rules (user-reported, Sept 2026): standalone China / Asia / China-HK-Macau roaming bundles do NOT accept Alipay, WeChat Pay or HK/Macau-issued credit cards; global roaming data packages DO accept Alipay, WeChat Pay, crypto and account balance. Confirm at checkout."
     ],
     "zh": [
       "基础版 300 MB/日对看视频或开热点比较紧张",
       "区域套餐列表里多个子产品名称相近，下单前需核对覆盖范围",
       "在欧美市场的用户评价和品牌知名度不及 Airalo、Holafly",
-      "奥地利号码全球eSIM须在购买后3个月内激活，逾期作废"
+      "奥地利号码全球eSIM须在购买后3个月内激活，逾期作废",
+      "漫游套餐支付限制（2026-09 用户实测）：单独的中国漫游、亚洲漫游、中港澳漫游套餐不支持支付宝、微信及港澳发行信用卡付款；全球漫游流量套餐支持支付宝、微信、加密货币及账户余额。以结账页为准。"
     ]
   },
   "featured": false,
-  "updatedAt": "2026-08-21"
+  "updatedAt": "2026-09-16"
 }
