@@ -1,0 +1,116 @@
+{
+  "name": {
+    "en": "esim.cc",
+    "zh": "esim.cc"
+  },
+  "tagline": {
+    "en": "Budget destination eSIM — China day passes and 100GB/365-day annual cards on China Mobile",
+    "zh": "低价目的地eSIM：中国移动落地、中国日票与100GB年卡"
+  },
+  "description": {
+    "en": "esim.cc sells destination eSIMs across 140+ countries, popular in Chinese communities for its China/HK plans. Officially verified (2026-09): China 1GB/30d from $1.60, China day pass $2.99 (2GB/day high-speed then unlimited 128kbps), China 100GB/365d annual card $49.90, HK from $1.80. China plans land on China Mobile 4G/5G. First-order code TRAVEL10 (10% off).",
+    "zh": "esim.cc 是覆盖 140+ 国的目的地 eSIM 商，在中文社区以中国/香港套餐出名。官方核验价（2026-09）：中国 1GB/30天 1.60 美元起、中国日票 2.99 美元（每日 2GB 高速后 128kbps 不限量）、中国 100GB/365天年卡 49.90 美元、香港 1.80 美元起。中国套餐落地中国移动 4G/5G。首单 9 折码 TRAVEL10。"
+  },
+  "details": {
+    "en": "esim.cc is a Chinese-community favorite for cheap China/HK data. Official product page facts (2026-09): China day pass $2.99/day with 2GB daily high-speed then unlimited 128kbps; fixed China plans from $1.60 (1GB/30d) up to $49.90 (100GB/365d); HK from $1.80. Landing network for China plans is China Mobile 4G/5G (official). Data-only (no number), hotspot supported, eSIM locked to device, activate within 90 days of purchase (auto-activates on first connection).\n\nThird-party hands-on (shenqi.uk, 2026-07) corroborates China Mobile 4G/5G landing, NSA 5G speeds 100Mbps+, direct access to ChatGPT/Claude, and notes some routes exit via HK for mainland apps and SG for international services; Alipay/UnionPay accepted, no real-name KYC.\n\nCommunity single-user note (2026-09, unverified): HK landing IP; buyer reported the card can be laggy — to be re-tested.",
+    "zh": "esim.cc 在中文社区以低价中国/香港流量出名。官方产品页事实（2026-09）：中国日票 2.99 美元/天，每日 2GB 高速后 128kbps 不限量；中国定额 1.60 美元（1GB/30天）到 49.90 美元（100GB/365天）；香港 1.80 美元起。中国套餐落地中国移动 4G/5G（官方）。纯数据无号码、支持热点、eSIM 与设备绑定、购卡后 90 天内激活（落地联网自动激活）。\n\n第三方实测（shenqi.uk，2026-07）佐证：中国移动 4G/5G 落地、NSA 5G 实测 100Mbps+、ChatGPT/Claude 可直连，部分线路国内应用走香港、国际服务走新加坡出口；支持支付宝/银联、无需实名。\n\n社区单用户口径（2026-09，未核实）：落地 IP 香港；有买家反馈用起来偏卡——待复测。"
+  },
+  "bestFor": {
+    "en": "Budget buyers who want big China data or HK eSIMs cheap, with Alipay payment.",
+    "zh": "预算敏感、要中国大流量或香港卡、习惯支付宝付款的用户。"
+  },
+  "regions": [
+    "asia"
+  ],
+  "coverage": 140,
+  "plansFrom": 1.6,
+  "dataFrom": "1GB",
+  "validity": "7–365 days by plan",
+  "network": "China Mobile 4G/5G (China plans)",
+  "device": "esim",
+  "hotspot": true,
+  "rating": 3.7,
+  "website": "https://www.esim.cc/",
+  "features": {
+    "en": [
+      "China 100GB/365d annual card at $49.90",
+      "Day pass: 2GB/day full speed then unlimited 128kbps",
+      "Alipay/UnionPay accepted; no real-name KYC",
+      "Hotspot supported"
+    ],
+    "zh": [
+      "中国100GB/365天年卡49.90美元",
+      "日票：每日2GB高速后128kbps不限量",
+      "支持支付宝/银联，无需实名",
+      "支持热点共享"
+    ]
+  },
+  "pros": {
+    "en": [
+      "Very low per-GB price on China plans",
+      "Annual 100GB card suits long-term backup use",
+      "Crypto of Chinese payment rails (Alipay)"
+    ],
+    "zh": [
+      "中国套餐每GB单价极低",
+      "100GB年卡适合长期备用",
+      "支付宝友好"
+    ]
+  },
+  "cons": {
+    "en": [
+      "Company background not disclosed on site",
+      "Community reports of laggy experience (unverified)",
+      "eSIM locked to device, non-transferable"
+    ],
+    "zh": [
+      "站点未披露公司主体",
+      "社区反馈体验偏卡（未核实）",
+      "eSIM绑定设备不可转移"
+    ]
+  },
+  "plans": [
+    {
+      "name": {
+        "en": "China Day Pass",
+        "zh": "中国日票"
+      },
+      "data": {
+        "en": "2GB/day then 128kbps unlimited",
+        "zh": "每日2GB高速后128kbps不限量"
+      },
+      "validity": {
+        "en": "1–30 days",
+        "zh": "1–30天"
+      },
+      "price": {
+        "en": "US$2.99/day",
+        "zh": "2.99美元/天"
+      }
+    },
+    {
+      "name": {
+        "en": "China Annual",
+        "zh": "中国年卡"
+      },
+      "data": {
+        "en": "100GB",
+        "zh": "100GB"
+      },
+      "validity": {
+        "en": "365 days",
+        "zh": "365天"
+      },
+      "price": {
+        "en": "US$49.90",
+        "zh": "49.90美元"
+      }
+    }
+  ],
+  "plansNote": {
+    "en": "Official product page prices (2026-09-25). HK plans from $1.80. Third-party reports note non-fixed exit IPs.",
+    "zh": "官方产品页价格（2026-09-25核验）。香港套餐1.80美元起。第三方实测指出口IP非固定承诺。"
+  },
+  "featured": false,
+  "updatedAt": "2026-09-25"
+}

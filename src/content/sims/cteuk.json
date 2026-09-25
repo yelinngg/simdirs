@@ -1,0 +1,116 @@
+{
+  "name": {
+    "en": "CTExcel UK (CTE)",
+    "zh": "CTExcel 英国（中国电信欧洲）"
+  },
+  "tagline": {
+    "en": "China Telecom Europe's UK MVNO on EE — China–UK shared data from £9.9, free SIM",
+    "zh": "中国电信欧洲英国虚商（EE网络）：中英共享流量9.9镑起，可免费领卡"
+  },
+  "description": {
+    "en": "CTExcel UK is China Telecom (Europe)'s personal mobile brand (since 2012), an MVNO on EE — independent of CMLink (China Mobile system). Official prices (2026-09): UK 3GB £4.90; China–UK shared 22GB £9.9 / 50GB £11.9 / 120GB £14.9 / 300GB £19.9; Unlimited tier £29.9 (£23.9 promo). Free SIM via freecard campaign; ordering a bundle at card claim waives the £1 pre-load. Auto-cancel after 90 days of non-use.",
+    "zh": "CTExcel UK 是中国电信（欧洲）旗下个人移动品牌（2012 年上线），走 EE 网络的虚商——与中国移动系的 CMLink 相互独立。官方价（2026-09）：英国 3GB 4.90 镑；中英共享 22GB 9.9 / 50GB 11.9 / 120GB 14.9 / 300GB 19.9 镑；无限量档 29.9 镑（促销 23.9）。freecard 活动免费领卡、领卡同时订购套餐免 1 镑预充。90 天无使用自动销号。"
+  },
+  "details": {
+    "en": "CTE UK is the China Telecom counterpart to CMLink's China Mobile lineage: an EE MVNO aimed at UK–China users. Official plan list (2026-09): UK-only 3GB/30d £4.90; China–UK shared bundles 22GB £9.9, 50GB £11.9, 120GB £14.9, 300GB £19.9 (300GB tier adds 20GB EU); Unlimited £29.9 (£23.9 promo) with 300GB China + 30GB UK/EU. £11.9+ tiers include 200 UK minutes to 15 international destinations incl. China. One-card-two-numbers, eSIM available (re-opened; physical→eSIM conversion costs £3 per community reports), port-in supported.\n\nAcquisition cost is lower than CMLink's: the freecard campaign gives the SIM free, and ordering a bundle at claim time waives the £1 pre-load. Community sources report no real-name KYC needed (unofficial). Keep-alive: auto-cancellation after 90 days without usage — bundles renew per 30 days.\n\nCommunity single-user hands-on (2026-09, unverified): landing IP similar to CMLink's; stability rated below CMLink; rumored future throttling unconfirmed. Verdict: cheaper and easier to open than CMLink, CMLink still stronger for long-term keep-alive.",
+    "zh": "CTE UK 与 CMLink 分属电信/移动两大系：同为 EE 虚商、面向中英人群。官方套餐表（2026-09）：英国本地 3GB/30天 4.90 镑；中英共享 22GB 9.9、50GB 11.9、120GB 14.9、300GB 19.9 镑（300GB 档另含 20GB 欧洲流量）；无限量 29.9 镑（促销 23.9，含 300GB 中国+30GB 英欧）。11.9 镑及以上含 200 分钟英国本地拨打含中国在内 15 个方向。支持一卡双号、eSIM（已重新开放，社区称实体转 eSIM 收 3 镑）、携号转网。\n\n开卡成本低于 CMLink：freecard 活动免费领卡，领卡同时订购套餐再免 1 镑预充。社区口径无需实名（非官方）。保号：90 天无使用自动销号，套餐按 30 天滚动。\n\n社区单用户实测（2026-09，未核实）：落地 IP 与 CMLink 类似；稳定性评价不及 CMLink；「后续会限速」传闻未证实。结论：开卡比 CMLink 便宜省事，长期保号仍更推荐 CMLink。"
+  },
+  "bestFor": {
+    "en": "UK–China users wanting cheaper entry than CMLink with China–UK shared data.",
+    "zh": "想要比CMLink更低开卡门槛、中英共享流量的用户。"
+  },
+  "regions": [
+    "europe"
+  ],
+  "coverage": 1,
+  "plansFrom": 4.9,
+  "dataFrom": "3GB",
+  "validity": "30 days per bundle; 90-day activity keep-alive",
+  "network": "EE (MVNO)",
+  "device": "both",
+  "hotspot": true,
+  "rating": 3.8,
+  "website": "https://www.ctexcel.com/uk/",
+  "features": {
+    "en": [
+      "China–UK shared data from £9.9/22GB",
+      "Free SIM via freecard + £1 pre-load waived",
+      "One card two numbers; eSIM available",
+      "200 UK minutes incl. China on £11.9+ plans"
+    ],
+    "zh": [
+      "中英共享流量9.9镑/22GB起",
+      "freecard免费领卡+免1镑预充",
+      "一卡双号，支持eSIM",
+      "11.9镑以上含200分钟可拨中国"
+    ]
+  },
+  "pros": {
+    "en": [
+      "Cheapest China-UK entry point among UK Chinese-operator SIMs",
+      "Free card + waived pre-load lowers opening cost",
+      "Same EE network as CMLink"
+    ],
+    "zh": [
+      "英国华人运营商卡中入门价最低",
+      "免费卡+免预充，开卡成本极低",
+      "与CMLink同为EE网络"
+    ]
+  },
+  "cons": {
+    "en": [
+      "Stability rated below CMLink (community)",
+      "90-day inactivity cancellation",
+      "Throttling rumors unconfirmed"
+    ],
+    "zh": [
+      "稳定性口碑不及CMLink（社区）",
+      "90天不用即销号",
+      "限速传闻未证实"
+    ]
+  },
+  "plans": [
+    {
+      "name": {
+        "en": "China–UK 22GB",
+        "zh": "中英通 22GB"
+      },
+      "data": {
+        "en": "22GB shared UK+China",
+        "zh": "22GB中英共享"
+      },
+      "validity": {
+        "en": "30 days",
+        "zh": "30天"
+      },
+      "price": {
+        "en": "£9.9",
+        "zh": "9.9英镑"
+      }
+    },
+    {
+      "name": {
+        "en": "China–UK 300GB",
+        "zh": "中英通 300GB"
+      },
+      "data": {
+        "en": "300GB + 20GB EU",
+        "zh": "300GB+20GB欧洲"
+      },
+      "validity": {
+        "en": "30 days",
+        "zh": "30天"
+      },
+      "price": {
+        "en": "£19.9",
+        "zh": "19.9英镑"
+      }
+    }
+  ],
+  "plansNote": {
+    "en": "Official plan list (2026-09-25). eSIM conversion fee from community reports; KYC-free claim unofficial.",
+    "zh": "官方套餐页（2026-09-25核验）。eSIM转换费与免实名均为社区口径。"
+  },
+  "featured": false,
+  "updatedAt": "2026-09-25"
+}

@@ -1,0 +1,117 @@
+{
+  "name": {
+    "en": "Stellar Security eSIM",
+    "zh": "Stellar Security eSIM"
+  },
+  "tagline": {
+    "en": "Swiss privacy-brand travel eSIM with bundled VPN — big-data long-validity plans",
+    "zh": "瑞士隐私品牌旅行eSIM，附赠VPN、大流量长有效期"
+  },
+  "description": {
+    "en": "Stellar Security sells destination-based travel eSIMs from a Swiss privacy company; every eSIM bundles the full Stellar VPN for the whole plan period. Entry plans from €1.21 (Turkey 3GB/30d); 50GB/180-day tiers exist (€15.27, Turkey). Payments by card, PayPal, or crypto (BTC/XMR/USDT). Community hands-on (single-user, unverified): HK landing IP with SG split routing, ~€11.x for 100GB, China Mobile roaming behavior without roaming icon, no 5G.",
+    "zh": "Stellar Security 是瑞士隐私公司旗下的目的地制旅行 eSIM，每张 eSIM 附赠整个套餐期可用的完整版 Stellar VPN。入门套餐 1.21 欧元起（土耳其 3GB/30天），有 50GB/180 天大容量档（15.27 欧）。支持银行卡、PayPal 与加密货币（BTC/XMR/USDT）支付。社区单用户实测（未官方证实）：香港落地 IP、新加坡分流、100GB 约 11 欧元档、国内使用走移动网络无漫游图标、连不上 5G。"
+  },
+  "details": {
+    "en": "Stellar Security positions itself as a privacy-first travel eSIM: Swiss jurisdiction, free full Stellar VPN (normally €9.99/mo) bundled for the entire plan validity, and anonymous payment rails (PayPal, BTC, XMR, USDT). The eSIM is data-only, installs up to 180 days ahead, and activates on first connection at the destination; some plans support top-up. The \"Stellar Data\" app handles usage and reloads.\n\nPricing is per destination; officially verified samples (2026-09): Turkey 3GB/30d €1.21, Turkey 50GB/180d €15.27. The community-reported 100GB/~€11 tier with HK landing + SG split routing was not found on official pages during the 2026-09 check — treat those numbers as third-party hands-on, subject to change.\n\nHands-on notes from a single community user (2026-09, unverified): roaming worked well in mainland China over what appeared to be China Mobile with no roaming icon shown, speeds close to a local SIM, but 5G would not connect (LTE only).",
+    "zh": "Stellar Security 主打隐私优先的旅行 eSIM：瑞士司法辖区、每张卡附赠整个套餐期的完整版 Stellar VPN（VPN 单独订阅 9.99 欧/月）、支持 PayPal/BTC/XMR/USDT 等匿名支付。纯数据卡，最迟能提前 180 天安装，到达目的地首次联网激活，部分套餐支持充值。官方 App「Stellar Data」管理用量。\n\n价格为目的地定价制，2026-09 官方页核验样例：土耳其 3GB/30天 1.21 欧、土耳其 50GB/180天 15.27 欧。社区流传的 100GB 约 11 欧元、香港落地+新加坡分流的口径在官方页面未找到——以上数字属第三方实测，随时可能变动。\n\n社区单用户实测补充（2026-09，未核实）：中国大陆漫游体验好，疑似走移动网络、不显示漫游图标，速率接近本地卡，但始终连不上 5G（仅 LTE）。"
+  },
+  "bestFor": {
+    "en": "Privacy-minded travellers who want big-data, long-validity eSIMs and bundled VPN.",
+    "zh": "注重隐私、需要大流量长有效期并附赠 VPN 的旅行用户。"
+  },
+  "regions": [
+    "asia",
+    "europe"
+  ],
+  "coverage": 140,
+  "plansFrom": 1.3,
+  "dataFrom": "1GB",
+  "validity": "30–180 days by plan",
+  "network": "Local partner networks (4G/5G)",
+  "device": "esim",
+  "hotspot": true,
+  "rating": 4.0,
+  "website": "https://stellarsecurity.com/",
+  "features": {
+    "en": [
+      "Full Stellar VPN bundled for the whole plan period",
+      "Crypto payments (BTC/XMR/USDT)",
+      "Install up to 180 days ahead; top-up supported on some plans",
+      "Big-data long-validity tiers (e.g. 50GB/180 days)"
+    ],
+    "zh": [
+      "附赠整个套餐期的完整版 Stellar VPN",
+      "支持加密货币支付（BTC/XMR/USDT）",
+      "最迟提前180天安装，部分套餐可充值",
+      "大流量长有效期档位（如50GB/180天）"
+    ]
+  },
+  "pros": {
+    "en": [
+      "Swiss privacy jurisdiction plus bundled VPN",
+      "Anonymous payment options",
+      "Long validity on big-data plans"
+    ],
+    "zh": [
+      "瑞士隐私辖区+附赠VPN",
+      "支持匿名支付",
+      "大流量套餐有效期长"
+    ]
+  },
+  "cons": {
+    "en": [
+      "Destination-based pricing is opaque — popular HK/SG community plans not listed publicly",
+      "Community-reported 5G not connecting in mainland China (unverified)",
+      "VPN-first brand means less telco transparency"
+    ],
+    "zh": [
+      "目的地定价不透明，社区热门港/新套餐未公开挂出",
+      "社区实测国内连不上5G（未核实）",
+      "VPN品牌出身，电信侧透明度较低"
+    ]
+  },
+  "plans": [
+    {
+      "name": {
+        "en": "Turkey 3GB",
+        "zh": "土耳其 3GB"
+      },
+      "data": {
+        "en": "3GB",
+        "zh": "3GB"
+      },
+      "validity": {
+        "en": "30 days + VPN",
+        "zh": "30天+VPN"
+      },
+      "price": {
+        "en": "€1.21",
+        "zh": "1.21欧元"
+      }
+    },
+    {
+      "name": {
+        "en": "Turkey 50GB",
+        "zh": "土耳其 50GB"
+      },
+      "data": {
+        "en": "50GB",
+        "zh": "50GB"
+      },
+      "validity": {
+        "en": "180 days + VPN",
+        "zh": "180天+VPN"
+      },
+      "price": {
+        "en": "€15.27",
+        "zh": "15.27欧元"
+      }
+    }
+  ],
+  "plansNote": {
+    "en": "Official site prices (2026-09-25). The 100GB/~€11 HK+SG community plan was not found on official pages; user-reported only.",
+    "zh": "官网价（2026-09-25核验）。社区流传的100GB约11欧港/新套餐未在官方页找到，仅用户口径。"
+  },
+  "featured": false,
+  "updatedAt": "2026-09-25"
+}

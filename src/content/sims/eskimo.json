@@ -1,0 +1,117 @@
+{
+  "name": {
+    "en": "Eskimo",
+    "zh": "Eskimo"
+  },
+  "tagline": {
+    "en": "Singapore-based eSIM with never-expiring data — free 250MB global trial",
+    "zh": "新加坡eSIM：流量永不过期，250MB全球免费试用"
+  },
+  "description": {
+    "en": "Eskimo (Datapro Technologies Pte Ltd, Singapore) sells eSIMs whose fixed-plan data never expires — 2-year validity from first connect, leftover data extends 2 more years on any new purchase. Official prices (2026-09): Singapore 1GB $3.90 (promo $2.54), 10GB $17.90 (promo $11.64), Global 126-country 10GB $38.90/$23.90. New users get a free 250MB Global eSIM. Rides Singtel 4G/5G in Singapore.",
+    "zh": "Eskimo（新加坡 Datapro Technologies 运营）主打套餐流量永不过期——首次联网起 2 年有效，再购任意套餐可将剩余流量再续 2 年。官方价（2026-09）：新加坡 1GB 3.90 美元（促销 2.54）、10GB 17.90（促销 11.64）、全球 126 国 10GB 38.90/23.90。新用户免费领 250MB 全球 eSIM。新加坡走 Singtel 4G/5G。"
+  },
+  "details": {
+    "en": "Eskimo's differentiator is permanence: fixed plans never expire (2-year validity clock starts at first network connect; buying any new plan extends leftover data another 2 years), and data is shareable/transferable between Eskimo users. Singapore plans are powered by Singtel 4G/5G per the official plan page; Global plans cover 111–126 countries.\n\nOfficial prices (2026-09): Singapore 1GB $3.90/$2.54 promo, 3GB $7.90/$5.14, 5GB $10.90/$7.09, 10GB $17.90/$11.64; Global 10GB $38.90/$23.90. Free tier: 250MB Global eSIM for new users, 111+ countries, no expiry (official banner; the 500MB figure circulating in communities was not found on official pages). App-exclusive 35% off first purchase (capped $12).\n\nCommunity single-user hands-on (2026-09, unverified): Singapore native IP plus residential IP, high IP quality, speeds good — but pricing is felt expensive. Premium positioning: big Global bundles reach $474.90 (200GB).",
+    "zh": "Eskimo 的卖点是「永久」：固定套餐永不过期（首次联网起算 2 年，再购任意套餐可把剩余流量再延 2 年），且流量可在用户间共享/转赠。新加坡套餐官方页标注走 Singtel 4G/5G；全球套餐覆盖 111–126 国。\n\n官方价（2026-09）：新加坡 1GB 3.90/促销 2.54 美元、3GB 7.90/5.14、5GB 10.90/7.09、10GB 17.90/11.64；全球 10GB 38.90/23.90。免费额度：新用户 250MB 全球 eSIM、111+ 国、不过期（官方横幅口径；社区流传的 500MB 未在官方页找到）。App 首购专属 35% off（上限 12 美元）。\n\n社区单用户实测（2026-09，未核实）：新加坡原生 IP+住宅 IP、IP 质量高、速率不错——但价格感受偏贵。定位偏高端：大容量全球包可达 474.90 美元（200GB）。"
+  },
+  "bestFor": {
+    "en": "Users who want data that never expires and top IP quality in Singapore, price-tolerant.",
+    "zh": "想要流量永不过期、追求新加坡IP质量且对价格不敏感的用户。"
+  },
+  "regions": [
+    "asia",
+    "global"
+  ],
+  "coverage": 126,
+  "plansFrom": 2.54,
+  "dataFrom": "1GB",
+  "validity": "2 years from first connect, extendable",
+  "network": "Singtel 4G/5G (Singapore)",
+  "device": "esim",
+  "hotspot": true,
+  "rating": 3.9,
+  "website": "https://www.eskimo.travel/",
+  "features": {
+    "en": [
+      "Data never expires (2-yr validity, extendable)",
+      "Free 250MB Global eSIM for new users",
+      "Data shareable/transferable between users",
+      "Singtel-backed Singapore network"
+    ],
+    "zh": [
+      "流量永不过期（2年有效可续）",
+      "新用户免费250MB全球eSIM",
+      "流量可共享/转赠",
+      "新加坡Singtel网络"
+    ]
+  },
+  "pros": {
+    "en": [
+      "Never-expiring data removes re-purchase anxiety",
+      "High-quality Singapore native + residential IP (community hands-on)",
+      "Free global trial data"
+    ],
+    "zh": [
+      "流量永不过期，无重复购买焦虑",
+      "新加坡原生+住宅IP质量高（社区实测）",
+      "免费全球试用流量"
+    ]
+  },
+  "cons": {
+    "en": [
+      "Pricey vs budget rivals, especially Global bundles",
+      "500MB trial figure not confirmed (official: 250MB)",
+      "No published IP-landing commitments"
+    ],
+    "zh": [
+      "相对低价竞品偏贵，全球包尤甚",
+      "500MB试用口径未确认（官方为250MB）",
+      "官方不公布IP落地承诺"
+    ]
+  },
+  "plans": [
+    {
+      "name": {
+        "en": "Singapore 1GB",
+        "zh": "新加坡 1GB"
+      },
+      "data": {
+        "en": "1GB never expires",
+        "zh": "1GB永不过期"
+      },
+      "validity": {
+        "en": "2 years from first connect",
+        "zh": "首次联网起2年"
+      },
+      "price": {
+        "en": "US$3.90 (promo $2.54)",
+        "zh": "3.90美元（促销2.54）"
+      }
+    },
+    {
+      "name": {
+        "en": "Global 10GB",
+        "zh": "全球 10GB"
+      },
+      "data": {
+        "en": "10GB, 126 countries",
+        "zh": "10GB，126国"
+      },
+      "validity": {
+        "en": "2 years from first connect",
+        "zh": "首次联网起2年"
+      },
+      "price": {
+        "en": "US$38.90 (promo $23.90)",
+        "zh": "38.90美元（促销23.90）"
+      }
+    }
+  ],
+  "plansNote": {
+    "en": "Official plan pages (2026-09-25). Promo prices via official app offer.",
+    "zh": "官方套餐页（2026-09-25核验），促销价为官方App价。"
+  },
+  "featured": false,
+  "updatedAt": "2026-09-25"
+}

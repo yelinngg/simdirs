@@ -1,0 +1,98 @@
+{
+  "name": {
+    "en": "Yoho Mobile",
+    "zh": "Yoho Mobile"
+  },
+  "tagline": {
+    "en": "App-first eSIM with free trial tier and post-quota low-speed keep-alive",
+    "zh": "App制eSIM：有免费体验流量，超额降速不断网"
+  },
+  "description": {
+    "en": "Yoho Mobile (YOHO MOBILE PTE. LTD., Singapore) sells app-installed eSIMs across 200+ countries with no QR flow. Plans list underlying operators (Japan: Rakuten/KDDI/CMCC); example price Japan 10GB/7d from $7.45. A free eSIM trial is offered in-app. \"Yoho Care\" keeps low-speed connectivity after quota; 100% refund policy advertised.",
+    "zh": "Yoho Mobile（新加坡 YOHO MOBILE PTE. LTD.）卖 App 一键安装的 eSIM（无二维码流程），覆盖 200+ 国。套餐会标底层运营商（日本：Rakuten/KDDI/CMCC），样例价：日本 10GB/7天 7.45 美元起。App 内有免费 eSIM 体验。超额后「Yoho Care」保持低速不断网；官方宣传 100% 退款。"
+  },
+  "details": {
+    "en": "Yoho Mobile is app-first: plans are bought and installed in the app (one tap, no QR), with a web configurator showing per-plan operators (Japan example: Rakuten Mobile / KDDI / CMCC variants at $7.45–8.72 for 10GB/7d). Coverage 200+ countries; \"Yoho Care\" preserves low-speed data after quota exhaustion, and a 100% refund policy is advertised.\n\nFree tier: the official site promotes a free eSIM trial, claimable only in the mobile app (yohomobile.com/freeesim redirects to store listings). The old watch-an-ad-for-HK-data mechanism appears only in third-party write-ups — treat as deprecated or app-only, unverified.\n\nCommunity single-user hands-on (2026-09, unverified): the ad-supported free HK data once offered a Hong Kong local IP on China Mobile throttled around 100KB/s; that user saw no throttling while others did — inconsistent reports. Value-for-money now rated mid-tier.",
+    "zh": "Yoho Mobile 主打 App 制：套餐在 App 内购买并一键安装（无二维码），网页配置器会显示各套餐底层运营商（日本例：Rakuten/KDDI/CMCC，10GB/7天 7.45–8.72 美元）。覆盖 200+ 国；「Yoho Care」在流量耗尽后保持低速连接；官方宣传 100% 退款。\n\n免费额度：官网推广免费 eSIM 体验，仅能在手机 App 领取（yohomobile.com/freeesim 跳转应用商店）。老的「看广告换香港免费流量」机制只出现在第三方文章——按已废弃或 App 专属处理，未核实。\n\n社区单用户实测（2026-09，未核实）：当年看广告的免费香港流量给香港本地 IP、走中国移动、限速约 100KB/s；该用户自称没被限速但他人有限速报告——口径不一。当前性价比评价中等。"
+  },
+  "bestFor": {
+    "en": "App-comfort users wanting operator-transparent plans and a free trial first.",
+    "zh": "习惯App操作、想先免费试再用、在意底层运营商透明的用户。"
+  },
+  "regions": [
+    "global"
+  ],
+  "coverage": 200,
+  "plansFrom": 7.45,
+  "dataFrom": "10GB (example)",
+  "validity": "7–30 days by plan",
+  "network": "Operator varies by plan (listed per plan)",
+  "device": "esim",
+  "hotspot": true,
+  "rating": 3.7,
+  "website": "https://yohomobile.com/",
+  "features": {
+    "en": [
+      "App one-tap install, no QR",
+      "Plans name underlying operators",
+      "Yoho Care low-speed keep-alive after quota",
+      "Free eSIM trial in-app"
+    ],
+    "zh": [
+      "App一键安装无二维码",
+      "套餐标注底层运营商",
+      "超额后Yoho Care低速不断网",
+      "App内免费体验"
+    ]
+  },
+  "pros": {
+    "en": [
+      "Operator transparency per plan",
+      "Refund policy advertised",
+      "Free trial tier to evaluate"
+    ],
+    "zh": [
+      "套餐运营商透明",
+      "有退款政策",
+      "有免费体验额度"
+    ]
+  },
+  "cons": {
+    "en": [
+      "No public web price table (app/configurator only)",
+      "Free HK ad-data mechanism apparently deprecated",
+      "Community speed reports inconsistent"
+    ],
+    "zh": [
+      "无公开网页价目表（仅App/配置器）",
+      "看广告换香港流量机制疑已下线",
+      "社区速率报告口径不一"
+    ]
+  },
+  "plans": [
+    {
+      "name": {
+        "en": "Japan 10GB (Rakuten)",
+        "zh": "日本 10GB（Rakuten）"
+      },
+      "data": {
+        "en": "10GB",
+        "zh": "10GB"
+      },
+      "validity": {
+        "en": "7 days",
+        "zh": "7天"
+      },
+      "price": {
+        "en": "US$7.45",
+        "zh": "7.45美元"
+      }
+    }
+  ],
+  "plansNote": {
+    "en": "Price from web configurator embedded JSON (2026-09-25); no public price table — verify in app.",
+    "zh": "价格取自网页配置器内嵌数据（2026-09-25）；官网无公开价目表，以App为准。"
+  },
+  "featured": false,
+  "updatedAt": "2026-09-25"
+}

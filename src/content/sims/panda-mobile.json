@@ -1,0 +1,117 @@
+{
+  "name": {
+    "en": "Panda Mobile (US)",
+    "zh": "熊猫移动（美国）"
+  },
+  "tagline": {
+    "en": "US-number MVNO for Chinese in America — student $1 first month, works in China",
+    "zh": "面向在美华人的美国号虚商：学生认证首月1美元，中国可用"
+  },
+  "description": {
+    "en": "Panda Mobile (pandamobile.com) is a US MVNO advertising \"the nation's largest 5G network\" (consistent with T-Mobile, unnamed officially) with eSIM/physical SIM, no SSN or credit check. Plans Lite $15 / Starter $25 / Unlimited $35 per month; OnePool data shared between US and China (China capped 5GB/mo on promos). WiFi Calling gives free calls/texts while in China; US number issued before arrival. Student verification unlocks $1 first month promos.",
+    "zh": "熊猫移动（pandamobile.com）是美国虚商，官方口径「全美最大 5G 网络」（与 T-Mobile 特征相符但官方未点名），eSIM/实体卡均可、无 SSN、不查信用。套餐：Lite 15 / Starter 25 / Unlimited 35 美元/月；OnePool 流量美国与中国共享（促销期中国每月上限 5GB）。WiFi Calling 令在中国期间免费通话短信；赴美前即可先拿美国号。学生认证可解锁首月 1 美元促销。"
+  },
+  "details": {
+    "en": "Panda Mobile targets Chinese students and workers heading to the US: you get a US number before arrival, bilingual (Mandarin) support including WeChat, no SSN/credit check, no contract. Official plans (2026-09): Lite $15/mo, Starter $25/mo (promo $23.75), Unlimited $35/mo (promo $33.25), Unlimited Plus flash-sale $45/3 months. OnePool data works in both the US and China (China-side capped at 5GB/month during the 3-month promo). WiFi Calling keeps calls/texts free while physically in China; higher plans include free international calls to 229+ countries.\n\nStudent route: EDU-email verification via studentoffers.co unlocks Student Starter $15 / Unlimited $25 and a limited-time $1 first month on the top student tier (Instagram/studentoffers promos — confirm at checkout). Referral: $8 per friend, unlimited.\n\nCommunity single-user hands-on (2026-09, unverified): landing IP in the US on T-Mobile, ~5–10GB free data with the $1 student opening, unlimited SMS/calls for that month; second month reverts to full price — effectively a one-month throwaway. IP quality good (T-Mobile US).",
+    "zh": "熊猫移动瞄准赴美中国学生与务工者：出发前先拿美国号、中英双语客服（含微信）、无 SSN、不查信用、无合约。官方套餐（2026-09）：Lite 15、Starter 25（促销 23.75）、Unlimited 35（促销 33.25）美元/月，Unlimited Plus 闪购 45 美元/3 个月。OnePool 流量美中共享（3 个月促销期内中国侧每月上限 5GB）。人在中国时 WiFi Calling 通话短信免费；高档套餐含 229+ 国免费国际通话。\n\n学生通道：EDU 邮箱认证（studentoffers.co）解锁学生 Starter 15 / Unlimited 25 美元，最高学生档限时首月 1 美元（Instagram/studentoffers 促销，下单时确认）。推荐返利每名好友 8 美元、不限量。\n\n社区单用户实测（2026-09，未核实）：美国 T-Mobile 落地 IP，1 美元学生开卡带 5–10GB 免费流量+当月无限短信通话；第二个月恢复原价——实质是月抛卡。IP 质量好（美国 T-Mobile）。"
+  },
+  "bestFor": {
+    "en": "Chinese students/workers wanting a US number ready before landing, cheaply for month one.",
+    "zh": "想落地前先备好美国号、首月低成本试水的留学生/务工者。"
+  },
+  "regions": [
+    "north-america",
+    "asia"
+  ],
+  "coverage": 2,
+  "plansFrom": 1,
+  "dataFrom": "Varies by plan",
+  "validity": "Monthly rolling",
+  "network": "US largest 5G network (unnamed; T-Mobile-consistent)",
+  "device": "both",
+  "hotspot": true,
+  "rating": 3.9,
+  "website": "https://pandamobile.com/",
+  "features": {
+    "en": [
+      "US number before arrival",
+      "No SSN / no credit check",
+      "OnePool data works in US and China",
+      "Student EDU verification promos ($1 first month)"
+    ],
+    "zh": [
+      "赴美前先发美国号",
+      "无SSN不查信用",
+      "OnePool流量美中通用",
+      "学生认证促销（首月1美元）"
+    ]
+  },
+  "pros": {
+    "en": [
+      "Very cheap first month via student verification",
+      "Free calls/texts in China via WiFi Calling",
+      "Mandarin support incl. WeChat"
+    ],
+    "zh": [
+      "学生认证首月极便宜",
+      "人在中国WiFi Calling免费通话短信",
+      "中文微信客服"
+    ]
+  },
+  "cons": {
+    "en": [
+      "Second month onwards at full price — throwaway economics",
+      "T-Mobile backing not officially confirmed",
+      "China-side data capped during promos"
+    ],
+    "zh": [
+      "第二个月起恢复原价，月抛属性",
+      "T-Mobile背景官方未确认",
+      "促销期中国侧流量有上限"
+    ]
+  },
+  "plans": [
+    {
+      "name": {
+        "en": "Lite",
+        "zh": "Lite"
+      },
+      "data": {
+        "en": "Plan data",
+        "zh": "套餐流量"
+      },
+      "validity": {
+        "en": "30 days",
+        "zh": "30天"
+      },
+      "price": {
+        "en": "US$15/mo",
+        "zh": "15美元/月"
+      }
+    },
+    {
+      "name": {
+        "en": "Student first month",
+        "zh": "学生首月"
+      },
+      "data": {
+        "en": "Tier data",
+        "zh": "对应档流量"
+      },
+      "validity": {
+        "en": "1 month",
+        "zh": "1个月"
+      },
+      "price": {
+        "en": "US$1 (EDU promo)",
+        "zh": "1美元（学生促销）"
+      }
+    }
+  ],
+  "plansNote": {
+    "en": "Official site + studentoffers.co (2026-09-25). Student $1 promo is limited-time; verify at checkout.",
+    "zh": "官网+studentoffers.co（2026-09-25核验）。学生1美元为限时促销，下单时确认。"
+  },
+  "featured": false,
+  "updatedAt": "2026-09-25"
+}

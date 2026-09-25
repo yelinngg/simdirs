@@ -1,0 +1,116 @@
+{
+  "name": {
+    "en": "Roamless",
+    "zh": "Roamless"
+  },
+  "tagline": {
+    "en": "One global eSIM, pay-as-you-go credits that never expire — free $1.25 start",
+    "zh": "一张全球eSIM按量付费，余额永不过期，送1.25美元"
+  },
+  "description": {
+    "en": "Roamless issues a single global eSIM (200+ destinations) with two billing models: Flex pay-as-you-go credits (never expire, from ~$0.58–2.45/GB by region) and 30-day fixed plans. Every new user gets $1.25 credits (~500MB) free; a free 500MB Singapore 30-day plan is listed. Singapore rides SingTel 3G/4G, unlimited hotspot.",
+    "zh": "Roamless 一张全球 eSIM（200+ 目的地）两种计费：Flex 按量余额（永不过期，约 0.58–2.45 美元/GB 按地区）与 30 天固定套餐。新用户送 1.25 美元余额（约 500MB）；官方还挂有新加坡 500MB/30 天免费套餐。新加坡走 SingTel 3G/4G，热点不限。"
+  },
+  "details": {
+    "en": "Roamless' model is wallet-first: install the eSIM once, buy Flex credits that never expire and auto-consume per MB anywhere among 200+ destinations, or buy conventional 30-day plans. Official prices (2026-09): Singapore 1GB $3.95, 3GB $6.95, 5GB $9.95, 10GB $15.95; USA 1GB $3.95, 10GB $22.45. Singapore network: SingTel 3G/4G with unlimited hotspot and no speed cap (official destination page).\n\nFree tier: $1.25 starter credits (up to 500MB) for every new user, plus a listed free Singapore 500MB/30-day plan. Also sells Roamless Numbers for calls/SMS.\n\nCommunity single-user hands-on (2026-09, unverified): Singapore landing IP, residential + broadcast IP mix; speeds not tested.",
+    "zh": "Roamless 主打钱包制：装一次 eSIM，充 Flex 余额永不过期、在 200+ 目的地按 MB 自动扣费；也可买常规 30 天套餐。官方价（2026-09）：新加坡 1GB 3.95、3GB 6.95、5GB 9.95、10GB 15.95 美元；美国 1GB 3.95、10GB 22.45。新加坡官方页标注 SingTel 3G/4G、热点不限、不限速。\n\n免费额度：每位新用户 1.25 美元起充余额（约 500MB），另有挂出的新加坡 500MB/30 天免费套餐。另有 Roamless Numbers 号码产品供通话短信。\n\n社区单用户实测（2026-09，未核实）：落地新加坡、住宅+广播 IP 混合；速率未测。"
+  },
+  "bestFor": {
+    "en": "Occasional travellers who prefer pay-per-MB with never-expiring balance over fixed plans.",
+    "zh": "出行频率不固定、偏好按量付费且余额不过期的用户。"
+  },
+  "regions": [
+    "global"
+  ],
+  "coverage": 200,
+  "plansFrom": 1.95,
+  "dataFrom": "500MB free / pay-as-you-go",
+  "validity": "Credits never expire; plans 30 days",
+  "network": "SingTel 3G/4G (Singapore)",
+  "device": "esim",
+  "hotspot": true,
+  "rating": 3.8,
+  "website": "https://roamless.com/",
+  "features": {
+    "en": [
+      "Single eSIM for 200+ destinations",
+      "Flex credits never expire",
+      "$1.25 free starter credits + free SG 500MB plan",
+      "Unlimited hotspot on Singapore plans"
+    ],
+    "zh": [
+      "一张eSIM通用于200+目的地",
+      "Flex余额永不过期",
+      "新用户送1.25美元+新加坡500MB免费套餐",
+      "新加坡套餐热点不限"
+    ]
+  },
+  "pros": {
+    "en": [
+      "No expiry pressure on credits",
+      "Generous free tier to test",
+      "Competitive 30-day plan pricing"
+    ],
+    "zh": [
+      "余额无过期压力",
+      "免费额度大方，适合试水",
+      "30天套餐价格有竞争力"
+    ]
+  },
+  "cons": {
+    "en": [
+      "SingTel 3G/4G only (no 5G) in Singapore",
+      "Pay-as-you-go per-GB can exceed plan pricing",
+      "Community IP-quality reports unverified"
+    ],
+    "zh": [
+      "新加坡仅SingTel 3G/4G（无5G）",
+      "按量单价可能高于套餐价",
+      "社区IP质量口径未核实"
+    ]
+  },
+  "plans": [
+    {
+      "name": {
+        "en": "Singapore 1GB",
+        "zh": "新加坡 1GB"
+      },
+      "data": {
+        "en": "1GB",
+        "zh": "1GB"
+      },
+      "validity": {
+        "en": "30 days",
+        "zh": "30天"
+      },
+      "price": {
+        "en": "US$3.95",
+        "zh": "3.95美元"
+      }
+    },
+    {
+      "name": {
+        "en": "Flex credits",
+        "zh": "Flex余额"
+      },
+      "data": {
+        "en": "Pay per MB",
+        "zh": "按MB计费"
+      },
+      "validity": {
+        "en": "Never expires",
+        "zh": "永不过期"
+      },
+      "price": {
+        "en": "from ~US$0.58–2.45/GB",
+        "zh": "约0.58–2.45美元/GB"
+      }
+    }
+  ],
+  "plansNote": {
+    "en": "Official destination pages (2026-09-25). Flex per-GB varies by region.",
+    "zh": "官方目的地页（2026-09-25核验）。Flex单价按地区浮动。"
+  },
+  "featured": false,
+  "updatedAt": "2026-09-25"
+}

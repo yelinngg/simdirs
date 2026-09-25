@@ -12,8 +12,8 @@
     "zh": "Holafly 专营不限量流量eSIM，有效期从数天到90天灵活可选，覆盖160+目的地。适合重度使用者、远程办公者以及不想为流量焦虑的旅行者。"
   },
   "details": {
-    "en": "Holafly's entire catalogue is built around one promise: never think about gigabytes again. Instead of data buckets, you buy a duration — 5 to 90 days, selectable day by day — and the data is unlimited for that window. That pricing model shines on long single-country stays: a month of working remotely in Spain or Portugal with daily video calls costs a flat rate, with no anxiety about hitting a cap mid-call. Two caveats from the plan terms: hotspot tethering is supported on most destinations but a few limit sharing speed, and a fair-use policy applies — after very high consumption (typically hundreds of GB in a billing cycle) speeds may be reduced, so it is unlimited for travel use, not a home-broadband replacement. Installation is via QR from the web store or app, activation is automatic on first connection, and plans can be extended mid-trip from the app.\n\nNote that Holafly's per-day cost is higher than capped plans from budget providers — the premium buys the removal of the data counter, not a cheaper gigabyte.",
-    "zh": "Holafly 的整个产品目录围绕一个承诺：再也不用盯着流量数字。你买的不是流量桶，而是一段时间——5 到 90 天逐日可选——期间流量不限量。这种计价方式在单国长住场景最为划算：在西班牙或葡萄牙远程办公一个月、每天开视频会议，也只付一个固定价，不用怕会议中途断网。\n\n条款里有两个注意点：多数目的地支持热点共享，但少数国家会限制共享速度；同时适用公平使用政策——单周期用量极高（通常数百 GB）后可能降速，所以它是旅行意义上的不限量，不是家庭宽带替代品。\n\n安装通过官网或 App 的二维码完成，首次联网自动激活，行程中可在 App 内直接延期。\n\n需要留意的是，Holafly 的日均成本高于预算型供应商的限量套餐——溢价买的是「流量清零焦虑」的消失，而不是更便宜的每 GB 单价。"
+    "en": "Holafly's entire catalogue is built around one promise: never think about gigabytes again. Instead of data buckets, you buy a duration — 5 to 90 days, selectable day by day — and the data is unlimited for that window. That pricing model shines on long single-country stays: a month of working remotely in Spain or Portugal with daily video calls costs a flat rate, with no anxiety about hitting a cap mid-call. Two caveats from the plan terms: hotspot tethering is supported on most destinations but a few limit sharing speed, and a fair-use policy applies — after very high consumption (typically hundreds of GB in a billing cycle) speeds may be reduced, so it is unlimited for travel use, not a home-broadband replacement. Installation is via QR from the web store or app, activation is automatic on first connection, and plans can be extended mid-trip from the app.\n\nNote that Holafly's per-day cost is higher than capped plans from budget providers — the premium buys the removal of the data counter, not a cheaper gigabyte.\n\nCommunity single-user hands-on (2026-09, unverified): 2-day unlimited pass ~¥21 CNY; 1GB/month emergency data plus WeChat-specific data on day one. Nominal carrier CMHK but traffic actually lands in Singapore (broadcast + datacenter IPs) — mediocre IP quality and speeds. Verdict: fine as an emergency backup, not a daily driver.",
+    "zh": "Holafly 的整个产品目录围绕一个承诺：再也不用盯着流量数字。你买的不是流量桶，而是一段时间——5 到 90 天逐日可选——期间流量不限量。这种计价方式在单国长住场景最为划算：在西班牙或葡萄牙远程办公一个月、每天开视频会议，也只付一个固定价，不用怕会议中途断网。\n\n条款里有两个注意点：多数目的地支持热点共享，但少数国家会限制共享速度；同时适用公平使用政策——单周期用量极高（通常数百 GB）后可能降速，所以它是旅行意义上的不限量，不是家庭宽带替代品。\n\n安装通过官网或 App 的二维码完成，首次联网自动激活，行程中可在 App 内直接延期。\n\n需要留意的是，Holafly 的日均成本高于预算型供应商的限量套餐——溢价买的是「流量清零焦虑」的消失，而不是更便宜的每 GB 单价。\n\n社区单用户实测（2026-09，未核实）：2 天不限量套餐约 21 元人民币；每月有 1GB 应急流量，首日附带微信专属流量。名义上走 CMHK，实际落地在新加坡（广播+机房 IP），IP 质量一般、速率不尽人意。定位：应急备用卡可以，主力使用不推荐。"
   },
   "bestFor": {
     "en": "Long single-country stays, remote workers on video calls all day, and anyone who wants zero data anxiety for the whole trip.",
@@ -74,15 +74,17 @@
       "Per-day cost is higher than capped plans from budget providers",
       "Fair-use policy can throttle extreme usage (hundreds of GB)",
       "Hotspot speed limited on a few destinations",
-      "No fixed-GB budget options for light users"
+      "No fixed-GB budget options for light users",
+      "Community-reported Singapore broadcast/DC landing with mediocre speeds (unverified)"
     ],
     "zh": [
       "日均成本高于预算型供应商的限量套餐",
       "公平使用政策下极端用量（数百 GB）可能降速",
       "少数目的地限制热点共享速度",
-      "没有面向轻度用户的固定流量低价档"
+      "没有面向轻度用户的固定流量低价档",
+      "社区实测落地在新加坡广播/机房IP，速率与IP质量一般（未核实）"
     ]
   },
   "featured": true,
-  "updatedAt": "2026-08-18"
+  "updatedAt": "2026-09-25"
 }

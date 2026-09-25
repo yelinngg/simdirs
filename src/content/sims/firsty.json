@@ -1,0 +1,116 @@
+{
+  "name": {
+    "en": "Firsty",
+    "zh": "Firsty"
+  },
+  "tagline": {
+    "en": "Free-tier eSIM: watch an ad for data — now 20MB chunks at 1Mbps across 170 countries",
+    "zh": "免费看广告换流量：现版每段20MB@1Mbps，覆盖170国"
+  },
+  "description": {
+    "en": "Firsty is a free-first eSIM app (com.firsty.app) covering 170 countries at one price. Free tier (current official listing): watch a short ad to unlock 20MB at 1Mbps, stackable, 7-day validity, no credit card. Paid: Classic from €0.98/GB (30d) and daily Unlimited from €2 (5GB full speed then 512kbps). The older 30-min-unlimited-256kbps model has been superseded.",
+    "zh": "Firsty 是免费优先的 eSIM 应用（com.firsty.app），170 国同价。免费档现行官方口径：看一段广告解锁 20MB@1Mbps，可叠加、7 天有效、无需信用卡。付费档：Classic 0.98 欧/GB 起（30天）、Unlimited 日包 2 欧起（5GB 全速后 512kbps）。旧的「30 分钟无限量 256kbps」模式已被替代。"
+  },
+  "details": {
+    "en": "Firsty's hook is the free tier: install the eSIM, watch a short ad, get data — no payment details required. The model has changed over time (Google Play listing, 2026-09): currently 20MB per ad at 1Mbps, stackable, valid 7 days. An older community-remembered model gave 30 minutes of unlimited data at 256kbps per ad — superseded. Paid plans: Classic from €0.98/GB with 30-day validity, and daily Unlimited tiers from €2/day (5GB full speed then 512kbps).\n\nCommunity single-user hands-on (2026-09, unverified): Singapore native residential IP on the free tier — not found on official pages. Long-time-accounts reportedly got the older, more generous time-based model.\n\nValue verdict: free tier is genuinely useful for messaging; paid tiers are expensive per GB vs mainstream eSIMs.",
+    "zh": "Firsty 的钩子是免费档：装 eSIM、看广告、拿流量，全程不需要付款信息。模式随时间演变（Google Play 商品页，2026-09）：当前为每段广告 20MB@1Mbps、可叠加、7 天有效。社区老用户记得的旧模式是每段广告 30 分钟无限量 256kbps——已被替代。付费档：Classic 0.98 欧/GB 起、30 天有效；Unlimited 日包 2 欧起（5GB 全速后 512kbps）。\n\n社区单用户实测（2026-09，未核实）：免费档落地新加坡原生住宅 IP——官方页无此口径。据称老账号曾享受更宽松的旧按时长模式。\n\n性价比结论：免费档发消息够用；付费档按 GB 单价比主流 eSIM 贵。"
+  },
+  "bestFor": {
+    "en": "Free-data tinkerers and backup connectivity; not for heavy paid use.",
+    "zh": "白嫖流量尝鲜与应急备用；不适合付费重度使用。"
+  },
+  "regions": [
+    "global"
+  ],
+  "coverage": 170,
+  "plansFrom": 0,
+  "dataFrom": "20MB per ad (free)",
+  "validity": "7 days (free); 30 days (Classic)",
+  "network": "Local partner networks",
+  "device": "esim",
+  "hotspot": true,
+  "rating": 3.6,
+  "website": "https://firsty.app/",
+  "features": {
+    "en": [
+      "Free data per ad, no credit card",
+      "170 countries at one price",
+      "Stackable free chunks",
+      "Daily unlimited paid tier"
+    ],
+    "zh": [
+      "看广告免费领流量，无需信用卡",
+      "170国同价",
+      "免费额度可叠加",
+      "付费日包不限量"
+    ]
+  },
+  "pros": {
+    "en": [
+      "Genuinely free tier for light use",
+      "No payment commitment",
+      "One eSIM across 170 countries"
+    ],
+    "zh": [
+      "轻度使用真免费",
+      "零付费承诺",
+      "一张eSIM通170国"
+    ]
+  },
+  "cons": {
+    "en": [
+      "Free chunks are small (20MB) and 1Mbps-capped",
+      "Paid tiers expensive per GB",
+      "Rules have changed repeatedly over time"
+    ],
+    "zh": [
+      "免费段小（20MB）且限1Mbps",
+      "付费档每GB偏贵",
+      "规则历史上反复变动"
+    ]
+  },
+  "plans": [
+    {
+      "name": {
+        "en": "Firsty Free",
+        "zh": "Firsty 免费档"
+      },
+      "data": {
+        "en": "20MB per ad @1Mbps, stackable",
+        "zh": "每段广告20MB@1Mbps，可叠加"
+      },
+      "validity": {
+        "en": "7 days",
+        "zh": "7天"
+      },
+      "price": {
+        "en": "Free (ad-supported)",
+        "zh": "免费（看广告）"
+      }
+    },
+    {
+      "name": {
+        "en": "Classic",
+        "zh": "Classic"
+      },
+      "data": {
+        "en": "0.5–50GB",
+        "zh": "0.5–50GB"
+      },
+      "validity": {
+        "en": "30 days",
+        "zh": "30天"
+      },
+      "price": {
+        "en": "from €0.98/GB",
+        "zh": "0.98欧元/GB起"
+      }
+    }
+  ],
+  "plansNote": {
+    "en": "Google Play listing + official site (2026-09-25). Free-tier rules subject to change without notice.",
+    "zh": "Google Play 商品页+官网（2026-09-25核验）。免费档规则随时可能再变。"
+  },
+  "featured": false,
+  "updatedAt": "2026-09-25"
+}
