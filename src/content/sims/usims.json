@@ -1,0 +1,116 @@
+{
+  "name": {
+    "en": "USIMS",
+    "zh": "USIMS"
+  },
+  "tagline": {
+    "en": "App eSIM with free tier: 1GB free data, always-on low-speed in 200+ countries",
+    "zh": "App制eSIM：送1GB免费流量，200+国永久低速兜底"
+  },
+  "description": {
+    "en": "USIMS (app: com.wonet.usims, developer Wonet) gives new users a free eSIM with 1GB of data in the USA and Europe. Official web prices (2026-09): China $10/1GB/10d, France $9/10GB/10d, USA $15/10GB/10d. Google Play lists 'Free Essentials Forever' — always-on low-speed data in 200+ countries, no expiry. Referral program: new-user credits (third-party trackers list $3; official terms say referrals earn UMoney credits and 20% off).",
+    "zh": "USIMS（App 包名 com.wonet.usims，开发商 Wonet）新用户免费领 eSIM，自带美国/欧洲 1GB 免费流量。官网价（2026-09）：中国 $10/1GB/10天、法国 $9/10GB/10天、美国 $15/10GB/10天。Google Play 上架「Free Essentials Forever」——200+ 国永久在线低速流量、不过期。推荐计划：新用户送余额（第三方口径 $3；官方条款为 UMoney 积分与 20% off）。"
+  },
+  "details": {
+    "en": "USIMS is an app-first travel eSIM (Android/iOS, rated 4.6 on Google Play) covering 120+ countries from the web store and 200+ in-app. The free tier is the hook: a free eSIM for new users with 1GB in the USA and Europe, plus 'Free Essentials Forever' — always-on low-speed data in 200+ countries for messaging/maps/banking, no expiry, no card needed (Google Play What's New, 2026-09).\n\nOfficial web prices (2026-09-26, usims.com): USA $15/10GB/10d, France $9/10GB/10d, China $10/1GB/10d, Hong Kong listed separately. Paid plans stack with UMoney, a non-expiring loyalty credit: up to 10% back on top-ups; referrals earn 20% of the friend's spend as credit and give the friend 20% off; five buying referrals score a free up-to-10GB package.\n\nCommunity single-user hands-on (2026-09, unverified): registration with a +44 UK number received the code instantly; the free-eSIM claim pops up after lingering on the app home screen or tapping 'Refer friends'; the free eSIM lands with a native French exit IP; a 'China mainland 20 days 1GB' pack listed at $4 in-app dropped to $1 after applying the $3 new-user credit (~¥7). Note the official web store shows China at $10/1GB/10d — the $4/20d app price could not be cross-verified server-side.\n\nDevice restrictions per the same hands-on: must be an international (non-China-ROM) eSIM-capable phone — Pixel 8 tested OK, one-tap install on foreign iPhones; China-market iPhones and 5ber/eSTK adapter cards are detected and blocked. Android generates a QR to scan.",
+    "zh": "USIMS 是 App 制旅行 eSIM（Android/iOS，Google Play 4.6 分），网页商店覆盖 120+ 国、App 内 200+ 国。免费额度是卖点：新用户免费领 eSIM、自带美欧 1GB 流量；另有「Free Essentials Forever」——200+ 国永久在线低速流量，足够消息/地图/银行类应用使用，不过期、无需绑卡（Google Play 更新说明，2026-09）。\n\n官网价（2026-09-26 核验）：美国 $15/10GB/10天、法国 $9/10GB/10天、中国 $10/1GB/10天、香港单列。付费侧配 UMoney 永久有效积分：充值最高 10% 返还；推荐返好友消费 20% 积分、好友 20% off；5 个好友下单送最高 10GB 免费包。\n\n社区单用户实测（2026-09，未核实）：+44 英国号注册秒收验证码；在 App 首页停留几十秒或点一下「推荐好友」会自动弹出免费领卡界面；免费 eSIM 落地原生法国出口 IP；App 内「中国大陆 20 天 1GB」套餐标价 $4，用 $3 新用户余额抵扣后实付 $1（约 7 元）。注意官网网页商店中国档为 $10/1GB/10天——$4/20天 的 App 内价格无法在服务端交叉核验。\n\n同一实测的设备限制：必须是外版原生 eSIM 机型——Pixel 8 实测成功、外版 iPhone 支持一键写入；国行 iPhone 与 5ber/eSTK 转接卡会被检测拦截。安卓端生成二维码扫码安装。"
+  },
+  "bestFor": {
+    "en": "Free-data tinkerers wanting a zero-cost French-IP eSIM plus permanent low-speed backup.",
+    "zh": "想零成本拿法国IP eSIM、并要永久低速兜底流量的用户。"
+  },
+  "regions": [
+    "global"
+  ],
+  "coverage": 200,
+  "plansFrom": 0,
+  "dataFrom": "1GB free (US/EU)",
+  "validity": "10 days per plan; free tier no expiry",
+  "network": "Local partner networks per country",
+  "device": "esim",
+  "hotspot": true,
+  "rating": 3.8,
+  "website": "https://usims.com/",
+  "features": {
+    "en": [
+      "Free eSIM with 1GB in USA/Europe for new users",
+      "Free Essentials Forever: always-on low-speed in 200+ countries",
+      "UMoney non-expiring loyalty credits",
+      "Rollover data on top-ups"
+    ],
+    "zh": [
+      "新用户免费eSIM+美欧1GB流量",
+      "Free Essentials Forever：200+国永久低速流量",
+      "UMoney积分永不过期",
+      "充值流量可结转"
+    ]
+  },
+  "plans": [
+    {
+      "name": {
+        "en": "France 10GB",
+        "zh": "法国 10GB"
+      },
+      "data": {
+        "en": "10GB",
+        "zh": "10GB"
+      },
+      "validity": {
+        "en": "10 days",
+        "zh": "10天"
+      },
+      "price": {
+        "en": "US$9",
+        "zh": "9美元"
+      }
+    },
+    {
+      "name": {
+        "en": "China 1GB (web store)",
+        "zh": "中国 1GB（网页商店）"
+      },
+      "data": {
+        "en": "1GB",
+        "zh": "1GB"
+      },
+      "validity": {
+        "en": "10 days",
+        "zh": "10天"
+      },
+      "price": {
+        "en": "US$10",
+        "zh": "10美元"
+      }
+    }
+  ],
+  "plansNote": {
+    "en": "Official web store prices (2026-09-26). The community-reported $4/20d China app price and $3 referral credit are hands-on claims; official referral terms describe UMoney credits + 20% off instead.",
+    "zh": "官网商店价（2026-09-26核验）。社区实测的App内$4/20天中国套餐与$3推荐余额为个人口径；官方推荐条款口径为UMoney积分+20% off。"
+  },
+  "pros": {
+    "en": [
+      "Genuinely free tier (1GB US/EU + permanent low-speed backup)",
+      "French native exit IP on the free eSIM (community hands-on)",
+      "No-expiry loyalty credits and rollover data"
+    ],
+    "zh": [
+      "真免费档（美欧1GB+永久低速兜底）",
+      "免费eSIM落地法国原生IP（社区实测）",
+      "积分永不过期+流量可结转"
+    ]
+  },
+  "cons": {
+    "en": [
+      "Web-store China pricing ($10/1GB) is steep; the cheap app-only China pack unverified",
+      "China-ROM phones and 5ber/eSTK adapters blocked (community)",
+      "New-user credit amount varies by channel; referral-link marketing dominates community coverage"
+    ],
+    "zh": [
+      "网页商店中国价（$10/1GB）偏贵；便宜的App内中国包未能交叉核验",
+      "国行手机与5ber/eSTK转接卡被拦截（社区口径）",
+      "新用户余额金额随渠道浮动；社区传播多为返佣推荐链接"
+    ]
+  },
+  "featured": false,
+  "updatedAt": "2026-09-26"
+}
