@@ -38,6 +38,14 @@ const sims = defineCollection({
     pros: localized(z.array(z.string())).optional(),
     cons: localized(z.array(z.string())).optional(),
     plansNote: localized(z.string()).optional(),
+    ipProfile: z
+      .object({
+        country: localized(z.string()).optional(),
+        type: z.enum(['residential', 'datacenter', 'business', 'mobile', 'mixed', 'unknown']),
+        confidence: z.enum(['high', 'medium', 'low', 'unverified']).default('unverified'),
+        note: localized(z.string()).optional(),
+      })
+      .optional(),
     featured: z.boolean().default(false),
     updatedAt: z.coerce.date(),
   }),

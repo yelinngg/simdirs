@@ -100,5 +100,17 @@
     ]
   },
   "featured": false,
-  "updatedAt": "2026-09-16"
+  "updatedAt": "2026-09-16",
+  "ipProfile": {
+    "country": {
+      "en": "DE",
+      "zh": "DE"
+    },
+    "type": "mobile",
+    "confidence": "high",
+    "note": {
+      "en": "Vodafone Germany is a native German MNO; mobile sessions exit via AS3209 (VODANET) with hostnames like ip-*.web.vodafone.de — German mobile IPs.",
+      "zh": "Vodafone德国为本土MNO，移动数据出口走AS3209（VODANET），主机名形如 ip-*.web.vodafone.de，即德国移动IP。"
+    }
+  }
 }

@@ -112,5 +112,17 @@
     "zh": "官方产品页价格（2026-09-25核验）。香港套餐1.80美元起。第三方实测指出口IP非固定承诺。"
   },
   "featured": false,
-  "updatedAt": "2026-09-25"
+  "updatedAt": "2026-09-25",
+  "ipProfile": {
+    "country": {
+      "en": "varies (community reports: Hong Kong / Singapore exit depending on plan)",
+      "zh": "varies (community reports: Hong Kong / Singapore exit depending on plan)"
+    },
+    "type": "unknown",
+    "confidence": "low",
+    "note": {
+      "en": "Chinese community testing (shenqi.uk, 2026-07) reports esim.cc plans exit via Hong Kong/Singapore with actual IP depending on assignment; esim.cc publishes no official IP disclosure. Single-source, treat as low confidence.",
+      "zh": "中文社区实测（shenqi.uk，2026-07）：esim.cc 套餐出口为香港/新加坡，实际 IP 以分配为准；官方无 IP 披露。单一来源，低置信度。"
+    }
+  }
 }

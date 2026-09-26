@@ -94,5 +94,17 @@
     ]
   },
   "featured": false,
-  "updatedAt": "2026-09-16"
+  "updatedAt": "2026-09-16",
+  "ipProfile": {
+    "country": {
+      "en": "non-UK when roaming (Czech Republic reported by user in Portugal); GB in UK (EE host network)",
+      "zh": "non-UK when roaming (Czech Republic reported by user in Portugal); GB in UK (EE host network)"
+    },
+    "type": "mobile",
+    "confidence": "unverified",
+    "note": {
+      "en": "Now an MVNO on EE UK. A single ISPreview forum user reported that Lyca roaming in Portugal showed a Czech Republic IP on whatismyip via a non-standard APN — suggests Lyca breaks out through its own/international core rather than a UK IP. Single user report, marked unverified.",
+      "zh": "现为 EE 英国网 MVNO。ISPreview 单一用户报告：Lyca 在葡萄牙漫游时 whatismyip 显示捷克 IP（走非标准 APN），提示经 Lyca 自有/国际核心网出口而非英国。仅单用户报告，标 unverified。"
+    }
+  }
 }

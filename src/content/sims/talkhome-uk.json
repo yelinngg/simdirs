@@ -96,5 +96,17 @@
     ]
   },
   "featured": false,
-  "updatedAt": "2026-09-16"
+  "updatedAt": "2026-09-16",
+  "ipProfile": {
+    "country": {
+      "en": "GB (presumed UK exit when roaming, home-routed via EE; not directly tested)",
+      "zh": "GB (presumed UK exit when roaming, home-routed via EE; not directly tested)"
+    },
+    "type": "mobile",
+    "confidence": "unverified",
+    "note": {
+      "en": "EE UK MVNO. EE's own community has verified posts that EE SIMs keep a UK EE IP while roaming (traffic routed through EE's UK core), but no direct Talk Home Mobile IP test was found — inference from host network only, marked unverified.",
+      "zh": "EE 英国网 MVNO。EE 官方社区已验证帖确认 EE 卡漫游保持英国 EE IP（流量经 EE 英国核心网路由），但未找到 Talk Home 卡的直接实测，属母网推断，标 unverified。"
+    }
+  }
 }

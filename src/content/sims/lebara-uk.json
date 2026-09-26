@@ -94,5 +94,17 @@
     ]
   },
   "featured": false,
-  "updatedAt": "2026-09-16"
+  "updatedAt": "2026-09-16",
+  "ipProfile": {
+    "country": {
+      "en": "unknown (Lebara's own blog claims local exit in visited country; Vodafone home-routing suggests UK)",
+      "zh": "unknown (Lebara's own blog claims local exit in visited country; Vodafone home-routing suggests UK)"
+    },
+    "type": "mobile",
+    "confidence": "low",
+    "note": {
+      "en": "Runs on Vodafone UK. Lebara's own (SEO-style) blog states that when roaming in France traffic exits via a French network — contradicting typical Vodafone home-routing; an ISPreview tester in Portugal only noted odd latency, not IP country. Conflicting evidence, treat exit country as unconfirmed.",
+      "zh": "走 Vodafone 英国网。Lebara 官方博客（SEO 文风、可靠性存疑）称在法国漫游时流量从法国本地出口，与 Vodafone 母网回程惯例矛盾；ISPreview 葡萄牙实测只提延迟异常未提 IP 国家。证据冲突，出口国家未确认。"
+    }
+  }
 }

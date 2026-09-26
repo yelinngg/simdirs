@@ -210,5 +210,17 @@
     ]
   },
   "featured": false,
-  "updatedAt": "2026-09-16"
+  "updatedAt": "2026-09-16",
+  "ipProfile": {
+    "country": {
+      "en": "MY (Malaysia)",
+      "zh": "MY (Malaysia)"
+    },
+    "type": "mobile",
+    "confidence": "high",
+    "note": {
+      "en": "CelcomDigi Berhad is Malaysia's largest mobile operator; its subscriber IPs are Malaysian carrier mobile IPs — multiple mobile-proxy vendors (QuanticData, QuantumProxies, VoidMob) explicitly source real CelcomDigi 4G/5G IPs from live handsets, confirming country=MY, type=mobile.",
+      "zh": "CelcomDigi 为马来西亚最大移动运营商，用户出口 IP 为马来西亚运营商移动 IP——多家移动代理商（QuanticData、QuantumProxies、VoidMob）明确以真机 CelcomDigi 4G/5G IP 为货源，确认国家=MY、性质=mobile。"
+    }
+  }
 }

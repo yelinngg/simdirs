@@ -115,5 +115,17 @@
     ]
   },
   "featured": false,
-  "updatedAt": "2026-09-26"
+  "updatedAt": "2026-09-26",
+  "ipProfile": {
+    "country": {
+      "en": "EE",
+      "zh": "EE"
+    },
+    "type": "mobile",
+    "confidence": "medium",
+    "note": {
+      "en": "esim.gg resells Estonian operator Elisa (+372); community tests report roaming data exits via an Estonian IP (works with ChatGPT/TikTok). One task hint mentions a France exit for the free promo data — unconfirmed, treat with caution.",
+      "zh": "esim.gg（乌龟电信）分销爱沙尼亚Elisa号码，社区实测漫游数据出口为爱沙尼亚IP（可用ChatGPT/TikTok）；另有单条说法称免费体验流量走法国出口，未经证实。"
+    }
+  }
 }

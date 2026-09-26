@@ -83,5 +83,17 @@
     ]
   },
   "featured": false,
-  "updatedAt": "2026-08-18"
+  "updatedAt": "2026-08-18",
+  "ipProfile": {
+    "country": {
+      "en": "unknown",
+      "zh": "unknown"
+    },
+    "type": "unknown",
+    "confidence": "unverified",
+    "note": {
+      "en": "No public documentation or credible user reports found on Drimsim's exit-IP country or IP type (English/Russian searches both empty). Honest unknown.",
+      "zh": "中英文（含俄文关键词）检索均未找到 Drimsim 出口 IP 国家或性质的公开资料。诚实标注 unknown/unverified。"
+    }
+  }
 }

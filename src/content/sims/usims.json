@@ -112,5 +112,17 @@
     ]
   },
   "featured": false,
-  "updatedAt": "2026-09-26"
+  "updatedAt": "2026-09-26",
+  "ipProfile": {
+    "country": {
+      "en": "FR",
+      "zh": "FR"
+    },
+    "type": "mobile",
+    "confidence": "low",
+    "note": {
+      "en": "USIMS free/travel eSIM: community threads describe it as the 'free eSIM with a France IP' (native French breakout on the free 1GB EU data); single-community sourcing, not independently verified.",
+      "zh": "USIMS 免费旅行eSIM：社区帖子称其免费1GB欧洲流量落地法国原生IP；仅社区单一来源，未经独立验证。"
+    }
+  }
 }

@@ -211,5 +211,17 @@
     ]
   },
   "featured": false,
-  "updatedAt": "2026-09-16"
+  "updatedAt": "2026-09-16",
+  "ipProfile": {
+    "country": {
+      "en": "JP",
+      "zh": "JP"
+    },
+    "type": "mobile",
+    "confidence": "medium",
+    "note": {
+      "en": "BC eSIM (Billion Connect) sells Japan plans on IIJ (docomo) and KDDI native lines; product pages and community reviews indicate local Japanese IP breakout (IIJ is a Japanese MVNO exiting in Japan).",
+      "zh": "BC eSIM（Billion Connect）日本套餐走IIJ（docomo）与KDDI原生线路，商品页与社区评测显示出口为日本本地IP（IIJ为日本本土MVNO，出口在日本）。"
+    }
+  }
 }

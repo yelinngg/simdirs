@@ -86,5 +86,17 @@
     ]
   },
   "featured": true,
-  "updatedAt": "2026-09-25"
+  "updatedAt": "2026-09-25",
+  "ipProfile": {
+    "country": {
+      "en": "varies (documented routing via China Mobile and other undisclosed networks)",
+      "zh": "varies (documented routing via China Mobile and other undisclosed networks)"
+    },
+    "type": "unknown",
+    "confidence": "high",
+    "note": {
+      "en": "USENIX Security 2025 measured Holafly traffic traversing China Mobile's network in mainland China plus other undisclosed carriers; Holafly's own traffic-routing FAQ confirms home-routed roaming and that users may see foreign IPs. Exact exit IP nature (residential/datacenter) is not characterized.",
+      "zh": "USENIX 2025 研究实测 Holafly 流量经中国大陆中国移动及未披露网络路由；官方 traffic-routing FAQ 承认 home-routed 漫游、会出现外国 IP。出口 IP 具体性质（住宅/机房）无公开数据。"
+    }
+  }
 }

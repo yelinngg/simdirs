@@ -82,5 +82,17 @@
     ]
   },
   "featured": false,
-  "updatedAt": "2026-08-18"
+  "updatedAt": "2026-08-18",
+  "ipProfile": {
+    "country": {
+      "en": "France (home-routed); selectable residence-country or regional IP via official IP-location feature",
+      "zh": "France (home-routed); selectable residence-country or regional IP via official IP-location feature"
+    },
+    "type": "mobile",
+    "confidence": "medium",
+    "note": {
+      "en": "Ubigi (Transatel/NTT, French) home-routes traffic so users typically get a French/European carrier IP; the official IP Location feature can present a residence-country or regional IP (France, US, Japan, etc.). IPs are carrier mobile-network IPs, not residential broadband.",
+      "zh": "Ubigi（法国 Transatel/NTT）为 home-routing 架构，默认出口多为法国/欧洲运营商 IP；官方 IP Location 功能可选居住国或区域 IP（法、美、日等）。属于运营商移动网络 IP，非住宅宽带。"
+    }
+  }
 }

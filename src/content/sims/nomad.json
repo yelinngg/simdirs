@@ -81,5 +81,17 @@
     ]
   },
   "featured": false,
-  "updatedAt": "2026-09-16"
+  "updatedAt": "2026-09-16",
+  "ipProfile": {
+    "country": {
+      "en": "varies (multiple user reports of Hong Kong exit, incl. US and APAC plans)",
+      "zh": "varies (multiple user reports of Hong Kong exit, incl. US and APAC plans)"
+    },
+    "type": "unknown",
+    "confidence": "low",
+    "note": {
+      "en": "Multiple independent Reddit users report Nomad plans exit via Hong Kong (e.g. a US-usage report of an HK IP; APAC plan on China Unicom routed through HK). No official disclosure; IP nature undocumented.",
+      "zh": "多位 Reddit 用户独立报告 Nomad 出口 IP 为香港（美国使用收到 HK IP；APAC 套餐走中国联通经香港回传）。无官方口径，IP 性质未知。"
+    }
+  }
 }

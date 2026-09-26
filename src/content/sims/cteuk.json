@@ -112,5 +112,17 @@
     "zh": "官方套餐页（2026-09-25核验）。eSIM转换费与免实名均为社区口径。"
   },
   "featured": false,
-  "updatedAt": "2026-09-25"
+  "updatedAt": "2026-09-25",
+  "ipProfile": {
+    "country": {
+      "en": "GB in UK (via EE); China-roaming landing unverified",
+      "zh": "GB in UK (via EE); China-roaming landing unverified"
+    },
+    "type": "mobile",
+    "confidence": "low",
+    "note": {
+      "en": "China Telecom (Europe) MVNO on EE UK (confirmed by ISPreview hands-on). Community says the UK IP is clean; Reddit users pair it with a residential-IP VPN for China use, implying the stock exit is a standard EE mobile IP. No public IP-country test of China roaming found. CTE UK is the same CTExcel UK product family; IP behavior expected to match.",
+      "zh": "中国电信（欧洲）EE 网 MVNO（ISPreview 实测确认）。社区称英国 IP 纯净；Reddit 用户在中国使用时需另配住宅 VPN，暗示默认出口就是普通 EE 移动 IP。中国漫游落地国家未查到公开实测。 CTE UK 与 CTExcel UK 同属中国电信欧洲产品线，IP 行为预期一致。"
+    }
+  }
 }

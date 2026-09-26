@@ -96,5 +96,17 @@
     ]
   },
   "featured": false,
-  "updatedAt": "2026-09-16"
+  "updatedAt": "2026-09-16",
+  "ipProfile": {
+    "country": {
+      "en": "GB (UK exit when roaming, home-routed via Vodafone UK)",
+      "zh": "GB (UK exit when roaming, home-routed via Vodafone UK)"
+    },
+    "type": "mobile",
+    "confidence": "medium",
+    "note": {
+      "en": "VOXI is powered by Vodafone UK's network and core. A motorhome forum thread verified that Vodafone UK SIMs roaming in Portugal keep a UK IP (iPlayer streaming worked); an editorial eSIM guide also lists VOXI among UK networks giving a UK IP abroad.",
+      "zh": "VOXI 用 Vodafone 英国网与核心网。房车论坛帖子实测 Vodafone UK 在葡萄牙漫游仍为英国 IP（iPlayer 可用），另有 eSIM 指南把 VOXI 列为漫游给英国 IP 的运营商。"
+    }
+  }
 }

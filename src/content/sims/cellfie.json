@@ -121,5 +121,17 @@
     "en": "Prices from cellfie.ge (tariffs, validity-of-number pages), verified 2026-08-22; the validity trap (0.50 GEL/day from day 91 until balance hits zero) re-confirmed verbatim on the official page 2026-09-16. Roaming passes moved to roamingpass.ge (2026-09-16) — the 8 GEL/1GB Europe price is per the 2026-08-22 review, not re-pulled; re-verify there. Roaming SMS results are a single-user field test in China (2026-08); delivery varies by destination network, but the zero-balance cutoff and validity-fee rules are carrier terms.",
     "zh": "价格来自 cellfie.ge（套餐/号码有效期页），核验于 2026-08-22；有效期陷阱（第91天起每日扣0.50 GEL至余额耗尽）已于2026-09-16在官方页面原文复核确认。漫游包目录2026-09-16已迁至 roamingpass.ge——8 GEL/1GB欧洲价为2026-08-22口径、未重新抓取，转载前请到该站复核。漫游收码为中国单用户实测（2026-08）；可达性因漫游网络而异，但余额断号与不活跃扣费为运营商官方条款。"
   },
-  "updatedAt": "2026-09-16"
+  "updatedAt": "2026-09-16",
+  "ipProfile": {
+    "country": {
+      "en": "GE",
+      "zh": "GE"
+    },
+    "type": "mobile",
+    "confidence": "high",
+    "note": {
+      "en": "Cellfie is a fully Georgian MNO (1.3M subscribers, nationwide 4G/5G built with Nokia); local SIM data exits via Georgian mobile IPs.",
+      "zh": "Cellfie 是格鲁吉亚本土运营商（130万用户，Nokia建设的全国4G/5G网络），本地卡出口为格鲁吉亚移动IP。"
+    }
+  }
 }

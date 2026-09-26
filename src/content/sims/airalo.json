@@ -155,5 +155,17 @@
     ]
   },
   "featured": true,
-  "updatedAt": "2026-09-16"
+  "updatedAt": "2026-09-16",
+  "ipProfile": {
+    "country": {
+      "en": "varies (commonly Singapore/France/US, not the destination country)",
+      "zh": "varies (commonly Singapore/France/US, not the destination country)"
+    },
+    "type": "datacenter",
+    "confidence": "high",
+    "note": {
+      "en": "Academic measurement (arXiv 2408.14923) shows most Airalo eSIMs are roaming-based with IPX hub breakout: public-internet gateways commonly sit at Singapore Singtel (AS45143), France OVH (AS16276) or US Packet Host (AS54825), i.e. datacenter IPs unrelated to the visited country. Airalo itself does not guarantee IP geolocation matches the destination.",
+      "zh": "arXiv 2408.14923 实测：Airalo 多为漫游架构，出口常见新加坡 Singtel(AS45143)、法国 OVH(AS16276)、美国 Packet Host(AS54825)，即机房 IP，与所在地无关；官方也不保证 IP 与目的地一致。"
+    }
+  }
 }

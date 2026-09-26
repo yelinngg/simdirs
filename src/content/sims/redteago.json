@@ -253,5 +253,17 @@
     ]
   },
   "featured": false,
-  "updatedAt": "2026-09-25"
+  "updatedAt": "2026-09-25",
+  "ipProfile": {
+    "country": {
+      "en": "HK/SG (varies by plan)",
+      "zh": "HK/SG (varies by plan)"
+    },
+    "type": "mixed",
+    "confidence": "low",
+    "note": {
+      "en": "Community reports say RedteaGO data breaks out via Hong Kong and Singapore depending on plan (e.g. HK plans riding csl with backend routing to Singapore); some later reports flag exits as proxy/datacenter-style IPs. Treat as mixed and unverified per plan.",
+      "zh": "社区口径：RedteaGO 出口随套餐落地香港或新加坡（如香港租csl线路后端绕新加坡），后期有用户反馈出口被标记为代理/机房IP；按套餐而异，证据不足。"
+    }
+  }
 }

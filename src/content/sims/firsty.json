@@ -112,5 +112,17 @@
     "zh": "Google Play 商品页+官网（2026-09-25核验）。免费档规则随时可能再变。"
   },
   "featured": false,
-  "updatedAt": "2026-09-25"
+  "updatedAt": "2026-09-25",
+  "ipProfile": {
+    "country": {
+      "en": "varies (nearest hub: USA / Singapore / Belgium; SG for Asia-Pacific users)",
+      "zh": "varies (nearest hub: USA / Singapore / Belgium; SG for Asia-Pacific users)"
+    },
+    "type": "unknown",
+    "confidence": "medium",
+    "note": {
+      "en": "Firsty support states traffic routes through nearest network hubs in USA, Singapore or Belgium (Australian user got Singapore). An ISPreview forum thread suggests the exit servers behave like datacenter IPs (proxy/VPN blacklists). 'Singapore residential' claim unverified.",
+      "zh": "Firsty 官方支持回复：流量经最近枢纽（美国/新加坡/比利时）出口，亚太用户常见新加坡 IP；ISPreview 论坛讨论暗示其出口类似机房 IP（命中代理黑名单）。'新加坡住宅'说法未核实。"
+    }
+  }
 }

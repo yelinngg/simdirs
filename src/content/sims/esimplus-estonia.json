@@ -98,5 +98,17 @@
     ]
   },
   "featured": false,
-  "updatedAt": "2026-09-16"
+  "updatedAt": "2026-09-16",
+  "ipProfile": {
+    "country": {
+      "en": "unknown",
+      "zh": "unknown"
+    },
+    "type": "unknown",
+    "confidence": "unverified",
+    "note": {
+      "en": "eSIM Plus sells +372 Estonian-number plans, but no official or community source specifies the data breakout country/IP type; no evidence found the data exits in Estonia.",
+      "zh": "eSIM Plus 提供爱沙尼亚+372号码套餐，但官方与社区均未说明数据出口国家与性质，未找到出口IP在爱沙尼亚的证据。"
+    }
+  }
 }

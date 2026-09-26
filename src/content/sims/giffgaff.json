@@ -98,5 +98,17 @@
     ]
   },
   "featured": false,
-  "updatedAt": "2026-09-16"
+  "updatedAt": "2026-09-16",
+  "ipProfile": {
+    "country": {
+      "en": "GB (UK exit when roaming, home-routed via O2 UK)",
+      "zh": "GB (UK exit when roaming, home-routed via O2 UK)"
+    },
+    "type": "mobile",
+    "confidence": "medium",
+    "note": {
+      "en": "MVNO running on O2 UK (AS29180, Telefonica UK). UK operators generally tunnel roaming traffic back to the home core, and editorial/community sources report giffgaff shows a UK IP abroad (usable for iPlayer), but there is no official giffgaff statement on exit IP.",
+      "zh": "基于 O2 英国网的 MVNO。英国运营商漫游流量一般回母网出口，社区/编辑类来源报告 giffgaff 漫游时仍显示英国 IP（可看 iPlayer），但官方无明确文档，故标 medium。"
+    }
+  }
 }

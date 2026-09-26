@@ -94,5 +94,17 @@
     ]
   },
   "featured": false,
-  "updatedAt": "2026-09-16"
+  "updatedAt": "2026-09-16",
+  "ipProfile": {
+    "country": {
+      "en": "GB (UK exit when roaming, home-routed)",
+      "zh": "GB (UK exit when roaming, home-routed)"
+    },
+    "type": "mobile",
+    "confidence": "medium",
+    "note": {
+      "en": "A motorhome forum thread reports a dealer-verified case: Vodafone UK SIMs roaming in Portugal kept a UK IP and streamed iPlayer fine, matching what multiple customers reported. Consistent with UK MNO home-routing practice; no official Vodafone doc on exit IP.",
+      "zh": "房车论坛帖子（经销商验证）称 Vodafone UK 卡在葡萄牙漫游保持英国 IP、iPlayer 正常，多个客户反馈一致；符合英国运营商母网回程惯例，但官方无出口 IP 文档。"
+    }
+  }
 }

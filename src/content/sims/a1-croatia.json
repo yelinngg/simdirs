@@ -105,5 +105,17 @@
     "en": "Prices from a1.hr SIM-promo and kupi-bon pages, verified 2026-08-22 and re-confirmed 2026-09-16 (EUR3-back promo, kupi-bon custom amounts and the 92d/270d mechanics all still current; the EUR50-100=360-day tier added from the official bonus T&C PDF). EUR3 back-as-credit is a webshop promotion and may end. China roaming results are a single-round field test (2026-08-17), not a guarantee.",
     "zh": "价格来自 a1.hr SIM-promo 与 kupi-bon 页面，核验于 2026-08-22、2026-09-16 复核确认（EUR3返还促销、kupi-bon自定义充值与92天/270天机制均现行；EUR50-100=360天档按官方bonus条款PDF补充）。EUR3 返还是 webshop 促销，可能随时结束。中国漫游结果为单轮实测（2026-08-17），不构成保证。"
   },
-  "updatedAt": "2026-09-16"
+  "updatedAt": "2026-09-16",
+  "ipProfile": {
+    "country": {
+      "en": "HR",
+      "zh": "HR"
+    },
+    "type": "mobile",
+    "confidence": "high",
+    "note": {
+      "en": "A1 Hrvatska is a native Croatian MNO (A1 Telekom Austria Group) with its own national mobile network; local SIMs exit via Croatian mobile IPs.",
+      "zh": "A1 Hrvatska 为克罗地亚本土运营商（A1奥地利电信集团子公司），自有全国移动网络，本地卡出口为克罗地亚移动IP。"
+    }
+  }
 }

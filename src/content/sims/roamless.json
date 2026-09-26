@@ -112,5 +112,17 @@
     "zh": "官方目的地页（2026-09-25核验）。Flex单价按地区浮动。"
   },
   "featured": false,
-  "updatedAt": "2026-09-25"
+  "updatedAt": "2026-09-25",
+  "ipProfile": {
+    "country": {
+      "en": "varies (three regional breakouts: Europe/Belgium, USA, Singapore; auto-selected)",
+      "zh": "varies (three regional breakouts: Europe/Belgium, USA, Singapore; auto-selected)"
+    },
+    "type": "unknown",
+    "confidence": "medium",
+    "note": {
+      "en": "Multiple independent users confirm Roamless (BICS/Proximus-based) uses three exit nodes in Europe (Belgium/France), US (Ashburn) and Singapore, auto-selected without user choice. The 'Singapore residential + broadcast IP' claim is unverified; IP type unknown.",
+      "zh": "多位用户证实 Roamless（BICS/Proximus 系）设欧洲（比利时/法国）、美国（Ashburn）、新加坡三个出口节点，系统自动分配不可选。'新加坡住宅+广播 IP'说法未核实，性质标 unknown。"
+    }
+  }
 }

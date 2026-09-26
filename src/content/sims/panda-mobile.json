@@ -113,5 +113,17 @@
     "zh": "官网+studentoffers.co（2026-09-25核验）。学生1美元为限时促销，下单时确认。"
   },
   "featured": false,
-  "updatedAt": "2026-09-25"
+  "updatedAt": "2026-09-25",
+  "ipProfile": {
+    "country": {
+      "en": "US",
+      "zh": "US"
+    },
+    "type": "mobile",
+    "confidence": "medium",
+    "note": {
+      "en": "Panda Mobile is an authorized T-Mobile (US) partner/MVNO for the Chinese community; plans run on T-Mobile's US network (community: US landing, native T-Mobile IP). In China via OnePool it attaches to China Mobile.",
+      "zh": "熊猫移动是T-Mobile美国授权合作伙伴（面向华人社区的MVNO），套餐走T-Mobile美国网络（社区口径：美国落地、原生T-Mobile IP）；回国OnePool模式下接入中国移动。"
+    }
+  }
 }

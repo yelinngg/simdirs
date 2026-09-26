@@ -98,5 +98,17 @@
     ]
   },
   "featured": false,
-  "updatedAt": "2026-09-25"
+  "updatedAt": "2026-09-25",
+  "ipProfile": {
+    "country": {
+      "en": "GB in UK (via EE); HK reported when roaming in mainland China; SG for Singapore plans (community)",
+      "zh": "GB in UK (via EE); HK reported when roaming in mainland China; SG for Singapore plans (community)"
+    },
+    "type": "mobile",
+    "confidence": "low",
+    "note": {
+      "en": "China Mobile International MVNO on EE UK. Community/reseller channels (DocOfCard Telegram, YouTube sellers) consistently describe the UK IP as native and clean, often classified residential by IP databases; the China-roaming-via-HK-home-IP and Singapore claims come from community word-of-mouth without public test logs.",
+      "zh": "中国移动国际旗下、EE 英国网 MVNO。社区/卡商渠道（DocOfCard 电报、YouTube 卡商）一致称其英国 IP 原生纯净、常被 IP 库判为住宅；「漫游中国落地香港家庭 IP」「新加坡广播+住宅」均为社区口碑，无公开实测日志，故整体 low。"
+    }
+  }
 }

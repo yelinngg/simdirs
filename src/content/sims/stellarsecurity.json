@@ -113,5 +113,17 @@
     "zh": "官网价（2026-09-25核验）。社区流传的100GB约11欧港/新套餐未在官方页找到，仅用户口径。"
   },
   "featured": false,
-  "updatedAt": "2026-09-25"
+  "updatedAt": "2026-09-25",
+  "ipProfile": {
+    "country": {
+      "en": "varies (community/test reports: Hong Kong and Singapore split by destination/service)",
+      "zh": "varies (community/test reports: Hong Kong and Singapore split by destination/service)"
+    },
+    "type": "unknown",
+    "confidence": "low",
+    "note": {
+      "en": "Chinese review sites (esim.ss / shuziyimin, 2026) report Stellar's China plans ride China Mobile 4/5G with some routes exiting via Hong Kong and others via Singapore ('actual IP depends on assignment'); NodeLoc threads market its HK/SG breakouts. No official disclosure; IP type unknown.",
+      "zh": "中文评测站（esim.ss/数字移民，2026）：Stellar 中国套餐走中国移动 4/5G，部分线路香港出口、部分新加坡出口，实际 IP 以分配为准；NodeLoc 亦有港/新分流讨论。无官方披露，性质 unknown。"
+    }
+  }
 }

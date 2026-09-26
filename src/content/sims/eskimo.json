@@ -113,5 +113,17 @@
     "zh": "官方套餐页（2026-09-25核验），促销价为官方App价。"
   },
   "featured": false,
-  "updatedAt": "2026-09-25"
+  "updatedAt": "2026-09-25",
+  "ipProfile": {
+    "country": {
+      "en": "Singapore (community consensus; operator Datapro Technologies is Singapore-based)",
+      "zh": "Singapore (community consensus; operator Datapro Technologies is Singapore-based)"
+    },
+    "type": "unknown",
+    "confidence": "low",
+    "note": {
+      "en": "Eskimo (Datapro Technologies Pte Ltd, Singapore; community ties it to Singtel) is widely reported by users to exit in Singapore; the 'Singapore residential IP' claim from the task brief could not be independently confirmed, so IP type stays unknown.",
+      "zh": "Eskimo（新加坡 Datapro Technologies，社区称与 Singtel 相关）多位用户报告出口在新加坡；任务给定口径称其为新加坡住宅 IP，但未能独立核实，性质标 unknown。"
+    }
+  }
 }

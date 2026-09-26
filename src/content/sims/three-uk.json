@@ -112,5 +112,17 @@
     ]
   },
   "featured": false,
-  "updatedAt": "2026-09-16"
+  "updatedAt": "2026-09-16",
+  "ipProfile": {
+    "country": {
+      "en": "GB (UK exit when roaming, home-routed; applies post Vodafone-Three merger)",
+      "zh": "GB (UK exit when roaming, home-routed; applies post Vodafone-Three merger)"
+    },
+    "type": "mobile",
+    "confidence": "medium",
+    "note": {
+      "en": "Multiple independent user reports confirm Three UK keeps a UK IP while roaming (Reddit CasualUK thread, JustAnswer Q&A, r/eSIMs recommendation of Three PAYG for a 'true UK IP'); ISPreview tester measured low pings to UK consistent with home routing.",
+      "zh": "多个独立用户报告确认 Three UK 漫游时保持英国 IP（Reddit 多帖 + JustAnswer 问答，r/eSIMs 有人专门推荐 Three PAYG 拿真英国 IP）；ISPreview 实测对 UK 服务器低延迟亦符合母网回程。"
+    }
+  }
 }

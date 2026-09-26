@@ -80,6 +80,17 @@ const specs = [
   { label: tr.sim.coverage, value: `${d.coverage}+ ${tr.sim.countries}` },
 ];
 
+// IP exit profile block (country + nature + confidence-sourced note)
+const ip = d.ipProfile;
+const ipRows = ip
+  ? [
+      ...(ip.country && pick(ip.country, lang)
+        ? [{ label: tr.sim.ipCountry, value: pick(ip.country, lang) }]
+        : []),
+      { label: tr.sim.ipType, value: `${tr.sim.ipTypes[ip.type]}` },
+    ]
+  : [];
+
 // Detail-page SERP metadata: a brand-only title and short tagline do not state
 // what the page offers. Keep the H1 as the brand, but add the product class to
 // <title> and derive a concise, sentence-safe description from the full copy.
@@ -259,6 +270,27 @@ if (!seoDescription) {
             {d.regions.map((r) => <span class="rounded-full bg-slate-100 px-2.5 py-0.5 text-xs text-slate-600">{tr.regions[r]}</span>)}
           </div>
         </section>
+
+        {
+          ip && ipRows.length > 0 && (
+            <section class="mt-5 rounded-2xl border border-slate-200 bg-white p-7 shadow-sm">
+              <h2 class="text-xl font-bold text-slate-900">{tr.sim.ipProfile}</h2>
+              <dl class="mt-4 divide-y divide-slate-100">
+                {ipRows.map((row) => (
+                  <div class="flex items-center justify-between gap-4 py-3">
+                    <dt class="text-sm text-slate-500">{row.label}</dt>
+                    <dd class="text-right text-sm font-semibold text-slate-900">{row.value}</dd>
+                  </div>
+                ))}
+              </dl>
+              {ip.note && pick(ip.note, lang) && (
+                <p class="mt-3 text-xs leading-relaxed text-slate-500">
+                  {pick(ip.note, lang)}{lang === 'zh' ? '（' : ' ('}{tr.sim.ipConfidence[ip.confidence]}{lang === 'zh' ? '）' : ')'}
+                </p>
+              )}
+            </section>
+          )
+        }
 
         <a href={localePath(lang, '/sims')} class="mt-5 inline-flex items-center gap-1.5 text-sm font-semibold text-indigo-600 hover:text-indigo-700">
           ← {tr.sim.backToList}

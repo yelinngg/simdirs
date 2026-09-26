@@ -94,5 +94,17 @@
     ]
   },
   "featured": false,
-  "updatedAt": "2026-09-16"
+  "updatedAt": "2026-09-16",
+  "ipProfile": {
+    "country": {
+      "en": "GB (UK exit when roaming, home-routed via O2)",
+      "zh": "GB (UK exit when roaming, home-routed via O2)"
+    },
+    "type": "mobile",
+    "confidence": "medium",
+    "note": {
+      "en": "O2 UK MVNO (O2 AS29180 mobile ranges). An independent 2026 eSIM guide explicitly lists Tesco Mobile among smaller UK networks whose roaming gives a UK IP for services like BBC iPlayer; no official Tesco/O2 doc on exit IP.",
+      "zh": "O2 英国网 MVNO（O2 AS29180 移动段）。2026 年独立 eSIM 指南明确把 Tesco Mobile 列为漫游仍给英国 IP、可看 BBC iPlayer 的小运营商之一；官方无出口 IP 文档。"
+    }
+  }
 }

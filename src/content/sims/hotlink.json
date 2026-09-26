@@ -154,5 +154,17 @@
     ]
   },
   "featured": false,
-  "updatedAt": "2026-09-16"
+  "updatedAt": "2026-09-16",
+  "ipProfile": {
+    "country": {
+      "en": "MY (Malaysia)",
+      "zh": "MY (Malaysia)"
+    },
+    "type": "mobile",
+    "confidence": "high",
+    "note": {
+      "en": "Hotlink is Maxis' prepaid brand; its data IPs sit in Maxis Broadband Sdn Bhd ranges (AS132434/AS9534, e.g. 113.211.x.x, 121.120.x.x) registered in Malaysia and typed as mobile carrier, not datacenter. Mobile-proxy vendors source real Malaysian Maxis IPs from these ranges.",
+      "zh": "Hotlink 为 Maxis 旗下预付品牌，出口 IP 属 Maxis Broadband Sdn Bhd 网段（AS132434/AS9534，如 113.211.x.x、121.120.x.x），注册地马来西亚、性质为移动运营商 IP 而非机房；移动代理商用其网段提供真马来西亚 IP。"
+    }
+  }
 }

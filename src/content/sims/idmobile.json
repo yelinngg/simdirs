@@ -94,5 +94,17 @@
     ]
   },
   "featured": false,
-  "updatedAt": "2026-09-16"
+  "updatedAt": "2026-09-16",
+  "ipProfile": {
+    "country": {
+      "en": "GB (UK exit when roaming, home-routed via Three)",
+      "zh": "GB (UK exit when roaming, home-routed via Three)"
+    },
+    "type": "mobile",
+    "confidence": "medium",
+    "note": {
+      "en": "Runs on Three UK. ISPreview testing shows iD roaming traffic is routed back to a UK server (Mass Response) over a Tele2 transit APN, i.e. UK exit; an iD community post only surfaced a UK IP mis-geolocated to the Isle of Man (database quirk).",
+      "zh": "走 Three 英国网。ISPreview 实测显示 iD 漫游流量经 Tele2 中转 APN 回到英国服务器（Mass Response）出口；iD 社区一帖只是英国 IP 被地理库误标为马恩岛。"
+    }
+  }
 }

@@ -83,5 +83,17 @@
     ]
   },
   "featured": true,
-  "updatedAt": "2026-09-16"
+  "updatedAt": "2026-09-16",
+  "ipProfile": {
+    "country": {
+      "en": "unknown",
+      "zh": "unknown"
+    },
+    "type": "unknown",
+    "confidence": "unverified",
+    "note": {
+      "en": "No reliable public evidence of Saily's exit-IP country or type. Nord Security's own blog only describes traffic passing carrier servers to the internet without naming breakout locations; a Reddit summary of the USENIX study lists Saily among providers NOT routing via Chinese networks. Treat as unverified.",
+      "zh": "未找到 Saily 出口 IP 国家/性质的可靠公开口径。官方博客只说流量经运营商服务器出公网，未披露落地；Reddit 转述的 USENIX 研究摘要将 Saily 列为不经中国网络的一档。标 unverified。"
+    }
+  }
 }

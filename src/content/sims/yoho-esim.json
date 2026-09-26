@@ -94,5 +94,17 @@
     "zh": "价格取自网页配置器内嵌数据（2026-09-25）；官网无公开价目表，以App为准。"
   },
   "featured": false,
-  "updatedAt": "2026-09-25"
+  "updatedAt": "2026-09-25",
+  "ipProfile": {
+    "country": {
+      "en": "Hong Kong (local HK IP; served via China Mobile in mainland China)",
+      "zh": "Hong Kong (local HK IP; served via China Mobile in mainland China)"
+    },
+    "type": "residential",
+    "confidence": "low",
+    "note": {
+      "en": "USCardForum field report: Yoho eSIM in mainland China rides China Mobile and presents a native Hong Kong IP; a Chinese review video claims 'high-purity HK residential broadband IP'. Residential claim is community-sourced and unverified.",
+      "zh": "美卡论坛实测：Yoho eSIM 在中国大陆走中国移动、出口为香港本地 IP；中文评测视频称其为'香港高纯度家庭宽带 IP'。住宅性质为社区口径，未经独立核实。"
+    }
+  }
 }

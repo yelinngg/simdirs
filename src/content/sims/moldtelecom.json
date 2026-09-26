@@ -98,5 +98,17 @@
     ]
   },
   "featured": false,
-  "updatedAt": "2026-09-16"
+  "updatedAt": "2026-09-16",
+  "ipProfile": {
+    "country": {
+      "en": "MD",
+      "zh": "MD"
+    },
+    "type": "mobile",
+    "confidence": "high",
+    "note": {
+      "en": "Moldtelecom (Unité) is Moldova's incumbent operator with its own network; prepaid eSIM roams internationally but community guides report data exits via Moldova (home-routed roaming). Reported usable after activation in mainland China.",
+      "zh": "Moldtelecom（Unité）为摩尔多瓦自有网络运营商，预付eSIM国际漫游时流量回归摩尔多瓦出口；社区口径中国大陆激活后可用。"
+    }
+  }
 }
