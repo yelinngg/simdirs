@@ -1,0 +1,119 @@
+{
+  "name": {
+    "en": "eSIM.GG",
+    "zh": "eSIM.GG"
+  },
+  "tagline": {
+    "en": "Estonian +372 native number eSIM — zero monthly fee, keep-alive via balance activity",
+    "zh": "爱沙尼亚+372原生号码eSIM：零月租，余额保号"
+  },
+  "description": {
+    "en": "eSIM.GG sells prepaid Estonian +372 native-number eSIMs usable across 154+ countries for SMS verification, calls and data. Official prices (2026-09): number €2.99; global bundles from €0.88/GB; €9 for 10GB across 42 countries (incl. China, US, UK, EU, Malaysia, Thailand). Incoming SMS free worldwide; China data €4.7/GB. Under current policy, qualifying activity (data/call/SMS/recharge) resets a 365-day activity window; the provider has announced an upcoming change to balance-based keep-alive.",
+    "zh": "eSIM.GG 出售爱沙尼亚 +372 原生号码 eSIM，可在 154+ 国家用于接码、通话和数据。官方价（2026-09）：号码 2.99 欧；全球流量 0.88 欧/GB 起；42 国通用 10GB 仅 9 欧（含中国、美英欧、马来、泰国）。全球免费接收短信；中国数据 4.7 欧/GB。现行规则为「任意有效活动（流量/通话/短信/充值）重置 365 天活跃期」；官方已预告将改为「余额变动保号」。"
+  },
+  "details": {
+    "en": "eSIM.GG (with data-only sister product eSIM.TF) is aimed at people who need a foreign number for platform registration and verification SMS: prepaid Estonian +372 number with no monthly fee, free incoming SMS worldwide, and pay-as-you-go rates that vary by country.\n\nOfficial facts (verified 2026-09-26, esim.gg): number €2.99; data from €0.88/GB in Europe and most of Asia; headline bundle €9 for 10GB across 42 countries including China, US, UK, EU, Malaysia and Thailand; China data €4.7/GB, China incoming SMS free (outgoing €0.24); world map lists 145 covered +35 discontinued countries. Homepage states ChatGPT and TikTok work freely.\n\nKeep-alive: current FAQ says qualifying activity (data, a call, SMS, or a recharge) resets the 365-day activity period; a line with no activity for 365 days may be released. The operator and resellers have announced an upcoming switch to balance-based keep-alive (a balance change each 365-day cycle maintains the number) — not yet in the official FAQ at check time, so expect this rule to move.\n\nAcquisition: official site self-purchase includes €1 prepaid balance (code SETUP gives €0.40 off at the official store per reseller listing); a third-party reseller (shop.setup0.de, verified 2026-09-26: $3.43 listed, promo €2.99) sells codes with €0.5 prepaid and self-service number selection at esimgg.setup0.de. Reseller channels are unofficial — treat prices/promos as their own marketing. Phone must be carrier-unlocked and eSIM-capable; profile deletion must use native eSIM settings (not STK) or a paid QR replacement may be needed.",
+    "zh": "eSIM.GG（另有纯数据副牌 eSIM.TF）主打「要一个境外号码收验证码」的场景：爱沙尼亚 +372 预付费号码、零月租、全球免费接收短信、按量计费随国家浮动。\n\n官方事实（2026-09-26 于 esim.gg 核验）：号码 2.99 欧；欧洲与亚洲大部流量 0.88 欧/GB 起；主打包 42 国通用 10GB 仅 9 欧（含中国、美、英、欧盟、马来西亚、泰国）；中国数据 4.7 欧/GB、来短信免费（发短信 0.24 欧）；世界地图口径 145 国覆盖+35 国已停。官网自述 ChatGPT 与 TikTok 可自由使用。\n\n保号规则：现行 FAQ 口径为「有效活动（流量/通话/短信/充值）重置 365 天活跃期，365 天无活动可能被回收」；官方与渠道商已预告即将改为「余额变动保号」（每 365 天周期内产生一次有效余额变动即续期）——核验时官方 FAQ 尚未更新该条，规则落地以官方为准。\n\n购买：官网自购自带 1 欧预存（渠道商口径：官网结账用码 SETUP 立减 0.4 欧）；第三方渠道 shop.setup0.de（2026-09-26 核验：挂价 $3.43、内测价 2.99 欧）卖兑换码、自带 0.5 欧预存、在 esimgg.setup0.de 自助选号。渠道价与促销属渠道自行营销，非官方口径。手机须为无锁 eSIM 机型；删除配置文件必须走系统原生 eSIM 设置（勿用 STK 删除，否则可能需付费补发二维码）。"
+  },
+  "bestFor": {
+    "en": "Users who need a cheap foreign +372 number for verification SMS with zero carrying cost.",
+    "zh": "需要低成本境外+372号码长期收验证码、养号零负担的用户。"
+  },
+  "regions": [
+    "europe",
+    "global"
+  ],
+  "coverage": 154,
+  "plansFrom": 3.2,
+  "dataFrom": "Pay per use (€0.88/GB in EU/Asia)",
+  "validity": "365-day activity window (rule change to balance-based announced)",
+  "network": "Local partner networks per country",
+  "device": "esim",
+  "hotspot": true,
+  "rating": 4.0,
+  "website": "https://esim.gg/",
+  "features": {
+    "en": [
+      "Estonian +372 native number, zero monthly fee",
+      "Free incoming SMS worldwide",
+      "€9 / 10GB across 42 countries incl. China",
+      "ChatGPT & TikTok work freely (official claim)"
+    ],
+    "zh": [
+      "爱沙尼亚+372原生号码，零月租",
+      "全球免费接收短信",
+      "42国通用10GB仅9欧（含中国）",
+      "官方自述ChatGPT/TikTok可自由使用"
+    ]
+  },
+  "plans": [
+    {
+      "name": {
+        "en": "+372 Number",
+        "zh": "+372 号码"
+      },
+      "data": {
+        "en": "Pay per use",
+        "zh": "按量计费"
+      },
+      "validity": {
+        "en": "365-day activity window",
+        "zh": "365天活跃期"
+      },
+      "price": {
+        "en": "€2.99",
+        "zh": "2.99欧元"
+      }
+    },
+    {
+      "name": {
+        "en": "42-country 10GB",
+        "zh": "42国通用 10GB"
+      },
+      "data": {
+        "en": "10GB (CN/US/UK/EU/MY/TH...)",
+        "zh": "10GB（中/美/英/欧/马来/泰国等）"
+      },
+      "validity": {
+        "en": "Bundle validity per official page",
+        "zh": "以官方套餐页为准"
+      },
+      "price": {
+        "en": "€9",
+        "zh": "9欧元"
+      }
+    }
+  ],
+  "plansNote": {
+    "en": "Official site prices (2026-09-26). Keep-alive rule migrating to balance-based per provider announcement; reseller €2.99/€0.5-credit offers are third-party, not official.",
+    "zh": "官网价（2026-09-26核验）。保号规则官方预告将改为余额变动制；渠道 2.99 欧/0.5 欧预存为第三方 shop.setup0.de 口径，非官方。"
+  },
+  "pros": {
+    "en": [
+      "True zero monthly fee number with free incoming SMS",
+      "42-country 10GB bundle at €9 is strong value",
+      "Official keep-alive documentation is clear (365-day activity)"
+    ],
+    "zh": [
+      "真零月租+全球免费收短信",
+      "42国10GB 9欧性价比高",
+      "官方保号文档清晰（365天活跃期）"
+    ]
+  },
+  "cons": {
+    "en": [
+      "Keep-alive rule in transition (activity → balance) — re-check before long-term reliance",
+      "China calls unavailable; China data €4.7/GB not cheap",
+      "Profile deletion via STK can lock the eSIM (paid QR replacement)",
+      "Number price listed without bundled balance on official page (€1 credit via channels)"
+    ],
+    "zh": [
+      "保号规则转换期（活动制→余额制），长期依赖前需复查",
+      "中国不可主叫；中国数据4.7欧/GB不便宜",
+      "STK方式删卡可能锁卡需付费补码",
+      "官网页号码价不含预存余额（1欧预存为渠道口径）"
+    ]
+  },
+  "featured": false,
+  "updatedAt": "2026-09-26"
+}
