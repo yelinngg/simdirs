@@ -96,6 +96,7 @@ const en = {
       mixed: 'Mixed / varies',
       unknown: 'Unknown',
     },
+    related: 'Related providers',
   },
   news: {
     title: 'Latest News',
@@ -230,6 +231,7 @@ const zh: typeof en = {
       mixed: '混合/随线路变化',
       unknown: '未知',
     },
+    related: '相关SIM卡',
   },
   news: {
     title: '最新动态',

@@ -2,7 +2,7 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 import { localePath, pick, formatDate, type Locale } from '../i18n/utils';
 import { t } from '../i18n/ui';
-import { getSim } from '../lib/queries';
+import { getSim, getAllSims } from '../lib/queries';
 import { marked } from 'marked';
 
 interface Props {
@@ -28,6 +28,18 @@ const pros = d.pros ? pick(d.pros, lang) : undefined;
 const cons = d.cons ? pick(d.cons, lang) : undefined;
 const plansNote = d.plansNote ? pick(d.plansNote, lang) : undefined;
 const path = `/sims/${slug}`;
+
+// Related providers: same region first, then same device type, then rating — capped at 6.
+const allSims = await getAllSims();
+const related = allSims
+  .filter((s) => s.id !== slug)
+  .map((s) => {
+    const overlap = s.data.regions.filter((r) => d.regions.includes(r)).length;
+    return { s, score: overlap * 2 + (s.data.device === d.device ? 1 : 0) + s.data.rating / 10 };
+  })
+  .sort((a, b) => b.score - a.score)
+  .slice(0, 6)
+  .map((x) => x.s);
 
 // Render details as Markdown per Astro's official pattern (marked + set:html).
 // Content comes from our own curated JSON (not user input), so raw HTML is safe here.
@@ -250,6 +262,28 @@ if (!seoDescription) {
               ))
             }
           </ul>
+        </section>
+
+        <section class="rounded-2xl border border-slate-200 bg-white p-7 shadow-sm">
+          <h2 class="text-xl font-bold text-slate-900">{tr.sim.related}</h2>
+          <div class="mt-4 grid gap-3 sm:grid-cols-2">
+            {
+              related.map((r) => (
+                <a
+                  href={localePath(lang, `/sims/${r.id}`)}
+                  class="group flex items-center justify-between gap-3 rounded-xl border border-slate-200 px-4 py-3 transition hover:border-indigo-300 hover:bg-indigo-50/40"
+                >
+                  <span class="min-w-0">
+                    <span class="block truncate text-sm font-semibold text-slate-900 group-hover:text-indigo-700">{pick(r.data.name, lang)}</span>
+                    <span class="block truncate text-xs text-slate-500">{pick(r.data.tagline, lang)}</span>
+                  </span>
+                  <span class="shrink-0 rounded-full bg-slate-100 px-2 py-0.5 text-xs text-slate-600">
+                    {tr.sim.ipTypes[r.data.ipProfile?.type ?? 'unknown']}
+                  </span>
+                </a>
+              ))
+            }
+          </div>
         </section>
       </div>
 
