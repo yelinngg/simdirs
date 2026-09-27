@@ -41,6 +41,22 @@ tags: [esim, ip, 教程]
 - [eSIM.GG](/zh/sims/esim-gg)——爱沙尼亚移动出口；社区报告免费促销卡落地法国 IP
 - [Hotlink](/zh/sims/hotlink)——真马来西亚移动 IP（Maxis 网络），社区实测 Speedtest 佐证
 
+## 逐品牌：各家 eSIM 的 IP 落地在哪？
+
+这些都是用户真实在搜的问题。答案综合学术测量、官方声明与社区报告，并附置信口径。
+
+**Airalo 的 IP 在哪个国家？** 实测出口：新加坡 Singtel（AS45143，归国路由档）、法国 OVH（AS16276，里尔）与美国 Packet Host（AS54825，出口档）——机房 IP，且常常不是你所在的国家。Airalo 官方客服也确认无法保证 IP 位置。需要目的地国家 IP 的话，Airalo 不是合适的工具。
+
+**Saily 的 IP？** 无可靠公开口径。官方博客只说流量经运营商服务器出公网、未披露落地；USENIX 2025 研究摘要将 Saily 列为不经中国网络的一档。按未知处理。
+
+**Nomad 的 IP？** 多位 Reddit 用户独立报告出口为香港——包括在美国用美国套餐时（APAC 套餐据报走中国联通经香港回传）。无官方口径，IP 性质未知。
+
+**Holafly 的 IP？** USENIX 2025 研究实测 Holafly 流量经中国大陆中国移动及未披露网络路由；Holafly 官方 traffic-routing FAQ 承认归国路由、会出现外国 IP。社区另报新加坡落地。出口是住宅还是机房无公开数据。
+
+**Roamless 的 IP？** 用户口径一致：三个区域出口节点——欧洲（比利时/法国）、美国（Ashburn）、新加坡，由网络自动分配、用户不可选。「新加坡住宅 IP」的早期社区说法未能核实，性质按未知处理。
+
+**英国虚商（giffgaff/VOXI/Lebara/Tesco）**：归国路由——漫游到哪出口都是真英国移动 IP。这也是英国保号卡同时被当作「英国 IP 注册工具」的原因。
+
 ## 如何自查 eSIM 出口 IP
 
 1. 连上 eSIM 后打开任一 IP 查询站（ipinfo.io、ip.sb）

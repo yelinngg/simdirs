@@ -41,6 +41,22 @@ Each profile carries a confidence label: verified, likely, uncertain or communit
 - [eSIM.GG](/sims/esim-gg) — Estonian mobile exit; community reports the free promotional eSIM lands on a French IP
 - [Hotlink](/sims/hotlink) — genuine Malaysia mobile IP (Maxis network), community-verified with speedtest
 
+## Brand-by-brand: where does each eSIM's IP land?
+
+These are the questions users actually search for. Answers combine academic measurement, official statements and community reports — confidence labels included.
+
+**Airalo IP address: which country?** Measured exits: Singtel Singapore (AS45143) on home-routed profiles, OVH France (AS16276, Lille) and Packet Host US (AS54825) on breakout profiles — datacenter IPs, often not the country you are visiting. Airalo support confirms it cannot guarantee the IP's location. If you need a destination-country IP, Airalo is the wrong tool.
+
+**Saily IP address?** No reliable public data on Saily's exit IP. The official blog says traffic exits through carrier servers without disclosing locations; a USENIX 2025 study summary places Saily among providers that do not route through Chinese networks. Treat as unknown.
+
+**Nomad IP address?** Multiple independent Reddit users report Hong Kong exits — including when using US and Asia-Pacific plans (APAC bundles reportedly ride China Unicom via Hong Kong). No official statement; IP type unknown.
+
+**Holafly IP address?** A USENIX 2025 study documented Holafly traffic routed through China Mobile and other undisclosed networks. Holafly's own traffic-routing FAQ confirms home-routed roaming with foreign IPs. Community reports Singapore landings on some plans. Whether the exit is residential or datacenter is not publicly known.
+
+**Roamless IP address?** Users consistently report three regional breakout nodes — Europe (Belgium/France), USA (Ashburn) and Singapore — auto-selected by the network, not by you. The "Singapore residential IP" claim from our earlier community notes could not be verified; type remains unknown.
+
+**UK MVNOs (giffgaff, VOXI, Lebara, Tesco)**: home-routed — the exit is a genuine UK mobile IP wherever you roam. This is why UK keep-alive numbers are also the go-to tool for UK-IP account registration.
+
 ## How to check your own eSIM exit IP
 
 1. Connect with the eSIM and visit any IP-check site (ipinfo.io, ip.sb)
