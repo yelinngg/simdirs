@@ -12,8 +12,8 @@
     "zh": "Lycamobile是总部位于英国的全球性虚商，在60个国家开展业务；在英国主要使用O2和EE网络。官网直接下单，结账时可选eSIM；90天内无通话/短信/流量/充值会收到提醒，再经30天宽限仍无使用即停机且号码会被重新分配（最低充值10英镑；充值余额自充值起90天过期）。无长期合约，可随时取消或更改，支持充值卡密充值。"
   },
   "details": {
-    "en": "Lycamobile is the call-centric global MVNO: its bundles skew toward international minutes rather than China-roaming data, and its keep-alive is top-up based — roughly £10 per 90 days (after 90 days without a call, message, data or top-up Lyca warns you, then deactivates the SIM and reallocates the number after a 30-day grace; top-up credit expires 90 days from the top-up date), clearly worse value than giffgaff's £0.30 SMS or VOXI's £5/180 days. The upside is familiarity and reach: it operates in 60 countries, so the same account logic works for relatives abroad, and voucher-based top-ups (scratch cards) exist where cards aren't an option. eSIM can be selected during bundle purchase on the official site. No contract lock-in.\n\nTrade-offs: mainland-China roaming is not its design centre (the source review does not recommend it for China-roaming cloud residents); network priority as an MVNO sits below host-network subscribers; and bundle-heavy marketing means the cheapest keep-alive path is simply topping up and not buying anything.",
-    "zh": "Lycamobile 是以国际通话为中心的全球性虚商：套餐结构偏向跨国通话分钟数而非回国流量，保号走充值制——约每 90 天充值 10 英镑（90 天内无通话/短信/流量/充值会收到警告，再经 30 天宽限即停机且号码重新分配；充值余额自充值日起 90 天过期），单次成本明显高于 giffgaff 的 0.3 镑短信路线或 VOXI 的 5 英镑/180 天门槛。\n\n它的优势在规模与触达：业务覆盖约 60 个国家，海外亲属可以沿用同一套账户逻辑使用当地 Lycamobile；没有国际信用卡时还支持充值卡密（刮刮卡）付费，支付灵活性是它相对同行的实在优点。官网购买套餐时可勾选 eSIM，无长期合约锁定，随时可停。\n\n需要清醒的取舍：中国大陆漫游不是它的设计场景，源盘点明确不推荐云居民把它当漫游主力；作为虚商，其流量优先级低于宿主网络（O2/EE）本网用户；营销以套餐捆绑为主，最省钱的保号路径其实是只充值、不买任何套餐。"
+    "en": "Lycamobile is the call-centric global MVNO: its bundles skew toward international minutes rather than China-roaming data, and its keep-alive is top-up based — roughly £10 per 90 days (after 90 days without a call, message, data or top-up Lyca warns you, then deactivates the SIM and reallocates the number after a 30-day grace; top-up credit expires 90 days from the top-up date), clearly worse value than giffgaff's £0.30 SMS or VOXI's £5/180 days. The upside is familiarity and reach: it operates in 60 countries, so the same account logic works for relatives abroad, and voucher-based top-ups (scratch cards) exist where cards aren't an option. eSIM can be selected during bundle purchase on the official site. No contract lock-in.\n\nTrade-offs: mainland-China roaming is not its design centre (the source review does not recommend it for China-roaming cloud residents); network priority as an MVNO sits below host-network subscribers; and bundle-heavy marketing means the cheapest keep-alive path is simply topping up and not buying anything.\n\n## Lycamobile UK eSIM and Plans Guide (official, verified 2026-09)\n\n**eSIM support**: sold on the official eSIM page, QR code delivered by email after ordering, with official activation walkthroughs for iPhone, Samsung, Google Pixel and Huawei. PAYG also supports eSIM (the official PAYG page lists \"eSIM PAYG: digital SIM that works instantly, choose bundles or standard rates\"). Device changes are managed via the My Lyca account or app.\n\n**Current bundles (official homepage promo prices, 2026-09, all 30-day rolling)**:\n- UK Plan Smart: £5/mo (first month £3.50) — 5GB + 1000 mins + unlimited SMS + 100 international mins, 5GB EU roaming\n- National Plus: £10/mo (first month £5) — 30GB + unlimited calls & texts + 12GB EU roaming\n- UK Plan Unlimited: £25/mo (first month £12.50) — unlimited data (35GB usable in EU + India) + 100 international mins\n- UK Plan Super Extra: £15/mo (first month £7.50) — 75GB, of which 12GB in EU + India and **1.5GB usable in mainland China**\n- Promos are new-customer online-only first-month discounts ending 2026-09-30; the SIM must be activated within 30 days of ordering\n\n**Standard PAYG rates (top-up only, no bundle)**: UK landline 15p/min (Lyca-to-Lyca free), other mobiles 23p/min, SMS 23p, **data 15p/MB** — standard-rate data is extremely expensive; pure PAYG suits only parked numbers that receive calls, never use data. Buy a bundle for data.\n\n**Keep-alive (consistent with the profile, official terms)**: warning after 90 days without calls/texts/data/top-up, then a 30-day grace before the number is recycled; top-up credit expires 90 days from the top-up date. Cheapest keep-alive path = one top-up per 90 days (£5 minimum) with no bundle or the £5 tier. See the [UK keep-alive guide](/news/uk-sim-keep-alive-guide-2026) for comparison.\n\n**Mainland-China note**: the Super Extra bundle's 1.5GB China allowance is a rare official \"usable in China\" line item; but Lyca's design center is international calling, not cloud-resident roaming — no official guarantee for long-term mainland use.",
+    "zh": "Lycamobile 是以国际通话为中心的全球性虚商：套餐结构偏向跨国通话分钟数而非回国流量，保号走充值制——约每 90 天充值 10 英镑（90 天内无通话/短信/流量/充值会收到警告，再经 30 天宽限即停机且号码重新分配；充值余额自充值日起 90 天过期），单次成本明显高于 giffgaff 的 0.3 镑短信路线或 VOXI 的 5 英镑/180 天门槛。\n\n它的优势在规模与触达：业务覆盖约 60 个国家，海外亲属可以沿用同一套账户逻辑使用当地 Lycamobile；没有国际信用卡时还支持充值卡密（刮刮卡）付费，支付灵活性是它相对同行的实在优点。官网购买套餐时可勾选 eSIM，无长期合约锁定，随时可停。\n\n需要清醒的取舍：中国大陆漫游不是它的设计场景，源盘点明确不推荐云居民把它当漫游主力；作为虚商，其流量优先级低于宿主网络（O2/EE）本网用户；营销以套餐捆绑为主，最省钱的保号路径其实是只充值、不买任何套餐。\n\n## Lycamobile UK eSIM 与套餐指南（2026-09 官网核验）\n\n**eSIM 支持情况**：官网 esim 专区在售，下单邮件送达 QR 码，iPhone/三星/Google Pixel/Huawei 均有官方激活教程；PAYG 也支持 eSIM（官方 PAYG 页明确列出\"eSIM PAYG：数字 SIM 即买即用，可选套餐或按标准资费\"）。换机换卡走 My Lyca 账户或 App 管理。\n\n**在售套餐（2026-09 官网首页促销价，均为 30 天滚动）**：\n- UK Plan Smart：£5/月（首月 £3.50）——5GB + 1000 分钟 + 无限短信 + 100 国际分钟，EU 漫游 5GB\n- National Plus：£10/月（首月 £5）——30GB + 无限通话短信 + 12GB EU 漫游\n- UK Plan Unlimited：£25/月（首月 £12.50）——不限量数据（35GB 可在 EU+印度使用）+ 100 国际分钟\n- UK Plan Super Extra：£15/月（首月 £7.50）——75GB，其中 12GB EU+印度、**1.5GB 可在中国大陆使用**\n- 促销均为\"仅新客户、仅线上、首月折扣\"，2026-09-30 截止；激活须在下单后 30 天内完成\n\n**标准 PAYG 资费（无套餐直充）**：英国内通话 15p/分钟（打 Lyca 用户免费）、他网 23p/分钟、短信 23p/条、**数据 15p/MB**——数据标准资费极贵，纯 PAYG 只适合只接电话不流量的保号场景；要用数据请买套餐。\n\n**保号与充值（与主档案一致，官网条款口径）**：90 天内无通话/短信/流量/充值会收到警告，再 30 天宽限后停机回收号码；充值余额自充值日起 90 天有效。最省保号路径=每 90 天充值一次（最低 £5）+不买套餐或只买最低 £5 档。相关对比见[英国保号卡完全指南](/zh/news/uk-sim-keep-alive-guide-2026)。\n\n**大陆使用注意**：Super Extra 套餐含 1.5GB 中国大陆漫游额度是官方条款里少见的\"中国可用\"项；但 Lyca 的设计场景是国际通话而非云居民漫游，大陆长期使用体验无官方保证。"
   },
   "bestFor": {
     "en": "Users who mainly call internationally and want a no-contract UK number with voucher top-up options.",
@@ -46,6 +46,78 @@
     ]
   },
   "plans": [
+    {
+      "name": {
+        "en": "UK Plan Smart (30d)",
+        "zh": "UK Plan Smart（30天）"
+      },
+      "data": {
+        "en": "5GB + 1000 mins + 100 intl mins",
+        "zh": "5GB+1000分钟+100国际分钟"
+      },
+      "validity": {
+        "en": "30 days",
+        "zh": "30 天"
+      },
+      "price": {
+        "en": "£5/mo (first month £3.50)",
+        "zh": "£5/月（首月£3.50）"
+      }
+    },
+    {
+      "name": {
+        "en": "National Plus (30d)",
+        "zh": "National Plus（30天）"
+      },
+      "data": {
+        "en": "30GB + unlimited calls/texts + 12GB EU",
+        "zh": "30GB+无限通话短信+12GB EU"
+      },
+      "validity": {
+        "en": "30 days",
+        "zh": "30 天"
+      },
+      "price": {
+        "en": "£10/mo (first month £5)",
+        "zh": "£10/月（首月£5）"
+      }
+    },
+    {
+      "name": {
+        "en": "UK Plan Super Extra (30d)",
+        "zh": "UK Plan Super Extra（30天）"
+      },
+      "data": {
+        "en": "75GB, incl 12GB EU+India, 1.5GB China",
+        "zh": "75GB，含12GB EU+印度、1.5GB中国大陆"
+      },
+      "validity": {
+        "en": "30 days",
+        "zh": "30 天"
+      },
+      "price": {
+        "en": "£15/mo (first month £7.50)",
+        "zh": "£15/月（首月£7.50）"
+      }
+    },
+    {
+      "name": {
+        "en": "UK Plan Unlimited (30d)",
+        "zh": "UK Plan Unlimited（30天）"
+      },
+      "data": {
+        "en": "Unlimited data (35GB EU+India)",
+        "zh": "不限量（35GB可在EU+印度）"
+      },
+      "validity": {
+        "en": "30 days",
+        "zh": "30 天"
+      },
+      "price": {
+        "en": "£25/mo (first month £12.50)",
+        "zh": "£25/月（首月£12.50）"
+      }
+    },
     {
       "name": {
         "en": "Pay-as-you-go keep-alive",
@@ -94,7 +166,7 @@
     ]
   },
   "featured": false,
-  "updatedAt": "2026-09-16",
+  "updatedAt": "2026-09-27",
   "ipProfile": {
     "country": {
       "en": "non-UK when roaming (Czech Republic reported by user in Portugal); GB in UK (EE host network)",
