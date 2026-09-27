@@ -12,8 +12,8 @@
     "zh": "3HK DIY 是香港和记电讯（3香港）旗下的储值卡产品线，通过「DIY 储值卡」App管理。它面向香港本地用户和旅客，提供DIY漫游日包、本地流量增值与实名登记，并非传统的旅行eSIM商店。"
   },
   "details": {
-    "en": "3HK DIY is not a travel eSIM store — it is a Hong Kong carrier's official prepaid product, and that is exactly its value.\n\nFor visitors to Hong Kong, a DIY SIM gives you a real local 3HK number with local rates, supported by a physical retailer network (convenience stores, MTR shops) for top-ups, plus real-name registration handled in the app as HK law requires.\n\nFor Hong Kong residents, the DIY app doubles as a roaming manager: buy destination day passes (mainland China, Macau, Japan, Korea, Taiwan, Southeast Asia and more) that bill to your existing SIM, often cheaper than travel-brand eSIMs on the same 3HK network infrastructure. Plan selection, purchase and activation all happen inside the app rather than on a public web catalogue, which is why no static price table is published here. Trade-offs: coverage is Asia-centric (mainland China, Macau, Asia day passes), the experience assumes the app and registration flow, and it lacks the instant-QR simplicity of global eSIM brands. But if your trip is Hong Kong-centric or you want an official local number, it beats generic travel eSIMs on local rates and physical availability.",
-    "zh": "3HK DIY 不是旅行 eSIM 商店——它是香港运营商的官方储值卡产品，而这恰恰是它的价值。对访港旅客而言，DIY 卡提供真实的 3HK 本地号码与本地费率，有实体零售网络（便利店、港铁门店）可充值，实名登记按香港法例在 App 内完成。对香港居民而言，DIY App 同时是漫游管理器：为已有号码购买目的地日包（中国内地、澳门、日本、韩国、台湾、东南亚等），走同样的 3HK 网络设施，常比旅行品牌 eSIM 便宜。\n\n套餐的选购、支付与激活全部在 App 内完成，官网不发布静态价目表，因此此处不转载价格。取舍：覆盖以亚洲为中心（内地、澳门及亚洲日包）；体验以 App 和登记流程为前提；也没有全球 eSIM 品牌即扫即用的简洁。\n\n但如果你的行程以香港为中心，或想要一个官方本地号码，它在本地费率与线下可得性上都胜过通用旅行 eSIM。"
+    "en": "3HK DIY is not a travel eSIM store — it is a Hong Kong carrier's official prepaid product, and that is exactly its value.\n\nFor visitors to Hong Kong, a DIY SIM gives you a real local 3HK number with local rates, supported by a physical retailer network (convenience stores, MTR shops) for top-ups, plus real-name registration handled in the app as HK law requires.\n\nFor Hong Kong residents, the DIY app doubles as a roaming manager: buy destination day passes (mainland China, Macau, Japan, Korea, Taiwan, Southeast Asia and more) that bill to your existing SIM, often cheaper than travel-brand eSIMs on the same 3HK network infrastructure. Plan selection, purchase and activation all happen inside the app rather than on a public web catalogue, which is why no static price table is published here. Trade-offs: coverage is Asia-centric (mainland China, Macau, Asia day passes), the experience assumes the app and registration flow, and it lacks the instant-QR simplicity of global eSIM brands. But if your trip is Hong Kong-centric or you want an official local number, it beats generic travel eSIMs on local rates and physical availability.\n\n## Mainland-China roaming and keep-alive (official 2026-09 wording + community)\n\n**How to buy China data**: the official DIY app/web configurator sells custom travel passes for Asia-Pacific (mainland included) from HK$13/day plus HK$8 per extra 500MB, valid up to 180 days (verified on the official travel page, 2026-09). Greater-China 365-day passes (e.g. 40GB+5GB social) circulate via resellers at roughly ¥320-368 — the 365-day tier is a reseller listing, not the official configurator default.\n\n**Keep-alive (community wording, terms not independently verified)**: stored value and pass validity are linked; resellers cite roughly HK$200/year in top-ups to keep the number. SMS receiving in the mainland is free, sending HK$3.5, calling the mainland HK$6/min (reseller wording). Keep-alive users should check the balance expiry in the app every 90-180 days and complete a top-up or pass purchase inside the window.\n\n**Using it in the mainland**: enable data roaming on insertion; mainland roaming rides all three Chinese networks with a Hong Kong mobile exit; VoLTE required; works for verification SMS. Real-name registration per HK law happens in the app (unregistered SIMs cannot receive SMS); passport and China travel permits are accepted.\n\nReal-time pricing lives in the official app; figures here verified 2026-09.",
+    "zh": "3HK DIY 不是旅行 eSIM 商店——它是香港运营商的官方储值卡产品，而这恰恰是它的价值。对访港旅客而言，DIY 卡提供真实的 3HK 本地号码与本地费率，有实体零售网络（便利店、港铁门店）可充值，实名登记按香港法例在 App 内完成。对香港居民而言，DIY App 同时是漫游管理器：为已有号码购买目的地日包（中国内地、澳门、日本、韩国、台湾、东南亚等），走同样的 3HK 网络设施，常比旅行品牌 eSIM 便宜。\n\n套餐的选购、支付与激活全部在 App 内完成，官网不发布静态价目表，因此此处不转载价格。取舍：覆盖以亚洲为中心（内地、澳门及亚洲日包）；体验以 App 和登记流程为前提；也没有全球 eSIM 品牌即扫即用的简洁。\n\n但如果你的行程以香港为中心，或想要一个官方本地号码，它在本地费率与线下可得性上都胜过通用旅行 eSIM。\n\n## 大陆漫游与保号（2026-09 官方口径+社区实测）\n\n**大陆漫游怎么买**：官方 DIY App/网页的「自訂外遊數據」按日+流量定制——亚太区（含内地）$13/日起，每 1000MB 约 1GB、追加 $8/500MB，通行证有效期最长 180 日（2026-09 官网 travel 页实测配置器）。另有大湾 区 365 日通行证（如 40GB+5GB 社交定向，渠道价约 ¥320-368）——365 日档为第三方渠道口径，官方页以 180 日为主。\n\n**保号规则（社区口径，未逐条核实官方条款原文）**：储值卡余额有效期与套餐挂钩——有渠道称「每年充值约 HK$200 保号」；日套餐/通行证到期后余额进入有效期倒计时，到期不续号码可能被回收。内地收短信免费、发短信 $3.5/条、打大陆 $6/分钟（渠道口径）。**建议保号用户每 90-180 天登录 App 检查一次余额有效期，并在行程内完成一次充值或套餐购买。**\n\n**内地使用要点**：插卡开数据漫游即用，大陆漫游走三网（具体落地 IP 香港移动网络）；VoLTE 需开启；收验证码场景可用。实名按香港法例在 App 内完成（未实名将无法接收短信），支持护照/港澳通行证等证件。\n\n选购与实时价格以官方 App 为准；本节资费为 2026-09 核验口径。"
   },
   "bestFor": {
     "en": "Visitors to Hong Kong who want a real local number and local rates, and HK residents managing Asia roaming day passes on their existing SIM.",
@@ -25,7 +25,7 @@
   "coverage": 1,
   "plansFrom": 8,
   "dataFrom": "App-based",
-  "validity": "Varies by plan",
+  "validity": "180-day passes typical; balance expiry rules apply",
   "network": "4G/5G",
   "device": "both",
   "hotspot": true,
@@ -77,7 +77,7 @@
     ]
   },
   "featured": false,
-  "updatedAt": "2026-08-18",
+  "updatedAt": "2026-09-26",
   "ipProfile": {
     "country": {
       "en": "HK",
