@@ -1,0 +1,130 @@
+{
+  "name": { "en": "Club Sim", "zh": "Club Sim" },
+  "tagline": {
+    "en": "CSL's no-contract, pack-based prepaid platform — keep a Hong Kong number for about HK$15-28/year",
+    "zh": "CSL 旗下无合约组合式储值平台——约 HK$15-28/年即可持有香港号码"
+  },
+  "description": {
+    "en": "Club Sim is CSL Mobile's self-service prepaid brand (HKT group, sister of csl/1O1O): buy service packs — local data, voice, Greater-China roaming, Asia-Pacific day passes — in the app or website with no contract and no admin fee. Its keep-alive rule is the standout: buying any pack within 365 days of the last keeps the number alive, with packs starting at HK$15.",
+    "zh": "Club Sim 是 CSL Mobile（香港电讯 HKT 旗下，csl/1O1O 同门）的自助储值品牌：在 App/网站自选服务组合——本地数据、通话、中澳漫游、亚太日票——无合约、无行政费。最大卖点是保号规则：上次购组合后 365 天内再购任意组合即续命，最低组合 HK$15 起。"
+  },
+  "details": {
+    "en": "Club Sim is not a travel eSIM store — it is a Hong Kong operator's official pack-based prepaid platform, and that is exactly its value. For number parking, the rule is simple and official: purchase any service pack within 365 days of your last purchase and the number stays yours; miss the window and the number is permanently deactivated and may be reassigned. The cheapest keep-alive is the HK$15 Asia 24-hour roaming pass; the cheapest local pack is HK$28 (5GB local data or unlimited local voice, 90 days / 1 month).\n\nMainland China usability (official): a dedicated China-Macau roaming zone sells 1GB/HK$38 and 3GB/HK$88 with 90-day validity, plug-and-play on arrival, with the operator advertising unrestricted social-app access; VoLTE and Wi-Fi Calling are supported (VoLTE requires a voice pack). Note the local voice pack explicitly excludes roaming voice and international calls.\n\nFine print that matters: new-SIM orders carry a minimum charge of HK$50 (buy a $28 pack and you must add items to reach $50, or pick a $58 pack); real-name registration under Hong Kong law is mandatory — unregistered SIMs are suspended — though visitors can register with a passport (this is statutory registration, not 'no-KYC'); eSIM issuance is free by email and physical-to-eSIM conversion is self-service in the app (more than one eSIM swap per year costs HK$40 each); no 5G — the ceiling is 4.5G at 42Mbps; packs are non-refundable. Community 'free-KYC' and MeSIM/Xesim-import claims are not confirmed by any official page and are treated as unverified.",
+    "zh": "Club Sim 不是旅行 eSIM 商店——它是香港运营商的官方组合式储值平台，而这恰恰是它的价值。保号规则官方明确：上次购买服务组合后 365 天内再购任意组合，号码即续命；错过窗口号码被永久停用并可能被分配给他人。最低保号成本是 HK$15 的亚洲 24 小时漫游通行证；最低本地组合 HK$28（5GB 本地数据 90 天，或本地通话短信组合 1 个月）。社区流传的「15 港币一年续期香港号」与官方规则吻合；「HK$6 套餐已取消」属实——$6 现只是通话组合内附送的短信包价值，无独立 $6 套餐。\n\n内地可用性（官方口径）：设「中国内地及澳门漫游数据专区」，1GB/HK$38、3GB/HK$88，90 天有效期，抵埗即用，官方宣称各大社交 App 连接无障碍；支持 VoLTE 与 VoWiFi（Wi-Fi Calling），其中 VoLTE 需购买话音组合。注意本地通话组合明确不支持漫游语音与国际长途。\n\n重要条款：新卡订单最低收费 HK$50（买 $28 组合须加购至 $50，或直接选 $58 组合达标）；实名登记按香港法例强制——未登记储值卡会被停用，访客可凭护照登记（这是法定登记，不是社区说的「免 KYC」）；eSIM 免卡费、付款后 QR 码邮件即达，实体↔eSIM 可 App 内自助互转（一年内换 eSIM 超 1 次每次收 HK$40，eSIM 转回实体须亲身赴门市）；暂不支持 5G（上限 4.5G 42Mbps）；组合一经订购不可退款；每账户最多 10 张卡，支持携号转台。社区提及的 MeSIM/Xesim 平台导入属非官方渠道，未核验。"
+  },
+  "bestFor": {
+    "en": "Parking a Hong Kong number for under HK$30/year; Greater-China roaming with 90-day validity; residents who want CSL-network quality without a contract",
+    "zh": "每年不到 HK$30 保住香港号码；90 天长有效期的大湾区漫游；想要 CSL 网络品质又不要合约的用户"
+  },
+  "regions": ["asia"],
+  "coverage": 2,
+  "plansFrom": 2,
+  "dataFrom": "HK$38/GB (China-Macau roaming)",
+  "validity": "Keep number: any pack within 365 days (min ~HK$15/year); data packs 90 days; monthly packs 1 month",
+  "network": "4.5G (42Mbps, no 5G)",
+  "device": "both",
+  "hotspot": true,
+  "rating": 3.8,
+  "website": "https://www.clubsim.com.hk/",
+  "features": {
+    "en": [
+      "Official CSL Mobile prepaid brand (HKT group)",
+      "365-day keep-alive rule, cheapest pack HK$15 (Asia 24h pass)",
+      "Free eSIM delivery by email; physical/eSIM swap in-app",
+      "China-Macau roaming packs with 90-day validity",
+      "MNP supported, up to 10 SIMs per account"
+    ],
+    "zh": [
+      "CSL Mobile（HKT 旗下）官方储值品牌",
+      "365 天保号规则，最低组合 HK$15（亚洲 24h 通行证）",
+      "eSIM 免卡费邮件即达，实体/eSIM 可 App 内互转",
+      "中澳漫游数据 90 天长有效期",
+      "支持携号转台，每账户最多 10 张卡"
+    ]
+  },
+  "plans": [
+    {
+      "name": { "en": "Asia data roaming pass (24h)", "zh": "亚洲数据漫游通行证（24 小时）" },
+      "data": { "en": "24h unlimited full-speed", "zh": "24 小时全速数据" },
+      "validity": { "en": "24 hours", "zh": "24 小时" },
+      "price": { "en": "HK$15+", "zh": "HK$15 起" }
+    },
+    {
+      "name": { "en": "Local data 5GB", "zh": "本地数据服务 5GB" },
+      "data": { "en": "5GB full-speed local", "zh": "5GB 全速本地数据" },
+      "validity": { "en": "90 days", "zh": "90 天" },
+      "price": { "en": "HK$28", "zh": "HK$28" }
+    },
+    {
+      "name": { "en": "Local voice & SMS pack", "zh": "本地通话及短信组合" },
+      "data": { "en": "No data; unlimited local calls + $6 SMS credit", "zh": "不含数据；无限本地通话+附送 $6 短信" },
+      "validity": { "en": "1 month", "zh": "1 个月" },
+      "price": { "en": "HK$28", "zh": "HK$28" }
+    },
+    {
+      "name": { "en": "China Mainland & Macao roaming 1GB", "zh": "中国内地及澳门漫游数据 1GB" },
+      "data": { "en": "1GB high-speed roaming", "zh": "1GB 高速漫游数据" },
+      "validity": { "en": "90 days", "zh": "90 天" },
+      "price": { "en": "HK$38", "zh": "HK$38" }
+    },
+    {
+      "name": { "en": "China Mainland & Macao roaming 3GB", "zh": "中国内地及澳门漫游数据 3GB" },
+      "data": { "en": "3GB high-speed roaming", "zh": "3GB 高速漫游数据" },
+      "validity": { "en": "90 days", "zh": "90 天" },
+      "price": { "en": "HK$88", "zh": "HK$88" }
+    },
+    {
+      "name": { "en": "Local data+voice 20GB", "zh": "本地数据及通话 20GB" },
+      "data": { "en": "20GB @42Mbps then throttled + unlimited local calls", "zh": "20GB@42Mbps 后降速+无限本地通话" },
+      "validity": { "en": "1 month", "zh": "1 个月" },
+      "price": { "en": "HK$58", "zh": "HK$58" }
+    }
+  ],
+  "plansNote": {
+    "en": "All packs verified on clubsim.com.hk 2026-09-27. New-SIM orders enforce a HK$50 minimum charge; packs are non-refundable.",
+    "zh": "全部组合核验自 clubsim.com.hk（2026-09-27）。新卡订单最低收费 HK$50；组合不可退款。"
+  },
+  "pros": {
+    "en": [
+      "365-day keep-alive with packs from HK$15 — one of the cheapest HK number parking options",
+      "No contract, no admin fee, packs on demand",
+      "Free eSIM by email; in-app physical/eSIM swap",
+      "90-day China-Macau roaming packs usable in the mainland",
+      "CSL network with VoLTE/VoWiFi and MNP"
+    ],
+    "zh": [
+      "365 天保号+HK$15 起组合——香港号码停靠成本最低档之一",
+      "无合约无行政费，组合随买随用",
+      "eSIM 免费邮件即达，App 内自助互转",
+      "中澳漫游 90 天长有效期，内地可用",
+      "CSL 网络，支持 VoLTE/VoWiFi 与携号转台"
+    ]
+  },
+  "cons": {
+    "en": [
+      "HK$50 minimum charge on new-SIM orders",
+      "Mandatory real-name registration (HK law); unregistered SIMs suspended",
+      "No 5G — capped at 4.5G 42Mbps",
+      "Local voice pack excludes roaming voice and international calls",
+      "Packs non-refundable; number permanently recycled after 365 idle days"
+    ],
+    "zh": [
+      "新卡订单最低收费 HK$50",
+      "实名登记强制（香港法例），未登记停机",
+      "暂无 5G，上限 4.5G 42Mbps",
+      "本地通话组合不含漫游语音与国际长途",
+      "组合不可退款；365 天不购组合号码永久回收"
+    ]
+  },
+  "featured": false,
+  "updatedAt": "2026-09-27",
+  "ipProfile": {
+    "country": { "en": "Hong Kong SAR (in HK); roaming exits per destination network", "zh": "香港（本地）；漫游按落地网络" },
+    "type": "mobile",
+    "confidence": "high",
+    "note": {
+      "en": "CSL Mobile is a Hong Kong MNO: in Hong Kong, data exits on CSL's own mobile network. Roaming exits follow the visited network (China roaming rides mainland operators via CSL's roaming agreements); no public data on the landing IP type while roaming in the mainland.",
+      "zh": "CSL Mobile 为香港自有网络运营商：在港数据出口为 CSL 自家移动网络。漫游时出口随落地网络（内地漫游经 CSL 漫游协议走内地运营商）；内地漫游时的落地 IP 性质无公开口径。"
+    }
+  }
+}
