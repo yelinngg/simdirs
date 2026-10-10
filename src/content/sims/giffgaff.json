@@ -110,5 +110,15 @@
       "en": "MVNO running on O2 UK (AS29180, Telefonica UK). UK operators generally tunnel roaming traffic back to the home core, and editorial/community sources report giffgaff shows a UK IP abroad (usable for iPlayer), but there is no official giffgaff statement on exit IP.",
       "zh": "基于 O2 英国网的 MVNO。英国运营商漫游流量一般回母网出口，社区/编辑类来源报告 giffgaff 漫游时仍显示英国 IP（可看 iPlayer），但官方无明确文档，故标 medium。"
     }
+  },
+  "seo": {
+    "title": {
+      "en": "giffgaff Review 2026: Keep a UK Number Alive from £0.30",
+      "zh": "giffgaff英国卡2026：低成本保号与接码实测"
+    },
+    "description": {
+      "en": "giffgaff (O2 MVNO) keep-alive math: £10 first top-up, one £0.30 SMS per 180 days keeps the UK number alive, free SIM delivery, PAYG rates and 2026 roaming-cutoff risk.",
+      "zh": "giffgaff保号经济账：免费领卡、10镑激活、180天保号规则与PAYG资费，含2026年长期漫游批量断卡风险提示。"
+    }
   }
 }

@@ -46,6 +46,14 @@ const sims = defineCollection({
         note: localized(z.string()).optional(),
       })
       .optional(),
+    // Per-page SERP override for high-impression zero-CTR listings: query-cluster
+    // specific title/description. H1 stays the brand; this only replaces <title>/meta.
+    seo: z
+      .object({
+        title: localized(z.string()).optional(),
+        description: localized(z.string()).optional(),
+      })
+      .optional(),
     featured: z.boolean().default(false),
     updatedAt: z.coerce.date(),
   }),
