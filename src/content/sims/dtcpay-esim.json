@@ -1,0 +1,98 @@
+{
+  "name": {
+    "en": "dtcpay eSIM",
+    "zh": "dtcpay eSIM"
+  },
+  "tagline": {
+    "en": "10-year-validity travel eSIM inside the dtcpay MAS-licensed wallet app (Singapore)",
+    "zh": "新加坡持牌钱包 dtcpay 内置的 10 年有效期旅行 eSIM"
+  },
+  "description": {
+    "en": "dtcpay is a Singapore Major Payment Institution licensed by MAS (PS20200531, operated by Digital Treasures Center Pte Ltd) offering stablecoin, card and transfer services; its app also includes a travel eSIM line with data plans for 158+ countries, officially promoted with 10-year validity, no throttling and reuse across devices. Leftover data can be shared with others or converted into vouchers for future purchases. Community reports (2026-10, unofficial) describe a recurring free-claim promo: a $10 eSIM claimed at USD 0 via the App's eSIM menu, valid up to 10 years, occasionally stackable — official pages do not publish this promo's terms, so treat it as an in-app campaign that may change at any time.",
+    "zh": "dtcpay 是新加坡金管局（MAS）持牌大型支付机构（牌照 PS20200531，运营主体 Digital Treasures Center Pte Ltd），主打稳定币、银行卡与转账服务；App 内附带旅行 eSIM 业务，覆盖 158+ 国家，官方口径为 10 年有效期、不限速、可跨设备复用，剩余流量可转赠他人或兑换为下次购买的代金券。社区实测（2026-10，非官方）称存在可反复领取的免费活动：原价 10 美元的 eSIM 在 App 内 eSIM 菜单以 USD 0 领取、有效期长达 10 年、可领多张——官方页面未公示该活动条款，按 App 内活动对待，随时可能调整。"
+  },
+  "regions": ["global"],
+  "coverage": 158,
+  "plansFrom": 0,
+  "dataFrom": "Free claim includes a small base allowance (App-displayed)",
+  "validity": "10 years",
+  "network": "Multiple",
+  "device": "esim",
+  "hotspot": false,
+  "rating": 3.9,
+  "website": "https://dtcpay.com/",
+  "features": {
+    "en": [
+      "10-year validity, reusable across devices",
+      "Leftover data shareable or convertible to vouchers",
+      "Inside a MAS-licensed payment app",
+      "158+ countries coverage"
+    ],
+    "zh": [
+      "10 年有效期，可跨设备复用",
+      "剩余流量可转赠或兑换代金券",
+      "内置于 MAS 持牌支付 App",
+      "158+ 国家覆盖"
+    ]
+  },
+  "plans": [
+    {
+      "name": {
+        "en": "Free-claim eSIM (community-reported promo)",
+        "zh": "免费领取 eSIM（社区实测口径）"
+      },
+      "data": {
+        "en": "Small base allowance included; plans per App display",
+        "zh": "含少量基础流量，套餐以 App 显示为准"
+      },
+      "validity": {
+        "en": "10 years (promo runs to 2036 per community reports)",
+        "zh": "10 年（社区口径有效期至 2036）"
+      },
+      "price": {
+        "en": "USD 0 at claim (listed USD 10; in-app promo, terms unpublished)",
+        "zh": "领取 USD 0（标价 10 美元；App 内活动，条款未公示）"
+      }
+    }
+  ],
+  "plansNote": {
+    "en": "The 10-year validity and 158+ countries are per dtcpay.com/personal/esim (verified 2026-10-12); the free-claim promo (USD 10 → USD 0, multi-claim) is a community report from WeChat guides and X posts (2026-10), not published on official pages — App display governs. Data-only; the eSIM does not include calls or SMS.",
+    "zh": "10 年有效期与 158+ 国家覆盖核验自 dtcpay.com/personal/esim（2026-10-12）；免费领取活动（标价 10 美元 → 0 美元、可多领）为微信攻略与 X 帖子的社区实测口径（2026-10），官方页面未公示——一切以 App 内显示为准。纯数据卡，不含通话与短信。"
+  },
+  "details": {
+    "en": "## How to claim (community route)\n\nDownload the dtcpay app, register and complete KYC (full Chinese-mainland documents are reported to work), then open the eSIM tab → tap + in the top right → slide to pay USD 0 → claim. The installation QR code appears in-app; eSIM-capable devices activate directly. Official device-compatibility docs cover iPhone XS onwards, recent Samsung/Google/Huawei/Oppo/Xiaomi models — with the standing caveat that iPhones purchased in mainland China, Hong Kong and Macao may not support eSIM.\n\n## What it is — and is not\n\nThe eSIM is a data-only line: no phone number, no calls, no SMS. Community field tests describe the free tier's Singapore-routed data as a clean residential-grade IP, useful for registration-dependent services, but this is a single-source observation, not a carrier guarantee. The eSIM rides on a payment app: using it means opening a dtcpay account, and future top-ups happen inside the same wallet. The promo's recurrence and stacking rules are App-controlled and can change without notice.\n\n## Operator background\n\ndtcpay is a brand of Digital Treasures Center Pte Ltd, a MAS Major Payment Institution (PS20200531) also holding a Luxembourg CSSF e-money licence per third-party coverage — the payment side is regulated; the eSIM side is a standard resale product, not a carrier licence.",
+    "zh": "## 领取路径（社区实测）\n\n下载 dtcpay App，注册并完成 KYC（社区口径：全套中国大陆资料可开户），然后底部【eSIM】→ 右上角 + → 滑动支付 USD 0 → 领取成功。安装二维码在 App 内展示，支持 eSIM 的设备可直接激活。官方兼容性文档覆盖 iPhone XS 起及近年三星/谷歌/华为/OPPO/小米机型——并明确提示中国大陆、香港、澳门购买的 iPhone 可能不支持 eSIM。\n\n## 它是什么、不是什么\n\n这张 eSIM 是纯数据线：没有号码、不能通话、不能收短信。社区实测称免费档的新加坡出口流量是较纯净的住宅级 IP，适合依赖注册的服务使用——但这是单源观察，不构成运营商承诺。eSIM 挂在支付 App 下：用它就要开 dtcpay 账户，后续充值也在同一钱包内完成。活动的可重复性与叠加规则由 App 控制，随时可能调整。\n\n## 运营方背景\n\ndtcpay 是 Digital Treasures Center Pte Ltd 旗下品牌，持 MAS 大型支付机构牌照（PS20200531），第三方报道称另持卢森堡 CSSF 电子货币牌照——支付侧受监管；eSIM 侧是常规转售产品，不是运营商牌照业务。"
+  },
+  "pros": {
+    "en": [
+      "10-year validity removes keep-alive anxiety entirely",
+      "Free-claim promo (while it lasts) costs nothing",
+      "Leftover data shareable or convertible to vouchers",
+      "Backed by a MAS-licensed payment operator"
+    ],
+    "zh": [
+      "10 年有效期，彻底免除保号焦虑",
+      "免费领取活动（存在期间）零成本",
+      "剩余流量可转赠或兑换代金券",
+      "背靠 MAS 持牌支付机构"
+    ]
+  },
+  "cons": {
+    "en": [
+      "Data-only: no number, calls or SMS",
+      "Free-claim promo unpublished on official pages — terms can change anytime",
+      "Requires dtcpay account + KYC to use the eSIM",
+      "Mainland-China iPhones may not support eSIM at all",
+      "Official site geo-blocks some regions (403)"
+    ],
+    "zh": [
+      "纯数据卡：无号码、无通话、无短信",
+      "免费活动官方未公示条款，随时可能变",
+      "用 eSIM 必须开 dtcpay 账户并 KYC",
+      "国行 iPhone 可能根本不支持 eSIM",
+      "官网对部分地区 403 屏蔽"
+    ]
+  },
+  "featured": false,
+  "updatedAt": "2026-10-12"
+}

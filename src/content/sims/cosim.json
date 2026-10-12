@@ -1,0 +1,96 @@
+{
+  "name": {
+    "en": "co:sim",
+    "zh": "co:sim"
+  },
+  "tagline": {
+    "en": "Travel eSIM with a free 1GB/7-day trial for new users across 33 European countries and Asian destinations",
+    "zh": "新用户免费领 1GB/7 天试用 eSIM，覆盖欧洲 33 国与亚洲多地"
+  },
+  "description": {
+    "en": "co:sim (operated by Comsand Inc., Wilmington, DE, USA) is a travel eSIM service covering 200+ destinations. Its standout offer is a free eSIM for new users: a 1 GB / 7-day trial covering 33 European countries as one regional bundle, with separate free allocations for Turkey, Moldova, Singapore, Malaysia, Indonesia, Japan, Thailand, South Korea and Hong Kong. The trial requires $0 at checkout but card verification, and installation QR codes are delivered by email. Top-ups are available anytime, payments run through Stripe, and uninstalled purchases qualify for self-service refunds within 30 days.",
+    "zh": "co:sim（运营方为美国特拉华州注册的 Comsand Inc.）是覆盖 200+ 目的地的旅行 eSIM 服务。最大卖点是新人免费 eSIM：1GB/7 天试用，欧洲 33 国打包通用，土耳其、摩尔多瓦、新加坡、马来西亚、印尼、日本、泰国、韩国、香港各有单独免费额度。结账 $0 但需验卡，安装二维码通过邮件发送，可随时充值。支付走 Stripe，未安装的订单支持 30 天自助退款。"
+  },
+  "regions": ["global"],
+  "coverage": 200,
+  "plansFrom": 0,
+  "dataFrom": "1GB (free trial)",
+  "validity": "7-day trial; paid plans vary",
+  "network": "Multiple",
+  "device": "esim",
+  "hotspot": false,
+  "rating": 3.8,
+  "website": "https://cosim.io/",
+  "features": {
+    "en": [
+      "Free 1GB/7-day trial for new users",
+      "Europe 33-country regional bundle",
+      "QR code delivered by email",
+      "Stripe checkout",
+      "30-day self-service refund if not installed"
+    ],
+    "zh": [
+      "新用户免费 1GB/7 天试用",
+      "欧洲 33 国区域包",
+      "二维码邮件发送",
+      "Stripe 结账",
+      "未安装 30 天自助退款"
+    ]
+  },
+  "plans": [
+    {
+      "name": {
+        "en": "Free trial (new users)",
+        "zh": "免费试用（仅新用户）"
+      },
+      "data": {
+        "en": "1GB",
+        "zh": "1GB"
+      },
+      "validity": {
+        "en": "7 days (Europe 33-country bundle; separate allocations for JP/HK/KR/TH/SG/MY/ID/TR/MD)",
+        "zh": "7 天（欧洲 33 国包；日/港/韩/泰/新/马/印尼/土/摩另有单独额度）"
+      },
+      "price": {
+        "en": "$0 at checkout (card verification required)",
+        "zh": "结账 $0（需验卡）"
+      }
+    }
+  ],
+  "plansNote": {
+    "en": "Free-trial terms verified on cosim.io/en/free-esim (2026-10-12): $0 at checkout, card verification, new users only. Operator per site footer: Comsand Inc., 800 N King Street, Wilmington, DE. The provider is young with a short operating history — treat the free trial as a try-before-you-buy, not a long-term number.",
+    "zh": "免费试用条款核验自 cosim.io/en/free-esim（2026-10-12）：结账 $0、需验卡、仅限新用户。运营主体见官网页脚：Comsand Inc.（美国特拉华州）。平台运营历史较短，建议把免费试用当体验，不宜当长期主力卡。"
+  },
+  "details": {
+    "en": "## How the free trial works\n\nClaim the free eSIM on cosim.io/en/free-esim with an email address — community guides recommend mainstream providers (Outlook/Gmail/Yahoo) over disposable inboxes, as throwaway addresses tend to fail verification. The site emails an installation QR code; scan it to install the profile, then top up in-app if you need more data. The Europe allocation works as one 33-country bundle, while Japan, Hong Kong, South Korea, Thailand, Singapore, Malaysia, Indonesia, Turkey and Moldova each get their own allocation.\n\n## What to watch for\n\nCard verification is required even at $0 checkout, so a valid card is a hard prerequisite. Hotspot/tethering behavior is not documented officially. As a newer operator, long-term reliability is unproven — the 30-day refund only applies to purchases that were never installed, not to used trials.",
+    "zh": "## 免费试用怎么领\n\n在 cosim.io/en/free-esim 用邮箱领取——社区实测建议用 Outlook/Gmail/Yahoo 等主流邮箱，一次性临时邮箱容易过不了验证。官网会把安装二维码发到邮箱，扫码写入 eSIM，需要更多流量时在站内充值。欧洲 33 国是一个打包额度，日本、香港、韩国、泰国、新加坡、马来西亚、印尼、土耳其、摩尔多瓦各有单独额度。\n\n## 注意事项\n\n$0 结账也要验卡，没有有效银行卡领不了。热点/共享官方未说明。平台较新，长期可靠性未经时间验证——30 天退款只覆盖未安装的付费订单，已使用的试用不退。"
+  },
+  "pros": {
+    "en": [
+      "Genuinely free 1GB trial with a wide 33-country European bundle",
+      "Email QR delivery makes installation simple",
+      "30-day refund window for unused purchases"
+    ],
+    "zh": [
+      "真免费 1GB，欧洲 33 国打包通用",
+      "二维码邮件送达，安装简单",
+      "未使用订单 30 天可退"
+    ]
+  },
+  "cons": {
+    "en": [
+      "Card verification required even for the $0 trial",
+      "New users only; unclear whether the offer recurs",
+      "Young operator (Comsand Inc.) with a short track record",
+      "1GB/7 days is a taster — real usage needs paid top-ups"
+    ],
+    "zh": [
+      "$0 试用也必须验卡",
+      "仅限新用户，活动是否长期存在不明",
+      "运营方较新（Comsand Inc.），历史记录短",
+      "1GB/7 天只够尝鲜，实用需付费充值"
+    ]
+  },
+  "featured": false,
+  "updatedAt": "2026-10-12"
+}
