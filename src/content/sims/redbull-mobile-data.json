@@ -1,0 +1,118 @@
+{
+  "name": {
+    "en": "Red Bull MOBILE Data",
+    "zh": "红牛移动 Red Bull MOBILE Data"
+  },
+  "tagline": {
+    "en": "A1 Austria-powered travel eSIM: 100MB free base data plus a community-confirmed Austrian number",
+    "zh": "奥地利 A1 网络旅行 eSIM：官方送 100MB 流量，社区实测附带奥地利号码"
+  },
+  "description": {
+    "en": "Red Bull MOBILE Data is an app-based travel eSIM operated by A1 Telekom Austria AG, covering 100+ countries with per-GB pricing (Europe from €2/GB, regional rates vary). Officially the line is data-only: new users get the first 100MB free, no basic fees, no subscription, and your existing number stays untouched. Community guides (2025-2026, multiple independent sources) discovered the practical bonus: installing the eSIM assigns an Austrian (+43) mobile number that receives registration and verification SMS, reportedly valid 365 days at no cost and without KYC — and promo codes (e.g. REDBULL1GBFREE, TRAVELDEALZ) stack a further 1GB for a combined ~1.1GB free allowance.",
+    "zh": "红牛移动 Red Bull MOBILE Data 是 A1 Telekom Austria AG（奥地利 A1 电信）运营的 App 制旅行 eSIM，覆盖 100+ 国家，按 GB 计费（欧洲 €2/GB 起，区域价不同）。官方定位纯数据卡：新用户送 100MB、无基本费、不订阅、不影响现有号码。社区攻略（2025-2026，多个独立来源）发现了实用福利：安装 eSIM 后会分配一个奥地利（+43）手机号，可接收注册验证短信，社区口径 365 天免费有效、无需 KYC——配合兑换码（如 REDBULL1GBFREE、TRAVELDEALZ）再得 1GB，合计约 1.1GB 免费额度。"
+  },
+  "regions": ["global"],
+  "coverage": 100,
+  "plansFrom": 0,
+  "dataFrom": "100MB free base (+1GB via promo code)",
+  "validity": "eSIM valid ~365 days; base data 1 year, promo 1GB 30 days",
+  "network": "A1 Telekom Austria",
+  "device": "esim",
+  "hotspot": false,
+  "rating": 3.7,
+  "website": "https://esim.redbullmobile.com/",
+  "features": {
+    "en": [
+      "First 100MB free, no subscription",
+      "Austrian number receives verification SMS (community-confirmed)",
+      "100+ countries coverage",
+      "A1 Austria network, Vienna IP",
+      "No KYC"
+    ],
+    "zh": [
+      "首 100MB 免费，无订阅",
+      "奥地利号码可收验证短信（社区实测确认）",
+      "100+ 国家覆盖",
+      "A1 奥地利网络，维也纳出口 IP",
+      "无需 KYC"
+    ]
+  },
+  "plans": [
+    {
+      "name": {
+        "en": "Free base allowance",
+        "zh": "免费基础额度"
+      },
+      "data": {
+        "en": "100MB global roaming",
+        "zh": "100MB 全球漫游"
+      },
+      "validity": {
+        "en": "1 year (eSIM QR valid ~365 days)",
+        "zh": "1 年（eSIM 二维码约 365 天有效）"
+      },
+      "price": {
+        "en": "Free",
+        "zh": "免费"
+      }
+    },
+    {
+      "name": {
+        "en": "Promo-code 1GB (community route)",
+        "zh": "兑换码 1GB（社区口径）"
+      },
+      "data": {
+        "en": "1GB global roaming",
+        "zh": "1GB 全球漫游"
+      },
+      "validity": {
+        "en": "30 days from activation (codes e.g. REDBULL1GBFREE / TRAVELDEALZ; availability varies)",
+        "zh": "激活后 30 天（兑换码如 REDBULL1GBFREE / TRAVELDEALZ，可用性随时间变化）"
+      },
+      "price": {
+        "en": "Free via in-app promo code",
+        "zh": "App 内兑换码免费领取"
+      }
+    }
+  ],
+  "plansNote": {
+    "en": "100MB free base is official (App Store / Play listing by A1 Telekom Austria AG, re-checked 2026-10-12); per-GB paid pricing from esim.redbullmobile.com (Europe €2/GB). The Austrian number, 365-day validity, no-KYC claim and 1GB promo codes are community-reported (2025-2026 guides and forums), not published on official pages — App behavior governs.",
+    "zh": "100MB 免费基础额度为官方口径（A1 Telekom Austria AG 的 App Store / Play 商店页，2026-10-12 复核）；按 GB 计费来自 esim.redbullmobile.com（欧洲 €2/GB）。奥地利号码、365 天有效、免 KYC 与 1GB 兑换码均为社区实测口径（2025-2026 攻略与论坛），官方页面未公示——一切以 App 内实际行为为准。"
+  },
+  "details": {
+    "en": "## How to claim (community route)\n\nDownload \"Red Bull MOBILE Data: eSIM\" (App Store / Google Play, publisher A1 Telekom Austria AG), register an account in-app, tap Activate eSIM and install the profile. The phone needs native eSIM support to open the app at all; the profile can alternatively be installed via eSIM-capable adapter cards. After the activation SMS arrives, the Austrian (+43) number appears on iPhone automatically; Android users may need to call their local carrier's service line echo to read the number out, per community guides. Promo codes are entered under Settings > Promocodes.\n\n## Why people keep it installed\n\nThe Austrian number receives registration and verification SMS for mainstream platforms, which community guides rate as more reliable than virtual numbers from some competitors. The 100MB base doubles as a bootstrap line for ESTK/eSIM-adapter users who need connectivity to download further eSIM profiles. Data exits via A1 Austria with a Vienna IP.\n\n## The catches\n\nThe number is an undocumented emergent feature, not a contractual promise: in December 2025 forum users reported SMS reception breaking mid-validity, and there is no SLA to appeal to. The eSIM can be installed only once — deleting the profile burns it. Keep-alive guidance from the community: avoid consuming the 100MB base data, as it is the preferred bucket for keeping the line active. Mainland-China iPhones without native eSIM are excluded by the app's device check.",
+    "zh": "## 领取路径（社区实测）\n\n下载「Red Bull MOBILE Data: eSIM」（App Store / Google Play，发行方 A1 Telekom Austria AG），App 内注册账号，点 Activate eSIM 安装配置文件。手机需原生支持 eSIM 才能打开 App；配置也可装到支持 eSIM 的转接实体卡上。收到激活短信后，iPhone 会自动显示奥地利（+43）号码；社区攻略称安卓用户可能需要拨打本网运营商客服热线，通过回显语音读出号码。兑换码在 Settings > Promocodes 输入。\n\n## 为什么值得常驻\n\n奥地利号码可接收主流平台的注册验证短信，社区攻略评价其可靠性优于部分竞品的虚拟号码。100MB 基础流量对 ESTK/eSIM 转接卡用户还是引导线——下载其他 eSIM 配置时需要联网。数据出口走 A1 奥地利，维也纳 IP。\n\n## 注意事项\n\n号码是未写进条款的隐性福利，不是合同承诺：2025 年 12 月论坛用户反映有效期内短信接收突然失效，且无 SLA 可申诉。eSIM 只能安装一次——删除配置文件即作废。社区保号建议：不要消耗那 100MB 基础流量，它是维持号码活跃的首选计费桶。不支持 eSIM 的国行 iPhone 会被 App 设备检查直接挡住。"
+  },
+  "pros": {
+    "en": [
+      "Free 100MB plus stackable 1GB promo (~1.1GB total)",
+      "Austrian +43 number that receives verification SMS",
+      "Backed by A1 Telekom Austria, a major carrier",
+      "No KYC, no subscription"
+    ],
+    "zh": [
+      "免费 100MB + 可叠加 1GB 兑换码（合计约 1.1GB）",
+      "附奥地利 +43 号码，可收验证短信",
+      "背靠奥地利大运营商 A1",
+      "免 KYC、无订阅"
+    ]
+  },
+  "cons": {
+    "en": [
+      "Number is undocumented — reception can break with no recourse (Dec 2025 reports)",
+      "eSIM installs once; deleting the profile burns it",
+      "App requires native eSIM support (blocks China-market iPhones)",
+      "Promo codes are time-limited and may already be exhausted",
+      "Base 100MB must be preserved to keep the number active"
+    ],
+    "zh": [
+      "号码无文档保障——收码可能中途失效且无处申诉（2025-12 有案例）",
+      "eSIM 只能装一次，删配置即作废",
+      "App 要求原生 eSIM 支持（国行 iPhone 被挡）",
+      "兑换码限时限量，可能已领完",
+      "想保号就不能用掉那 100MB 基础流量"
+    ]
+  },
+  "featured": false,
+  "updatedAt": "2026-10-12"
+}
