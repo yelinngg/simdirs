@@ -63,6 +63,12 @@ The catch: app-only, and community reports note it blocks China-market iPhones a
 
 [Roamless](/sims/roamless) includes 500MB free with a pay-as-you-go structure afterward. Simple claim, no trial window pressure.
 
+### Red Bull MOBILE Data — first 100MB free, data-only
+
+[Red Bull MOBILE Data](/sims/redbull-mobile-data) (operated by A1 Telekom Austria) ships with a **free 100MB** on first install, usable in 100+ countries, with paid EU data at €2/GB and no subscription required. It works as a landing-emergency pack: data the moment you install, decide about paying later.
+
+Community-measured (not on official pages, consistent across sources): promo codes can add +1GB, and the install hides an Austrian +43 number that can receive SMS without KYC while kept active within 365 days — some travellers treat it as a data line plus temporary code-receiving line in one. Note: single install, no SLA, and China-market iPhones have been blocked in reported cases.
+
 ## Comparison at a glance
 
 - **Biggest one-shot**: GigSky Visa perk (up to 5GB, card-dependent)
@@ -70,6 +76,7 @@ The catch: app-only, and community reports note it blocks China-market iPhones a
 - **Recurring free**: Firsty ad tier (360MB/day ceiling)
 - **Longest shelf life**: dtcpay 10-year free claim (promo terms app-only) and Eskimo never-expiring
 - **Emergency floor**: USIMS permanent low-speed in 200+ countries
+- **Landing pack**: Red Bull MOBILE Data 100MB out of the box (community: stackable 1GB codes)
 
 ## What "free" costs you anyway
 

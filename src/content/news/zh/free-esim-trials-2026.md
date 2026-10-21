@@ -63,6 +63,12 @@ GigSky 的[标准免费试用](https://www.gigsky.com/free-offering)是 7 天最
 
 [Roamless](/zh/sims/roamless) 注册即送 500MB，之后按用量付费。领取简单，没有试用窗口的时间压力。
 
+### Red Bull MOBILE Data——首 100MB 免费，纯数据
+
+[Red Bull MOBILE Data](/zh/sims/redbull-mobile-data)（A1 Telekom Austria 运营）新装即含首 **100MB 免费流量**，100+ 国可用，欧洲付费档 €2/GB，不需要订阅。适合当落地应急包：装机即有、用完再决定买不买。
+
+社区口径（官方未公示，实测多源一致）：兑换码可叠加 +1GB；安装后存在隐藏的奥地利 +43 号码，365 天内保持活动可免 KYC 收验证码——把它当"数据线+临时接码线"二合一的人不少。注意单次安装、无 SLA，国行 iPhone 有被挡的案例。
+
 ## 一眼看懂怎么选
 
 - **单次最大**：GigSky Visa 权益（最高 5GB，看卡）
@@ -70,6 +76,7 @@ GigSky 的[标准免费试用](https://www.gigsky.com/free-offering)是 7 天最
 - **可反复白嫖**：Firsty 广告档（每天上限 360MB）
 - **放得最久**：dtcpay 10 年免费领取（活动条款仅 App 内）和 Eskimo 永不过期
 - **应急兜底**：USIMS 200+ 国永久低速
+- **落地应急包**：Red Bull MOBILE Data 100MB 免装即用（社区口径可叠 1GB 码）
 
 ## "免费"实际收的是什么
 
