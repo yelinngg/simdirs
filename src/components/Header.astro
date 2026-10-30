@@ -14,8 +14,9 @@ const langLabel: Record<Locale, string> = { en: 'EN', zh: '中文' };
 // Section state comes from the path so the header can say where you are
 // instead of leaving every link identical.
 const stripLocale = currentPath.replace(/^\/zh(?=\/|$)/, '') || '/';
+const isActive = (href: string) => stripLocale === href || stripLocale.startsWith(`${href}/`);
 const linkClass = (href: string) => {
-  const active = stripLocale === href || stripLocale.startsWith(`${href}/`);
+  const active = isActive(href);
   return [
     'relative py-1 transition-colors after:absolute after:-bottom-0.5 after:left-0 after:h-px after:bg-ink-900 after:transition-[width] after:duration-200',
     active
@@ -44,8 +45,8 @@ const linkClass = (href: string) => {
 
     <div class="flex items-center gap-4 sm:gap-6">
       <nav class="flex items-center gap-3 text-[13px] font-medium sm:gap-5" aria-label="Main">
-        <a href={localePath(lang, '/sims')} class={linkClass('/sims')}>{tr.nav.sims}</a>
-        <a href={localePath(lang, '/news')} class={linkClass('/news')}>{tr.nav.news}</a>
+        <a href={localePath(lang, '/sims')} class={linkClass('/sims')} aria-current={isActive('/sims') ? 'page' : undefined}>{tr.nav.sims}</a>
+        <a href={localePath(lang, '/news')} class={linkClass('/news')} aria-current={isActive('/news') ? 'page' : undefined}>{tr.nav.news}</a>
       </nav>
 
       <span class="h-4 w-px bg-line" aria-hidden="true"></span>

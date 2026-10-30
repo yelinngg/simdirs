@@ -87,6 +87,21 @@
     -webkit-text-size-adjust: 100%;
   }
 
+  /* Respect the OS setting: the header underline, card hovers and smooth
+     scrolling are decoration, not information. */
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
+
   body {
     text-rendering: optimizeLegibility;
     font-feature-settings: 'kern' 1;

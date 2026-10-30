@@ -19,6 +19,14 @@ interface Props {
   ogImage?: string;
   /** Extra JSON-LD structured data objects. */
   jsonLd?: Record<string, unknown>[];
+  /**
+   * Path the header treats as "where am I". Defaults to the real URL. The 404
+   * page passes '/' because switching language on /404 would only land on
+   * another missing page.
+   */
+  headerPath?: string;
+  /** Keep a page out of the index (used by 404, which has no canonical URL). */
+  noindex?: boolean;
 }
 
 const {
@@ -31,6 +39,8 @@ const {
   publishedTime,
   ogImage = '/og/default.png',
   jsonLd = [],
+  headerPath,
+  noindex = false,
 } = Astro.props;
 
 const tr = t(lang);
@@ -79,6 +89,7 @@ const allLd = [websiteLd, ...jsonLd];
 
     <title>{title}</title>
     <meta name="description" content={description} />
+    {noindex && <meta name="robots" content="noindex" />}
     <link rel="canonical" href={canonical} />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="theme-color" content="#0a0e12" />
@@ -121,8 +132,14 @@ const allLd = [websiteLd, ...jsonLd];
   </head>
 
   <body class="flex min-h-screen flex-col bg-paper font-sans text-ink-800 antialiased">
-    <Header lang={lang} currentPath={Astro.url.pathname} />
-    <main class="flex-1">
+    <a
+      href="#main"
+      class="sr-only focus:not-sr-only focus:fixed focus:top-3 focus:left-3 focus:z-50 focus:bg-ink-950 focus:px-4 focus:py-2 focus:text-[13px] focus:font-semibold focus:text-white"
+    >
+      {lang === 'zh' ? '跳到主要内容' : 'Skip to content'}
+    </a>
+    <Header lang={lang} currentPath={headerPath ?? Astro.url.pathname} />
+    <main id="main" tabindex="-1" class="flex-1 outline-none">
       <slot />
     </main>
     <Footer lang={lang} />

@@ -8,7 +8,7 @@ const lang = 'en';
 const tr = t(lang);
 ---
 
-<BaseLayout lang={lang} title={`404 – ${tr.site.name}`} description={tr.notFound.message} path="/404">
+<BaseLayout lang={lang} title={`404 – ${tr.site.name}`} description={tr.notFound.message} path="/404" headerPath="/" noindex>
   <section class="mx-auto max-w-2xl px-4 py-20 sm:py-28">
     <p class="label-mono flex items-center gap-2 text-[10px] text-ink-500">
       <span class="h-1.5 w-1.5 shrink-0 bg-accent" aria-hidden="true"></span>
@@ -16,16 +16,16 @@ const tr = t(lang);
     </p>
     <h1 class="mt-5 text-[1.75rem] font-semibold leading-[1.25] tracking-[-0.025em] text-ink-950 sm:text-[2rem]">
       {tr.notFound.title}
-      <span class="mt-1 block text-ink-500">页面不存在</span>
+      <span lang="zh" class="mt-1 block text-ink-500">页面不存在</span>
     </h1>
     <p class="mt-4 text-[14px] leading-relaxed text-ink-600">{tr.notFound.message}</p>
-    <p class="mt-1 text-[14px] leading-relaxed text-ink-600">你访问的页面不存在。</p>
+    <p lang="zh" class="mt-1 text-[14px] leading-relaxed text-ink-600">你访问的页面不存在。</p>
 
     <div class="mt-9 flex flex-wrap items-center gap-x-6 gap-y-3 border-t border-line pt-6">
       <a href="/" class="inline-flex h-10 items-center bg-ink-950 px-4 text-[13px] font-semibold text-white transition-colors hover:bg-accent">
         {tr.notFound.back}
       </a>
-      <a href="/zh/" class="text-[13px] font-medium text-ink-600 underline decoration-ink-300 decoration-1 underline-offset-[5px] transition-colors hover:text-ink-950 hover:decoration-ink-900">
+      <a href="/zh/" lang="zh" class="text-[13px] font-medium text-ink-600 underline decoration-ink-300 decoration-1 underline-offset-[5px] transition-colors hover:text-ink-950 hover:decoration-ink-900">
         返回中文首页
       </a>
     </div>
