@@ -71,6 +71,7 @@ The site reads as a data catalogue, not a landing page. Type and colour carry th
 - **Neutrals stay one step darker than they look right.** `ink-500` is the floor for informational small text (5.7:1 on white); `ink-400` is for rules, icons and marks only. Do not reintroduce `#95a1ac`-grade greys for labels — at 10px they read as washed out and fail contrast.
 - **Grids are hairline-separated, not gapped.** A card row is `grid border-t border-l border-line` with each cell carrying `border-r border-b`, so a short final row cannot leave grey patches behind. Do not go back to `gap-px` + a background colour.
 - **Mobile is verified at 390px, not at a desktop window resized.** Chrome on Windows will not open narrower than ~500px; use a 390px iframe on the built site, and check `documentElement.scrollWidth` for overflow. Any single-column `grid` needs explicit `grid-cols-1` (`minmax(0,1fr)`), otherwise the implicit `auto` column sizes to max-content and the page scrolls sideways.
+- **The bottom card row states a fact, never a bare imperative.** Notes read `5 min read` / `约 5 分钟`, computed by `readingTime()` in `src/lib/format.ts` — not `Read`. A single word there left the row mostly empty with the arrow stranded at the far edge, which is what made the old cards look unfinished. The figure is the anchor; the arrow stays the only affordance.
 
 ## Deployment notes
 

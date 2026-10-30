@@ -109,7 +109,7 @@ const en = {
   news: {
     title: 'Field notes',
     subtitle: 'What we tested, what broke, and what the terms actually say.',
-    readMore: 'Read',
+    readTime: '{n} min read',
     back: 'Back to all notes',
     published: 'Published',
     relatedTag: 'Topic',
@@ -252,7 +252,7 @@ const zh: typeof en = {
   news: {
     title: '实测笔记',
     subtitle: '测了什么、哪里出问题、条款原文到底怎么写。',
-    readMore: '读',
+    readTime: '约 {n} 分钟',
     back: '返回笔记列表',
     published: '发布于',
     relatedTag: '话题',
