@@ -15,11 +15,19 @@ const news = await getNews(lang);
 ---
 
 <BaseLayout lang={lang} title={tr.seo.news.title} description={tr.seo.news.description} path="/news">
-  <section class="mx-auto max-w-6xl px-4 py-12">
-    <h1 class="text-3xl font-extrabold tracking-tight text-slate-900 sm:text-4xl">{tr.news.title}</h1>
-    <p class="mt-2 text-slate-500">{tr.news.subtitle}</p>
+  <section class="border-b border-line bg-surface">
+    <div class="mx-auto max-w-6xl px-4 py-10 sm:py-12">
+      <p class="label-mono flex items-center gap-2 text-[10px] text-ink-500">
+        <span class="h-1.5 w-1.5 shrink-0 bg-accent" aria-hidden="true"></span>
+        {String(news.length).padStart(2, '0')}{lang === 'zh' ? ' 篇笔记' : ' notes'}
+      </p>
+      <h1 class="mt-4 text-[1.8rem] font-semibold tracking-[-0.025em] text-ink-950 sm:text-[2.2rem]">{tr.news.title}</h1>
+      <p class="mt-2.5 max-w-[42rem] text-[14px] leading-relaxed text-ink-600">{tr.news.subtitle}</p>
+    </div>
+  </section>
 
-    <div class="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+  <section class="mx-auto max-w-6xl px-4 py-10">
+    <div class="grid border-t border-l border-line sm:grid-cols-2 lg:grid-cols-3">
       {news.map((entry) => <NewsCard entry={entry} lang={lang} />)}
     </div>
   </section>

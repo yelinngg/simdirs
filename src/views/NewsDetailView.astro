@@ -84,36 +84,35 @@ const breadcrumbLd = {
   ogImage={`/og/news-${slug}.png`}
   jsonLd={[articleLd, breadcrumbLd]}
 >
-  <article class="mx-auto max-w-3xl px-4 py-12">
-    <nav class="text-sm text-slate-500" aria-label="Breadcrumb">
-      <a href={localePath(lang, '/')} class="hover:text-indigo-600">{tr.site.name}</a>
-      <span class="mx-1.5">/</span>
-      <a href={localePath(lang, '/news')} class="hover:text-indigo-600">{tr.news.title}</a>
+  <article class="mx-auto max-w-[46rem] px-4 py-8 sm:py-10">
+    <nav class="label-mono flex items-center gap-1.5 text-[10px] text-ink-500" aria-label="Breadcrumb">
+      <a href={localePath(lang, '/')} class="transition-colors hover:text-ink-950">{tr.site.name}</a>
+      <span class="text-ink-200">/</span>
+      <a href={localePath(lang, '/news')} class="transition-colors hover:text-ink-950">{tr.news.title}</a>
     </nav>
 
-    <header class="mt-6 border-b border-slate-200 pb-8">
-      <div class="flex flex-wrap items-center gap-2 text-sm text-slate-400">
-        <time datetime={entry.data.date.toISOString()}>{tr.news.published}: {formatDate(entry.data.date, lang)}</time>
+    <header class="mt-5 border-b border-line pb-7">
+      <div class="label-mono flex flex-wrap items-center gap-x-2.5 text-[10px] text-ink-500">
+        <time datetime={entry.data.date.toISOString()}>{formatDate(entry.data.date, lang)}</time>
+        {entry.data.tags.slice(0, 2).map((tag) => (
+          <>
+            <span class="text-ink-200" aria-hidden="true">/</span>
+            <span>#{tag}</span>
+          </>
+        ))}
       </div>
-      <h1 class="mt-3 text-3xl font-extrabold leading-tight tracking-tight text-slate-900 sm:text-4xl">
+      <h1 class="mt-3 text-[1.75rem] font-semibold leading-[1.2] tracking-[-0.025em] text-ink-950 sm:text-[2.1rem]">
         {entry.data.title}
       </h1>
-      <p class="mt-4 text-lg leading-relaxed text-slate-500">{entry.data.description}</p>
-      <div class="mt-4 flex flex-wrap gap-2">
-        {
-          entry.data.tags.map((tag) => (
-            <span class="rounded-full bg-slate-100 px-3 py-1 text-xs font-medium text-slate-600">#{tag}</span>
-          ))
-        }
-      </div>
+      <p class="mt-4 text-[15px] leading-[1.7] text-ink-600">{entry.data.description}</p>
     </header>
 
     <div class="news-article mt-8">
       <Content />
     </div>
 
-    <footer class="mt-12 border-t border-slate-200 pt-6">
-      <a href={localePath(lang, '/news')} class="inline-flex items-center gap-1.5 text-sm font-semibold text-indigo-600 hover:text-indigo-700">
+    <footer class="mt-12 border-t border-line pt-5">
+      <a href={localePath(lang, '/news')} class="label-mono inline-flex items-center gap-1.5 text-[10px] text-ink-500 transition-colors hover:text-ink-950">
         ← {tr.news.back}
       </a>
     </footer>
