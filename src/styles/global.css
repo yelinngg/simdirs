@@ -31,10 +31,10 @@ html {
     @apply font-medium text-indigo-600 underline underline-offset-2 hover:text-indigo-700;
   }
   & blockquote {
-    @apply my-5 border-l-4 border-indigo-200 bg-indigo-50 px-4 py-2 text-slate-600 italic;
+    @apply my-5 border-l-4 border-slate-300 bg-slate-50 px-4 py-2 text-slate-600 italic;
   }
   & code {
-    @apply rounded bg-slate-100 px-1.5 py-0.5 text-sm text-indigo-700;
+    @apply rounded bg-slate-100 px-1.5 py-0.5 text-sm text-slate-900;
   }
   & strong {
     @apply font-semibold text-slate-900;
@@ -65,7 +65,7 @@ html {
     @apply font-medium text-indigo-600 underline underline-offset-2 hover:text-indigo-700;
   }
   & code {
-    @apply rounded bg-slate-100 px-1.5 py-0.5 text-sm text-indigo-700;
+    @apply rounded bg-slate-100 px-1.5 py-0.5 text-sm text-slate-900;
   }
   & h3 {
     @apply mt-4 mb-1 text-base font-semibold text-slate-900;

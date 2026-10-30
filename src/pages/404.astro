@@ -10,17 +10,17 @@ const tr = t(lang);
 
 <BaseLayout lang={lang} title={`404 – ${tr.site.name}`} description={tr.notFound.message} path="/404">
   <section class="mx-auto flex max-w-6xl flex-col items-center px-4 py-24 text-center">
-    <p class="text-7xl font-extrabold text-indigo-600">404</p>
+    <p class="text-7xl font-extrabold text-slate-900">404</p>
     <h1 class="mt-4 text-2xl font-bold text-slate-900">{tr.notFound.title} · 页面不存在</h1>
     <p class="mt-2 text-slate-500">{tr.notFound.message}</p>
     <p class="mt-1 text-slate-500">你访问的页面不存在。</p>
     <div class="mt-8 flex flex-wrap items-center justify-center gap-3">
-      <a href="/" class="rounded-xl bg-indigo-600 px-6 py-3 text-sm font-bold text-white transition hover:bg-indigo-700">
+      <a href="/" class="rounded-xl bg-slate-900 px-6 py-3 text-sm font-bold text-white transition hover:bg-slate-800">
         {tr.notFound.back}
       </a>
       <a
         href="/zh/"
-        class="rounded-xl border border-slate-200 px-6 py-3 text-sm font-bold text-slate-700 transition hover:border-indigo-600 hover:text-indigo-600"
+        class="rounded-xl border border-slate-200 px-6 py-3 text-sm font-bold text-slate-700 transition hover:border-slate-900 hover:text-slate-900"
       >
         返回中文首页
       </a>
