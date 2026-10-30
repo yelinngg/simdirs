@@ -10,24 +10,23 @@ tags: [保号, 英国, 指南]
 
 ## 保号规则速查表
 
-- [giffgaff](/zh/sims/giffgaff)（O2 网）：**180 天**内任意一次余额变动，发一条 0.3 镑短信即可——一年两跳，年成本约 0.6 镑
-- [VOXI](/zh/sims/voxi)（Vodafone 网）：**180 天**一次余额变动，最低充 5 镑，到期前 90 天有短信提醒——年成本 5-10 镑（充值沉淀）
-- [Three](/zh/sims/three-uk)：PAYG **180 天**内一次计费事件（发条短信即可）——短信级成本
-- [CTExcel](/zh/sims/ctexcel-uk)（EE 网，中国电信）：**180 天**一次计费行为，**给 888 发 BAL 查余额短信也算**——零额外成本
-- [Tesco Mobile](/zh/sims/tesco-mobile)（O2 网）：**6 个月**一次使用记录——节奏最松，但注意这是官方断开条款，超期可能失去号码与余额
-- [Vodafone](/zh/sims/vodafone-uk)：90+90 结构（90 天无使用提醒、再 90 天断号），实际按 180 天一次理解
-- [Lebara](/zh/sims/lebara-uk)：两层规则——90 天无充值失去余额，**365 天**不活跃才断号；单次 5 镑
-- [iD Mobile](/zh/sims/idmobile)（Three 网）：**90 天**无使用即失效（条款另写 4 个月），最严格档
-- [Lycamobile](/zh/sims/lycamobile-uk)：90 天+30 天宽限，单次充值 10 镑，年成本 40+ 镑——仅当需要国际通话才值
-- [TalkHome](/zh/sims/talkhome-uk)：合约制（5 镑/月），PAYG 线另有规则——保号不推荐合约
-- [CMLink](/zh/sims/cmlink-uk)（EE 网，中国移动）：月/年包到期 90 天销户，**一次性回国包仅 30 天**——窗口最紧，回国包用户务必设提醒
-- [CTE UK](/zh/sims/cteuk)：90 天无使用销号，套餐 30 天滚动
+- [giffgaff](/zh/sims/giffgaff/)（O2 网）：**180 天**内任意一次余额变动，发一条 0.3 镑短信即可——一年两跳，年成本约 0.6 镑
+- [VOXI](/zh/sims/voxi/)（Vodafone 网）：**180 天**一次余额变动，最低充 5 镑，到期前 90 天有短信提醒——年成本 5-10 镑（充值沉淀）
+- [Three](/zh/sims/three-uk/)：PAYG **180 天**内一次计费事件（发条短信即可）——短信级成本
+- [CTExcel](/zh/sims/ctexcel-uk/)（EE 网，中国电信）：180 天包为 **180 天**一次计费行为，**给 888 发 BAL 查余额短信也算**——零额外成本；30 天滚动档更严，为 90 天
+- [Tesco Mobile](/zh/sims/tesco-mobile/)（O2 网）：**6 个月**一次使用记录——节奏最松，但注意这是官方断开条款，超期可能失去号码与余额
+- [Vodafone](/zh/sims/vodafone-uk/)：90+90 结构（90 天无使用提醒、再 90 天断号），实际按 180 天一次理解
+- [Lebara](/zh/sims/lebara-uk/)：两层规则——90 天无充值失去余额，**365 天**不活跃才断号；单次 5 镑
+- [iD Mobile](/zh/sims/idmobile/)（Three 网）：**90 天**无使用即失效（条款另写 4 个月），最严格档
+- [Lycamobile](/zh/sims/lycamobile-uk/)：90 天+30 天宽限，单次充值 10 镑，年成本 40+ 镑——仅当需要国际通话才值
+- [TalkHome](/zh/sims/talkhome-uk/)：合约制（5 镑/月），PAYG 线另有规则——保号不推荐合约
+- [CMLink](/zh/sims/cmlink-uk/)（EE 网，中国移动）：月/年包到期 90 天销户，**一次性回国包仅 30 天**——窗口最紧，回国包用户务必设提醒
 
 ## 按场景选卡
 
 **纯保号（一年收不了几次码）**：giffgaff 是绝对赢家——0.3 镑一条短信×2 次/年，且账号余额可长期沉淀。次选 VOXI（有 90 天提前提醒，不容易失手）和 CTExcel（查余额短信免费续期，但要记得 180 天节奏）。
 
-**保号+回国漫游流量**：CMLink 或 CTExcel。前者 5G+香港原生 IP 落地（社区实测口径），后者每英镑回国流量更便宜、180 天周期更省心——这两家的详细对比见[《CMLink vs CTExcel 全面对比》](/zh/news/cmlink-vs-ctexcel-uk-comparison-2026)。
+**保号+回国漫游流量**：CMLink 或 CTExcel。前者 5G+香港原生 IP 落地（社区实测口径），后者每英镑回国流量更便宜、180 天周期更省心——这两家的详细对比见[《CMLink vs CTExcel 全面对比》](/zh/news/cmlink-vs-ctexcel-uk-comparison-2026/)。
 
 **保号+英国本地轻度使用**：Tesco Mobile（6 个月节奏最松）或 Three PAYG（180 天短信级成本）。
 

@@ -1,0 +1,42 @@
+# Line endings: normalise everything to LF inside the repository, whatever OS
+# the commit came from. Windows checkouts get CRLF back via core.autocrlf.
+# Without this, a Windows build rewrites tracked files with CRLF and every
+# `git status` shows changes that are pure whitespace.
+* text=auto
+
+# Hand-written source and content: always LF, so diffs and builds are
+# byte-identical across machines.
+*.astro   text eol=lf
+*.css     text eol=lf
+*.js      text eol=lf
+*.mjs     text eol=lf
+*.ts      text eol=lf
+*.json    text eol=lf
+*.jsonc   text eol=lf
+*.md      text eol=lf
+*.txt     text eol=lf
+*.yml     text eol=lf
+*.yaml    text eol=lf
+
+# Never treat images as text: EOL conversion would corrupt them and diffs
+# would bloat the packfile.
+*.png   binary
+*.jpg   binary
+*.jpeg  binary
+*.gif   binary
+*.webp  binary
+*.avif  binary
+*.ico   binary
+*.woff  binary
+*.woff2 binary
+*.ttf   binary
+*.otf   binary
+*.pdf   binary
+
+# Generated assets: keep them out of GitHub's language stats and collapsed
+# in diffs. They are still committed (CI must not depend on font rendering).
+public/og/** linguist-generated=true
+
+# Build output that should never be committed.
+dist/**     export-ignore
+node_modules/** export-ignore

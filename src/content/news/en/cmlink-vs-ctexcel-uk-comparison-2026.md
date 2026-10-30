@@ -6,13 +6,13 @@ date: 2026-09-26
 tags: [comparison, keep-alive, uk, cmlink, ctexcel]
 ---
 
-For Chinese speakers living in the UK, [CMLink UK](/sims/cmlink-uk) (China Mobile) and [CTExcel UK](/sims/ctexcel-uk) (China Telecom) are the two default candidates. Both are EE MVNOs, both offer a UK number plus a Chinese secondary number, and both target the UK-China corridor. The differences that matter: keep-alive cost, price per GB back to China, 5G, and IP landing. All official facts below verified 2026-09-26.
+For Chinese speakers living in the UK, [CMLink UK](/sims/cmlink-uk/) (China Mobile) and [CTExcel UK](/sims/ctexcel-uk/) (China Telecom) are the two default candidates. Both are EE MVNOs, both offer a UK number plus a Chinese secondary number, and both target the UK-China corridor. The differences that matter: keep-alive cost, price per GB back to China, 5G, and IP landing. All official facts below verified 2026-09-26.
 
 ## The short answer
 
 - **Want 5G and reliable SMS verification while in mainland China** → CMLink
 - **Buy large China data bundles and want the cheapest keep-alive** → CTExcel
-- **Minimum upfront cost** → CTE UK (the budget CTExcel-family monthly line, see below)
+- **Minimum upfront cost** → CTExcel's 30-day bundles (UK 3GB £4.90, free SIM with the £1 pre-load waived)
 
 ## Core comparison
 
@@ -44,9 +44,11 @@ CMLink for: UK-based users who want 5G speeds, visit China occasionally, and val
 
 CTExcel for: heavy China-data users (30-50GB per half-year) on a 180-day cycle, plus Wi-Fi Calling with unlimited calls to China. Note the 365-day bundles (£15/15GB, £36/50GB) are discontinued; only 180-day bundles remain.
 
-## What is CTE UK?
+## Two tariff families under one brand
 
-[CTE UK](/sims/cteuk) is China Telecom Europe's other product line. Official pricing: 22GB UK-China shared at £9.90/30 days up to 300GB at £19.90; freecard promo gives a free SIM with £1 prepay waived — the lowest entry cost of the three. The tradeoffs: 90-day activity rule and community stability reports behind CMLink. Open with CTE, park long-term with CMLink or CTExcel.
+CTExcel sells two families on the same SIM, and the comparison changes depending on which one you buy. The 30-day rolling bundles (UK-only 3GB £4.90; China-UK shared 22GB £9.90 up to 300GB £19.90) are the budget entry: the freecard promo gives the SIM free and waives the £1 pre-load, the lowest opening cost of any China-operator UK line. Those bundles are documented as auto-cancelling after 90 days of inactivity. The 180-day China packs (30GB £22, 50GB £28) are the ones the 180-day keep-alive applies to.
+
+Practical read: open on a 30-day bundle if you are arriving and want the cheapest possible start, then move to a 180-day pack once you know you are staying. CTExcel's keep-alive wording is inconsistent between the FAQ and the 30-day product pages, so confirm on the plan you actually buy before relying on it to park a number.
 
 ## FAQ
 
@@ -56,4 +58,4 @@ CTExcel for: heavy China-data users (30-50GB per half-year) on a 180-day cycle, 
 
 **Does 5G matter?** Only if you live in a UK city and use data heavily. For parking and SMS, 4G is fine.
 
-Full profiles: [CMLink UK](/sims/cmlink-uk), [CTExcel UK](/sims/ctexcel-uk), [CTE UK](/sims/cteuk). Carrier policies change; facts verified 2026-09-26 — always check the official order page before buying.
+Full profiles: [CMLink UK](/sims/cmlink-uk/), [CTExcel UK](/sims/ctexcel-uk/). Carrier policies change; facts verified 2026-09-26, always check the official order page before buying.

@@ -10,24 +10,23 @@ Before leaving the UK for good, the biggest risk to your British number is silen
 
 ## Keep-alive rules at a glance
 
-- [giffgaff](/sims/giffgaff) (O2): any account activity in **180 days** — sending one £0.30 text counts. ~£0.60/year
-- [VOXI](/sims/voxi) (Vodafone): activity every **180 days**, £5 minimum top-up, reminder SMS ~90 days before expiry
-- [Three](/sims/three-uk): PAYG needs one chargeable event per **180 days** — one text is enough
-- [CTExcel](/sims/ctexcel-uk) (EE, China Telecom): any chargeable event in **180 days** — texting BAL to 888 for a balance check counts. Zero extra cost
-- [Tesco Mobile](/sims/tesco-mobile) (O2): usage once every **6 months** — the loosest cadence, but note this is the official disconnection clause: exceeding it can forfeit both number and credit
-- [Vodafone](/sims/vodafone-uk): 90+90 structure (warning at 90 days of inactivity, disconnect at 180) — treat as 180 days
-- [Lebara](/sims/lebara-uk): two layers — credit lapses after 90 days without top-up, but the number survives **365 days** of inactivity; £5 per top-up
-- [iD Mobile](/sims/idmobile) (Three): SIM expires after **90 days** without use (terms say 4 months) — the strictest tier
-- [Lycamobile](/sims/lycamobile-uk): 90 days + 30-day grace, £10 per top-up, £40+/year — only worth it for international minutes
-- [TalkHome](/sims/talkhome-uk): contract-based (£5/month); PAYG line has its own rules — contracts are the wrong tool for parking
-- [CMLink](/sims/cmlink-uk) (EE, China Mobile): 90 days after plan expiry for monthly/annual plans, but **30 days only** for one-off China bundles — the tightest window, set a reminder
-- [CTE UK](/sims/cteuk): 90-day activity rule, 30-day rolling bundles
+- [giffgaff](/sims/giffgaff/) (O2): any account activity in **180 days** — sending one £0.30 text counts. ~£0.60/year
+- [VOXI](/sims/voxi/) (Vodafone): activity every **180 days**, £5 minimum top-up, reminder SMS ~90 days before expiry
+- [Three](/sims/three-uk/): PAYG needs one chargeable event per **180 days** — one text is enough
+- [CTExcel](/sims/ctexcel-uk/) (EE, China Telecom): any chargeable event in **180 days** on the 180-day packs — texting BAL to 888 for a balance check counts. Its 30-day rolling bundles are stricter, at 90 days. Zero extra cost
+- [Tesco Mobile](/sims/tesco-mobile/) (O2): usage once every **6 months** — the loosest cadence, but note this is the official disconnection clause: exceeding it can forfeit both number and credit
+- [Vodafone](/sims/vodafone-uk/): 90+90 structure (warning at 90 days of inactivity, disconnect at 180) — treat as 180 days
+- [Lebara](/sims/lebara-uk/): two layers — credit lapses after 90 days without top-up, but the number survives **365 days** of inactivity; £5 per top-up
+- [iD Mobile](/sims/idmobile/) (Three): SIM expires after **90 days** without use (terms say 4 months) — the strictest tier
+- [Lycamobile](/sims/lycamobile-uk/): 90 days + 30-day grace, £10 per top-up, £40+/year — only worth it for international minutes
+- [TalkHome](/sims/talkhome-uk/): contract-based (£5/month); PAYG line has its own rules — contracts are the wrong tool for parking
+- [CMLink](/sims/cmlink-uk/) (EE, China Mobile): 90 days after plan expiry for monthly/annual plans, but **30 days only** for one-off China bundles — the tightest window, set a reminder
 
 ## Choose by scenario
 
 **Pure parking (a few verification SMS a year)**: giffgaff wins outright — two £0.30 texts a year, and prepaid credit sits indefinitely. Runners-up: VOXI (proactive reminder SMS makes it hard to miss) and CTExcel (free balance-check SMS renews the window).
 
-**Parking + China roaming data**: CMLink or CTExcel. CMLink adds 5G and a reported Hong Kong residential IP landing; CTExcel is cheaper per GB on a 180-day cycle. Full breakdown in [CMLink vs CTExcel compared](/news/cmlink-vs-ctexcel-uk-comparison-2026).
+**Parking + China roaming data**: CMLink or CTExcel. CMLink adds 5G and a reported Hong Kong residential IP landing; CTExcel is cheaper per GB on a 180-day cycle. Full breakdown in [CMLink vs CTExcel compared](/news/cmlink-vs-ctexcel-uk-comparison-2026/).
 
 **Parking + light UK usage**: Tesco Mobile (loosest 6-month cadence) or Three PAYG (text-level cost per 180 days).
 

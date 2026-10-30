@@ -16,10 +16,17 @@ const PATH_REDIR = [
   { from: "/post/united-kingdom-sim-card-esim-guide-2026", to: "/sims/giffgaff/", code: 301 },
   { from: "/post/united-states-sim-card-esim-guide-2026", to: "/news/how-to-choose-travel-esim-2026/", code: 301 },
   { from: "/post/eskimo-esim-review", to: "/sims/", code: 301 },
+  // 2026-10-30: /sims/cteuk/ merged into /sims/ctexcel-uk/. Both slugs pointed
+  // at ctexcel.com/uk and split the same query across two duplicate pages.
+  // Kept as permanent 301s so the old URL's signals land on the survivor.
+  { from: "/sims/cteuk", to: "/sims/ctexcel-uk/", code: 301 },
+  { from: "/sims/cteuk/", to: "/sims/ctexcel-uk/", code: 301 },
+  { from: "/zh/sims/cteuk", to: "/zh/sims/ctexcel-uk/", code: 301 },
+  { from: "/zh/sims/cteuk/", to: "/zh/sims/ctexcel-uk/", code: 301 },
 ];
 
 export default {
-  async fetch(request, env, ctx) {
+  async fetch(request, env) {
     const url = new URL(request.url);
     for (const r of HOST_REDIR) {
       if (url.hostname === r.from) {

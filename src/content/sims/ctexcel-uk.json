@@ -1,130 +1,195 @@
 {
   "name": {
     "en": "CTExcel UK",
-    "zh": "CTExcel 英国（中国电信英国卡）"
+    "zh": "CTExcel 英国（中国电信欧洲）"
   },
   "tagline": {
-    "en": "China Telecom Europe's UK brand on EE — 180-day keep-alive with one SMS, China data bundles",
-    "zh": "中国电信（欧洲）英国品牌（EE网络）——一条短信保号180天，含回国流量包"
+    "en": "China Telecom's EE line: China-UK shared data from £4.90, 180 days to keep the number",
+    "zh": "中国电信走 EE 网络的英国卡，中英共享流量 4.9 镑起，180 天内用一次就保号"
   },
   "description": {
-    "en": "CTExcel UK is China Telecom (Europe)'s MVNO on EE, built for students, travellers and UK–China commuters. Keep the number with any charged usage within 180 days (sending 'BAL' to 888 counts). The annual 365-day bundles have been delisted (2026-09): the 回国套餐 tab now sells two 180-day promo packs — 30GB for £22 (was £36) and 50GB for £28 (was £40); unlimited calls to 15 international directions; Wi-Fi Calling enabled. First activation must happen in the UK/EU with usage within 10 days.",
-    "zh": "CTExcel UK 是中国电信（欧洲）旗下英国虚商品牌，走EE网络，面向留学生、旅客与中英往返人群。180天内任意一次计费使用（如发短信BAL到888查余额）即可保号；365天年包已下架（2026-09）：回国套餐页现售两款180天促销包——30GB 22英镑（原36）与50GB 28英镑（原40）；支持Wi-Fi Calling下无限拨打15个国际方向（含中国大陆）。需在英国/欧盟激活，且激活后10天内需有使用记录。"
+    "en": "CTExcel UK is China Telecom (Europe)'s UK mobile brand, an MVNO on EE aimed at Chinese students and UK-China commuters. Two tariff families run on the same SIM: 30-day rolling bundles (UK 3GB £4.90; China-UK shared 22GB £9.90, 50GB £11.90, 120GB £14.90, 300GB £19.90; unlimited £29.90) and 180-day return-China packs (30GB £22, 50GB £28, promo prices as of 2026-09). One card carries a UK number plus a Chinese secondary number; Wi-Fi Calling makes calls to 15 international destinations including mainland China unlimited. Keep the number with any charged usage: the FAQ sets 180 days, the 30-day rolling product pages say 90. First activation must happen in the UK or EU, with usage within 10 days.",
+    "zh": "CTExcel UK 是中国电信（欧洲）旗下英国移动品牌，走 EE 网络的虚商，面向留学生与中英往返人群。同一张卡上并行两套资费：30 天滚动包（英国 3GB 4.90 镑；中英共享 22GB 9.90、50GB 11.90、120GB 14.90、300GB 19.90 镑；无限量 29.90 镑）与 180 天回国包（30GB 22 镑、50GB 28 镑，价格为 2026-09 促销价）。一卡双号，英国号码加中国副号；开 Wi-Fi Calling 后拨打含中国大陆在内 15 个方向不限量。保号靠任意计费使用：官方 FAQ 写 180 天，30 天滚动档的产品页写 90 天。首次激活须在英国或欧盟完成，激活后 10 天内需有使用记录。"
   },
   "details": {
-    "en": "CTExcel UK is the value pick among the two Chinese-operator UK brands: bundles are cheaper per GB than CMLink's, and the keep-alive bar is refreshingly low — any charged activity within 180 days (a call, an SMS, data use, a top-up or a bundle order) resets the clock; texting BAL to 888 for a balance check already counts.\n\nOfficial FAQ states numbers terminated after 180 days of total inactivity cannot be reactivated, with an SMS warning sent around day 60. Signature plans (2026-09 storefront): the 365-day annual bundles (£15/15GB, £36/50GB) are gone — the 回国套餐 tab now lists 180-day packs at 30GB/£22 (promo from £36) and 50GB/£28 (promo from £40); when bundle data runs out you can still receive SMS without renewing. One card can carry a UK number plus a Chinese secondary number; with Wi-Fi Calling on, calls to Chinese numbers from within China are unlimited, TikTok/Telegram register fine, and the roaming IP is a genuine clean UK IP.\n\nRoaming works across 34 countries (4G only). Like CMLink, first activation must be in the UK or EU (CTExcel: UK/EU only, not Hong Kong), and you need usage within 10 days of activation. Best for: heavy China-traffic users who want more data per pound and unlimited calls home; pick CMLink instead if 5G and mainland verification codes matter more.",
-    "zh": "在两家中国运营商英国卡中，CTExcel UK 是性价比之选：单位流量价格比CMLink更低，保号门槛也极低——180天内任意一次计费行为（打电话、发短信、用流量、充值或订购套餐）即算使用，给888发短信BAL查余额都算。官方FAQ明确：连续180天无任何使用将终止服务且号码无法重新激活，约60天时会收到短信提醒。主打套餐（2026-09官网）：365天年包（15英镑/15GB、36英镑/50GB）已下架——回国套餐页现售180天包：30GB/22英镑（原价36促销）与50GB/28英镑（原价40促销）；套餐流量用完后不续费仍可继续收短信。\n\n支持一卡双号（英国号码+中国副号码）；开启Wi-Fi Calling后在中国境内可给中国号码无限通话，注册TikTok、Telegram等境外应用正常，上网IP为真正纯净的英国IP。可在34个国家漫游（目前仅4G）。与CMLink一样需在英国或欧盟首次激活（CTExcel仅限英国/欧盟，不含香港），且激活后10天内需有使用记录。适合流量需求大、想要更多每英镑数据和无限拨打国内电话的用户；\n\n若更看重5G与内地验证码接收，选CMLink。"
+    "en": "CTExcel UK is the China Telecom counterpart to CMLink's China Mobile lineage. Both are EE MVNOs selling a UK number plus a Chinese secondary number, so the choice comes down to price per GB back to China, keep-alive cost, 5G and where the traffic lands.\n\nOn price it wins. The 30-day rolling list (2026-09): UK-only 3GB £4.90; China-UK shared 22GB £9.90, 50GB £11.90, 120GB £14.90, 300GB £19.90, with the 300GB tier adding 20GB of EU roaming; unlimited £29.90 (£23.90 on promo) carrying 300GB in China plus 30GB in the UK/EU. Everything from £11.90 up includes 200 UK minutes to 15 international destinations including China. For longer trips the China-return tab sells 180-day packs: 30GB for £22 (was £36) and 50GB for £28 (was £40). The 365-day annual bundles were delisted in 2026-09.\n\nOpening cost is the lowest of the China-operator UK lines: the freecard campaign hands out the SIM free, and ordering a bundle at claim time waives the £1 pre-load. Community reports say no real-name check is required, which is unofficial and may change. eSIM is supported again, with physical-to-eSIM conversion quoted at £3 by community sources. Port-in works.\n\nThe keep-alive rules are the one place to read carefully, because the two tariff families disagree. The official FAQ says any charged activity within 180 days resets the clock, and texting BAL to 888 for a balance check already counts, so the line can be parked for nothing. The 30-day rolling bundles are documented separately as auto-cancelling after 90 days without use. Numbers terminated for inactivity cannot be reactivated, and a warning SMS arrives around day 60. Bundles renew per 30 days; when data runs out you can still receive SMS without topping up.\n\nRoaming covers 34 countries, 4G only, no 5G anywhere. Like CMLink, activation has to happen in the UK or EU (CTExcel excludes Hong Kong) with usage in the first 10 days. The roaming exit is a clean native UK IP, so TikTok and Telegram register without trouble. Stability is rated below CMLink by community users, and a throttling rumour circulates without confirmation.\n\nVerdict: the cheapest way into a China-UK line and the most forgiving to park, at the cost of 5G and some polish.",
+    "zh": "CTExcel UK 与 CMLink 分属电信、移动两大系。两家都是 EE 虚商，都卖英国号码加中国副号，真正的差别在回国流量单价、保号成本、5G 和落地 IP。\n\n价格这一项它占优。30 天滚动资费（2026-09）：英国本地 3GB 4.90 镑；中英共享 22GB 9.90、50GB 11.90、120GB 14.90、300GB 19.90 镑，300GB 档另含 20GB 欧洲漫游；无限量 29.90 镑（促销 23.90），含 300GB 中国流量加 30GB 英国/欧盟。11.90 镑及以上套餐都带 200 分钟英国本地拨打，可打含中国在内 15 个方向。时间更长的话，回国套餐页卖 180 天包：30GB 22 镑（原价 36）、50GB 28 镑（原价 40）。365 天年包已于 2026-09 下架。\n\n开卡成本是华人英国卡里最低的：freecard 活动免费寄卡，领卡时同时订购套餐再免 1 镑预充。社区口径称无需实名，这属于非官方信息，随时可能变。eSIM 已重新开放，社区称实体卡转 eSIM 收 3 镑。支持携号转网。\n\n保号规则要看清，因为两套资费的口径不一样。官方 FAQ 写的是 180 天内任意一次计费行为即可续期，给 888 发 BAL 查余额就算，所以这张卡可以零成本挂着。30 天滚动档的产品页另注明 90 天无使用自动销号。因长期不活跃被停机的号码无法恢复，约第 60 天会收到提醒短信。套餐按 30 天滚动续订；流量用完后不续费仍能收短信。\n\n漫游覆盖 34 个国家，只有 4G，全系没有 5G。与 CMLink 一样须在英国或欧盟首次激活（CTExcel 不含香港），且激活后 10 天内要有使用记录。漫游出口是干净的英国原生 IP，注册 TikTok、Telegram 都正常。社区用户对稳定性的评价低于 CMLink，另有「后续限速」的传闻至今没有证实。\n\n结论：进中英电话卡这个坑最便宜的选择，挂着也最省事，代价是没有 5G、打磨程度差一点。"
   },
   "bestFor": {
-    "en": "Heavy UK–China data users: cheap 180-day China bundles (annual plans delisted), unlimited Wi-Fi Calling to China, and a £0 keep-alive trick (balance-check SMS).",
-    "zh": "中英往返大流量用户：180天回国包便宜（年包已下架）、Wi-Fi Calling无限拨打国内、查余额短信即可零成本保号。"
+    "en": "Budget-first UK-China users: cheapest shared data per GB, free SIM with the pre-load waived, and a balance-check SMS that keeps the number alive for nothing.",
+    "zh": "预算优先的中英往返用户：回国流量每 GB 最便宜、免费领卡还免预充、发条查余额短信就能零成本保号。"
   },
   "regions": [
     "europe"
   ],
   "coverage": 1,
-  "plansFrom": 22,
-  "dataFrom": "30GB",
-  "validity": "180 days",
-  "network": "EE (4G)",
+  "plansFrom": 4.9,
+  "dataFrom": {
+    "en": "3GB",
+    "zh": "3GB"
+  },
+  "validity": {
+    "en": "30-day bundles, or 180-day China packs",
+    "zh": "30 天滚动包，或 180 天回国包"
+  },
+  "network": {
+    "en": "EE (MVNO, 4G roaming)",
+    "zh": "EE（虚商，漫游仅 4G）"
+  },
   "device": "both",
   "hotspot": true,
-  "rating": 4.0,
+  "rating": 4,
   "website": "https://www.ctexcel.com/uk/",
   "features": {
     "en": [
-      "180-day China packs: 30GB/£22, 50GB/£28 (promo, 2026-09; annual bundles delisted)",
-      "Any charged usage per 180 days keeps the number alive",
-      "Unlimited calls to 15 international directions incl. mainland China",
-      "UK number + Chinese secondary number; clean native UK IP"
+      "China-UK shared data from £9.90/22GB, UK-only 3GB for £4.90",
+      "Free SIM via freecard, with the £1 pre-load waived if you order a bundle",
+      "180 days per charged use keeps the number; a BAL text to 888 counts",
+      "UK number plus Chinese secondary number, eSIM supported"
     ],
     "zh": [
-      "180天回国包：30GB/22英镑、50GB/28英镑（促销，2026-09；年包已下架）",
-      "180天内任意计费使用即可保号",
-      "Wi-Fi Calling下无限拨打15个国际方向（含中国大陆）",
-      "一卡双号；漫游IP为纯净英国原生IP"
+      "中英共享流量 9.90 镑/22GB 起，英国本地 3GB 4.90 镑",
+      "freecard 免费领卡，领卡时订套餐免 1 镑预充",
+      "180 天内有一次计费使用即保号，发 BAL 到 888 也算",
+      "一卡双号，支持 eSIM"
+    ]
+  },
+  "pros": {
+    "en": [
+      "Cheapest per-GB China data of the two China-operator UK brands",
+      "Free card plus waived pre-load, so opening costs almost nothing",
+      "Zero-cost keep-alive: a balance-check SMS renews the window",
+      "Clean native UK IP for app registrations while roaming"
+    ],
+    "zh": [
+      "两家华人英国卡里回国流量每 GB 更便宜",
+      "免费卡加免预充，开卡几乎零成本",
+      "零成本保号：一条查余额短信就能续期",
+      "漫游时出口是纯净英国原生 IP，适合注册应用"
+    ]
+  },
+  "cons": {
+    "en": [
+      "No 5G, and roaming is capped at 4G in 34 countries",
+      "First activation UK or EU only, with usage required within 10 days",
+      "The 30-day rolling bundles auto-cancel after 90 days without use",
+      "Stability rated below CMLink by community users"
+    ],
+    "zh": [
+      "全系无 5G，34 个国家漫游只到 4G",
+      "须在英国或欧盟首次激活，激活后 10 天内要有使用记录",
+      "30 天滚动档 90 天无使用即自动销号",
+      "社区对稳定性的评价不及 CMLink"
     ]
   },
   "plans": [
     {
       "name": {
-        "en": "China data bundle 30GB (promo)",
-        "zh": "回国套餐 30GB（促销）"
+        "en": "UK local 3GB",
+        "zh": "英国本地 3GB"
       },
       "data": {
-        "en": "30GB mainland-China data (+1GB UK local)",
-        "zh": "30GB中国大陆流量（另含1GB英国本地）"
+        "en": "3GB UK",
+        "zh": "3GB 英国"
       },
       "validity": {
-        "en": "180 days",
-        "zh": "180天"
+        "en": "30 days",
+        "zh": "30 天"
       },
       "price": {
-        "en": "£22 (promo, was £36)",
-        "zh": "22英镑（促销，原价36英镑）"
+        "en": "£4.90",
+        "zh": "4.90 英镑"
       }
     },
     {
       "name": {
-        "en": "China data bundle",
-        "zh": "回国流量包"
+        "en": "China-UK 22GB",
+        "zh": "中英通 22GB"
       },
       "data": {
-        "en": "50GB mainland-China data",
-        "zh": "50GB中国大陆流量"
+        "en": "22GB shared UK and China",
+        "zh": "22GB 中英共享"
+      },
+      "validity": {
+        "en": "30 days",
+        "zh": "30 天"
+      },
+      "price": {
+        "en": "£9.90",
+        "zh": "9.90 英镑"
+      }
+    },
+    {
+      "name": {
+        "en": "China-UK 300GB",
+        "zh": "中英通 300GB"
+      },
+      "data": {
+        "en": "300GB shared plus 20GB EU",
+        "zh": "300GB 共享，另含 20GB 欧洲"
+      },
+      "validity": {
+        "en": "30 days",
+        "zh": "30 天"
+      },
+      "price": {
+        "en": "£19.90",
+        "zh": "19.90 英镑"
+      }
+    },
+    {
+      "name": {
+        "en": "China data 30GB (180-day)",
+        "zh": "回国套餐 30GB（180 天）"
+      },
+      "data": {
+        "en": "30GB mainland China plus 1GB UK",
+        "zh": "30GB 中国大陆流量，另含 1GB 英国本地"
       },
       "validity": {
         "en": "180 days",
-        "zh": "180天"
+        "zh": "180 天"
       },
       "price": {
-        "en": "£28 (promo, was £40)",
-        "zh": "28英镑（促销，原价40英镑）"
+        "en": "£22 promo, was £36",
+        "zh": "22 英镑（促销，原价 36）"
+      }
+    },
+    {
+      "name": {
+        "en": "China data 50GB (180-day)",
+        "zh": "回国套餐 50GB（180 天）"
+      },
+      "data": {
+        "en": "50GB mainland China",
+        "zh": "50GB 中国大陆流量"
+      },
+      "validity": {
+        "en": "180 days",
+        "zh": "180 天"
+      },
+      "price": {
+        "en": "£28 promo, was £40",
+        "zh": "28 英镑（促销，原价 40）"
       }
     }
   ],
   "plansNote": {
-    "en": "Bundle prices per CTExcel UK official site 回国套餐 tab, rendered 2026-09-16: annual 365-day bundles delisted; current 180-day promos 30GB/£22 and 50GB/£28. Keep-alive rule (any charged usage per 180 days incl. 'BAL' to 888): official FAQ now sits behind login — corroborated by two independent 2026 third-party sources, re-verify when FAQ is reachable. SMS receiving continues after data exhaustion.",
-    "zh": "套餐价格按CTExcel英国官网回国套餐页（2026-09-16渲染核验）：365天年包已下架，现行180天促销包30GB/22英镑、50GB/28英镑。保号规则（180天内任意计费使用，含发BAL到888）：官方FAQ现需登录才能访问——两个独立2026年第三方来源仍如此描述，待FAQ可访问时复核。流量用尽后仍可接收短信。"
-  },
-  "pros": {
-    "en": [
-      "£22/180 days for 30GB is the cheapest China-roaming data per pound (promo, 2026-09)",
-      "Keep-alive costs nothing (balance-check SMS counts as usage)",
-      "Unlimited Wi-Fi Calling to China and 14 other directions",
-      "One card, two numbers; clean UK IP for app registrations"
-    ],
-    "zh": [
-      "22英镑/180天30GB，是每英镑回国流量最便宜的方案（2026-09促销价）",
-      "保号零成本：查余额短信即算使用",
-      "Wi-Fi Calling下无限拨打中国及另外14个方向",
-      "一卡双号；注册应用时是纯净英国IP"
-    ]
-  },
-  "cons": {
-    "en": [
-      "First activation UK/EU only, with usage required within 10 days",
-      "4G only while roaming (no 5G), 34 roaming countries",
-      "No 5G support — CMLink is the pick if you need it"
-    ],
-    "zh": [
-      "须在英国/欧盟首次激活，且激活后10天内需有使用记录",
-      "漫游仅4G（无5G），可漫游34个国家",
-      "不支持5G——需要5G就选CMLink"
-    ]
+    "en": "Prices checked 2026-09-25 on the CTExcel UK storefront: 30-day rolling bundles from the plan list, 180-day packs from the China-return tab (365-day annual bundles delisted). Keep-alive wording differs between the FAQ (180 days) and the 30-day bundle pages (90 days); confirm on the plan you buy. The eSIM conversion fee and the no-KYC claim are community reports.",
+    "zh": "价格于 2026-09-25 在 CTExcel 英国官网核验：30 天滚动包取自套餐列表，180 天包取自回国套餐页（365 天年包已下架）。保号口径在 FAQ（180 天）与 30 天档页面（90 天）之间不一致，请按所购套餐页确认。eSIM 转换费与免实名为社区口径。"
   },
   "featured": false,
-  "updatedAt": "2026-09-16",
+  "updatedAt": "2026-09-25",
   "ipProfile": {
     "country": {
-      "en": "GB in UK (via EE); China-roaming landing unverified",
-      "zh": "GB in UK (via EE); China-roaming landing unverified"
+      "en": "GB in the UK via EE; China-roaming landing unverified",
+      "zh": "在英国为 GB（走 EE）；内地漫游落地未核实"
     },
     "type": "mobile",
     "confidence": "low",
     "note": {
-      "en": "China Telecom (Europe) MVNO on EE UK (confirmed by ISPreview hands-on). Community says the UK IP is clean; Reddit users pair it with a residential-IP VPN for China use, implying the stock exit is a standard EE mobile IP. No public IP-country test of China roaming found.",
-      "zh": "中国电信（欧洲）EE 网 MVNO（ISPreview 实测确认）。社区称英国 IP 纯净；Reddit 用户在中国使用时需另配住宅 VPN，暗示默认出口就是普通 EE 移动 IP。中国漫游落地国家未查到公开实测。"
+      "en": "China Telecom (Europe) MVNO on EE UK, confirmed by an ISPreview hands-on. Community reports say the UK IP is clean; Reddit users pair it with a residential-IP VPN when using it in China, which implies the stock exit is a standard EE mobile IP. No public IP-country test of China roaming was found.",
+      "zh": "中国电信（欧洲）的 EE 网 MVNO，ISPreview 实测确认。社区称英国 IP 纯净；Reddit 用户在中国使用时还需另配住宅 IP 的 VPN，说明默认出口就是普通 EE 移动 IP。中国漫游的落地国家没有查到公开实测。"
     }
   }
 }
