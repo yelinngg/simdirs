@@ -53,6 +53,17 @@ The site is written as one editor's notes, not as marketing copy. Rules that kee
 - **Keep the sourcing visible.** Verified facts cite the date (`官方 2026-09`); community reports say so and are marked unverified.
 - Do not stack parallel triads ("coverage, price and validity, all in one place"). Vary sentence length instead.
 
+## Visual system (why the pages look the way they do)
+
+The site reads as a data catalogue, not a landing page. Type and colour carry that, so treat these as rules rather than defaults:
+
+- **Typefaces are self-hosted in `public/fonts/`.** IBM Plex Sans (variable, Latin) for text and headings; IBM Plex Mono for figures, prices, eyebrows, spec keys and dates. No Google Fonts, no third-party font CDN — the `@font-face` blocks live at the top of `src/styles/global.css`. Chinese falls through to the system stack in `--font-sans`.
+- **Mono is a signal, not decoration.** Anything that is a number, a label, a key or a timestamp uses `label-mono` (11px, 0.11em tracking, uppercase) or `font-mono`. Never set a sentence in mono.
+- **One signal colour: `--color-accent: #0f4c81`.** Links, focus rings, the hero tick, the "best for" rule. Filled surfaces are `ink-950` on white, never accent-blue buttons or gradients.
+- **Neutrals stay one step darker than they look right.** `ink-500` is the floor for informational small text (5.7:1 on white); `ink-400` is for rules, icons and marks only. Do not reintroduce `#95a1ac`-grade greys for labels — at 10px they read as washed out and fail contrast.
+- **Grids are hairline-separated, not gapped.** A card row is `grid border-t border-l border-line` with each cell carrying `border-r border-b`, so a short final row cannot leave grey patches behind. Do not go back to `gap-px` + a background colour.
+- **Mobile is verified at 390px, not at a desktop window resized.** Chrome on Windows will not open narrower than ~500px; use a 390px iframe on the built site, and check `documentElement.scrollWidth` for overflow. Any single-column `grid` needs explicit `grid-cols-1` (`minmax(0,1fr)`), otherwise the implicit `auto` column sizes to max-content and the page scrolls sideways.
+
 ## Deployment notes
 
 - The site URL is resolved at build time in `astro.config.mjs`, priority: `SITE_URL` env var → `CF_PAGES_URL` (auto-injected by Cloudflare Pages) → local fallback. Canonical URLs, sitemap, RSS and robots.txt all derive from it.

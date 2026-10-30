@@ -16,6 +16,7 @@ const en = {
   site: {
     name: 'SimDirs',
     tagline: 'Travel SIM & eSIM directory',
+    kicker: 'SIM & eSIM index',
   },
   nav: {
     sims: 'SIM Cards',
@@ -77,6 +78,7 @@ const en = {
     breadcrumbList: 'SIM Cards',
     bestFor: 'Best for',
     plans: 'Popular plans',
+    prosCons: 'Pros and cons',
     planName: 'Plan',
     planData: 'Data',
     planPrice: 'Price',
@@ -116,6 +118,7 @@ const en = {
     quickLinks: 'Quick links',
     feeds: 'Subscribe',
     rights: 'All rights reserved.',
+    note: 'Prices in USD, checked monthly',
   },
   seo: {
     home: {
@@ -156,6 +159,7 @@ const zh: typeof en = {
   site: {
     name: 'SimDirs',
     tagline: '旅行SIM卡与eSIM目录',
+    kicker: 'SIM / eSIM 索引',
   },
   nav: {
     sims: 'SIM卡',
@@ -215,6 +219,7 @@ const zh: typeof en = {
     breadcrumbList: 'SIM卡',
     bestFor: '适合人群',
     plans: '热门套餐',
+    prosCons: '优缺点',
     planName: '套餐',
     planData: '流量',
     planPrice: '价格',
@@ -254,6 +259,7 @@ const zh: typeof en = {
     quickLinks: '快速链接',
     feeds: '订阅',
     rights: '保留所有权利。',
+    note: '价格以美元计，每月核对',
   },
   seo: {
     home: {
