@@ -73,9 +73,11 @@ for (const file of await readdir('src/content/sims')) {
   const d = JSON.parse(await readFile(`src/content/sims/${file}`, 'utf8'));
   // plansFrom 0 means a free trial / free-to-apply line, never "$0.00".
   const price = Number(d.plansFrom) > 0 ? `From $${Number(d.plansFrom).toFixed(2)}` : 'Free tier';
+  // Single-country listings (coverage 1) would read "1+ countries" here.
+  const reach = Number(d.coverage) <= 1 ? '1 country' : `${d.coverage}+ countries`;
   await render(`sims-${slug}`, {
     title: d.name.en,
-    subtitle: `${price} · ${d.coverage}+ countries · ${d.network.en}`,
+    subtitle: `${price} · ${reach} · ${d.network.en}`,
     big: true,
   });
 }

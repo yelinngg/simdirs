@@ -88,13 +88,19 @@ const breadcrumbLd = {
   ],
 };
 
+// 18 of 40 listings are single-country cards (UK, HK, Croatia, Estonia…).
+// "1+ countries & regions" is technically true and reads like a template bug,
+// so those get a plain label instead of a "+" that means nothing.
+const coverageLabel =
+  d.coverage <= 1 ? tr.sim.singleCountry : `${d.coverage}+ ${tr.sim.countries}`;
+
 const specs = [
   { label: tr.sim.from, value: d.plansFrom > 0 ? `$${d.plansFrom.toFixed(2)} USD` : tr.sim.free },
   { label: tr.sim.dataFrom, value: pick(d.dataFrom, lang) },
   { label: tr.sim.validity, value: pick(d.validity, lang) },
   { label: tr.sim.network, value: pick(d.network, lang) },
   { label: tr.sim.hotspot, value: d.hotspot ? tr.sim.yes : tr.sim.no },
-  { label: tr.sim.coverage, value: `${d.coverage}+ ${tr.sim.countries}` },
+  { label: tr.sim.coverage, value: coverageLabel },
 ];
 
 // IP exit profile block (country + nature + confidence-sourced note)
@@ -157,7 +163,7 @@ if (!seoDescription) {
             {d.rating.toFixed(1)}
           </span>
           <span class="text-slate-300">·</span>
-          <span class="text-slate-500">{d.coverage}+ {tr.sim.countries}</span>
+          <span class="text-slate-500">{coverageLabel}</span>
           <span class="text-slate-300">·</span>
           <span class="text-slate-500">{tr.sim.updated}: {formatDate(d.updatedAt, lang)}</span>
         </div>
