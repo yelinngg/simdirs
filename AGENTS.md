@@ -8,6 +8,7 @@ There is **no backend/CMS** — all content lives in files under `src/content/` 
 - Dev server: `npx astro dev --background` (stop with `npx astro dev stop`, logs with `npx astro dev logs`)
 - Build (always run to validate changes): `npm run build`
 - Preview built site: `npm run preview`
+- Link check after a build: `npm run audit:links` — fails on dead targets and on internal links missing the trailing slash. `npm run links:fix` rewrites those slashes in `src/content`.
 
 ## Managing SIM card listings (`src/content/sims/*.json`)
 
@@ -40,6 +41,13 @@ There is **no backend/CMS** — all content lives in files under `src/content/` 
 ## Editing UI text & SEO strings
 
 All interface labels (nav, buttons, region names, SEO titles/descriptions) live in `src/i18n/ui.ts`. Keep `en` and `zh` keys in sync.
+
+## Interaction rules
+
+- **The directory filter lives in the URL** (`/sims/?q=…&region=…`), written with `replaceState`. Keep it that way: the filter has to survive the trip to a detail page and back, and a filtered view has to be shareable.
+- **Search covers what the data actually has**: carrier name, tagline, region labels and network, in both languages, via the `data-search` haystack on each card. There is no per-country field, so the placeholder must not promise country search.
+- **Cards are one link each.** The title anchor carries a stretched `::after`; the "Details" row is a `div`, not a second anchor. Do not add nested links inside a card without rethinking that overlay.
+- **Anything that hides cards must also hide the frame** — the grid draws its own top/left hairline, so an empty grid reads as a broken table.
 
 ## Writing style (applies to every string users can read)
 

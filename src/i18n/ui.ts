@@ -44,12 +44,14 @@ const en = {
   sims: {
     title: 'SIM Card Directory',
     subtitle: 'Starting price, data, validity and hotspot support for every provider we track.',
-    search: 'Search by carrier…',
-    searchLabel: 'Search carriers',
+    search: 'Search carrier, region or network…',
+    searchLabel: 'Search by carrier, region or network',
     allRegions: 'All regions',
     regionLabel: 'Filter by region',
     cards: 'SIM cards',
     empty: 'No SIM cards match your filters.',
+    emptyHint: 'Search matches carrier names, regions and network types, in English or Chinese.',
+    clear: 'Clear filters',
   },
   sim: {
     from: 'From',
@@ -185,12 +187,14 @@ const zh: typeof en = {
   sims: {
     title: 'SIM卡目录',
     subtitle: '收录的每一家：起步价、流量、有效期、热点支持，逐条列清楚。',
-    search: '搜索运营商…',
-    searchLabel: '搜索运营商',
+    search: '搜索运营商、地区或网络…',
+    searchLabel: '按运营商、地区或网络搜索',
     allRegions: '全部地区',
     regionLabel: '按地区筛选',
     cards: '张SIM卡',
     empty: '没有符合筛选条件的SIM卡。',
+    emptyHint: '搜索匹配运营商名称、地区与网络制式，中英文均可。',
+    clear: '清除筛选',
   },
   sim: {
     from: '低至',
