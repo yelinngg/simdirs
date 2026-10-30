@@ -45,4 +45,4 @@ Before leaving the UK for good, the biggest risk to your British number is silen
 - Switching phones with an eSIM may require reactivation on some carriers — avoid device changes inside a keep-alive window
 - Policies change: verified 2026-09-26, confirm against official terms pages before acting; if you spot a rule change, the comment section is open
 
-Full profiles and current prices for all 12 cards are in the [SIM directory](/sims).
+Full profiles and current prices for all 12 cards are in the [SIM directory](/sims/).

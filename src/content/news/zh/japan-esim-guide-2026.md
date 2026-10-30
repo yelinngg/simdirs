@@ -74,4 +74,4 @@ tags: [日本, 指南, esim]
 - RedteaGO 数据包：$2.50/1GB · $6.90/3GB · $8.50/5GB · $9.50/10GB · $13.50/20GB
 - Airalo 日本包：$4.50/1GB 起 · 20 GB/30 天约 $25.50
 
-各家详情与完整套餐表见目录：[BCeSIM](/zh/sims/bcesim/) · [RedteaGO](/zh/sims/redteago/) · [Airalo](/zh/sims/airalo/) · [Holafly](/zh/sims/holafly/)，或浏览全部 [日本可用供应商](/zh/sims)。
+各家详情与完整套餐表见目录：[BCeSIM](/zh/sims/bcesim/) · [RedteaGO](/zh/sims/redteago/) · [Airalo](/zh/sims/airalo/) · [Holafly](/zh/sims/holafly/)，或浏览全部 [日本可用供应商](/zh/sims/)。

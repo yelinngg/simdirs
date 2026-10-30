@@ -31,4 +31,4 @@ For existing Airalo users this is a pure upgrade: same price, same plan, automat
 
 Across the market, 5G support is tiered: Airalo sits in the top tier after this expansion (80+ destinations); Ubigi leans on NTT/Transatel carrier relationships for consistently strong European 5G; per-day platforms like RedteaGO and BCeSIM offer 5G unlimited on routes like Japan KDDI; some budget brands still run 4G-first to cut costs. If 5G matters to you, check the network-type label on each provider's detail page before buying.
 
-If you are planning a trip and want to check current coverage and prices, see our [Airalo review page](/sims/airalo/) in the directory, or filter [all providers](/sims) by region.
+If you are planning a trip and want to check current coverage and prices, see our [Airalo review page](/sims/airalo/) in the directory, or filter [all providers](/sims/) by region.

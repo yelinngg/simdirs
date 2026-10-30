@@ -70,4 +70,4 @@ Re-check after moving between countries — some providers change breakout per d
 
 If you need a number or connection that looks like a local phone user — for verification SMS, AI signups, banking — prefer providers whose exit is a **mobile carrier or residential IP in the target country**, and avoid datacenter exits. If you only need cheap data for browsing and maps, the IP type barely matters and the cheapest plan wins.
 
-Browse all 37 providers with their IP exit profiles in the [SIM directory](/sims).
+Browse all 37 providers with their IP exit profiles in the [SIM directory](/sims/).

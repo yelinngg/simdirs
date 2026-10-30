@@ -58,7 +58,7 @@ The correct configuration: home SIM (your domestic carrier) with **roaming OFF, 
 
 ## 7. Skipping coverage checks
 
-Coverage and speed vary by country even within the same provider. Browse our [SIM directory](/sims) to compare coverage before committing.
+Coverage and speed vary by country even within the same provider. Browse our [SIM directory](/sims/) to compare coverage before committing.
 
 The same eSIM brand may ride premium KDDI routing in Japan but a single partner carrier in a small country; strong urban signal says nothing about mountain roads. Also decode what "unlimited" really means: some plans are full-speed unlimited, others throttle after a high-speed allowance — usually documented as a fair use policy. The gap between the two is significant in practice.
 
@@ -72,4 +72,4 @@ The same eSIM brand may ride premium KDDI routing in Japan but a single partner 
 - Activate-on-arrival plan installed and waiting
 - Provider support entry (in-app or web) bookmarked
 
-Run through this list and almost every eSIM failure mode is eliminated before the airport. If you haven't picked a provider yet, filter and compare by destination and budget in the [SIM directory](/sims).
+Run through this list and almost every eSIM failure mode is eliminated before the airport. If you haven't picked a provider yet, filter and compare by destination and budget in the [SIM directory](/sims/).

@@ -52,4 +52,4 @@ Simple rule: city-only itineraries can take the cheapest; for mountain routes (A
 - RedteaGO data packs: $2.50/1GB · $6.90/3GB · $8.50/5GB · $9.50/10GB · $13.50/20GB
 - Airalo Japan: from $4.50/1GB · ~$25.50 for 20 GB/30 days
 
-Full details and complete plan tables in the directory: [BCeSIM](/sims/bcesim/) · [RedteaGO](/sims/redteago/) · [Airalo](/sims/airalo/) · [Holafly](/sims/holafly/) — or browse all [providers covering Japan](/sims).
+Full details and complete plan tables in the directory: [BCeSIM](/sims/bcesim/) · [RedteaGO](/sims/redteago/) · [Airalo](/sims/airalo/) · [Holafly](/sims/holafly/) — or browse all [providers covering Japan](/sims/).

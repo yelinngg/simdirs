@@ -38,4 +38,4 @@ UK keep-alive cards by cost: [giffgaff](/sims/giffgaff/) (~£0.60/year, one text
 - **Device changes**: many verification eSIMs require reactivation or a paid QR reissue on a new phone (deleting the eSIM.GG profile via STK locks the card). Keep your main verification number on a stable device.
 - **Policies drift**: keep-alive rules and roaming rates change; verified 2026-09-26 — corrections welcome in the comments.
 
-All profiles with IP exit data live in the [SIM directory](/sims).
+All profiles with IP exit data live in the [SIM directory](/sims/).

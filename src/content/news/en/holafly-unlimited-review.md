@@ -51,4 +51,4 @@ One sentence: the more you use and the longer you stay, the better Holafly's eco
 
 ## Verdict
 
-If you stream a lot, work remotely, or simply hate topping up, Holafly's unlimited plans are a strong pick. Light users should compare capped plans in our [SIM directory](/sims) first — the same money buys a better-matched allowance. For alternative unlimited models (like RedteaGO's per-day pricing), filter the directory by unlimited options and compare.
+If you stream a lot, work remotely, or simply hate topping up, Holafly's unlimited plans are a strong pick. Light users should compare capped plans in our [SIM directory](/sims/) first — the same money buys a better-matched allowance. For alternative unlimited models (like RedteaGO's per-day pricing), filter the directory by unlimited options and compare.
