@@ -34,12 +34,12 @@ Each profile carries a confidence label: verified, likely, uncertain or communit
 
 ## Examples from our catalog
 
-- [Airalo](/sims/airalo) — roaming architecture; exits commonly observed in Singapore, France or the US, often on hosting-provider networks (datacenter, verified by academic measurement)
-- [Holafly](/sims/holafly) — official FAQ admits foreign IPs; community reports Singapore exits on some plans
-- [giffgaff](/sims/giffgaff), [VOXI](/sims/voxi), [Lebara](/sims/lebara-uk) — UK MVNOs that home-route traffic: your exit stays a UK mobile IP even when roaming
-- [CMLink UK](/sims/cmlink-uk) — UK mobile IP in the UK; community reports Hong Kong breakout when roaming in mainland China
-- [eSIM.GG](/sims/esim-gg) — Estonian mobile exit; community reports the free promotional eSIM lands on a French IP
-- [Hotlink](/sims/hotlink) — genuine Malaysia mobile IP (Maxis network), community-verified with speedtest
+- [Airalo](/sims/airalo/) — roaming architecture; exits commonly observed in Singapore, France or the US, often on hosting-provider networks (datacenter, verified by academic measurement)
+- [Holafly](/sims/holafly/) — official FAQ admits foreign IPs; community reports Singapore exits on some plans
+- [giffgaff](/sims/giffgaff/), [VOXI](/sims/voxi/), [Lebara](/sims/lebara-uk/) — UK MVNOs that home-route traffic: your exit stays a UK mobile IP even when roaming
+- [CMLink UK](/sims/cmlink-uk/) — UK mobile IP in the UK; community reports Hong Kong breakout when roaming in mainland China
+- [eSIM.GG](/sims/esim-gg/) — Estonian mobile exit; community reports the free promotional eSIM lands on a French IP
+- [Hotlink](/sims/hotlink/) — genuine Malaysia mobile IP (Maxis network), community-verified with speedtest
 
 ## Brand-by-brand: where does each eSIM's IP land?
 

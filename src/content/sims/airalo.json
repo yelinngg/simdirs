@@ -4,20 +4,20 @@
     "zh": "Airalo"
   },
   "tagline": {
-    "en": "The world's first eSIM store with 200+ destinations",
-    "zh": "全球首家eSIM商店，覆盖200+目的地"
+    "en": "Prepaid data in 200+ destinations, from $4 for 1GB/3 days",
+    "zh": "200+ 目的地的预付费流量，1GB/3 天 4 美元起"
   },
   "description": {
-    "en": "Airalo is the world's leading eSIM marketplace, offering prepaid data plans for more than 200 countries and regions. Plans start from 1GB for 3 days, install in minutes via the iOS/Android app, and top-ups are instant. A solid default choice for most travelers.",
-    "zh": "Airalo 是全球领先的eSIM商城，为200多个国家和地区提供预付费流量套餐。套餐从1GB/3天起，通过iOS/Android应用几分钟即可安装激活，续购即时生效。是大多数旅行者的稳妥之选。"
+    "en": "Airalo is the one most people try first, and it mostly holds up: 200+ destinations, the same buying flow everywhere, and one app that keeps every eSIM you own in a list. Plans come in three shapes, a single country, a region (Asia, Europe, Africa and so on), or Discover+ for near-global use. Japan runs US$4.00 for 1GB/3 days up to US$25.00 for 20GB/30 days, with unlimited tiers from US$11.50/3 days; the USA is close behind at US$4.00 for 1GB/3 days, US$36.50 for 20GB/30 days and US$42.00 for 50GB. Support answers in several languages, around the clock.",
+    "zh": "多数人第一次买 eSIM 都会先试 Airalo，结果通常也不差：200+ 目的地，到处一样的下单流程，所有 eSIM 集中在一个 App 里。套餐分三种规模，单国、区域（亚洲、欧洲、非洲等）、以及几乎全球通用的 Discover+。日本 1GB/3 天 4.00 美元起，20GB/30 天 25.00 美元，不限量 11.50 美元/3 天起；美国 1GB/3 天 4.00 美元起，20GB/30 天 36.50 美元，50GB 42.00 美元。客服多语言，7×24 在线。"
   },
   "details": {
     "en": "Airalo's strength is consistency at scale: 200+ destinations with a uniform buying flow, an app that stores all your eSIMs in one place, and instant top-ups that add data to a running eSIM without reinstalling. Its catalogue splits into three tiers — local plans for a single country, regional plans (Asia, Europe, Africa and more) covering dozens of countries each, and a global plan usable almost everywhere — which makes it easy to pick the right scope. Verified pricing from the official storefront: a Japan eSIM runs US$4.00 for 1 GB / 3 days up to US$25.00 for 20 GB / 30 days, with unlimited options from US$11.50 / 3 days; the USA is similar (1 GB / 3 days from US$4.00, 20 GB / 30 days US$36.50, plus 50 GB and unlimited tiers). Airalo also runs Discover+ global multi-network plans and frequent seasonal discounts in the app.\n\nSupport is 24/7 and genuinely multilingual, and the regional packages (e.g. shared data across 10+ Asian countries) remain the reference point that other providers' regional offers are compared against.",
     "zh": "Airalo 的强项在于规模化的一致性：200+ 目的地统一购买流程，App 集中管理所有 eSIM，续购即时生效且无需重装。\n\n套餐目录分三层——单国本地包、覆盖数十国的区域包（亚洲、欧洲、非洲等）以及几乎全球通用的全球包——选择范围一目了然。经官方商店核验的价格：日本 eSIM 从 1 GB / 3 天 4.00 美元到 20 GB / 30 天 25.00 美元，另有 11.50 美元/3 天起的不限量档；美国相近（1 GB / 3 天 4.00 美元起，20 GB / 30 天 36.50 美元，另有 50 GB 与不限量档）。App 内还有 Discover+ 全球多网络套餐与季节性折扣。客服 7×24 小时多语言在线；区域包（如 10+ 亚洲国家共享流量）是全行业区域套餐的比价基准。"
   },
   "bestFor": {
-    "en": "First-time eSIM users and multi-country itineraries — the safest default with the widest catalogue and the most predictable app experience.",
-    "zh": "首次使用 eSIM 的用户与多国行程——目录最全、App 体验最可预期的稳妥默认选择。"
+    "en": "A first eSIM purchase, or a trip that crosses several countries. You pay a little more per gigabyte so that nothing goes wrong.",
+    "zh": "第一次买 eSIM，或者一趟要跨好几个国家。每 GB 贵一点，换来基本不出问题。"
   },
   "regions": [
     "global",
@@ -30,10 +30,19 @@
     "middle-east"
   ],
   "coverage": 200,
-  "plansFrom": 4.0,
-  "dataFrom": "1GB",
-  "validity": "3 days",
-  "network": "4G/5G",
+  "plansFrom": 4,
+  "dataFrom": {
+    "en": "1GB",
+    "zh": "1GB"
+  },
+  "validity": {
+    "en": "3 days",
+    "zh": "3 天"
+  },
+  "network": {
+    "en": "4G/5G",
+    "zh": "4G/5G"
+  },
   "device": "esim",
   "hotspot": true,
   "rating": 4.7,
@@ -132,26 +141,26 @@
   },
   "pros": {
     "en": [
-      "Widest catalogue: 200+ destinations plus regional and global plans",
-      "Mature app: all eSIMs in one place, instant top-ups",
-      "24/7 multilingual human support",
-      "Predictable quality — the benchmark other providers are measured against"
+      "200+ destinations, with regional and near-global plans in the same account",
+      "Top-ups land on the running eSIM, no reinstall",
+      "Support is human and multilingual, any hour",
+      "The baseline other providers get measured against, which makes judging the rest easier"
     ],
     "zh": [
-      "目录最全：200+ 目的地加区域包与全球包",
-      "App 成熟：所有 eSIM 集中管理、续购即时生效",
-      "7×24 小时多语言人工客服",
-      "品质稳定可预期——行业比价基准"
+      "200+ 目的地，区域包和准全球包都在同一个账号里",
+      "续购直接加到在用的 eSIM 上，不用重装",
+      "7×24 人工客服，多语言",
+      "行业比价基准，拿它衡量别家最省事"
     ]
   },
   "cons": {
     "en": [
-      "Rarely the absolute cheapest per GB — discount brands undercut it",
-      "Local plans are single-network in some countries, so coverage can dip indoors"
+      "Rarely the cheapest per gigabyte, discount brands undercut it",
+      "Single-network local plans in some countries, so coverage drops indoors"
     ],
     "zh": [
-      "单价很少是全场最低，低价品牌常能再压一档",
-      "部分目的地单国包为单网络，室内覆盖可能打折"
+      "单价很少是最低，低价品牌常能再压一档",
+      "部分单国包只接一家网络，室内信号会掉"
     ]
   },
   "featured": true,
@@ -159,7 +168,7 @@
   "ipProfile": {
     "country": {
       "en": "varies (commonly Singapore/France/US, not the destination country)",
-      "zh": "varies (commonly Singapore/France/US, not the destination country)"
+      "zh": "不定（常见新加坡/法国/美国，与实际目的地无关）"
     },
     "type": "datacenter",
     "confidence": "high",

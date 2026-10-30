@@ -4,20 +4,20 @@
     "zh": "Saily"
   },
   "tagline": {
-    "en": "Privacy-first eSIM by the Nord Security team",
-    "zh": "Nord Security 团队打造的隐私优先eSIM"
+    "en": "Cheap per-GB data from the NordVPN team, plans from $3.99",
+    "zh": "NordVPN 团队出品，按 GB 算便宜，3.99 美元起"
   },
   "description": {
-    "en": "Saily is an eSIM service built by the team behind NordVPN, with a strong focus on privacy and security. Competitive prices across 150+ destinations, a clean app experience and flexible data-only plans make it a great pick for privacy-conscious travelers.",
-    "zh": "Saily 由 NordVPN 背后的团队打造，高度注重隐私与安全。在150+目的地提供有竞争力的价格、清爽的应用体验和灵活的纯流量套餐，是注重隐私的旅行者的优质选择。"
+    "en": "Saily comes from the NordVPN team and it shows: no ads in the app, DNS filtering that blocks malicious domains while you roam, and per-gigabyte prices that often come in under Airalo. The catalogue covers 150+ destinations. Roughly the whole product is data. Numbers are a US-only add-on at US$0.99 a month since June 2026.",
+    "zh": "Saily 出自 NordVPN 团队，痕迹很明显：App 里没有广告，漫游时内置 DNS 过滤会拦恶意域名，每 GB 单价常常比 Airalo 低。目录覆盖 150+ 目的地。整个产品基本只有流量，号码是唯一的附加项，2026 年 6 月起只有美国号，0.99 美元/月。"
   },
   "details": {
     "en": "Saily's pitch is a trusted name in privacy applied to travel data: the Nord Security team built it, and the app carries that DNA — clean onboarding, no ads, and built-in DNS-level filtering that blocks known malicious domains while you roam.\n\nPlans are classic data buckets (1 / 3 / 5 / 10 / 20 GB) with 7-day minimum validity, extendable by top-up, and a flexible renewal model where unused data can roll over on auto-renewing plans in supported destinations.\n\nCoverage spans 150+ destinations with multi-network routing in many markets, which reduces dead zones compared with single-network local plans.\n\nThe app supports installing the eSIM before travel and activating on arrival, and support is in-app chat. Saily frequently bundles promos (e.g. first-plan discounts) and the price per GB undercuts Airalo on many routes, though phone numbers are currently US-only (US$0.99/month since June 2026) and unlimited plans, along with the Saily Ultra subscription, arrived only in 2026.\n\nIf you already live in the Nord ecosystem (NordVPN, NordPass), the single-account experience is the most seamless on this list.\n\n## US phone number as a second line\n\nSince June 2026 Saily has offered a dedicated US (+1) number inside the app. Official pricing is a monthly subscription — the number page lists US$1.99/mo (launch pricing from US$0.99/mo), with call/text plans from US$0.99 — and identity verification (document + selfie) is required in the app after purchase. The number itself carries no data or minutes: it is for registrations, SMS verification codes and 2FA on US-only services.\n\nA Thailand-based user reported a successful field test (WeChat, 2026-10, single-user, unverified): charged 238.09 THB (~US$6.99) via KBank Visa for what the app presented as a one-year number fee, passed international KYC with a non-US passport and selfie, and used the number to receive PayPal verification SMS on a Thai iPhone — no US residency required, no country restriction observed. Official pages show monthly pricing only, so treat the ~US$6.99/year figure as a community report (possibly an in-app or regional promo) until Saily publishes an annual tier.",
     "zh": "Saily 的卖点是隐私领域的可靠品牌切入旅行流量：由 Nord Security 团队打造，App 也继承了这一基因——引导流程清爽、无广告，并内置 DNS 级过滤，漫游时自动拦截已知恶意域名，公共网络场景多一层防护。\n\n套餐是经典的流量桶（1 / 3 / 5 / 10 / 20 GB），有效期最少 7 天，可续购延长；在支持自动续费的目的地上，未用完的流量可结转到下个周期。\n\n覆盖 150+ 目的地，不少市场支持多网络智能选路——设备会在可用运营商间自动挑选信号更好的一家，相比单网络本地包能减少盲区。\n\nApp 支持出发前先装好 eSIM、落地后一键激活，客服为应用内聊天。Saily 经常有首单折扣类促销，多数线路的每 GB 单价低于 Airalo；但注意电话号码目前仅支持美国（2026 年 6 月起 0.99 美元/月），不限量套餐与 Saily Ultra 订阅也是 2026 年才上线的新选项。\n\n如果你已在 Nord 生态（NordVPN、NordPass）里，同一账号的体验是这份名单里最顺滑的。\n\n## 美国号码副号线\n\n2026 年 6 月起 Saily 在 App 内提供专用美国（+1）号码。官方定价为按月订阅——号码页标价 US$1.99/月（上线价 0.99 美元/月起），通话/短信计划 0.99 美元起——购买后需在 App 内完成身份认证（证件 + 人脸自拍）。号码本身不含流量和通话分钟，用途是海外平台注册、接收短信验证码与 2FA。\n\n一位泰国用户实测成功（微信记录，2026-10，单用户、未核实）：通过 KBank Visa 支付 238.09 泰铢（约 6.99 美元），App 内显示为一年号码使用费；用非美国护照完成国际 KYC 认证后激活，在泰版 iPhone 上正常添加 eSIM 并成功接收 PayPal 验证短信——无需美国居留，未见国家限制。官方页面仅列月付价，\"约 6.99 美元/年\"按社区实测口径对待（可能是 App 内或地区性促销），以 Saily 官方公布为准。"
   },
   "bestFor": {
-    "en": "Privacy-conscious travelers and Nord ecosystem users who want a trustworthy data-only eSIM with clean UX at competitive per-GB prices.",
-    "zh": "注重隐私的旅行者与 Nord 生态用户——想要靠谱的纯数据 eSIM、清爽体验加有竞争力的每 GB 单价。"
+    "en": "People already paying for NordVPN, and anyone who wants cheap data with nothing else bolted on.",
+    "zh": "已经在用 NordVPN 的人，或者只想要便宜流量、不要任何附加功能的人。"
   },
   "regions": [
     "global",
@@ -30,9 +30,18 @@
   ],
   "coverage": 150,
   "plansFrom": 3.99,
-  "dataFrom": "1GB",
-  "validity": "7 days",
-  "network": "4G/5G",
+  "dataFrom": {
+    "en": "1GB",
+    "zh": "1GB"
+  },
+  "validity": {
+    "en": "7 days",
+    "zh": "7 天"
+  },
+  "network": {
+    "en": "4G/5G",
+    "zh": "4G/5G"
+  },
   "device": "esim",
   "hotspot": true,
   "rating": 4.4,
@@ -77,30 +86,30 @@
   },
   "pros": {
     "en": [
-      "Nord Security pedigree — trustworthy privacy handling",
-      "Built-in DNS filtering blocks malicious domains while roaming",
-      "Clean, ad-free app with pre-travel install supported",
-      "Per-GB pricing often undercuts Airalo"
+      "Same team as NordVPN, so privacy handling is not an afterthought",
+      "DNS filtering blocks malicious domains while roaming",
+      "App is clean and ad-free, and supports installing before you fly",
+      "Per-GB prices frequently beat Airalo"
     ],
     "zh": [
-      "Nord Security 出品，隐私处理可信",
-      "内置 DNS 过滤，漫游时拦截恶意域名",
-      "App 清爽无广告，支持出发前预装",
-      "每 GB 单价常低于 Airalo"
+      "与 NordVPN 同团队，隐私处理不是事后补的",
+      "漫游时 DNS 过滤拦截恶意域名",
+      "App 干净无广告，支持出发前预装",
+      "每 GB 单价经常比 Airalo 低"
     ]
   },
   "cons": {
     "en": [
-      "US number only: US$0.99/month since June 2026 (call/SMS plans from US$0.99); no numbers for other destinations",
-      "Unlimited plans and the Saily Ultra subscription are recent 2026 additions — the long-standing catalogue was data buckets only",
-      "Storefront blocks scrapers, so third-party price tracking is thin",
-      "Annual US-number pricing is not published by Saily; the ~US$6.99/year figure is a single-user community report (2026-10, unverified)"
+      "Numbers are US-only: US$0.99/month since June 2026, nothing for other destinations",
+      "Unlimited plans and the Ultra subscription only arrived in 2026; the catalogue was fixed data buckets before that",
+      "The storefront blocks scrapers, so third-party price tracking is thin",
+      "Saily does not publish annual number pricing; the ~US$6.99/year figure is one user report (Oct 2026, unverified)"
     ],
     "zh": [
-      "仅提供美国号码：2026 年 6 月起 0.99 美元/月（通话/短信计划 0.99 美元起），其他目的地暂无号码服务",
-      "不限量套餐与 Saily Ultra 订阅为 2026 年新增，此前仅有固定流量桶套餐",
-      "商店反爬，第三方价格追踪数据较薄",
-      "官方未公布号码年付价；\"约6.99美元/年\"为单用户社区实测（2026-10，未核实）"
+      "号码只有美国：2026 年 6 月起 0.99 美元/月，其它目的地没有",
+      "不限量套餐和 Ultra 订阅都是 2026 年才有的，此前只有固定流量桶",
+      "商店反爬，第三方价格追踪很少",
+      "官方没公布号码年付价，「约 6.99 美元/年」是单个用户的说法（2026-10，未核实）"
     ]
   },
   "featured": true,
@@ -108,13 +117,13 @@
   "ipProfile": {
     "country": {
       "en": "unknown",
-      "zh": "unknown"
+      "zh": "未知"
     },
     "type": "unknown",
     "confidence": "unverified",
     "note": {
       "en": "No reliable public evidence of Saily's exit-IP country or type. Nord Security's own blog only describes traffic passing carrier servers to the internet without naming breakout locations; a Reddit summary of the USENIX study lists Saily among providers NOT routing via Chinese networks. Treat as unverified.",
-      "zh": "未找到 Saily 出口 IP 国家/性质的可靠公开口径。官方博客只说流量经运营商服务器出公网，未披露落地；Reddit 转述的 USENIX 研究摘要将 Saily 列为不经中国网络的一档。标 unverified。"
+      "zh": "未找到 Saily 出口 IP 国家/性质的可靠公开口径。官方博客只说流量经运营商服务器出公网，未披露落地；Reddit 转述的 USENIX 研究摘要将 Saily 列为不经中国网络的一档。标为未核实。"
     }
   }
 }

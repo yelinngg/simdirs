@@ -4,8 +4,8 @@
     "zh": "CelcomDigi 紫卡预付卡"
   },
   "tagline": {
-    "en": "Malaysia's largest network: 95-country roaming passes, free SMS reception in China",
-    "zh": "马来西亚最大运营商：95国漫游包，中国漫游免费收短信"
+    "en": "Malaysia's biggest network: 95-country roaming passes, free SMS reception in China",
+    "zh": "马来西亚最大的网络：95 国漫游包，在中国免费收短信"
   },
   "description": {
     "en": "CelcomDigi prepaid (the classic \"purple SIM\") runs on Malaysia's largest merged Celcom-Digi network. The 30-Day Unlimited roaming pass (3GB daily high-speed + unlimited 1Mbps) covers 95 countries including China, Hong Kong, Japan, Korea, US and UK at RM118 on postpaid — but prepaid is split (effective 2026-05-21): RM118 covers 76 countries, and China sits in a 5-country RM148 tier (Brunei, China, Oman, Turkey, UAE). Receiving SMS while roaming in mainland China is free with zero balance — its core keep-alive value. Since the 2022-2023 merger, everything moved to celcomdigi.com, the CelcomDigi app, and *118#/*124# USSD menus.",
@@ -24,9 +24,18 @@
   ],
   "coverage": 95,
   "plansFrom": 6,
-  "dataFrom": "3GB/day roaming pass",
-  "validity": "50 days grace after credit expiry",
-  "network": "CelcomDigi (merged Celcom+Digi, 4G/5G)",
+  "dataFrom": {
+    "en": "3GB/day roaming pass",
+    "zh": "3GB/天 漫游通行证"
+  },
+  "validity": {
+    "en": "50 days grace after credit expiry",
+    "zh": "余额过期后 50 天宽限"
+  },
+  "network": {
+    "en": "CelcomDigi (merged Celcom+Digi, 4G/5G)",
+    "zh": "CelcomDigi（Celcom 与 Digi 合并，4G/5G）"
+  },
   "device": "physical",
   "hotspot": true,
   "rating": 4.1,
@@ -214,7 +223,7 @@
   "ipProfile": {
     "country": {
       "en": "MY (Malaysia)",
-      "zh": "MY (Malaysia)"
+      "zh": "马来西亚（MY）"
     },
     "type": "mobile",
     "confidence": "high",

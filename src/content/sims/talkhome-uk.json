@@ -4,8 +4,8 @@
     "zh": "TalkHome Mobile 英国"
   },
   "tagline": {
-    "en": "EE MVNO — £5/month Starter Max 12 (7GB) on a 12-month contract",
-    "zh": "EE虚商——5英镑/月的12个月合约套餐（7GB）"
+    "en": "£5 a month for 7GB on EE, on a 12-month contract",
+    "zh": "EE 网络，5 镑 7GB 月付，需签 12 个月"
   },
   "description": {
     "en": "TalkHome Mobile is an EE MVNO owned by Nowtel Distribution. The headline £5/7GB 'Starter Max 12' is £5 per month on a 12-month contract (£60/year) — not a one-off purchase with 12-month validity. A true 30-day PAYG route exists at £5 (Starter, 4GB). Prices on 12-month plans are fixed until 2027.",
@@ -24,9 +24,18 @@
   ],
   "coverage": 1,
   "plansFrom": 5,
-  "dataFrom": "7GB",
-  "validity": "12-month contract (monthly billing)",
-  "network": "EE (4G/5G)",
+  "dataFrom": {
+    "en": "7GB",
+    "zh": "7GB"
+  },
+  "validity": {
+    "en": "12-month contract (monthly billing)",
+    "zh": "12 个月合约，按月扣费"
+  },
+  "network": {
+    "en": "EE (4G/5G)",
+    "zh": "EE (4G/5G)"
+  },
   "device": "esim",
   "hotspot": true,
   "rating": 3.5,
@@ -100,13 +109,13 @@
   "ipProfile": {
     "country": {
       "en": "GB (presumed UK exit when roaming, home-routed via EE; not directly tested)",
-      "zh": "GB (presumed UK exit when roaming, home-routed via EE; not directly tested)"
+      "zh": "英国 GB（推测漫游时仍从英国出口，经 EE 回传；未直接实测）"
     },
     "type": "mobile",
     "confidence": "unverified",
     "note": {
       "en": "EE UK MVNO. EE's own community has verified posts that EE SIMs keep a UK EE IP while roaming (traffic routed through EE's UK core), but no direct Talk Home Mobile IP test was found — inference from host network only, marked unverified.",
-      "zh": "EE 英国网 MVNO。EE 官方社区已验证帖确认 EE 卡漫游保持英国 EE IP（流量经 EE 英国核心网路由），但未找到 Talk Home 卡的直接实测，属母网推断，标 unverified。"
+      "zh": "EE 英国网 MVNO。EE 官方社区已验证帖确认 EE 卡漫游保持英国 EE IP（流量经 EE 英国核心网路由），但未找到 Talk Home 卡的直接实测，属母网推断，标为未核实。"
     }
   }
 }

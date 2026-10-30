@@ -15,9 +15,11 @@ const sims = defineCollection({
     regions: z.array(z.enum(REGION_KEYS)).min(1),
     coverage: z.number().int().min(0),
     plansFrom: z.number().min(0),
-    dataFrom: z.string(),
-    validity: z.string(),
-    network: z.string(),
+    // These three read as sentences on the cards, so they need a Chinese version;
+    // short unit values ("1GB") simply repeat the English string.
+    dataFrom: localized(z.string()),
+    validity: localized(z.string()),
+    network: localized(z.string()),
     device: z.enum(['esim', 'physical', 'both']),
     hotspot: z.boolean(),
     rating: z.number().min(0).max(5),

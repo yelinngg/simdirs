@@ -4,8 +4,8 @@
     "zh": "Lycamobile 英国"
   },
   "tagline": {
-    "en": "Global MVNO on O2/EE in the UK — £10 top-up covers ~90 days (credit expires at 90)",
-    "zh": "全球性虚商（英国走O2/EE）——充10镑约覆盖90天（余额90天过期）"
+    "en": "£10 covers about 90 days, and the credit expires on day 90",
+    "zh": "充 10 镑顶约 90 天，余额第 90 天过期"
   },
   "description": {
     "en": "Lycamobile is a UK-headquartered global MVNO active in 60 countries; in the UK it runs mainly on O2 and EE networks. Order online and pick eSIM at checkout; after 90 days without a call, message, data use or top-up Lyca sends a warning, and the number is deactivated and reallocated after a further 30-day grace period (minimum top-up £10; credit itself expires 90 days from the top-up date). No long-term contract — cancel or change anytime; voucher top-ups supported.",
@@ -24,9 +24,18 @@
   ],
   "coverage": 1,
   "plansFrom": 10,
-  "dataFrom": "Pay per use",
-  "validity": "90 days + 30-day grace (credit expires 90 days from top-up)",
-  "network": "O2 / EE (4G)",
+  "dataFrom": {
+    "en": "Pay per use",
+    "zh": "按次计费"
+  },
+  "validity": {
+    "en": "90 days + 30-day grace (credit expires 90 days from top-up)",
+    "zh": "90 天，另加 30 天宽限（余额自充值起 90 天过期）"
+  },
+  "network": {
+    "en": "O2 / EE (4G)",
+    "zh": "O2 / EE（4G）"
+  },
   "device": "both",
   "hotspot": true,
   "rating": 3.4,
@@ -170,13 +179,13 @@
   "ipProfile": {
     "country": {
       "en": "non-UK when roaming (Czech Republic reported by user in Portugal); GB in UK (EE host network)",
-      "zh": "non-UK when roaming (Czech Republic reported by user in Portugal); GB in UK (EE host network)"
+      "zh": "漫游时非英国（有用户在葡萄牙落在捷克）；在英国为 GB（EE 承载网）"
     },
     "type": "mobile",
     "confidence": "unverified",
     "note": {
       "en": "Now an MVNO on EE UK. A single ISPreview forum user reported that Lyca roaming in Portugal showed a Czech Republic IP on whatismyip via a non-standard APN — suggests Lyca breaks out through its own/international core rather than a UK IP. Single user report, marked unverified.",
-      "zh": "现为 EE 英国网 MVNO。ISPreview 单一用户报告：Lyca 在葡萄牙漫游时 whatismyip 显示捷克 IP（走非标准 APN），提示经 Lyca 自有/国际核心网出口而非英国。仅单用户报告，标 unverified。"
+      "zh": "现为 EE 英国网 MVNO。ISPreview 单一用户报告：Lyca 在葡萄牙漫游时 whatismyip 显示捷克 IP（走非标准 APN），提示经 Lyca 自有/国际核心网出口而非英国。仅单用户报告，标为未核实。"
     }
   }
 }

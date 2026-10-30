@@ -34,12 +34,12 @@ tags: [esim, ip, 教程]
 
 ## 目录里的典型案例
 
-- [Airalo](/zh/sims/airalo)——漫游架构；出口常见新加坡、法国或美国，且多落在主机商网络（机房 IP，学术测量已核实）
-- [Holafly](/zh/sims/holafly)——官方 FAQ 承认外国 IP；社区报告部分套餐落地新加坡
-- [giffgaff](/zh/sims/giffgaff)、[VOXI](/zh/sims/voxi)、[Lebara](/zh/sims/lebara-uk)——英国虚商，流量归国路由：漫游时出口仍是英国移动 IP
-- [CMLink UK](/zh/sims/cmlink-uk)——英国用英国移动 IP；社区报告在中国大陆漫游时经香港出口
-- [eSIM.GG](/zh/sims/esim-gg)——爱沙尼亚移动出口；社区报告免费促销卡落地法国 IP
-- [Hotlink](/zh/sims/hotlink)——真马来西亚移动 IP（Maxis 网络），社区实测 Speedtest 佐证
+- [Airalo](/zh/sims/airalo/)——漫游架构；出口常见新加坡、法国或美国，且多落在主机商网络（机房 IP，学术测量已核实）
+- [Holafly](/zh/sims/holafly/)——官方 FAQ 承认外国 IP；社区报告部分套餐落地新加坡
+- [giffgaff](/zh/sims/giffgaff/)、[VOXI](/zh/sims/voxi/)、[Lebara](/zh/sims/lebara-uk/)——英国虚商，流量归国路由：漫游时出口仍是英国移动 IP
+- [CMLink UK](/zh/sims/cmlink-uk/)——英国用英国移动 IP；社区报告在中国大陆漫游时经香港出口
+- [eSIM.GG](/zh/sims/esim-gg/)——爱沙尼亚移动出口；社区报告免费促销卡落地法国 IP
+- [Hotlink](/zh/sims/hotlink/)——真马来西亚移动 IP（Maxis 网络），社区实测 Speedtest 佐证
 
 ## 逐品牌：各家 eSIM 的 IP 落地在哪？
 

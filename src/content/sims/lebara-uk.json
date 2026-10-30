@@ -4,8 +4,8 @@
     "zh": "Lebara 英国"
   },
   "tagline": {
-    "en": "Vodafone-based UK MVNO — £5 top-up per 90 days, Wi-Fi Calling",
-    "zh": "Vodafone网络英国虚商——充5镑延90天，支持Wi-Fi Calling"
+    "en": "£5 every 90 days on Vodafone, Wi-Fi Calling included",
+    "zh": "Vodafone 网络，90 天充 5 镑，支持 Wi-Fi Calling"
   },
   "description": {
     "en": "Lebara is an international MVNO running on Vodafone UK's network. Order eSIM directly on the official site; after 90 consecutive days without top-up or chargeable usage you lose any remaining balance, while the number itself is terminated only after a further 365 days of inactivity — cheap per event but a 2x/year cadence to protect your credit. Wi-Fi Calling supported; a China-roaming data bundle was briefly offered and then withdrawn.",
@@ -24,9 +24,18 @@
   ],
   "coverage": 1,
   "plansFrom": 5,
-  "dataFrom": "Pay per use",
-  "validity": "90 days per activity (credit expiry; number terminated after 365 more days)",
-  "network": "Vodafone (4G/5G)",
+  "dataFrom": {
+    "en": "Pay per use",
+    "zh": "按次计费"
+  },
+  "validity": {
+    "en": "90 days per activity (credit expiry; number terminated after 365 more days)",
+    "zh": "每次使用 90 天（余额过期后再过 365 天销号）"
+  },
+  "network": {
+    "en": "Vodafone (4G/5G)",
+    "zh": "Vodafone (4G/5G)"
+  },
   "device": "esim",
   "hotspot": true,
   "rating": 3.6,
@@ -98,7 +107,7 @@
   "ipProfile": {
     "country": {
       "en": "unknown (Lebara's own blog claims local exit in visited country; Vodafone home-routing suggests UK)",
-      "zh": "unknown (Lebara's own blog claims local exit in visited country; Vodafone home-routing suggests UK)"
+      "zh": "未知（Lebara 自家博客称在访问国本地出口；按其 Vodafone 归属地架构，实际多为英国）"
     },
     "type": "mobile",
     "confidence": "low",

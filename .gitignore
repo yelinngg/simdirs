@@ -25,3 +25,7 @@ pnpm-debug.log*
 
 # codesandbox workspace config
 .codesandbox/
+
+# local agent workspace (notes, scratch screenshots)
+.workbuddy/
+*.local.log

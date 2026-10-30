@@ -4,8 +4,8 @@
     "zh": "Drimsim"
   },
   "tagline": {
-    "en": "One SIM that works everywhere, pay per MB",
-    "zh": "一张卡走全球，按流量计费"
+    "en": "One SIM, billed by the megabyte, no plan to pick",
+    "zh": "一张卡按 MB 计费，不用挑套餐"
   },
   "description": {
     "en": "Drimsim takes a different approach: one physical SIM or eSIM that works in 200+ countries with pure pay-per-MB pricing and no bundled plans. Great for multi-country trips and light users who only need messaging and navigation.",
@@ -30,12 +30,21 @@
   ],
   "coverage": 200,
   "plansFrom": 8,
-  "dataFrom": "Pay per MB",
-  "validity": "No expiry",
-  "network": "4G/5G",
+  "dataFrom": {
+    "en": "Pay per MB",
+    "zh": "按 MB 计费"
+  },
+  "validity": {
+    "en": "No expiry",
+    "zh": "不过期"
+  },
+  "network": {
+    "en": "4G/5G",
+    "zh": "4G/5G"
+  },
   "device": "both",
   "hotspot": true,
-  "rating": 4.0,
+  "rating": 4,
   "website": "https://drimsim.com",
   "features": {
     "en": [
@@ -87,13 +96,13 @@
   "ipProfile": {
     "country": {
       "en": "unknown",
-      "zh": "unknown"
+      "zh": "未知"
     },
     "type": "unknown",
     "confidence": "unverified",
     "note": {
       "en": "No public documentation or credible user reports found on Drimsim's exit-IP country or IP type (English/Russian searches both empty). Honest unknown.",
-      "zh": "中英文（含俄文关键词）检索均未找到 Drimsim 出口 IP 国家或性质的公开资料。诚实标注 unknown/unverified。"
+      "zh": "中英文（含俄文关键词）检索均未找到 Drimsim 出口 IP 国家或性质的公开资料。诚实标注 未知/未核实。"
     }
   }
 }

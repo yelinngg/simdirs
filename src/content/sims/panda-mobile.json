@@ -4,8 +4,8 @@
     "zh": "熊猫移动（美国）"
   },
   "tagline": {
-    "en": "US-number MVNO for Chinese in America — student $1 first month, works in China",
-    "zh": "面向在美华人的美国号虚商：学生认证首月1美元，中国可用"
+    "en": "A US number for people in America: $1 first month with student ID",
+    "zh": "在美华人的美国号码，学生认证首月 1 美元"
   },
   "description": {
     "en": "Panda Mobile (pandamobile.com) is a US MVNO advertising \"the nation's largest 5G network\" (consistent with T-Mobile, unnamed officially) with eSIM/physical SIM, no SSN or credit check. Plans Lite $15 / Starter $25 / Unlimited $35 per month; OnePool data shared between US and China (China capped 5GB/mo on promos). WiFi Calling gives free calls/texts while in China; US number issued before arrival. Student verification unlocks $1 first month promos.",
@@ -25,9 +25,18 @@
   ],
   "coverage": 2,
   "plansFrom": 1,
-  "dataFrom": "Varies by plan",
-  "validity": "Monthly rolling",
-  "network": "US largest 5G network (unnamed; T-Mobile-consistent)",
+  "dataFrom": {
+    "en": "Varies by plan",
+    "zh": "按套餐而定"
+  },
+  "validity": {
+    "en": "Monthly rolling",
+    "zh": "按月滚动"
+  },
+  "network": {
+    "en": "US largest 5G network (unnamed; T-Mobile-consistent)",
+    "zh": "美国最大 5G 网络（未公开；与 T-Mobile 吻合）"
+  },
   "device": "both",
   "hotspot": true,
   "rating": 3.9,

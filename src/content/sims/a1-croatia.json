@@ -4,8 +4,8 @@
     "zh": "克罗地亚 A1 预付 eSIM"
   },
   "tagline": {
-    "en": "EUR 3 eSIM with credit back: a +385 number for low-frequency backup use, keep-alive at ~EUR 2 per cycle",
-    "zh": "EUR3 开卡还返余额：+385 备用号，每周期约 EUR2 保号"
+    "en": "+385 number for backup use: €3 to start, about €2 a cycle to keep",
+    "zh": "+385 备用号，3 欧元开卡，每周期约 2 欧元保号"
   },
   "description": {
     "en": "A1 Hrvatska (A1 Croatia) sells a prepaid eSIM with a new +385 number entirely online: EUR 3 on the SIM-promo page, QR code and number delivered by email, and the EUR 3 returned as account credit. First activation grants 180 days of full service; later top-ups extend validity by amount — 92 days for EUR 2-14, 120 days for EUR 15-29, 180 days for EUR 30-49, and 360 days for EUR 50-100 (official T&C, re-confirmed 2026-09) — e.g. 92 days per EUR 2, and after expiry a 270-day recharge window keeps the number reachable for calls and SMS. No ID upload was observed in practice, making it a popular low-cost backup number for overseas service sign-ups.",
@@ -24,9 +24,18 @@
   ],
   "coverage": 1,
   "plansFrom": 3,
-  "dataFrom": "pay-as-you-go data (no bundled GB)",
-  "validity": "180d on activation; +92d per EUR2 (120d/EUR15-29, 180d/EUR30-49, 360d/EUR50-100); 270d recharge window",
-  "network": "A1 Hrvatska (own national network)",
+  "dataFrom": {
+    "en": "pay-as-you-go data (no bundled GB)",
+    "zh": "按量付费，无自带流量"
+  },
+  "validity": {
+    "en": "180d on activation; +92d per EUR2 (120d/EUR15-29, 180d/EUR30-49, 360d/EUR50-100); 270d recharge window",
+    "zh": "激活 180 天；每充 2 欧元 +92 天（15–29 欧元 120 天、30–49 欧元 180 天、50–100 欧元 360 天）；充值窗口 270 天"
+  },
+  "network": {
+    "en": "A1 Hrvatska (own national network)",
+    "zh": "A1 Hrvatska（自有全国网络）"
+  },
   "device": "esim",
   "hotspot": true,
   "rating": 3.8,

@@ -4,8 +4,8 @@
     "zh": "Cellfie（格鲁吉亚）"
   },
   "tagline": {
-    "en": "Budget Georgian eSIM fine for local use — but roaming SMS reception fails outside the MyCellfie app",
-    "zh": "格鲁吉亚本地用的廉价 eSIM——漫游后除官方 App 验证码外短信基本收不到"
+    "en": "Cheap Georgian eSIM for local use; SMS reception outside the app usually fails",
+    "zh": "格鲁吉亚本地卡，够便宜；漫游后除 App 内验证码外，短信基本收不到"
   },
   "description": {
     "en": "Cellfie (rebranded from MagtiCom's consumer line in 2023, \"Cellfie Mobile\" LLC, Tbilisi) is one of Georgia's three mobile operators, alongside Magti and Silknet/Geocell. Prepaid eSIM numbers are cheap to start (~1 GEL top-up activates service) with local bundles from 7 GEL/month. However, field reports and Cellfie's own terms show a harsh validity model — 90 days of inactivity triggers a 0.50 GEL daily subscription fee until the balance hits zero, and the line drops as soon as it does — plus roaming behavior that makes it unusable as an overseas SMS-receiving backup number.",
@@ -24,9 +24,18 @@
   ],
   "coverage": 1,
   "plansFrom": 3,
-  "dataFrom": "1.5 GB/month (Mini, 7 GEL)",
-  "validity": "90d activity rule, then 0.50 GEL/day fee until zero balance",
-  "network": "Cellfie Mobile (own network, ex-MagtiCom)",
+  "dataFrom": {
+    "en": "1.5 GB/month (Mini, 7 GEL)",
+    "zh": "1.5GB/月（Mini，7 GEL）"
+  },
+  "validity": {
+    "en": "90d activity rule, then 0.50 GEL/day fee until zero balance",
+    "zh": "90 天使用规则，之后按 0.50 GEL/天扣费直至余额为零"
+  },
+  "network": {
+    "en": "Cellfie Mobile (own network, ex-MagtiCom)",
+    "zh": "Cellfie Mobile（自有网络，原 MagtiCom）"
+  },
   "device": "esim",
   "hotspot": true,
   "rating": 2.8,

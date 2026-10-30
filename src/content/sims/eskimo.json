@@ -4,8 +4,8 @@
     "zh": "Eskimo"
   },
   "tagline": {
-    "en": "Singapore-based eSIM with never-expiring data — free 250MB global trial",
-    "zh": "新加坡eSIM：流量永不过期，250MB全球免费试用"
+    "en": "Data that never expires, plus 250MB free to try",
+    "zh": "流量不过期，另有 250MB 免费试用"
   },
   "description": {
     "en": "Eskimo (Datapro Technologies Pte Ltd, Singapore) sells eSIMs whose fixed-plan data never expires — 2-year validity from first connect, leftover data extends 2 more years on any new purchase. Official prices (2026-09): Singapore 1GB $3.90 (promo $2.54), 10GB $17.90 (promo $11.64), Global 126-country 10GB $38.90/$23.90. New users get a free 250MB Global eSIM. Rides Singtel 4G/5G in Singapore.",
@@ -25,9 +25,18 @@
   ],
   "coverage": 126,
   "plansFrom": 2.54,
-  "dataFrom": "1GB",
-  "validity": "2 years from first connect, extendable",
-  "network": "Singtel 4G/5G (Singapore)",
+  "dataFrom": {
+    "en": "1GB",
+    "zh": "1GB"
+  },
+  "validity": {
+    "en": "2 years from first connect, extendable",
+    "zh": "首次连接起 2 年，可延长"
+  },
+  "network": {
+    "en": "Singtel 4G/5G (Singapore)",
+    "zh": "Singtel 4G/5G（新加坡）"
+  },
   "device": "esim",
   "hotspot": true,
   "rating": 3.9,
@@ -117,7 +126,7 @@
   "ipProfile": {
     "country": {
       "en": "Singapore (community consensus; operator Datapro Technologies is Singapore-based)",
-      "zh": "Singapore (community consensus; operator Datapro Technologies is Singapore-based)"
+      "zh": "新加坡（社区共识；运营方 Datapro Technologies 在新加坡）"
     },
     "type": "unknown",
     "confidence": "low",

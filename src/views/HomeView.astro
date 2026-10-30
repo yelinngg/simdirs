@@ -13,12 +13,25 @@ interface Props {
 const { lang } = Astro.props;
 const tr = t(lang);
 
+const FEATURED_COUNT = 9;
 const [featured, latestNews, allSims] = await Promise.all([
-  getFeaturedSims(6),
+  getFeaturedSims(FEATURED_COUNT),
   getNews(lang),
   getAllSims(),
 ]);
 const news = latestNews.slice(0, 3);
+
+// Hero eyebrow states the two things a directory can be held to: how many
+// providers are covered and when the newest one was last checked.
+const lastChecked = allSims.reduce(
+  (max, s) => (s.data.updatedAt > max ? s.data.updatedAt : max),
+  new Date(0),
+);
+const checkedLabel = new Intl.DateTimeFormat(lang === 'zh' ? 'zh-CN' : 'en-US', {
+  year: 'numeric',
+  month: 'short',
+}).format(lastChecked);
+
 const stats = [
   { value: allSims.length, label: tr.home.stats.providers },
   { value: new Set(allSims.flatMap((s) => s.data.regions)).size, label: tr.home.stats.regions },
@@ -27,35 +40,42 @@ const stats = [
 ---
 
 <BaseLayout lang={lang} title={tr.seo.home.title} description={tr.seo.home.description} path="/">
-  <section class="bg-gradient-to-br from-indigo-700 via-indigo-600 to-sky-500 text-white">
-    <div class="mx-auto max-w-6xl px-4 py-20 text-center sm:py-28">
-      <h1 class="mx-auto max-w-3xl text-4xl font-extrabold leading-tight tracking-tight sm:text-5xl">
+  <section class="border-b border-slate-200 bg-white">
+    <div class="mx-auto max-w-6xl px-4 py-14 sm:py-20">
+      <p class="text-xs font-semibold uppercase tracking-[0.16em] text-indigo-600">
+        {allSims.length}{lang === 'zh' ? ' 家供应商' : ' providers'} · {lang === 'zh' ? '最近核对 ' : 'checked '}{checkedLabel}
+      </p>
+
+      <h1 class="mt-4 max-w-3xl text-4xl font-extrabold leading-[1.12] tracking-tight text-slate-900 sm:text-[3.25rem]">
         {tr.hero.title}
       </h1>
-      <p class="mx-auto mt-5 max-w-2xl text-base leading-relaxed text-indigo-100 sm:text-lg">
+
+      <p class="mt-5 max-w-2xl text-base leading-relaxed text-slate-600 sm:text-lg">
         {tr.hero.subtitle}
       </p>
-      <div class="mt-9 flex flex-wrap items-center justify-center gap-3">
+
+      <div class="mt-8 flex flex-wrap items-center gap-x-6 gap-y-3">
         <a
           href={localePath(lang, '/sims')}
-          class="rounded-xl bg-white px-6 py-3 text-sm font-bold text-indigo-700 shadow-lg transition hover:bg-indigo-50"
+          class="rounded-lg bg-slate-900 px-5 py-3 text-sm font-semibold text-white transition hover:bg-slate-700"
         >
           {tr.hero.browse}
         </a>
         <a
           href={localePath(lang, '/news')}
-          class="rounded-xl border border-white/40 px-6 py-3 text-sm font-bold text-white transition hover:bg-white/10"
+          class="group inline-flex items-center gap-1.5 text-sm font-semibold text-slate-700 transition hover:text-indigo-600"
         >
           {tr.hero.news}
+          <span class="transition group-hover:translate-x-0.5">→</span>
         </a>
       </div>
 
-      <dl class="mx-auto mt-14 grid max-w-2xl grid-cols-3 gap-4">
+      <dl class="mt-12 grid max-w-2xl grid-cols-3 divide-x divide-slate-200 border-y border-slate-200">
         {
-          stats.map((s) => (
-            <div class="rounded-2xl bg-white/10 px-3 py-4 backdrop-blur">
-              <dd class="text-2xl font-extrabold sm:text-3xl">{s.value}</dd>
-              <dt class="mt-1 text-xs text-indigo-100 sm:text-sm">{s.label}</dt>
+          stats.map((s, i) => (
+            <div class:list={['py-4', i === 0 ? 'pr-4' : 'px-4', i === stats.length - 1 ? 'pr-0' : '']}>
+              <dd class="text-2xl font-extrabold tabular-nums tracking-tight text-slate-900 sm:text-3xl">{s.value}</dd>
+              <dt class="mt-0.5 text-xs text-slate-500">{s.label}</dt>
             </div>
           ))
         }
@@ -63,30 +83,30 @@ const stats = [
     </div>
   </section>
 
-  <section class="mx-auto max-w-6xl px-4 py-16">
-    <div class="flex items-end justify-between gap-4">
+  <section class="mx-auto max-w-6xl px-4 pt-14 pb-16">
+    <div class="flex flex-wrap items-end justify-between gap-x-6 gap-y-2 border-b border-slate-200 pb-4">
       <div>
-        <h2 class="text-2xl font-extrabold tracking-tight text-slate-900 sm:text-3xl">{tr.home.featured}</h2>
-        <p class="mt-1 text-sm text-slate-500">{tr.home.featuredSub}</p>
+        <h2 class="text-xl font-bold tracking-tight text-slate-900 sm:text-2xl">{tr.home.featured}</h2>
+        <p class="mt-1.5 max-w-xl text-sm leading-relaxed text-slate-500">{tr.home.featuredSub}</p>
       </div>
       <a href={localePath(lang, '/sims')} class="shrink-0 text-sm font-semibold text-indigo-600 hover:text-indigo-700">
         {tr.home.viewAll} →
       </a>
     </div>
-    <div class="mt-8 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+    <div class="mt-7 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
       {featured.map((sim) => <SimCard sim={sim} lang={lang} />)}
     </div>
   </section>
 
   <section class="border-t border-slate-200 bg-white">
-    <div class="mx-auto max-w-6xl px-4 py-16">
-      <div class="flex items-end justify-between gap-4">
-        <h2 class="text-2xl font-extrabold tracking-tight text-slate-900 sm:text-3xl">{tr.home.latestNews}</h2>
+    <div class="mx-auto max-w-6xl px-4 py-14">
+      <div class="flex flex-wrap items-end justify-between gap-x-6 gap-y-2 border-b border-slate-200 pb-4">
+        <h2 class="text-xl font-bold tracking-tight text-slate-900 sm:text-2xl">{tr.home.latestNews}</h2>
         <a href={localePath(lang, '/news')} class="shrink-0 text-sm font-semibold text-indigo-600 hover:text-indigo-700">
           {tr.home.viewAll} →
         </a>
       </div>
-      <div class="mt-8 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+      <div class="mt-7 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
         {news.map((entry) => <NewsCard entry={entry} lang={lang} />)}
       </div>
     </div>

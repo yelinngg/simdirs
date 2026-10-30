@@ -4,8 +4,8 @@
     "zh": "iD Mobile"
   },
   "tagline": {
-    "en": "Three-powered UK MVNO — £6 PAYG eSIM, keep alive with one event per 90 days",
-    "zh": "走Three网络的英国虚商——6英镑Paygo eSIM，每90天一次使用即保号"
+    "en": "£6 PAYG eSIM on Three, one use every 90 days keeps it alive",
+    "zh": "Three 网络的 6 镑 Paygo，90 天用一次就保号"
   },
   "description": {
     "en": "iD Mobile is a London-based MVNO (founded 2014) running on Three's network, known for flexible, value plans. Its £6 pay-as-you-go eSIM bundles unlimited calls and texts with 1GB of data; the SIM expires after 90 days of inactivity (per the official FAQ), and the T&C adds automatic disconnection after 4 months with no chargeable service, top-up or bundle purchase.",
@@ -24,9 +24,18 @@
   ],
   "coverage": 1,
   "plansFrom": 6,
-  "dataFrom": "1GB",
-  "validity": "90 days per activity",
-  "network": "Three (4G/5G)",
+  "dataFrom": {
+    "en": "1GB",
+    "zh": "1GB"
+  },
+  "validity": {
+    "en": "90 days per activity",
+    "zh": "每次使用 90 天"
+  },
+  "network": {
+    "en": "Three (4G/5G)",
+    "zh": "Three (4G/5G)"
+  },
   "device": "esim",
   "hotspot": true,
   "rating": 3.6,
@@ -98,7 +107,7 @@
   "ipProfile": {
     "country": {
       "en": "GB (UK exit when roaming, home-routed via Three)",
-      "zh": "GB (UK exit when roaming, home-routed via Three)"
+      "zh": "英国 GB（漫游时仍从英国出口，经 Three 回传）"
     },
     "type": "mobile",
     "confidence": "medium",

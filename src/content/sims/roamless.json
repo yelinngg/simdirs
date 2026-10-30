@@ -4,8 +4,8 @@
     "zh": "Roamless"
   },
   "tagline": {
-    "en": "One global eSIM, pay-as-you-go credits that never expire — free $1.25 start",
-    "zh": "一张全球eSIM按量付费，余额永不过期，送1.25美元"
+    "en": "Pay-as-you-go credit that never expires, $1.25 free to start",
+    "zh": "按量付费，余额不过期，先送 1.25 美元"
   },
   "description": {
     "en": "Roamless issues a single global eSIM (200+ destinations) with two billing models: Flex pay-as-you-go credits (never expire, from ~$0.58–2.45/GB by region) and 30-day fixed plans. Every new user gets $1.25 credits (~500MB) free; a free 500MB Singapore 30-day plan is listed. Singapore rides SingTel 3G/4G, unlimited hotspot.",
@@ -24,9 +24,18 @@
   ],
   "coverage": 200,
   "plansFrom": 1.95,
-  "dataFrom": "500MB free / pay-as-you-go",
-  "validity": "Credits never expire; plans 30 days",
-  "network": "SingTel 3G/4G (Singapore)",
+  "dataFrom": {
+    "en": "500MB free / pay-as-you-go",
+    "zh": "送 500MB，之后按量付费"
+  },
+  "validity": {
+    "en": "Credits never expire; plans 30 days",
+    "zh": "余额不过期；套餐 30 天"
+  },
+  "network": {
+    "en": "SingTel 3G/4G (Singapore)",
+    "zh": "SingTel 3G/4G（新加坡）"
+  },
   "device": "esim",
   "hotspot": true,
   "rating": 3.8,
@@ -116,7 +125,7 @@
   "ipProfile": {
     "country": {
       "en": "varies (three regional breakouts: Europe/Belgium, USA, Singapore; auto-selected)",
-      "zh": "varies (three regional breakouts: Europe/Belgium, USA, Singapore; auto-selected)"
+      "zh": "不定（三个区域出口：欧洲/比利时、美国、新加坡，自动选择）"
     },
     "type": "unknown",
     "confidence": "medium",

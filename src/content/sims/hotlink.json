@@ -4,8 +4,8 @@
     "zh": "Hotlink 马来西亚"
   },
   "tagline": {
-    "en": "Malaysia's biggest carrier's prepaid brand — native MY number, passport KYC, China roaming data packs",
-    "zh": "马来西亚最大运营商预付费品牌——原生MY号码，护照实名，支持回国漫游流量包"
+    "en": "A Malaysian number, passport sign-up, roaming packs for China",
+    "zh": "马来西亚原生号码，护照实名，有回国流量包"
   },
   "description": {
     "en": "Hotlink is the prepaid brand of Maxis Berhad, Malaysia's largest mobile operator (launched 1999, own network — not an MVNO). Get the eSIM in-app for RM5 with passport KYC and a Malaysian address, top up RM20+ for signal, then buy roaming packs for China (e.g. RM100/40GB/30 days). Best keep-alive (per app): RM30 for 180 days with 30GB — about RM60/year. WhatsApp registration verified; Google SMS verification failed in testing.",
@@ -24,9 +24,18 @@
   ],
   "coverage": 1,
   "plansFrom": 5,
-  "dataFrom": "1GB roaming pack",
-  "validity": "180 days per RM30 pass",
-  "network": "Maxis (4G/5G, own network)",
+  "dataFrom": {
+    "en": "1GB roaming pack",
+    "zh": "1GB 漫游包"
+  },
+  "validity": {
+    "en": "180 days per RM30 pass",
+    "zh": "每张 RM30 通行证 180 天"
+  },
+  "network": {
+    "en": "Maxis (4G/5G, own network)",
+    "zh": "Maxis（自有网络，4G/5G）"
+  },
   "device": "esim",
   "hotspot": true,
   "rating": 3.9,
@@ -158,7 +167,7 @@
   "ipProfile": {
     "country": {
       "en": "MY (Malaysia)",
-      "zh": "MY (Malaysia)"
+      "zh": "马来西亚（MY）"
     },
     "type": "mobile",
     "confidence": "high",

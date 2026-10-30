@@ -4,19 +4,30 @@
     "zh": "红牛移动 Red Bull MOBILE Data"
   },
   "tagline": {
-    "en": "A1 Austria-powered travel eSIM: 100MB free base data plus a community-confirmed Austrian number",
-    "zh": "奥地利 A1 网络旅行 eSIM：官方送 100MB 流量，社区实测附带奥地利号码"
+    "en": "100MB of free base data, plus an Austrian number users keep reporting",
+    "zh": "官方送 100MB 流量，实测还带一个奥地利号码"
   },
   "description": {
     "en": "Red Bull MOBILE Data is an app-based travel eSIM operated by A1 Telekom Austria AG, covering 100+ countries with per-GB pricing (Europe from €2/GB, regional rates vary). Officially the line is data-only: new users get the first 100MB free, no basic fees, no subscription, and your existing number stays untouched. Community guides (2025-2026, multiple independent sources) discovered the practical bonus: installing the eSIM assigns an Austrian (+43) mobile number that receives registration and verification SMS, reportedly valid 365 days at no cost and without KYC — and promo codes (e.g. REDBULL1GBFREE, TRAVELDEALZ) stack a further 1GB for a combined ~1.1GB free allowance.",
     "zh": "红牛移动 Red Bull MOBILE Data 是 A1 Telekom Austria AG（奥地利 A1 电信）运营的 App 制旅行 eSIM，覆盖 100+ 国家，按 GB 计费（欧洲 €2/GB 起，区域价不同）。官方定位纯数据卡：新用户送 100MB、无基本费、不订阅、不影响现有号码。社区攻略（2025-2026，多个独立来源）发现了实用福利：安装 eSIM 后会分配一个奥地利（+43）手机号，可接收注册验证短信，社区口径 365 天免费有效、无需 KYC——配合兑换码（如 REDBULL1GBFREE、TRAVELDEALZ）再得 1GB，合计约 1.1GB 免费额度。"
   },
-  "regions": ["global"],
+  "regions": [
+    "global"
+  ],
   "coverage": 100,
   "plansFrom": 0,
-  "dataFrom": "100MB free base (+1GB via promo code)",
-  "validity": "eSIM valid ~365 days; base data 1 year, promo 1GB 30 days",
-  "network": "A1 Telekom Austria",
+  "dataFrom": {
+    "en": "100MB free base (+1GB via promo code)",
+    "zh": "基础送 100MB（优惠码可再加 1GB）"
+  },
+  "validity": {
+    "en": "eSIM valid ~365 days; base data 1 year, promo 1GB 30 days",
+    "zh": "eSIM 约 365 天有效；基础流量 1 年，促销 1GB 30 天"
+  },
+  "network": {
+    "en": "A1 Telekom Austria",
+    "zh": "A1 Telekom 奥地利"
+  },
   "device": "esim",
   "hotspot": false,
   "rating": 3.7,

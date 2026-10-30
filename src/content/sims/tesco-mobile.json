@@ -4,8 +4,8 @@
     "zh": "Tesco Mobile 英国"
   },
   "tagline": {
-    "en": "O2-based UK MVNO — 6-month activity keep-alive, eSIM only after physical-SIM conversion",
-    "zh": "O2网络英国虚商——每半年使用保号，eSIM须先实体卡再转换"
+    "en": "Any use every 6 months keeps it; eSIM needs a physical card first",
+    "zh": "半年用一次就保号；eSIM 要先有实体卡再转"
   },
   "description": {
     "en": "Tesco Mobile is a 50/50 JV between retailer Tesco and O2, running on O2's network (99% 4G population coverage, 5G supported) across the UK, Ireland, Slovakia and Czechia. Entry eSIM route: order a plan bundled with a physical SIM (PAYG Essentials 30-day bundles: £5/500MB, £10/10GB, £15/25GB, £20/50GB, £30/100GB), then convert to eSIM — the website does not support direct eSIM selection. Keep-alive: one usage record every 6 months. Keep-alive is a hard rule, not a perk: per Tesco Mobile's official terms, no usage for six months or more means disconnection and possible loss of the number and remaining credit.",
@@ -24,9 +24,18 @@
   ],
   "coverage": 1,
   "plansFrom": 5,
-  "dataFrom": "500MB",
-  "validity": "6 months per activity",
-  "network": "O2 (4G/5G)",
+  "dataFrom": {
+    "en": "500MB",
+    "zh": "500MB"
+  },
+  "validity": {
+    "en": "6 months per activity",
+    "zh": "每次使用 6 个月"
+  },
+  "network": {
+    "en": "O2 (4G/5G)",
+    "zh": "O2 (4G/5G)"
+  },
   "device": "both",
   "hotspot": true,
   "rating": 3.7,
@@ -98,7 +107,7 @@
   "ipProfile": {
     "country": {
       "en": "GB (UK exit when roaming, home-routed via O2)",
-      "zh": "GB (UK exit when roaming, home-routed via O2)"
+      "zh": "英国 GB（漫游时仍从英国出口，经 O2 回传）"
     },
     "type": "mobile",
     "confidence": "medium",

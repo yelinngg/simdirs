@@ -10,26 +10,26 @@ Registering for ChatGPT, Google, banks or overseas platforms often fails with a 
 
 ## Three buying rules
 
-1. **IP type matters more than the country code.** Risk engines score the combination of number country + IP country + IP type: an Estonian number behind a datacenter IP still gets rejected. Every card in the catalog carries an [IP exit profile](/news/esim-exit-ip-guide-2026) — residential, datacenter or mobile.
+1. **IP type matters more than the country code.** Risk engines score the combination of number country + IP country + IP type: an Estonian number behind a datacenter IP still gets rejected. Every card in the catalog carries an [IP exit profile](/news/esim-exit-ip-guide-2026/) — residential, datacenter or mobile.
 2. **Keep-alive cost decides whether the number is an asset or a subscription.** A €1 SIM that needs €5/month to stay alive costs more than an expensive card you top up once.
 3. **Receiving free ≠ sending free.** Most verification flows only receive, but some platforms send first — check both directions.
 
 ## By scenario
 
 **Scenario 1: long-term holding + platform registration (main route)**
-[eSIM.GG](/sims/esim-gg) Estonian +372: €2.99 for the number, zero monthly fee, free incoming SMS worldwide. Current keep-alive: any qualifying activity within 365 days (the operator has announced a move to balance-based keep-alive — re-check before long-term reliance). China data at €4.7/GB works but is pricey. Note the official page's number price excludes prepaid balance; the €0.5-credit version is a reseller listing.
+[eSIM.GG](/sims/esim-gg/) Estonian +372: €2.99 for the number, zero monthly fee, free incoming SMS worldwide. Current keep-alive: any qualifying activity within 365 days (the operator has announced a move to balance-based keep-alive — re-check before long-term reliance). China data at €4.7/GB works but is pricey. Note the official page's number price excludes prepaid balance; the €0.5-credit version is a reseller listing.
 
 **Scenario 2: zero-cost trial**
-[USIMS](/sims/usims): free eSIM for new users with 1GB in the USA/Europe plus permanent low-speed data in 200+ countries; community reports a French native IP on the free card (unverified). App-only, requires an international eSIM phone — China-market iPhones and 5ber/eSTK adapters are blocked.
+[USIMS](/sims/usims/): free eSIM for new users with 1GB in the USA/Europe plus permanent low-speed data in 200+ countries; community reports a French native IP on the free card (unverified). App-only, requires an international eSIM phone — China-market iPhones and 5ber/eSTK adapters are blocked.
 
 **Scenario 3: a UK +44 number**
-UK keep-alive cards by cost: [giffgaff](/sims/giffgaff) (~£0.60/year, one text per 180 days) > [VOXI](/sims/voxi) (£5/180 days, proactive reminders) > [CTExcel](/sims/ctexcel-uk) (free balance-check SMS renews the window, Chinese-community line with a Chinese secondary number). The UK advantage: **home routing means the exit is a genuine UK mobile IP wherever you roam** — number country and IP country always match, the strongest combination for verification. Full rules in the [UK keep-alive guide](/news/uk-sim-keep-alive-guide-2026).
+UK keep-alive cards by cost: [giffgaff](/sims/giffgaff/) (~£0.60/year, one text per 180 days) > [VOXI](/sims/voxi/) (£5/180 days, proactive reminders) > [CTExcel](/sims/ctexcel-uk/) (free balance-check SMS renews the window, Chinese-community line with a Chinese secondary number). The UK advantage: **home routing means the exit is a genuine UK mobile IP wherever you roam** — number country and IP country always match, the strongest combination for verification. Full rules in the [UK keep-alive guide](/news/uk-sim-keep-alive-guide-2026/).
 
 **Scenario 4: Asian numbers**
-[3HK DIY](/sims/3hk-diy) (Hong Kong +852, official local card, receives codes after real-name registration); [esim.cc](/sims/esimcc) (China-oriented data eSIM, community-reported Hong Kong landing); [CMLink UK](/sims/cmlink-uk) (UK number + Chinese secondary number for mainland SMS).
+[3HK DIY](/sims/3hk-diy/) (Hong Kong +852, official local card, receives codes after real-name registration); [esim.cc](/sims/esimcc/) (China-oriented data eSIM, community-reported Hong Kong landing); [CMLink UK](/sims/cmlink-uk/) (UK number + Chinese secondary number for mainland SMS).
 
 **Scenario 5: rare country codes**
-[cellfie](/sims/cellfie) (Georgia, own network, from 7 GEL/month); [Moldtelecom](/sims/moldtelecom) (one of the cheapest keep-alive numbers anywhere). Rare prefixes are less likely to be pre-flagged — but some platforms reject these countries outright, so check the platform's accepted list first.
+[cellfie](/sims/cellfie/) (Georgia, own network, from 7 GEL/month); [Moldtelecom](/sims/moldtelecom/) (one of the cheapest keep-alive numbers anywhere). Rare prefixes are less likely to be pre-flagged — but some platforms reject these countries outright, so check the platform's accepted list first.
 
 ## Pitfalls
 

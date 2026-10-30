@@ -4,29 +4,38 @@
     "zh": "giffgaff"
   },
   "tagline": {
-    "en": "UK MVNO on O2 — near-zero-cost UK number you can keep alive from China",
-    "zh": "依托O2网络的英国虚商——可在中国低成本保号的英国号码"
+    "en": "A UK number on O2 that costs pennies a year to keep",
+    "zh": "O2 网络的英国号，一年几毛钱就能养住"
   },
   "description": {
-    "en": "giffgaff is a UK MVNO running on O2's network. Order a free SIM, top up £10 to activate on Pay as you go, then swap to eSIM in the giffgaff app. Keep the number alive with any balance change (e.g. one £0.30 SMS) every 180 days; roaming in mainland China works out of the box.",
-    "zh": "giffgaff是英国知名虚商（O2全资子品牌），走O2基站网络。官网免费下单SIM卡，充10英镑激活Pay as you go，再在App内转eSIM。每180天内有任意一次余额变动（如发一条0.3镑短信）即可保号，首次激活充10镑（送5镑需好友推荐链接）；在中国大陆可直接漫游使用。"
+    "en": "giffgaff runs on O2 in the UK. Order a free SIM, top up £10 to switch on Pay as you go, then convert to eSIM inside the app. Any balance change keeps the number alive for another 180 days, and that can be a single £0.30 text. Roaming in mainland China works without extra setup.",
+    "zh": "giffgaff 在英国走 O2 网络。官网免费下单，充 10 英镑激活 Pay as you go，再在 App 内转成 eSIM。每 180 天只要余额有变动就能继续保号，发一条 0.3 镑短信也算。在中国大陆可以直接漫游。"
   },
   "details": {
     "en": "giffgaff is the classic choice for a low-cost UK number that keeps working while you live in mainland China.\n\nActivation: order the free SIM on the official site (note: giffgaff has stopped shipping physical SIMs to China — choose eSIM in the app instead), top up £10 with a Visa/Mastercard credit card and pick Pay as you go; the £5 joiner credit is the standard refer-a-friend reward and requires activating via a referral link (as of Sept 2026 — the August 2026 £10 \"Double Reward\" promo ended 31 Aug 2026). Number-keeping rule: any balance change within each 180-day window (a top-up or any charged usage — one £0.30 SMS is enough) resets the clock; miss it and the number is recycled with no refund. Converting a physical card to eSIM happens in the giffgaff app under SIM management and requires passing IMEI verification of your phone.\n\nIn mainland China the SIM roams with signal right after activation, supports Wi-Fi Calling, and data packs can be added on demand. No real-name ID is required for ordering. Watch-outs: the £5 referral credit is forfeited if the 180-day rule is missed; customer service is community/app based with no physical stores.\n\nNew since July 2026 — roaming fair-use crackdown: terms clause 2.9 permits use in the EU and selected destinations only for periodic travel (holidays, short breaks). Since late July 2026 giffgaff has been bulk-disconnecting SIMs used for long-term roaming outside the UK under this clause (\"We're disconnecting your service\" notices). Long-term China-based use therefore carries a real disconnection risk — do not rely on giffgaff as your only number.",
     "zh": "giffgaff 是「人在中国大陆、低成本持有英国号码」的经典选择：走 O2 网络，下单无需实名，对中国用户的主要门槛只有支付方式一条。\n\n激活流程：官网免费下单 SIM（注意：官方已停止向中国邮寄实体卡，建议直接在 App 内申请 eSIM），用 Visa/Mastercard 信用卡充值 10 英镑并选择 Pay as you go，首充 10 镑（5 镑赠送需通过好友推荐链接激活——2026 年 9 月标准为推荐返 5 镑，8 月「双倍奖励」送 10 镑活动已于 8 月 31 日截止）。实体卡转 eSIM 在 giffgaff App 的 SIM 管理里操作，需通过手机 IMEI 验证后才会下发 eSIM 配置文件。\n\n保号规则：每个 180 天窗口内账户发生任意一次余额变动（充值或计费消费均可，发一条 0.3 镑短信就够了）即视为活跃、窗口重置；错过窗口号码会被回收，且余额不予退还。\n\n在中国大陆激活后即有漫游信号，支持 Wi-Fi Calling（收短信验证码稳定），流量包可按需随时叠加。注意两点：错过 180 天规则时赠送话费与余额都不退；客服以社区论坛和 App 在线为主，没有实体门店，出问题只能在线解决。\n\n2026 年 7 月起的新风险——漫游公平使用收紧：条款 2.9 规定欧盟及指定地区漫游仅限周期性旅行（度假、短途）。2026 年 7 月底起，giffgaff 已依该条款批量断开长期在英国境外漫游的卡（「We're disconnecting your service」通知）。长期在中国大陆使用存在真实的被断网风险，不要把 giffgaff 当作唯一号码依赖。"
   },
   "bestFor": {
-    "en": "Cloud residents who want a UK number for registrations, receiving SMS and light roaming use at near-zero annual cost.",
-    "zh": "需要英国号码注册账号、收短信、轻度漫游使用的云居民，年度持有成本接近于零。"
+    "en": "Anyone who needs a UK number to register accounts and receive texts, and wants to spend pennies a year keeping it.",
+    "zh": "需要英国号码注册账号、收短信，且希望一年只花几毛钱养着的人。"
   },
   "regions": [
     "europe"
   ],
   "coverage": 1,
   "plansFrom": 10,
-  "dataFrom": "Pay per use",
-  "validity": "180 days per activity",
-  "network": "O2 (4G)",
+  "dataFrom": {
+    "en": "Pay per use",
+    "zh": "按次计费"
+  },
+  "validity": {
+    "en": "180 days per activity",
+    "zh": "每次使用 180 天"
+  },
+  "network": {
+    "en": "O2 (4G)",
+    "zh": "O2 (4G)"
+  },
   "device": "esim",
   "hotspot": true,
   "rating": 4.2,
@@ -71,38 +80,38 @@
   },
   "pros": {
     "en": [
-      "Cheapest mainstream UK number to keep alive (£0.30 SMS / 180 days)",
-      "First top-up £10 + £5 joiner credit via referral link",
-      "Works in mainland China right after activation, Wi-Fi Calling supported",
-      "No real-name registration required"
+      "Cheapest mainstream UK number to keep: one £0.30 text every 180 days",
+      "First top-up £10, plus £5 joiner credit through a referral link",
+      "Works in mainland China straight after activation, Wi-Fi Calling included",
+      "No real-name registration"
     ],
     "zh": [
-      "主流英国号码中保号成本最低（每180天一条0.3镑短信）",
-      "首充10镑，推荐链接激活再送5镑",
-      "激活后在中国大陆直接有信号，支持Wi-Fi Calling",
-      "无需实名认证"
+      "主流英国号里保号最便宜：180 天一条 0.3 镑短信",
+      "首充 10 镑，走推荐链接再送 5 镑",
+      "激活后在中国大陆就有信号，支持 Wi-Fi Calling",
+      "无需实名"
     ]
   },
   "cons": {
     "en": [
-      "Missing the 180-day activity window forfeits the number and all credit",
-      "Official SIM shipping to China has stopped — eSIM app flow required",
-      "Community-based support, no physical stores",
-      "Since July 2026, terms clause 2.9 fair-use enforcement has bulk-disconnected SIMs roaming outside the UK long-term — a real risk for China-based keep-alive"
+      "Miss the 180-day window and the number goes, credit included",
+      "Official SIM postage to China has stopped, so you need the in-app eSIM flow",
+      "Support is community-based, with no shops to walk into",
+      "Since July 2026 clause 2.9 fair use has been enforced against SIMs roaming outside the UK long term, a real risk for China-based keep-alive"
     ],
     "zh": [
-      "错过180天使用窗口号码即回收，余额不退",
-      "官方已停寄实体卡到中国，需走App内eSIM流程",
-      "客服以社区为主，无实体门店",
-      "2026年7月起依条款2.9公平使用批量断开长期境外漫游卡——对中国保号用户构成实质风险"
+      "错过 180 天窗口，号码和余额一起没",
+      "官方已停寄实体卡到中国，只能走 App 内 eSIM",
+      "客服靠社区，没有门店可去",
+      "2026 年 7 月起按条款 2.9 清理长期境外漫游的卡，对中国保号用户是实质风险"
     ]
   },
-  "featured": false,
+  "featured": true,
   "updatedAt": "2026-09-16",
   "ipProfile": {
     "country": {
       "en": "GB (UK exit when roaming, home-routed via O2 UK)",
-      "zh": "GB (UK exit when roaming, home-routed via O2 UK)"
+      "zh": "英国 GB（漫游时仍从英国出口，经 O2 归属地回传）"
     },
     "type": "mobile",
     "confidence": "medium",

@@ -4,8 +4,8 @@
     "zh": "Vodafone 英国"
   },
   "tagline": {
-    "en": "UK MNO — premium coverage; cheap PAYG eSIM exists only via CS chat",
-    "zh": "英国实体运营商——覆盖顶级，便宜Paygo eSIM只在客服渠道"
+    "en": "The best UK coverage, but cheap PAYG eSIM only via support",
+    "zh": "英国覆盖最好，但便宜 Paygo 只在客服渠道"
   },
   "description": {
     "en": "Vodafone UK is a full MNO with its own network (merged with Three UK). Storefront eSIM plans are expensive; the affordable options — a £10 Pay-as-you-go eSIM and a basic monthly plan — are offered only through customer service, per the 2026-03 review. Keep-alive: 90+90 structure — after 90 days without top-up or usage a warning text is sent, and the number is disconnected only after a further 90 days without use (net 180 days). No real-name ID required; strong EU roaming coverage.",
@@ -24,9 +24,18 @@
   ],
   "coverage": 1,
   "plansFrom": 10,
-  "dataFrom": "Pay per use",
-  "validity": "90+90 days per activity (warning at 90)",
-  "network": "Vodafone (4G/5G, own network)",
+  "dataFrom": {
+    "en": "Pay per use",
+    "zh": "按次计费"
+  },
+  "validity": {
+    "en": "90+90 days per activity (warning at 90)",
+    "zh": "每次使用 90+90 天（90 天时提醒）"
+  },
+  "network": {
+    "en": "Vodafone (4G/5G, own network)",
+    "zh": "Vodafone（自有网络，4G/5G）"
+  },
   "device": "esim",
   "hotspot": true,
   "rating": 3.8,
@@ -98,7 +107,7 @@
   "ipProfile": {
     "country": {
       "en": "GB (UK exit when roaming, home-routed)",
-      "zh": "GB (UK exit when roaming, home-routed)"
+      "zh": "英国 GB（漫游时仍从英国出口，归属地回传）"
     },
     "type": "mobile",
     "confidence": "medium",

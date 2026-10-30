@@ -4,8 +4,8 @@
     "zh": "eSIM Plus 爱沙尼亚号码"
   },
   "tagline": {
-    "en": "Global eSIM marketplace — its global plan bundles an Estonian number (12 months, plan 365 days) with free SMS receiving",
-    "zh": "全球eSIM市场——全球套餐自带爱沙尼亚号码（号码12个月/套餐365天），免费收短信"
+    "en": "A global plan that comes with an Estonian number for SMS codes",
+    "zh": "全球套餐自带爱沙尼亚号码，专门收验证码"
   },
   "description": {
     "en": "eSIM Plus (esimplus.me) is a global eSIM marketplace; its Global plan ships with an Estonian phone number and free SMS receiving; per official terms the plan runs 365 days and the Estonian number is provided for 12 months — renew to keep the number. Pay by Visa/Mastercard or Google Pay; the QR code arrives in your order page. No real-name registration.",
@@ -24,9 +24,18 @@
   ],
   "coverage": 1,
   "plansFrom": 7.99,
-  "dataFrom": "Pay per use",
-  "validity": "Estonian number 12 months; plan 365 days",
-  "network": "Partner networks (marketplace)",
+  "dataFrom": {
+    "en": "Pay per use",
+    "zh": "按次计费"
+  },
+  "validity": {
+    "en": "Estonian number 12 months; plan 365 days",
+    "zh": "爱沙尼亚号码 12 个月；套餐 365 天"
+  },
+  "network": {
+    "en": "Partner networks (marketplace)",
+    "zh": "合作网络（市场平台）"
+  },
   "device": "esim",
   "hotspot": false,
   "rating": 3.7,
@@ -102,7 +111,7 @@
   "ipProfile": {
     "country": {
       "en": "unknown",
-      "zh": "unknown"
+      "zh": "未知"
     },
     "type": "unknown",
     "confidence": "unverified",

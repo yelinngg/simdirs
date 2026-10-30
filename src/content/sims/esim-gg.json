@@ -4,8 +4,8 @@
     "zh": "eSIM.GG"
   },
   "tagline": {
-    "en": "Estonian +372 native number eSIM — zero monthly fee, keep-alive via balance activity",
-    "zh": "爱沙尼亚+372原生号码eSIM：零月租，余额保号"
+    "en": "Estonian +372 number, no monthly fee, one top-up keeps it",
+    "zh": "爱沙尼亚 +372 号码，零月租，充一次就续"
   },
   "description": {
     "en": "eSIM.GG sells prepaid Estonian +372 native-number eSIMs usable across 154+ countries for SMS verification, calls and data. Official prices (2026-09): number €2.99; global bundles from €0.88/GB; €9 for 10GB across 42 countries (incl. China, US, UK, EU, Malaysia, Thailand). Incoming SMS free worldwide; China data €4.7/GB. Under current policy, qualifying activity (data/call/SMS/recharge) resets a 365-day activity window; the provider has announced an upcoming change to balance-based keep-alive.",
@@ -25,12 +25,21 @@
   ],
   "coverage": 154,
   "plansFrom": 3.2,
-  "dataFrom": "Pay per use (€0.88/GB in EU/Asia)",
-  "validity": "365-day activity window (rule change to balance-based announced)",
-  "network": "Local partner networks per country",
+  "dataFrom": {
+    "en": "Pay per use (€0.88/GB in EU/Asia)",
+    "zh": "按次计费（欧亚 0.88 欧元/GB）"
+  },
+  "validity": {
+    "en": "365-day activity window (rule change to balance-based announced)",
+    "zh": "365 天使用窗口（官方已公布改为余额制）"
+  },
+  "network": {
+    "en": "Local partner networks per country",
+    "zh": "各国本地合作网络"
+  },
   "device": "esim",
   "hotspot": true,
-  "rating": 4.0,
+  "rating": 4,
   "website": "https://esim.gg/",
   "features": {
     "en": [

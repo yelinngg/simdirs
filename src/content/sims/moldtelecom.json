@@ -4,8 +4,8 @@
     "zh": "Moldtelecom 摩尔多瓦"
   },
   "tagline": {
-    "en": "Moldova's largest carrier — a €0.4/year-to-keep EU-adjacent number, no ID required",
-    "zh": "摩尔多瓦最大运营商——年保号成本约0.4元人民币的号码，无需实名"
+    "en": "An EU-adjacent number for about €0.40 a year, no ID needed",
+    "zh": "欧洲边上的号码，年保号约 0.4 欧元，无需实名"
   },
   "description": {
     "en": "Moldtelecom is Moldova's oldest and largest telecom operator. Its eSIM (activation now handled inside the My Moldtelecom app; pricing no longer shown on the public page — 40 MDL per the 2025-09 review) ships a Moldovan number that roams in mainland China with free SMS receiving for 6 months plus a 6-month grace period. Keep the number alive with a 1 MDL top-up every 6 months — roughly ¥0.82/year (per the 2025-09 review; not stated on the current landing page). No real-name registration; Visa/Mastercard payment.",
@@ -24,9 +24,18 @@
   ],
   "coverage": 1,
   "plansFrom": 17,
-  "dataFrom": "Pay per use",
-  "validity": "6 months + 6-month grace",
-  "network": "Moldtelecom (own network)",
+  "dataFrom": {
+    "en": "Pay per use",
+    "zh": "按次计费"
+  },
+  "validity": {
+    "en": "6 months + 6-month grace",
+    "zh": "6 个月，另加 6 个月宽限"
+  },
+  "network": {
+    "en": "Moldtelecom (own network)",
+    "zh": "Moldtelecom（自有网络）"
+  },
   "device": "esim",
   "hotspot": false,
   "rating": 3.8,

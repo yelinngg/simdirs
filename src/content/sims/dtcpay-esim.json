@@ -4,19 +4,30 @@
     "zh": "dtcpay eSIM"
   },
   "tagline": {
-    "en": "10-year-validity travel eSIM inside the dtcpay MAS-licensed wallet app (Singapore)",
-    "zh": "新加坡持牌钱包 dtcpay 内置的 10 年有效期旅行 eSIM"
+    "en": "Travel eSIM inside a Singapore-licensed wallet, valid for 10 years",
+    "zh": "新加坡持牌钱包里的旅行 eSIM，10 年有效"
   },
   "description": {
     "en": "dtcpay is a Singapore Major Payment Institution licensed by MAS (PS20200531, operated by Digital Treasures Center Pte Ltd) offering stablecoin, card and transfer services; its app also includes a travel eSIM line with data plans for 158+ countries, officially promoted with 10-year validity, no throttling and reuse across devices. Leftover data can be shared with others or converted into vouchers for future purchases. Community reports (2026-10, unofficial) describe a recurring free-claim promo: a $10 eSIM claimed at USD 0 via the App's eSIM menu, valid up to 10 years, occasionally stackable — official pages do not publish this promo's terms, so treat it as an in-app campaign that may change at any time.",
     "zh": "dtcpay 是新加坡金管局（MAS）持牌大型支付机构（牌照 PS20200531，运营主体 Digital Treasures Center Pte Ltd），主打稳定币、银行卡与转账服务；App 内附带旅行 eSIM 业务，覆盖 158+ 国家，官方口径为 10 年有效期、不限速、可跨设备复用，剩余流量可转赠他人或兑换为下次购买的代金券。社区实测（2026-10，非官方）称存在可反复领取的免费活动：原价 10 美元的 eSIM 在 App 内 eSIM 菜单以 USD 0 领取、有效期长达 10 年、可领多张——官方页面未公示该活动条款，按 App 内活动对待，随时可能调整。"
   },
-  "regions": ["global"],
+  "regions": [
+    "global"
+  ],
   "coverage": 158,
   "plansFrom": 0,
-  "dataFrom": "Free claim includes a small base allowance (App-displayed)",
-  "validity": "10 years",
-  "network": "Multiple",
+  "dataFrom": {
+    "en": "Free claim includes a small base allowance (App-displayed)",
+    "zh": "免费领取含少量基础流量（以 App 显示为准）"
+  },
+  "validity": {
+    "en": "10 years",
+    "zh": "10 年"
+  },
+  "network": {
+    "en": "Multiple networks",
+    "zh": "多家网络"
+  },
   "device": "esim",
   "hotspot": false,
   "rating": 3.9,

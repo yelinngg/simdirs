@@ -4,8 +4,8 @@
     "zh": "Yoho Mobile"
   },
   "tagline": {
-    "en": "App-first eSIM with free trial tier and post-quota low-speed keep-alive",
-    "zh": "App制eSIM：有免费体验流量，超额降速不断网"
+    "en": "Free trial data, then throttled instead of cut off",
+    "zh": "有免费体验流量，用完降速不断网"
   },
   "description": {
     "en": "Yoho Mobile (YOHO MOBILE PTE. LTD., Singapore) sells app-installed eSIMs across 200+ countries with no QR flow. Plans list underlying operators (Japan: Rakuten/KDDI/CMCC); example price Japan 10GB/7d from $7.45. A free eSIM trial is offered in-app. \"Yoho Care\" keeps low-speed connectivity after quota; 100% refund policy advertised.",
@@ -24,9 +24,18 @@
   ],
   "coverage": 200,
   "plansFrom": 7.45,
-  "dataFrom": "10GB (example)",
-  "validity": "7–30 days by plan",
-  "network": "Operator varies by plan (listed per plan)",
+  "dataFrom": {
+    "en": "10GB (example)",
+    "zh": "10GB（示例）"
+  },
+  "validity": {
+    "en": "7–30 days by plan",
+    "zh": "按套餐 7–30 天"
+  },
+  "network": {
+    "en": "Operator varies by plan (listed per plan)",
+    "zh": "按套餐不同（页面逐条标注）"
+  },
   "device": "esim",
   "hotspot": true,
   "rating": 3.7,
@@ -98,7 +107,7 @@
   "ipProfile": {
     "country": {
       "en": "Hong Kong (local HK IP; served via China Mobile in mainland China)",
-      "zh": "Hong Kong (local HK IP; served via China Mobile in mainland China)"
+      "zh": "香港（本地 HK IP；内地由中国移动网络承载）"
     },
     "type": "residential",
     "confidence": "low",

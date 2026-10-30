@@ -10,8 +10,8 @@ export async function getAllSims(): Promise<SimEntry[]> {
   return sims.sort((a, b) => b.data.rating - a.data.rating);
 }
 
-/** Featured SIMs, falling back to top-rated ones. */
-export async function getFeaturedSims(limit = 6): Promise<SimEntry[]> {
+/** Featured SIMs for the homepage 3×3 grid, falling back to top-rated ones. */
+export async function getFeaturedSims(limit = 9): Promise<SimEntry[]> {
   const sims = await getAllSims();
   const featured = sims.filter((s) => s.data.featured);
   return (featured.length >= limit ? featured : [...featured, ...sims.filter((s) => !s.data.featured)]).slice(0, limit);

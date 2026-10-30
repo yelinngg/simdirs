@@ -21,11 +21,11 @@ tags: [esim, free, guide]
 
 The most generous straightforward trial we found. New users claim a [free 1GB / 7-day eSIM](https://cosim.io/en/free-esim) that works as one bundle across 33 European countries, with separate free allocations for Japan, Hong Kong, South Korea, Thailand, Singapore, Malaysia, Indonesia, Turkey and Moldova. The QR code arrives by email; top-ups are available anytime.
 
-The catch: **card verification is required even at $0 checkout**, and it is new users only. The operator (Comsand Inc., Delaware) is young — use the trial, don't build your digital life on it. Our [co:sim listing](/sims/cosim) keeps the current terms.
+The catch: **card verification is required even at $0 checkout**, and it is new users only. The operator (Comsand Inc., Delaware) is young — use the trial, don't build your digital life on it. Our [co:sim listing](/sims/cosim/) keeps the current terms.
 
 ### dtcpay eSIM — free claim, 10-year validity
 
-The odd one out. [dtcpay](/sims/dtcpay-esim) is a MAS-licensed Singapore payment app (PS20200531) whose eSIM line is officially promoted with **10-year validity, no throttling, reuse across devices** across 158+ countries. Community guides report a recurring in-app promo: a $10 eSIM claimed at USD 0, occasionally stackable, valid toward 2036.
+The odd one out. [dtcpay](/sims/dtcpay-esim/) is a MAS-licensed Singapore payment app (PS20200531) whose eSIM line is officially promoted with **10-year validity, no throttling, reuse across devices** across 158+ countries. Community guides report a recurring in-app promo: a $10 eSIM claimed at USD 0, occasionally stackable, valid toward 2036.
 
 The catch: the promo's terms are **not published on official pages** — it lives in the app and can change anytime. Claiming requires a dtcpay account and KYC. It is data-only: no number, no calls, no SMS. Mainland-China iPhones may not support eSIM at all.
 
@@ -39,11 +39,11 @@ The catch: 3 days and 1GB is exactly enough to evaluate, not to travel on.
 
 Not a trial but a **permanent free tier**: watch a 15-30 second ad, get 20MB at 1 Mbps, stackable up to 18 ads / 360MB per day, data valid 7 days, max 240MB held at once. Firsty's own help centre documents all four limits, which is rarer than it should be. Coverage spans roughly 170 countries.
 
-The catch: 1 Mbps is messaging-and-maps speed, no hotspot, and the June 2026 terms also cap each ad-unlock at a 30-minute session (6 hours total). Hitting the daily ceiling takes about 18 ads — real time spent for ~360MB. Our [Firsty listing](/sims/firsty) tracks the current limits.
+The catch: 1 Mbps is messaging-and-maps speed, no hotspot, and the June 2026 terms also cap each ad-unlock at a 30-minute session (6 hours total). Hitting the daily ceiling takes about 18 ads — real time spent for ~360MB. Our [Firsty listing](/sims/firsty/) tracks the current limits.
 
 ### Eskimo — 250MB global trial, never-expiring data
 
-[Eskimo](/sims/eskimo)'s angle is longevity: paid data never expires, and the free tier is a 250MB global trial with no deadline pressure. Good as a "keep an eSIM installed for emergencies" card — install it, forget it, and the data is still there months later.
+[Eskimo](/sims/eskimo/)'s angle is longevity: paid data never expires, and the free tier is a 250MB global trial with no deadline pressure. Good as a "keep an eSIM installed for emergencies" card — install it, forget it, and the data is still there months later.
 
 The catch: 250MB is a taster; the value shows up only if you later buy their non-expiring packs.
 
@@ -55,17 +55,17 @@ The catch: the 5GB depends on your Visa issuing bank opting in; check the eligib
 
 ### USIMS — 1GB free plus permanent low-speed floor
 
-[USIMS](/sims/usims) gives new users 1GB in the US/EU, and — unusually — keeps a **permanent low-speed data floor alive in 200+ countries** after the fast data is gone. For a "never fully offline" emergency line, that floor is the real feature.
+[USIMS](/sims/usims/) gives new users 1GB in the US/EU, and — unusually — keeps a **permanent low-speed data floor alive in 200+ countries** after the fast data is gone. For a "never fully offline" emergency line, that floor is the real feature.
 
 The catch: app-only, and community reports note it blocks China-market iPhones and 5ber/eSTK adapters — check device requirements before counting on it.
 
 ### Roamless — 500MB free on sign-up
 
-[Roamless](/sims/roamless) includes 500MB free with a pay-as-you-go structure afterward. Simple claim, no trial window pressure.
+[Roamless](/sims/roamless/) includes 500MB free with a pay-as-you-go structure afterward. Simple claim, no trial window pressure.
 
 ### Red Bull MOBILE Data — first 100MB free, data-only
 
-[Red Bull MOBILE Data](/sims/redbull-mobile-data) (operated by A1 Telekom Austria) ships with a **free 100MB** on first install, usable in 100+ countries, with paid EU data at €2/GB and no subscription required. It works as a landing-emergency pack: data the moment you install, decide about paying later.
+[Red Bull MOBILE Data](/sims/redbull-mobile-data/) (operated by A1 Telekom Austria) ships with a **free 100MB** on first install, usable in 100+ countries, with paid EU data at €2/GB and no subscription required. It works as a landing-emergency pack: data the moment you install, decide about paying later.
 
 Community-measured (not on official pages, consistent across sources): promo codes can add +1GB, and the install hides an Austrian +43 number that can receive SMS without KYC while kept active within 365 days — some travellers treat it as a data line plus temporary code-receiving line in one. Note: single install, no SLA, and China-market iPhones have been blocked in reported cases.
 

@@ -4,19 +4,30 @@
     "zh": "co:sim"
   },
   "tagline": {
-    "en": "Travel eSIM with a free 1GB/7-day trial for new users across 33 European countries and Asian destinations",
-    "zh": "新用户免费领 1GB/7 天试用 eSIM，覆盖欧洲 33 国与亚洲多地"
+    "en": "Free 1GB/7 days for new users, 33 European countries plus Asia",
+    "zh": "新用户送 1GB/7 天，覆盖欧洲 33 国和亚洲多地"
   },
   "description": {
     "en": "co:sim (operated by Comsand Inc., Wilmington, DE, USA) is a travel eSIM service covering 200+ destinations. Its standout offer is a free eSIM for new users: a 1 GB / 7-day trial covering 33 European countries as one regional bundle, with separate free allocations for Turkey, Moldova, Singapore, Malaysia, Indonesia, Japan, Thailand, South Korea and Hong Kong. The trial requires $0 at checkout but card verification, and installation QR codes are delivered by email. Top-ups are available anytime, payments run through Stripe, and uninstalled purchases qualify for self-service refunds within 30 days.",
     "zh": "co:sim（运营方为美国特拉华州注册的 Comsand Inc.）是覆盖 200+ 目的地的旅行 eSIM 服务。最大卖点是新人免费 eSIM：1GB/7 天试用，欧洲 33 国打包通用，土耳其、摩尔多瓦、新加坡、马来西亚、印尼、日本、泰国、韩国、香港各有单独免费额度。结账 $0 但需验卡，安装二维码通过邮件发送，可随时充值。支付走 Stripe，未安装的订单支持 30 天自助退款。"
   },
-  "regions": ["global"],
+  "regions": [
+    "global"
+  ],
   "coverage": 200,
   "plansFrom": 0,
-  "dataFrom": "1GB (free trial)",
-  "validity": "7-day trial; paid plans vary",
-  "network": "Multiple",
+  "dataFrom": {
+    "en": "1GB (free trial)",
+    "zh": "1GB（免费试用）"
+  },
+  "validity": {
+    "en": "7-day trial; paid plans vary",
+    "zh": "7 天试用；付费套餐另计"
+  },
+  "network": {
+    "en": "Multiple networks",
+    "zh": "多家网络"
+  },
   "device": "esim",
   "hotspot": false,
   "rating": 3.8,

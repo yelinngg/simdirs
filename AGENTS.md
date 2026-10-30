@@ -15,9 +15,12 @@ There is **no backend/CMS** — all content lives in files under `src/content/` 
 - Localized fields (`name`, `tagline`, `description`, `features`) MUST contain both `en` and `zh` keys.
 - `regions` values are restricted to: `global, asia, europe, north-america, south-america, africa, oceania, middle-east`.
 - `device` is one of `esim | physical | both`; `plansFrom` is a USD number; `rating` is 0–5; `updatedAt` is `YYYY-MM-DD`.
-- To feature a provider on the homepage, set `"featured": true` (keep ≤ 6).
+- `plansFrom: 0` means "free trial / free to apply" and renders as *Free tier* instead of `$0.00`; the Product JSON-LD omits `offers` for those entries. Never use 0 as a placeholder for an unknown price.
+- To feature a provider on the homepage, set `"featured": true`. The homepage grid is 3×3, so keep exactly 9 featured — if fewer are marked, the gap is filled with the next best ratings, which muddies what "featured" means.
 - Schema is defined in `src/content.config.ts` — the build fails on invalid data.
-- After adding/changing a provider, run `npm run og` to regenerate its Open Graph image (`public/og/sims-<slug>.png`) and commit the PNG. PNGs are committed so CI never depends on font rendering.
+- After adding/changing a provider, regenerate its Open Graph image and commit the PNG: `npm run og -- <slug>` (bare `npm run og` re-renders all 50 and rewrites every file, because PNG bytes differ between sharp builds).
+- **Removing or merging a provider**: delete the JSON, delete `public/og/sims-<slug>.png`, then add 301s for both slash forms in `worker.js` (`/sims/<slug>`, `/sims/<slug>/`, plus the `/zh/` pair) and rewrite every inbound link in `src/content/news/`. Leftover links to a deleted slug are the main way a merge leaks traffic.
+- Two slugs on the same `website` are always a duplicate: merge into the stronger slug (more inbound links, cleaner brand name) rather than keeping two thin pages, and fold the weaker entry's distinct facts into the survivor so no verified detail is lost.
 
 ## Managing news posts (`src/content/news/{en,zh}/*.md`)
 
@@ -37,6 +40,18 @@ There is **no backend/CMS** — all content lives in files under `src/content/` 
 ## Editing UI text & SEO strings
 
 All interface labels (nav, buttons, region names, SEO titles/descriptions) live in `src/i18n/ui.ts`. Keep `en` and `zh` keys in sync.
+
+## Writing style (applies to every string users can read)
+
+The site is written as one editor's notes, not as marketing copy. Rules that keep it that way:
+
+- **Open with the concrete thing, not the category.** "Prepaid data in 200+ destinations, from $4 for 1GB/3 days" beats "the world's leading eSIM marketplace".
+- **One number or clause per sentence.** If a sentence has no fact in it, delete it.
+- **No em dashes as glue in short strings.** Labels, taglines and "who it is for" lines use a comma, a colon, parentheses or a second sentence. Long-form notes may still use `——` where Chinese prose calls for it, just not as the default connector.
+- **Avoid the stock adjective set:** seamless, robust, flexible, affordable, premium, privacy-first, all-in-one, 一站式, 灵活, 实惠, 全方位, 赋能. If a claim needs one of these, it needs evidence instead.
+- **Say the downside in the same breath as the upside.** Every "who it is for" line carries its cost ("每 GB 贵一点，换来基本不出问题").
+- **Keep the sourcing visible.** Verified facts cite the date (`官方 2026-09`); community reports say so and are marked unverified.
+- Do not stack parallel triads ("coverage, price and validity, all in one place"). Vary sentence length instead.
 
 ## Deployment notes
 

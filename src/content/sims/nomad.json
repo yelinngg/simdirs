@@ -4,20 +4,20 @@
     "zh": "Nomad"
   },
   "tagline": {
-    "en": "Affordable eSIMs with flexible top-ups",
-    "zh": "价格实惠、续购灵活的eSIM"
+    "en": "200+ destinations, and you can top up without swapping the eSIM",
+    "zh": "200+ 目的地，续费不用换卡"
   },
   "description": {
-    "en": "Nomad offers some of the most competitively priced eSIM plans on the market, covering 200+ destinations. Its flexible top-up system lets you extend data or validity mid-trip, and frequent promo codes make it even cheaper.",
-    "zh": "Nomad 提供市场上最具价格竞争力的eSIM套餐之一，覆盖200+目的地。灵活的续购系统允许你在旅途中随时延长流量或有效期，叠加优惠码后更划算。"
+    "en": "Nomad competes on price and often wins: per-gigabyte rates on busy leisure routes sit at or near the bottom of the market, and regional plans undercut most rivals. The useful trick is that you can extend validity mid-trip, not just add data. Promo codes and referral credit are everywhere, so the sticker price is rarely what you end up paying.",
+    "zh": "Nomad 拼的是价格，而且经常赢：热门休闲线路的每 GB 价格基本在市场最低一档，区域包也低于多数竞品。比较实用的一点是行程中可以延长有效期，不只是加流量。优惠码和推荐返利到处都是，标价很少是你真正付的钱。"
   },
   "details": {
     "en": "Nomad's edge is straightforward: aggressive pricing. Across popular routes it consistently lands among the cheapest per-GB offers, and its referral/promo ecosystem (frequent discount codes) pushes effective prices lower still.\n\nPlans are data buckets from 1 GB up to 50+ GB with 7–45 day validity, plus regional multi-country plans (Asia, Europe) and a small set of unlimited options on select routes. The standout feature is flexible top-ups: unlike providers whose top-up just adds data to the same plan, Nomad lets you extend validity or stack a new bundle mid-trip without reinstalling, which rescues long trips from expiry anxiety.\n\nThe app is functional and keeps a clear usage dashboard. Trade-offs to know: Nomad rides fewer premium carriers in some destinations, so speeds can lag Airalo/Ubigi in congested tourist areas; customer support is chat-based with slower peaks.\n\nFor price-led travellers on standard leisure routes, though, it is hard to beat.",
     "zh": "Nomad 的优势很直接：价格激进。在热门线路上，它的每 GB 价格常年处于最低一档，叠加推荐返利与频繁的优惠码后实际到手价更低。\n\n套餐为 1 GB 到 50+ GB 的流量桶，有效期 7–45 天，另有亚洲、欧洲等区域多国包及少数线路的不限量选项。最大亮点是灵活续购：别家续购往往只是给原套餐加流量，Nomad 可以在行程中直接延长有效期或叠加新包、无需重装，长途旅行的“过期焦虑”因此缓解。App 功能完备，用量面板清晰。需要了解的取舍：部分目的地 Nomad 接入的优质运营商较少，在拥挤景区网速可能落后 Airalo/Ubigi；客服为聊天式，高峰响应偏慢。但对以价格为先、走常规休闲线路的旅行者来说，它很难被击败。"
   },
   "bestFor": {
-    "en": "Budget-led travellers on popular leisure routes who want the lowest effective price and the ability to extend validity mid-trip.",
-    "zh": "以预算为先、走热门休闲线路，想要最低实际价格且能中途延长有效期的旅行者。"
+    "en": "Price-first trips on well-trodden routes like Thailand, Japan or Europe, where saving 30% beats having the best support.",
+    "zh": "走泰国、日本、欧洲这类热门线路、把便宜放在第一位的行程，愿意用一点客服体验换三成差价。"
   },
   "regions": [
     "global",
@@ -30,9 +30,18 @@
   ],
   "coverage": 200,
   "plansFrom": 4.5,
-  "dataFrom": "1GB",
-  "validity": "7 days",
-  "network": "4G/5G",
+  "dataFrom": {
+    "en": "1GB",
+    "zh": "1GB"
+  },
+  "validity": {
+    "en": "7 days",
+    "zh": "7 天"
+  },
+  "network": {
+    "en": "4G/5G",
+    "zh": "4G/5G"
+  },
   "device": "esim",
   "hotspot": true,
   "rating": 4.3,
@@ -58,34 +67,34 @@
   },
   "pros": {
     "en": [
-      "Consistently among the cheapest per-GB pricing on popular routes",
-      "Can extend validity, not just data, mid-trip",
+      "Per-GB pricing is consistently at the bottom of the range on popular routes",
+      "You can extend validity, not only top up data",
       "Regional plans undercut most competitors",
-      "Referral and promo code ecosystem"
+      "Referral credit and promo codes actually stack"
     ],
     "zh": [
-      "热门线路每 GB 价格常年处于最低一档",
-      "行程中不仅能加流量还能延长有效期",
-      "区域包价格低于多数竞品",
-      "推荐返利与优惠码生态"
+      "热门线路每 GB 常年最低一档",
+      "不只能加流量，还能延长有效期",
+      "区域包低于多数竞品",
+      "推荐返利和优惠码确实能叠"
     ]
   },
   "cons": {
     "en": [
-      "Fewer premium-carrier agreements — speeds can dip in congested areas",
-      "Chat support slows down at peak times"
+      "Fewer premium-carrier agreements, so speeds sag where the network is busy",
+      "Chat support queue gets long at peak hours"
     ],
     "zh": [
-      "优质运营商协议较少，拥挤地区网速可能掉档",
-      "高峰时段聊天客服响应变慢"
+      "优质运营商协议较少，网络拥挤时速度掉得明显",
+      "高峰时段客服排队久"
     ]
   },
-  "featured": false,
+  "featured": true,
   "updatedAt": "2026-09-16",
   "ipProfile": {
     "country": {
       "en": "varies (multiple user reports of Hong Kong exit, incl. US and APAC plans)",
-      "zh": "varies (multiple user reports of Hong Kong exit, incl. US and APAC plans)"
+      "zh": "不定（多位用户报告落在香港，含美国与亚太套餐）"
     },
     "type": "unknown",
     "confidence": "low",

@@ -14,9 +14,9 @@ const { lang, slug } = Astro.props;
 const tr = t(lang);
 const sim = await getSim(slug);
 
-if (!sim) {
-  return Astro.redirect(localePath(lang, '/sims'));
-}
+// Slugs come from getStaticPaths, so a miss means content and route disagree —
+// fail the build instead of silently serving an empty page.
+if (!sim) throw new Error(`No SIM entry for slug "${slug}"`);
 
 const d = sim.data;
 const name = pick(d.name, lang);
@@ -54,13 +54,18 @@ const productLd = {
   name,
   description,
   brand: { '@type': 'Brand', name },
-  offers: {
-    '@type': 'Offer',
-    price: d.plansFrom,
-    priceCurrency: 'USD',
-    availability: 'https://schema.org/InStock',
-    url: new URL(localePath(lang, path), Astro.site).href,
-  },
+  // price 0 would emit an invalid Offer, so free-tier entries carry no offers.
+  ...(d.plansFrom > 0
+    ? {
+        offers: {
+          '@type': 'Offer',
+          price: d.plansFrom,
+          priceCurrency: 'USD',
+          availability: 'https://schema.org/InStock',
+          url: new URL(localePath(lang, path), Astro.site).href,
+        },
+      }
+    : {}),
   review: {
     '@type': 'Review',
     reviewRating: {
@@ -84,10 +89,10 @@ const breadcrumbLd = {
 };
 
 const specs = [
-  { label: tr.sim.from, value: `$${d.plansFrom.toFixed(2)} USD` },
-  { label: tr.sim.dataFrom, value: d.dataFrom },
-  { label: tr.sim.validity, value: d.validity },
-  { label: tr.sim.network, value: d.network },
+  { label: tr.sim.from, value: d.plansFrom > 0 ? `$${d.plansFrom.toFixed(2)} USD` : tr.sim.free },
+  { label: tr.sim.dataFrom, value: pick(d.dataFrom, lang) },
+  { label: tr.sim.validity, value: pick(d.validity, lang) },
+  { label: tr.sim.network, value: pick(d.network, lang) },
   { label: tr.sim.hotspot, value: d.hotspot ? tr.sim.yes : tr.sim.no },
   { label: tr.sim.coverage, value: `${d.coverage}+ ${tr.sim.countries}` },
 ];
@@ -202,7 +207,7 @@ if (!seoDescription) {
                   </tr>
                 </thead>
                 <tbody class="divide-y divide-slate-100">
-                  {d.plans.map((p: any) => (
+                  {d.plans.map((p) => (
                     <tr>
                       <td class="py-3 pr-4 font-medium text-slate-900">{pick(p.name, lang)}</td>
                       <td class="py-3 pr-4 text-slate-600">{pick(p.data, lang)}</td>

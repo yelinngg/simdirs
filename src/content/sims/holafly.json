@@ -4,20 +4,20 @@
     "zh": "Holafly"
   },
   "tagline": {
-    "en": "Unlimited data eSIMs for long stays",
-    "zh": "面向长住旅客的不限量流量eSIM"
+    "en": "Unlimited data only, priced by the day, hotspot capped",
+    "zh": "只卖不限量，按天计价，热点有限制"
   },
   "description": {
-    "en": "Holafly specializes in unlimited-data eSIMs available for almost any duration, from a few days up to 90 days. Ideal for heavy users, remote workers and travelers who don't want to worry about running out of data in 160+ destinations.",
-    "zh": "Holafly 专营不限量流量eSIM，有效期从数天到90天灵活可选，覆盖160+目的地。适合重度使用者、远程办公者以及不想为流量焦虑的旅行者。"
+    "en": "Holafly sells one thing: unlimited data, priced by the day, for up to 90 days in 160+ destinations. No data counter, no topping up mid-trip, no choosing between 5GB and 10GB. You pay for that convenience. Per-day cost runs well above capped plans, the hotspot is limited or off on some destinations, and heavy use in the hundreds of gigabytes can be throttled under fair use.",
+    "zh": "Holafly 只卖一种东西：不限量流量，按天计价，最长 90 天，覆盖 160+ 目的地。没有流量计数器，不用半路加购，也不用在 5GB 和 10GB 之间纠结。代价是这个方便要花钱：日均价明显高于限量套餐，部分目的地热点受限或不可用，用量到数百 GB 会按公平使用条款降速。"
   },
   "details": {
     "en": "Holafly's entire catalogue is built around one promise: never think about gigabytes again. Instead of data buckets, you buy a duration — 5 to 90 days, selectable day by day — and the data is unlimited for that window. That pricing model shines on long single-country stays: a month of working remotely in Spain or Portugal with daily video calls costs a flat rate, with no anxiety about hitting a cap mid-call. Two caveats from the plan terms: hotspot tethering is supported on most destinations but a few limit sharing speed, and a fair-use policy applies — after very high consumption (typically hundreds of GB in a billing cycle) speeds may be reduced, so it is unlimited for travel use, not a home-broadband replacement. Installation is via QR from the web store or app, activation is automatic on first connection, and plans can be extended mid-trip from the app.\n\nNote that Holafly's per-day cost is higher than capped plans from budget providers — the premium buys the removal of the data counter, not a cheaper gigabyte.\n\nCommunity single-user hands-on (2026-09, unverified): 2-day unlimited pass ~¥21 CNY; 1GB/month emergency data plus WeChat-specific data on day one. Nominal carrier CMHK but traffic actually lands in Singapore (broadcast + datacenter IPs) — mediocre IP quality and speeds. Verdict: fine as an emergency backup, not a daily driver.",
     "zh": "Holafly 的整个产品目录围绕一个承诺：再也不用盯着流量数字。你买的不是流量桶，而是一段时间——5 到 90 天逐日可选——期间流量不限量。这种计价方式在单国长住场景最为划算：在西班牙或葡萄牙远程办公一个月、每天开视频会议，也只付一个固定价，不用怕会议中途断网。\n\n条款里有两个注意点：多数目的地支持热点共享，但少数国家会限制共享速度；同时适用公平使用政策——单周期用量极高（通常数百 GB）后可能降速，所以它是旅行意义上的不限量，不是家庭宽带替代品。\n\n安装通过官网或 App 的二维码完成，首次联网自动激活，行程中可在 App 内直接延期。\n\n需要留意的是，Holafly 的日均成本高于预算型供应商的限量套餐——溢价买的是「流量清零焦虑」的消失，而不是更便宜的每 GB 单价。\n\n社区单用户实测（2026-09，未核实）：2 天不限量套餐约 21 元人民币；每月有 1GB 应急流量，首日附带微信专属流量。名义上走 CMHK，实际落地在新加坡（广播+机房 IP），IP 质量一般、速率不尽人意。定位：应急备用卡可以，主力使用不推荐。"
   },
   "bestFor": {
-    "en": "Long single-country stays, remote workers on video calls all day, and anyone who wants zero data anxiety for the whole trip.",
-    "zh": "单国长住、整天开视频会议的远程办公者，以及全程不想看流量计数器的旅行者。"
+    "en": "Stays of a week or more in one country, and anyone on video calls all day who would rather not watch a counter.",
+    "zh": "在一个国家待一周以上，或者整天开视频会、不想盯着流量数字的人。"
   },
   "regions": [
     "global",
@@ -29,9 +29,18 @@
   ],
   "coverage": 160,
   "plansFrom": 19,
-  "dataFrom": "Unlimited",
-  "validity": "Flexible (1–90 days)",
-  "network": "4G/5G",
+  "dataFrom": {
+    "en": "Unlimited",
+    "zh": "不限量"
+  },
+  "validity": {
+    "en": "Flexible (1–90 days)",
+    "zh": "自选（1–90 天）"
+  },
+  "network": {
+    "en": "4G/5G",
+    "zh": "4G/5G"
+  },
   "device": "esim",
   "hotspot": true,
   "rating": 4.5,
@@ -57,32 +66,32 @@
   },
   "pros": {
     "en": [
-      "True unlimited data — the data counter disappears entirely",
-      "Day-by-day duration selection up to 90 days",
-      "24/7 chat support with fast human responses",
-      "Ideal pricing model for remote-work months abroad"
+      "Genuinely unlimited, so the counter stops being something you think about",
+      "Duration chosen day by day, up to 90",
+      "Support replies fast, and in person, any hour",
+      "Priced per day, which suits long remote-work stretches better than buying gigabytes"
     ],
     "zh": [
-      "真不限量——流量计数器彻底消失",
-      "有效期逐日可选，最长 90 天",
-      "7×24 小时在线客服，人工响应快",
-      "海外远程办公数月的理想计价模式"
+      "真的不限量，不用再算还剩多少",
+      "有效期按天自选，最长 90 天",
+      "客服响应快，是真人，全天在线",
+      "按天计价，长住远程办公比买 GB 更合适"
     ]
   },
   "cons": {
     "en": [
-      "Per-day cost is higher than capped plans from budget providers",
-      "Fair-use policy can throttle extreme usage (hundreds of GB)",
-      "Hotspot speed limited on a few destinations",
-      "No fixed-GB budget options for light users",
-      "Community-reported Singapore broadcast/DC landing with mediocre speeds (unverified)"
+      "Per-day cost is higher than capped plans from budget brands",
+      "Fair-use throttling kicks in at extreme usage",
+      "Hotspot speed capped on some destinations",
+      "No cheap fixed-data tier for light users",
+      "Community tests put the exit in Singapore broadcast and datacenter ranges, with middling speeds (unverified)"
     ],
     "zh": [
-      "日均成本高于预算型供应商的限量套餐",
-      "公平使用政策下极端用量（数百 GB）可能降速",
-      "少数目的地限制热点共享速度",
-      "没有面向轻度用户的固定流量低价档",
-      "社区实测落地在新加坡广播/机房IP，速率与IP质量一般（未核实）"
+      "日均价高于低价品牌的限量套餐",
+      "用量极端时会被公平使用条款限速",
+      "部分目的地热点速度受限",
+      "没有给轻度用户的便宜小流量档",
+      "社区实测出口在新加坡广播和机房段，速度一般（未核实）"
     ]
   },
   "featured": true,
@@ -90,7 +99,7 @@
   "ipProfile": {
     "country": {
       "en": "varies (documented routing via China Mobile and other undisclosed networks)",
-      "zh": "varies (documented routing via China Mobile and other undisclosed networks)"
+      "zh": "不定（有实测记录经中国移动及未公开网络出口）"
     },
     "type": "unknown",
     "confidence": "high",

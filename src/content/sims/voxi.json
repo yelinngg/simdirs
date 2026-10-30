@@ -4,8 +4,8 @@
     "zh": "VOXI"
   },
   "tagline": {
-    "en": "Vodafone-owned UK MVNO — hidden UNiDAYS student free first month, 180-day keep-alive",
-    "zh": "沃达丰旗下英国虚商——UNiDAYS学生认证隐藏首月0元，180天保号"
+    "en": "Free first month with UNiDAYS, 180 days between uses",
+    "zh": "UNiDAYS 学生首月免费，180 天用一次保号"
   },
   "description": {
     "en": "VOXI is Vodafone UK's sub-brand MVNO on Vodafone's network. Pick eSIM directly at checkout; keep-alive works like giffgaff's — any balance change (call, SMS, top-up) extends the number by 180 days, minimum top-up £5. Hidden perk: a student offer verified through UNiDAYS can land the first month free (e.g. 80GB for £10/month with month 1 free; Chinese edu emails have been reported to pass verification; UCAS and promo SIM-pack routes also appear) — cancel before day 30 to drop to PAYG.",
@@ -24,9 +24,18 @@
   ],
   "coverage": 1,
   "plansFrom": 5,
-  "dataFrom": "Pay per use",
-  "validity": "180 days per activity",
-  "network": "Vodafone (4G/5G)",
+  "dataFrom": {
+    "en": "Pay per use",
+    "zh": "按次计费"
+  },
+  "validity": {
+    "en": "180 days per activity",
+    "zh": "每次使用 180 天"
+  },
+  "network": {
+    "en": "Vodafone (4G/5G)",
+    "zh": "Vodafone (4G/5G)"
+  },
   "device": "esim",
   "hotspot": true,
   "rating": 3.9,
@@ -100,7 +109,7 @@
   "ipProfile": {
     "country": {
       "en": "GB (UK exit when roaming, home-routed via Vodafone UK)",
-      "zh": "GB (UK exit when roaming, home-routed via Vodafone UK)"
+      "zh": "英国 GB（漫游时仍从英国出口，经 Vodafone UK 回传）"
     },
     "type": "mobile",
     "confidence": "medium",

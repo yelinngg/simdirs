@@ -4,8 +4,8 @@
     "zh": "Stellar Security eSIM"
   },
   "tagline": {
-    "en": "Swiss privacy-brand travel eSIM with bundled VPN — big-data long-validity plans",
-    "zh": "瑞士隐私品牌旅行eSIM，附赠VPN、大流量长有效期"
+    "en": "Swiss privacy brand: long-validity data bundles with a VPN attached",
+    "zh": "瑞士隐私品牌，大流量长有效期，附一个 VPN"
   },
   "description": {
     "en": "Stellar Security sells destination-based travel eSIMs from a Swiss privacy company; every eSIM bundles the full Stellar VPN for the whole plan period. Entry plans from €1.21 (Turkey 3GB/30d); 50GB/180-day tiers exist (€15.27, Turkey). Payments by card, PayPal, or crypto (BTC/XMR/USDT). Community hands-on (single-user, unverified): HK landing IP with SG split routing, ~€11.x for 100GB, China Mobile roaming behavior without roaming icon, no 5G.",
@@ -25,12 +25,21 @@
   ],
   "coverage": 140,
   "plansFrom": 1.3,
-  "dataFrom": "1GB",
-  "validity": "30–180 days by plan",
-  "network": "Local partner networks (4G/5G)",
+  "dataFrom": {
+    "en": "1GB",
+    "zh": "1GB"
+  },
+  "validity": {
+    "en": "30–180 days by plan",
+    "zh": "按套餐 30–180 天"
+  },
+  "network": {
+    "en": "Local partner networks (4G/5G)",
+    "zh": "本地合作网络（4G/5G）"
+  },
   "device": "esim",
   "hotspot": true,
-  "rating": 4.0,
+  "rating": 4,
   "website": "https://stellarsecurity.com/",
   "features": {
     "en": [
@@ -117,7 +126,7 @@
   "ipProfile": {
     "country": {
       "en": "varies (community/test reports: Hong Kong and Singapore split by destination/service)",
-      "zh": "varies (community/test reports: Hong Kong and Singapore split by destination/service)"
+      "zh": "不定（社区与实测：按目的地和服务分落香港、新加坡）"
     },
     "type": "unknown",
     "confidence": "low",

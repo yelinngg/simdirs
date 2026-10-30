@@ -4,8 +4,8 @@
     "zh": "esim.cc"
   },
   "tagline": {
-    "en": "Budget destination eSIM — China day passes and 100GB/365-day annual cards on China Mobile",
-    "zh": "低价目的地eSIM：中国移动落地、中国日票与100GB年卡"
+    "en": "Cheap China route: day passes and a 100GB/365-day card on China Mobile",
+    "zh": "便宜的中国线路：日票，以及中国移动 100GB 年卡"
   },
   "description": {
     "en": "esim.cc sells destination eSIMs across 140+ countries, popular in Chinese communities for its China/HK plans. Officially verified (2026-09): China 1GB/30d from $1.60, China day pass $2.99 (2GB/day high-speed then unlimited 128kbps), China 100GB/365d annual card $49.90, HK from $1.80. China plans land on China Mobile 4G/5G. First-order code TRAVEL10 (10% off).",
@@ -24,9 +24,18 @@
   ],
   "coverage": 140,
   "plansFrom": 1.6,
-  "dataFrom": "1GB",
-  "validity": "7–365 days by plan",
-  "network": "China Mobile 4G/5G (China plans)",
+  "dataFrom": {
+    "en": "1GB",
+    "zh": "1GB"
+  },
+  "validity": {
+    "en": "7–365 days by plan",
+    "zh": "按套餐 7–365 天"
+  },
+  "network": {
+    "en": "China Mobile 4G/5G (China plans)",
+    "zh": "中国移动 4G/5G（中国套餐）"
+  },
   "device": "esim",
   "hotspot": true,
   "rating": 3.7,
@@ -116,7 +125,7 @@
   "ipProfile": {
     "country": {
       "en": "varies (community reports: Hong Kong / Singapore exit depending on plan)",
-      "zh": "varies (community reports: Hong Kong / Singapore exit depending on plan)"
+      "zh": "不定（社区报告：随套餐落在香港或新加坡）"
     },
     "type": "unknown",
     "confidence": "low",

@@ -4,8 +4,8 @@
     "zh": "Three UK（英国3）"
   },
   "tagline": {
-    "en": "UK MNO (now merged with Vodafone UK) — CS-only £7/£8 budget monthly plans",
-    "zh": "英国实体运营商（已与沃达丰英国合并）——7/8镑便宜月付需找客服开通"
+    "en": "£7 and £8 monthly plans you can only get from support chat",
+    "zh": "7 镑、8 镑的月付，只能找客服开"
   },
   "description": {
     "en": "Three is a UK mobile network operator with its own 4G/5G infrastructure (99% population 4G coverage claim), merged with Vodafone UK. Public eSIM pricing starts at £10/40GB a month (per the April 2026 PAYG price guide; the storefront currently promotes 120GB for £13.50); the cheaper £7 (unlimited calls/texts + 3GB) and £8 (unlimited calls/texts + 8GB) monthly plans exist only via customer service. Any usage within 180 days keeps a PAYG number alive.",
@@ -24,9 +24,18 @@
   ],
   "coverage": 1,
   "plansFrom": 7,
-  "dataFrom": "3GB",
-  "validity": "Monthly / 180 days per activity (PAYG)",
-  "network": "Three (4G/5G, own network)",
+  "dataFrom": {
+    "en": "3GB",
+    "zh": "3GB"
+  },
+  "validity": {
+    "en": "Monthly / 180 days per activity (PAYG)",
+    "zh": "月付 / 预付每次使用 180 天"
+  },
+  "network": {
+    "en": "Three (4G/5G, own network)",
+    "zh": "Three（自有网络，4G/5G）"
+  },
   "device": "esim",
   "hotspot": true,
   "rating": 3.8,
@@ -116,7 +125,7 @@
   "ipProfile": {
     "country": {
       "en": "GB (UK exit when roaming, home-routed; applies post Vodafone-Three merger)",
-      "zh": "GB (UK exit when roaming, home-routed; applies post Vodafone-Three merger)"
+      "zh": "英国 GB（漫游时仍从英国出口；沃达丰-三合并后依然适用）"
     },
     "type": "mobile",
     "confidence": "medium",

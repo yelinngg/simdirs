@@ -4,8 +4,8 @@
     "zh": "USIMS"
   },
   "tagline": {
-    "en": "App eSIM with free tier: 1GB free data, always-on low-speed in 200+ countries",
-    "zh": "App制eSIM：送1GB免费流量，200+国永久低速兜底"
+    "en": "1GB free, then low-speed data that stays on in 200+ countries",
+    "zh": "送 1GB，之后 200+ 国永久低速不断网"
   },
   "description": {
     "en": "USIMS (app: com.wonet.usims, developer Wonet) gives new users a free eSIM with 1GB of data in the USA and Europe. Official web prices (2026-09): China $10/1GB/10d, France $9/10GB/10d, USA $15/10GB/10d. Google Play lists 'Free Essentials Forever' — always-on low-speed data in 200+ countries, no expiry. Referral program: new-user credits (third-party trackers list $3; official terms say referrals earn UMoney credits and 20% off).",
@@ -24,9 +24,18 @@
   ],
   "coverage": 200,
   "plansFrom": 0,
-  "dataFrom": "1GB free (US/EU)",
-  "validity": "10 days per plan; free tier no expiry",
-  "network": "Local partner networks per country",
+  "dataFrom": {
+    "en": "1GB free (US/EU)",
+    "zh": "送 1GB（美国/欧洲）"
+  },
+  "validity": {
+    "en": "10 days per plan; free tier no expiry",
+    "zh": "每套餐 10 天；免费档不过期"
+  },
+  "network": {
+    "en": "Local partner networks per country",
+    "zh": "各国本地合作网络"
+  },
   "device": "esim",
   "hotspot": true,
   "rating": 3.8,

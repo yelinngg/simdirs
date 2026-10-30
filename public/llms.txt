@@ -1,12 +1,29 @@
 # SimDirs
 
-> Travel SIM & eSIM directory: compare providers by coverage, price, validity and network. Includes buying guides and payment tips for overseas travel eSIMs.
+> An independent directory of travel SIM and eSIM providers. Each listing records
+> what a plan costs on the official page, how long a number stays alive, and where
+> the traffic exits. English at https://simdirs.com/, Chinese at https://simdirs.com/zh/.
 
 ## Directory
 
-- [All SIM/eSIM providers](https://simdirs.com/sims/): Full directory with ratings and prices
-- [Japan eSIM guide 2026](https://simdirs.com/news/japan-esim-guide-2026/): KDDI/IIJ routes, unlimited plans, price comparison
-- [How to choose a travel eSIM 2026](https://simdirs.com/news/how-to-choose-travel-esim-2026/): Coverage, price and validity explained
-- [eSIM travel tips](https://simdirs.com/news/esim-travel-tips/): Buying and payment tips for cross-border eSIMs
+- [All providers](https://simdirs.com/sims/): starting price, data, validity, hotspot support, network
+- [Airalo](https://simdirs.com/sims/airalo/): 200+ destinations, from $4 for 1GB/3 days
+- [Holafly](https://simdirs.com/sims/holafly/): unlimited data only, priced per day
+- [Saily](https://simdirs.com/sims/saily/): per-GB pricing from the NordVPN team
+- [CMLink UK](https://simdirs.com/sims/cmlink-uk/): UK number plus a mainland secondary number
+- [giffgaff](https://simdirs.com/sims/giffgaff/): UK number that costs pennies a year to keep
 
-中文版: https://simdirs.com/zh/
+## Guides and field notes
+
+- [Free eSIM trials 2026](https://simdirs.com/news/free-esim-trials-2026/): every zero-cost offer we could verify, with the catches
+- [eSIM exit IP guide](https://simdirs.com/news/esim-exit-ip-guide-2026/): why travel eSIMs exit through datacenter IPs, and how to check yours
+- [UK SIM keep-alive rules](https://simdirs.com/news/uk-sim-keep-alive-guide-2026/): 12 UK providers compared on annual cost and failure modes
+- [Verification numbers](https://simdirs.com/news/esim-verification-number-guide-2026/): picking a foreign number for SMS codes
+- [CMLink vs CTExcel](https://simdirs.com/news/cmlink-vs-ctexcel-uk-comparison-2026/): two EE-based MVNOs, compared on keep-alive and China data
+- [Japan eSIM guide 2026](https://simdirs.com/news/japan-esim-guide-2026/): networks and prices
+- [How to choose a travel eSIM](https://simdirs.com/news/how-to-choose-travel-esim-2026/): by trip type
+
+## Chinese
+
+- [供应商目录](https://simdirs.com/zh/sims/)
+- [实测笔记](https://simdirs.com/zh/news/)

@@ -1,8 +1,11 @@
 {
-  "name": { "en": "Club Sim", "zh": "Club Sim" },
+  "name": {
+    "en": "Club Sim",
+    "zh": "Club Sim"
+  },
   "tagline": {
-    "en": "CSL's no-contract, pack-based prepaid platform — keep a Hong Kong number for about HK$15-28/year",
-    "zh": "CSL 旗下无合约组合式储值平台——约 HK$15-28/年即可持有香港号码"
+    "en": "CSL's pack-based prepaid: hold a Hong Kong number for HK$15–28 a year",
+    "zh": "CSL 的组合式储值卡，HK$15–28 一年养住香港号码"
   },
   "description": {
     "en": "Club Sim is CSL Mobile's self-service prepaid brand (HKT group, sister of csl/1O1O): buy service packs — local data, voice, Greater-China roaming, Asia-Pacific day passes — in the app or website with no contract and no admin fee. Its keep-alive rule is the standout: buying any pack within 365 days of the last keeps the number alive, with packs starting at HK$15.",
@@ -16,12 +19,23 @@
     "en": "Parking a Hong Kong number for under HK$30/year; Greater-China roaming with 90-day validity; residents who want CSL-network quality without a contract",
     "zh": "每年不到 HK$30 保住香港号码；90 天长有效期的大湾区漫游；想要 CSL 网络品质又不要合约的用户"
   },
-  "regions": ["asia"],
+  "regions": [
+    "asia"
+  ],
   "coverage": 2,
   "plansFrom": 2,
-  "dataFrom": "HK$38/GB (China-Macau roaming)",
-  "validity": "Keep number: any pack within 365 days (min ~HK$15/year); data packs 90 days; monthly packs 1 month",
-  "network": "4.5G (42Mbps, no 5G)",
+  "dataFrom": {
+    "en": "HK$38/GB (China-Macau roaming)",
+    "zh": "HK$38/GB（中港澳漫游）"
+  },
+  "validity": {
+    "en": "Keep number: any pack within 365 days (min ~HK$15/year); data packs 90 days; monthly packs 1 month",
+    "zh": "保号：365 天内买任一组合（最低约 HK$15/年）；流量包 90 天；月付包 1 个月"
+  },
+  "network": {
+    "en": "4.5G (42Mbps, no 5G)",
+    "zh": "4.5G（42Mbps，无 5G）"
+  },
   "device": "both",
   "hotspot": true,
   "rating": 3.8,
@@ -44,40 +58,112 @@
   },
   "plans": [
     {
-      "name": { "en": "Asia data roaming pass (24h)", "zh": "亚洲数据漫游通行证（24 小时）" },
-      "data": { "en": "24h unlimited full-speed", "zh": "24 小时全速数据" },
-      "validity": { "en": "24 hours", "zh": "24 小时" },
-      "price": { "en": "HK$15+", "zh": "HK$15 起" }
+      "name": {
+        "en": "Asia data roaming pass (24h)",
+        "zh": "亚洲数据漫游通行证（24 小时）"
+      },
+      "data": {
+        "en": "24h unlimited full-speed",
+        "zh": "24 小时全速数据"
+      },
+      "validity": {
+        "en": "24 hours",
+        "zh": "24 小时"
+      },
+      "price": {
+        "en": "HK$15+",
+        "zh": "HK$15 起"
+      }
     },
     {
-      "name": { "en": "Local data 5GB", "zh": "本地数据服务 5GB" },
-      "data": { "en": "5GB full-speed local", "zh": "5GB 全速本地数据" },
-      "validity": { "en": "90 days", "zh": "90 天" },
-      "price": { "en": "HK$28", "zh": "HK$28" }
+      "name": {
+        "en": "Local data 5GB",
+        "zh": "本地数据服务 5GB"
+      },
+      "data": {
+        "en": "5GB full-speed local",
+        "zh": "5GB 全速本地数据"
+      },
+      "validity": {
+        "en": "90 days",
+        "zh": "90 天"
+      },
+      "price": {
+        "en": "HK$28",
+        "zh": "HK$28"
+      }
     },
     {
-      "name": { "en": "Local voice & SMS pack", "zh": "本地通话及短信组合" },
-      "data": { "en": "No data; unlimited local calls + $6 SMS credit", "zh": "不含数据；无限本地通话+附送 $6 短信" },
-      "validity": { "en": "1 month", "zh": "1 个月" },
-      "price": { "en": "HK$28", "zh": "HK$28" }
+      "name": {
+        "en": "Local voice & SMS pack",
+        "zh": "本地通话及短信组合"
+      },
+      "data": {
+        "en": "No data; unlimited local calls + $6 SMS credit",
+        "zh": "不含数据；无限本地通话+附送 $6 短信"
+      },
+      "validity": {
+        "en": "1 month",
+        "zh": "1 个月"
+      },
+      "price": {
+        "en": "HK$28",
+        "zh": "HK$28"
+      }
     },
     {
-      "name": { "en": "China Mainland & Macao roaming 1GB", "zh": "中国内地及澳门漫游数据 1GB" },
-      "data": { "en": "1GB high-speed roaming", "zh": "1GB 高速漫游数据" },
-      "validity": { "en": "90 days", "zh": "90 天" },
-      "price": { "en": "HK$38", "zh": "HK$38" }
+      "name": {
+        "en": "China Mainland & Macao roaming 1GB",
+        "zh": "中国内地及澳门漫游数据 1GB"
+      },
+      "data": {
+        "en": "1GB high-speed roaming",
+        "zh": "1GB 高速漫游数据"
+      },
+      "validity": {
+        "en": "90 days",
+        "zh": "90 天"
+      },
+      "price": {
+        "en": "HK$38",
+        "zh": "HK$38"
+      }
     },
     {
-      "name": { "en": "China Mainland & Macao roaming 3GB", "zh": "中国内地及澳门漫游数据 3GB" },
-      "data": { "en": "3GB high-speed roaming", "zh": "3GB 高速漫游数据" },
-      "validity": { "en": "90 days", "zh": "90 天" },
-      "price": { "en": "HK$88", "zh": "HK$88" }
+      "name": {
+        "en": "China Mainland & Macao roaming 3GB",
+        "zh": "中国内地及澳门漫游数据 3GB"
+      },
+      "data": {
+        "en": "3GB high-speed roaming",
+        "zh": "3GB 高速漫游数据"
+      },
+      "validity": {
+        "en": "90 days",
+        "zh": "90 天"
+      },
+      "price": {
+        "en": "HK$88",
+        "zh": "HK$88"
+      }
     },
     {
-      "name": { "en": "Local data+voice 20GB", "zh": "本地数据及通话 20GB" },
-      "data": { "en": "20GB @42Mbps then throttled + unlimited local calls", "zh": "20GB@42Mbps 后降速+无限本地通话" },
-      "validity": { "en": "1 month", "zh": "1 个月" },
-      "price": { "en": "HK$58", "zh": "HK$58" }
+      "name": {
+        "en": "Local data+voice 20GB",
+        "zh": "本地数据及通话 20GB"
+      },
+      "data": {
+        "en": "20GB @42Mbps then throttled + unlimited local calls",
+        "zh": "20GB@42Mbps 后降速+无限本地通话"
+      },
+      "validity": {
+        "en": "1 month",
+        "zh": "1 个月"
+      },
+      "price": {
+        "en": "HK$58",
+        "zh": "HK$58"
+      }
     }
   ],
   "plansNote": {
@@ -119,7 +205,10 @@
   "featured": false,
   "updatedAt": "2026-09-27",
   "ipProfile": {
-    "country": { "en": "Hong Kong SAR (in HK); roaming exits per destination network", "zh": "香港（本地）；漫游按落地网络" },
+    "country": {
+      "en": "Hong Kong SAR (in HK); roaming exits per destination network",
+      "zh": "香港（本地）；漫游按落地网络"
+    },
     "type": "mobile",
     "confidence": "high",
     "note": {

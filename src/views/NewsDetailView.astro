@@ -14,9 +14,8 @@ const { lang, slug } = Astro.props;
 const tr = t(lang);
 const entry = await getNewsEntry(lang, slug);
 
-if (!entry) {
-  return Astro.redirect(localePath(lang, '/news'));
-}
+// Slugs come from getStaticPaths; a miss means the pair is out of sync.
+if (!entry) throw new Error(`No ${lang} news entry for slug "${slug}"`);
 
 const { Content } = await render(entry);
 const path = `/news/${slug}`;

@@ -4,8 +4,8 @@
     "zh": "Vodafone 德国 CallYa"
   },
   "tagline": {
-    "en": "Free-to-apply German eSIM (passport AutoID) — €20/year keep-alive, EU number",
-    "zh": "免费申请的德国eSIM（护照AutoID认证）——年保号约20欧元，欧盟号码"
+    "en": "Apply free with passport AutoID, about €20 a year to keep",
+    "zh": "护照 AutoID 免费申请，年保号约 20 欧元"
   },
   "description": {
     "en": "Vodafone Germany's CallYa prepaid eSIM is free to apply for: fill a German address on the official page, verify email, then complete passport KYC via the POSTIDENT app (AutoID video self-check, ~3-4h review). No bank card or IBAN binding required — rare in Europe. Keep-alive: any balance change per 90 days (€5 manual top-up works, PayPal/card), about €20/year (per the 2026-01 review; not re-confirmable on public pages as of 2026-09 — official copy frames non-top-up as an automatic tariff pause, with the definitive terms in the CallYa price-list PDF). In mainland China, receiving SMS is free; calls and data are prohibitively priced.",
@@ -24,9 +24,18 @@
   ],
   "coverage": 1,
   "plansFrom": 0,
-  "dataFrom": "Pay per use",
-  "validity": "90 days per balance change",
-  "network": "Vodafone DE (own network)",
+  "dataFrom": {
+    "en": "Pay per use",
+    "zh": "按次计费"
+  },
+  "validity": {
+    "en": "90 days per balance change",
+    "zh": "余额每次变动后 90 天"
+  },
+  "network": {
+    "en": "Vodafone DE (own network)",
+    "zh": "Vodafone 德国（自有网络）"
+  },
   "device": "esim",
   "hotspot": false,
   "rating": 3.9,

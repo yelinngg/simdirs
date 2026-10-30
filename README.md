@@ -1,43 +1,49 @@
-# Astro Starter Kit: Minimal
+# SimDirs
+
+A bilingual travel SIM & eSIM directory. English at `/`, Chinese at `/zh/`.
+
+Every provider is one JSON file, every article is one Markdown pair. There is no
+database and no CMS; the site is built by Astro and deployed as static assets on
+Cloudflare Workers.
+
+## What is in here
+
+```
+src/content/sims/*.json        one provider per file, filename = URL slug
+src/content/news/{en,zh}/*.md  articles, paired by identical filename
+src/views/*.astro              page bodies, shared by both locales
+src/pages/*.astro              thin route wrappers (one per locale)
+src/i18n/ui.ts                 every label and SEO string, en + zh
+src/lib/queries.ts             collection reads, sorting, static paths
+astro.config.mjs               site URL, sitemap lastmod, IndexNow
+worker.js                      www→apex, /en, legacy /post/* redirects
+```
+
+## Working on it
 
 ```sh
-npm create astro@latest -- --template minimal
+npm install
+npx astro dev --background     # dev server; logs with `npx astro dev logs`
+npm run build                  # astro check + build, must pass before pushing
+npm run og                     # regenerate OG PNGs after editing providers/articles
+npx wrangler deploy            # ship dist/ to Cloudflare
 ```
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+`npm run og` writes into `public/og/`, and those PNGs are committed, so CI never
+depends on font rendering.
 
-## 🚀 Project Structure
+## Content rules
 
-Inside of your Astro project, you'll see the following folders and files:
+The full set lives in [AGENTS.md](./AGENTS.md). The three that break the build or
+the site if you get them wrong:
 
-```text
-/
-├── public/
-├── src/
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
+- Localized fields need both `en` and `zh`, and articles need both language files.
+- `plansFrom: 0` renders as *Free tier*, not `$0.00`. Never use 0 for "unknown".
+- Exactly 9 providers carry `featured: true`; the homepage grid is 3×3.
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+## A note on tone
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
-
-Any static assets, like images, can be placed in the `public/` directory.
-
-## 🧞 Commands
-
-All commands are run from the root of the project, from a terminal:
-
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+The copy is deliberately plain: numbers first, no em dashes used as glue, and the
+downside is stated next to the upside. AGENTS.md has the checklist. When adding a
+provider, match the voice of the neighbouring entries rather than the voice of a
+product page.

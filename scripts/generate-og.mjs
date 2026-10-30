@@ -1,13 +1,18 @@
 // Generates Open Graph images (1200x630 PNG) from an SVG template using sharp.
 // Run locally after adding/changing SIM providers, then commit the PNGs:
-//   node scripts/generate-og.mjs
+//   node scripts/generate-og.mjs                 # everything
+//   node scripts/generate-og.mjs airalo giffgaff # only these slugs
 // PNGs are committed (not generated in CI) so builds never depend on server fonts.
+// Passing slugs keeps the diff to the images that actually changed — PNG bytes
+// differ between sharp builds, so a full re-run rewrites all of them.
 import sharp from 'sharp';
 import { mkdir, readdir, readFile } from 'node:fs/promises';
 
 const W = 1200;
 const H = 630;
 const OUT = 'public/og';
+const only = new Set(process.argv.slice(2));
+const wanted = (slug) => only.size === 0 || only.has(slug);
 
 const chip = (x, y, scale = 1) => `
   <g transform="translate(${x} ${y}) scale(${scale})">
@@ -54,18 +59,23 @@ async function render(name, data) {
 }
 
 await mkdir(OUT, { recursive: true });
-await render('default', {
-  title: 'Travel SIM & eSIM Directory',
-  subtitle: 'Compare coverage, prices and networks — all in one place',
-});
+if (wanted('default')) {
+  await render('default', {
+    title: 'Travel SIM & eSIM Directory',
+    subtitle: 'What it costs, where it exits, how long it lasts',
+  });
+}
 
 for (const file of await readdir('src/content/sims')) {
   if (!file.endsWith('.json')) continue;
   const slug = file.replace('.json', '');
+  if (!wanted(slug)) continue;
   const d = JSON.parse(await readFile(`src/content/sims/${file}`, 'utf8'));
+  // plansFrom 0 means a free trial / free-to-apply line, never "$0.00".
+  const price = Number(d.plansFrom) > 0 ? `From $${Number(d.plansFrom).toFixed(2)}` : 'Free tier';
   await render(`sims-${slug}`, {
     title: d.name.en,
-    subtitle: `From $${Number(d.plansFrom).toFixed(2)} · ${d.coverage}+ countries · ${d.network}`,
+    subtitle: `${price} · ${d.coverage}+ countries · ${d.network.en}`,
     big: true,
   });
 }
@@ -75,6 +85,7 @@ for (const file of await readdir('src/content/sims')) {
 for (const file of await readdir('src/content/news/en')) {
   if (!file.endsWith('.md')) continue;
   const slug = file.replace('.md', '');
+  if (!wanted(slug)) continue;
   const raw = await readFile(`src/content/news/en/${file}`, 'utf8');
   const fm = raw.match(/^---\n([\s\S]*?)\n---/);
   if (!fm) continue;

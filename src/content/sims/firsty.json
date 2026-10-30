@@ -4,8 +4,8 @@
     "zh": "Firsty"
   },
   "tagline": {
-    "en": "Free-tier eSIM: watch an ad for data — now 20MB chunks at 1Mbps across 170 countries",
-    "zh": "免费看广告换流量：现版每段20MB@1Mbps，覆盖170国"
+    "en": "Watch an ad, get 20MB at 1Mbps, in 170 countries",
+    "zh": "看一段广告换 20MB，170 国可用"
   },
   "description": {
     "en": "Firsty is a free-first eSIM app (com.firsty.app) covering 170 countries at one price. Free tier (current official listing): watch a short ad to unlock 20MB at 1Mbps, stackable, 7-day validity, no credit card. Paid: Classic from €0.98/GB (30d) and daily Unlimited from €2 (5GB full speed then 512kbps). The older 30-min-unlimited-256kbps model has been superseded.",
@@ -24,9 +24,18 @@
   ],
   "coverage": 170,
   "plansFrom": 0,
-  "dataFrom": "20MB per ad (free)",
-  "validity": "7 days (free); 30 days (Classic)",
-  "network": "Local partner networks",
+  "dataFrom": {
+    "en": "20MB per ad (free)",
+    "zh": "每段广告 20MB（免费）"
+  },
+  "validity": {
+    "en": "7 days (free); 30 days (Classic)",
+    "zh": "7 天（免费档）；30 天（Classic）"
+  },
+  "network": {
+    "en": "Local partner networks",
+    "zh": "本地合作网络"
+  },
   "device": "esim",
   "hotspot": true,
   "rating": 3.6,
@@ -116,7 +125,7 @@
   "ipProfile": {
     "country": {
       "en": "varies (nearest hub: USA / Singapore / Belgium; SG for Asia-Pacific users)",
-      "zh": "varies (nearest hub: USA / Singapore / Belgium; SG for Asia-Pacific users)"
+      "zh": "不定（最近枢纽：美国/新加坡/比利时；亚太用户落新加坡）"
     },
     "type": "unknown",
     "confidence": "medium",
