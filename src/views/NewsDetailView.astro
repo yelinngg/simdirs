@@ -90,14 +90,14 @@ const breadcrumbLd = {
   jsonLd={[articleLd, breadcrumbLd]}
 >
   <article class="mx-auto max-w-[46rem] px-4 py-8 sm:py-10">
-    <nav class="label-mono flex items-center gap-1.5 text-[10px] text-ink-500" aria-label="Breadcrumb">
+    <nav class="label-mono flex items-center gap-1.5 text-ink-500" aria-label="Breadcrumb">
       <a href={localePath(lang, '/')} class="transition-colors hover:text-ink-950">{tr.site.name}</a>
       <span class="text-ink-200">/</span>
       <a href={localePath(lang, '/news')} class="transition-colors hover:text-ink-950">{tr.news.title}</a>
     </nav>
 
     <header class="mt-5 border-b border-line pb-7">
-      <div class="label-mono flex flex-wrap items-center gap-x-2.5 text-[10px] text-ink-500">
+      <div class="label-mono flex flex-wrap items-center gap-x-2.5 text-ink-500">
         <time datetime={entry.data.date.toISOString()}>{formatDate(entry.data.date, lang)}</time>
         {entry.data.tags.slice(0, 2).map((tag) => (
           <>
@@ -123,7 +123,7 @@ const breadcrumbLd = {
     </div>
 
     <footer class="mt-12 border-t border-line pt-5">
-      <a href={localePath(lang, '/news')} class="label-mono inline-flex items-center gap-1.5 text-[10px] text-ink-500 transition-colors hover:text-ink-950">
+      <a href={localePath(lang, '/news')} class="label-mono inline-flex items-center gap-1.5 text-ink-500 transition-colors hover:text-ink-950">
         ← {tr.news.back}
       </a>
     </footer>

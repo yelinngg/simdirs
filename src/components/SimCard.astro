@@ -61,12 +61,12 @@ const searchText = [
       </h3>
       <p class="mt-1 line-clamp-2 text-[13px] leading-[1.6] text-ink-500">{tagline}</p>
     </div>
-    <span class="mt-0.5 shrink-0 border border-line px-1.5 py-0.5 font-mono text-[9.5px] uppercase leading-[1.5] tracking-[0.06em] text-ink-500">
+    <span class="mt-0.5 shrink-0 border border-line px-1.5 py-0.5 font-mono text-[11px] uppercase leading-[1.5] tracking-[0.06em] text-ink-500">
       {tr.sim.device[d.device]}
     </span>
   </div>
 
-  <div class="mt-3 flex items-baseline gap-2.5 text-[11px] leading-none">
+  <div class="mt-3 flex items-baseline gap-2.5 text-[12px] leading-none">
     <span class="font-mono font-medium text-ink-900">{d.rating.toFixed(1)}<span class="text-ink-300">/5</span></span>
     <span class="h-3 w-px bg-line" aria-hidden="true"></span>
     <span class="truncate text-[12px] text-ink-500">{pick(d.network, lang)}</span>
@@ -74,24 +74,24 @@ const searchText = [
 
   <dl class="mt-4 divide-y divide-line border-y border-line">
     <div class="flex items-baseline justify-between gap-3 py-2">
-      <dt class="label-mono shrink-0 text-[10px] text-ink-500">{tr.sim.from}</dt>
+      <dt class="label-mono shrink-0 text-ink-500">{tr.sim.from}</dt>
       <dd class="font-mono text-[12.5px] font-medium text-ink-950">{d.plansFrom > 0 ? `$${d.plansFrom.toFixed(2)}` : tr.sim.free}</dd>
     </div>
     <div class="flex items-baseline justify-between gap-3 py-2">
-      <dt class="label-mono shrink-0 text-[10px] text-ink-500">{tr.sim.dataFrom}</dt>
+      <dt class="label-mono shrink-0 text-ink-500">{tr.sim.dataFrom}</dt>
       <dd class="line-clamp-2 text-right text-[12.5px] font-medium leading-snug text-ink-800" title={dataFrom}>
         {leadClause(dataFrom)}
       </dd>
     </div>
     <div class="flex items-baseline justify-between gap-3 py-2">
-      <dt class="label-mono shrink-0 text-[10px] text-ink-500">{tr.sim.validity}</dt>
+      <dt class="label-mono shrink-0 text-ink-500">{tr.sim.validity}</dt>
       <dd class="line-clamp-2 text-right text-[12.5px] font-medium leading-snug text-ink-800" title={validity}>
         {leadClause(validity)}
       </dd>
     </div>
   </dl>
 
-  <p class="mt-3 truncate text-[11.5px] text-ink-500">
+  <p class="mt-3 truncate text-[12px] text-ink-500">
     {regionLabels.join(' · ')}{d.regions.length > 3 ? ` +${d.regions.length - 3}` : ''}
   </p>
 

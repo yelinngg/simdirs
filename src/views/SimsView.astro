@@ -30,7 +30,7 @@ const itemListLd = {
 <BaseLayout lang={lang} title={tr.seo.sims.title} description={tr.seo.sims.description} path="/sims" jsonLd={[itemListLd]}>
   <section class="border-b border-line bg-surface">
     <div class="mx-auto max-w-6xl px-4 py-10 sm:py-12">
-      <p class="label-mono flex items-center gap-2 text-[10px] text-ink-500">
+      <p class="label-mono flex items-center gap-2 text-ink-500">
         <span class="h-1.5 w-1.5 shrink-0 bg-accent" aria-hidden="true"></span>
         {String(sims.length).padStart(2, '0')}{lang === 'zh' ? ' 家收录' : ' listed'}
       </p>
@@ -67,7 +67,7 @@ const itemListLd = {
       </select>
     </div>
 
-    <p class="label-mono mt-5 text-[10px] text-ink-500" aria-live="polite">
+    <p class="label-mono mt-5 text-ink-500" aria-live="polite">
       <span id="sim-count" class="font-medium text-ink-950">{sims.length}</span> {tr.sims.cards}
     </p>
 

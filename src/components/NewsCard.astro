@@ -22,7 +22,7 @@ const readTime = minutes ? tr.news.readTime.replace('{n}', String(minutes)) : ''
 ---
 
 <article class="group relative flex flex-col border-r border-b border-line bg-paper p-6 transition-colors hover:bg-ink-50 focus-within:bg-ink-50">
-  <div class="label-mono flex items-center gap-2.5 text-[10px] text-ink-500">
+  <div class="label-mono flex items-center gap-2.5 text-ink-500">
     <time datetime={entry.data.date.toISOString()}>{formatDate(entry.data.date, lang)}</time>
     {entry.data.tags.slice(0, 1).map((tag) => (
       <>

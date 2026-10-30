@@ -3,6 +3,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 import { localePath, pick, formatDate, type Locale } from '../i18n/utils';
 import { t } from '../i18n/ui';
 import { getSim, getAllSims } from '../lib/queries';
+import { leadClause } from '../lib/format';
 import { marked } from 'marked';
 
 interface Props {
@@ -142,7 +143,7 @@ if (!seoDescription) {
 
 <BaseLayout lang={lang} title={seoTitle} description={seoDescription} path={path} ogImage={`/og/sims-${slug}.png`} jsonLd={[productLd, breadcrumbLd]}>
   <div class="mx-auto max-w-6xl px-4 py-8 sm:py-10">
-    <nav class="label-mono flex items-center gap-1.5 text-[10px] text-ink-500" aria-label="Breadcrumb">
+    <nav class="label-mono flex items-center gap-1.5 text-ink-500" aria-label="Breadcrumb">
       <a href={localePath(lang, '/')} class="transition-colors hover:text-ink-950">{tr.site.name}</a>
       <span class="text-ink-200">/</span>
       <a href={localePath(lang, '/sims')} class="transition-colors hover:text-ink-950">{tr.sim.breadcrumbList}</a>
@@ -154,10 +155,10 @@ if (!seoDescription) {
       <div class="min-w-0">
         <div class="flex flex-wrap items-center gap-x-3 gap-y-2">
           <h1 class="text-[1.8rem] font-semibold leading-[1.15] tracking-[-0.025em] text-ink-950 sm:text-[2.15rem]">{name}</h1>
-          <span class="shrink-0 border border-line px-1.5 py-0.5 font-mono text-[9.5px] uppercase leading-[1.5] tracking-[0.06em] text-ink-500">{tr.sim.device[d.device]}</span>
+          <span class="shrink-0 border border-line px-1.5 py-0.5 font-mono text-[11px] uppercase leading-[1.5] tracking-[0.06em] text-ink-500">{tr.sim.device[d.device]}</span>
         </div>
         <p class="mt-2.5 max-w-[42rem] text-[14.5px] leading-relaxed text-ink-600">{pick(d.tagline, lang)}</p>
-        <div class="label-mono mt-3.5 flex flex-wrap items-center gap-x-2.5 gap-y-1.5 text-[10px] text-ink-500">
+        <div class="label-mono mt-3.5 flex flex-wrap items-center gap-x-2.5 gap-y-1.5 text-ink-500">
           <span class="font-medium text-ink-900">{d.rating.toFixed(1)}<span class="text-ink-300">/5</span></span>
           <span class="text-ink-200">·</span>
           <span>{coverageLabel}</span>
@@ -177,12 +178,39 @@ if (!seoDescription) {
       </a>
     </header>
 
+    <!-- Phones only. Price, validity and the exit-IP nature lived in the sticky
+         column, which on a phone stacks below every section — around 3,200px
+         down, behind the whole article. This states the three answers people
+         open the page for, and the full table keeps its place below. Desktop
+         already has that column, so the block is hidden there. -->
+    <section class="mt-4 lg:hidden">
+      <h2 class="label-mono text-ink-500">{tr.sim.atAGlance}</h2>
+      <dl class="mt-2 divide-y divide-line border-y border-line">
+        <div class="flex items-baseline justify-between gap-4 py-3">
+          <dt class="label-mono shrink-0 text-ink-500">{tr.sim.from}</dt>
+          <dd class="font-mono text-[14px] font-medium text-ink-950">{d.plansFrom > 0 ? `$${d.plansFrom.toFixed(2)} USD` : tr.sim.free}</dd>
+        </div>
+        <div class="flex items-baseline justify-between gap-4 py-3">
+          <dt class="label-mono shrink-0 text-ink-500">{tr.sim.validity}</dt>
+          <dd class="min-w-0 text-right text-[13px] font-medium leading-snug text-ink-950" title={pick(d.validity, lang)}>
+            {leadClause(pick(d.validity, lang), 30)}
+          </dd>
+        </div>
+        {ip && (
+          <div class="flex items-baseline justify-between gap-4 py-3">
+            <dt class="label-mono shrink-0 text-ink-500">{tr.sim.ipExitShort}</dt>
+            <dd class="min-w-0 text-right text-[13px] font-medium leading-snug text-ink-950">{tr.sim.ipTypes[ip.type]}</dd>
+          </div>
+        )}
+      </dl>
+    </section>
+
     <div class="grid lg:grid-cols-[minmax(0,1fr)_19rem] lg:gap-10">
       <div class="min-w-0 divide-y divide-line">
         {bestFor && (
           <div class="mt-7 mb-1 border-l-2 border-accent py-1 pl-4">
             <p class="text-[14px] leading-relaxed text-ink-700">
-              <span class="label-mono mr-1.5 text-[10px] text-ink-500">{tr.sim.bestFor}</span>
+              <span class="label-mono mr-1.5 text-ink-500">{tr.sim.bestFor}</span>
               {bestFor}
             </p>
           </div>
@@ -209,28 +237,28 @@ if (!seoDescription) {
                  layout; on phones the row stacks and a right-aligned "PRICE"
                  header would sit above left-aligned prices. -->
             <div class="hidden items-baseline justify-between border-y border-line py-2 sm:flex">
-              <span class="label-mono text-[10px] text-ink-500">{tr.sim.planName}</span>
-              <span class="label-mono text-[10px] text-ink-500">{tr.sim.planPrice}</span>
+              <span class="label-mono text-ink-500">{tr.sim.planName}</span>
+              <span class="label-mono text-ink-500">{tr.sim.planPrice}</span>
             </div>
             <ul class="divide-y divide-line border-t border-line sm:border-t-0">
                 {d.plans.map((p) => (
                   <li class="flex flex-col gap-1.5 py-3.5 sm:flex-row sm:items-baseline sm:justify-between sm:gap-8">
                     <div class="min-w-0 sm:flex-1">
                       <p class="text-[13.5px] font-medium leading-snug text-ink-950">{pick(p.name, lang)}</p>
-                      <p class="mt-1 text-[11.5px] leading-relaxed text-ink-500">
+                      <p class="mt-1 text-[12px] leading-relaxed text-ink-500">
                         {pick(p.data, lang)}
                         <span class="text-ink-300" aria-hidden="true"> · </span>
                         {pick(p.validity, lang)}
                       </p>
                     </div>
-                    <p class="font-mono text-[11.5px] leading-[1.65] text-ink-700 sm:w-[46%] sm:shrink-0 sm:text-right">
+                    <p class="font-mono text-[12px] leading-[1.65] text-ink-700 sm:w-[46%] sm:shrink-0 sm:text-right">
                       {pick(p.price, lang)}
                     </p>
                   </li>
                 ))}
               </ul>
             </div>
-            {plansNote && <p class="mt-3 text-[11.5px] leading-relaxed text-ink-500">{plansNote}</p>}
+            {plansNote && <p class="mt-3 text-[12px] leading-relaxed text-ink-500">{plansNote}</p>}
           </section>
         )}
 
@@ -240,7 +268,7 @@ if (!seoDescription) {
             <div class="mt-4 grid gap-7 sm:grid-cols-2 sm:gap-8">
               {pros?.length ? (
                 <div>
-                  <p class="label-mono flex items-center gap-1.5 text-[10px] text-ink-500">
+                  <p class="label-mono flex items-center gap-1.5 text-ink-500">
                     <span class="font-mono text-[12px] leading-none text-emerald-700">+</span>
                     {tr.sim.pros}
                   </p>
@@ -256,7 +284,7 @@ if (!seoDescription) {
               ) : null}
               {cons?.length ? (
                 <div class="border-t border-line pt-6 sm:border-t-0 sm:border-l sm:pl-8 sm:pt-0">
-                  <p class="label-mono flex items-center gap-1.5 text-[10px] text-ink-500">
+                  <p class="label-mono flex items-center gap-1.5 text-ink-500">
                     <span class="font-mono text-[12px] leading-none text-rose-600">−</span>
                     {tr.sim.cons}
                   </p>
@@ -302,9 +330,9 @@ if (!seoDescription) {
                 >
                   <span class="min-w-0">
                     <span class="block truncate text-[13.5px] font-medium text-ink-900 transition-colors group-hover:text-accent">{pick(r.data.name, lang)}</span>
-                    <span class="mt-0.5 block truncate text-[11.5px] text-ink-500">{pick(r.data.tagline, lang)}</span>
+                    <span class="mt-0.5 block truncate text-[12px] text-ink-500">{pick(r.data.tagline, lang)}</span>
                   </span>
-                  <span class="label-mono shrink-0 text-[9.5px] text-ink-500">
+                  <span class="label-mono shrink-0 text-ink-500">
                     {tr.sim.ipTypes[r.data.ipProfile?.type ?? 'unknown']}
                   </span>
                 </a>
@@ -316,7 +344,7 @@ if (!seoDescription) {
 
       <aside class="mt-4 lg:mt-0 lg:border-l lg:border-line lg:pl-8">
         <div class="lg:sticky lg:top-20 lg:py-7">
-          <h2 class="label-mono text-[10px] text-ink-500">{tr.sim.specs}</h2>
+          <h2 class="label-mono text-ink-500">{tr.sim.specs}</h2>
           <dl class="mt-3 divide-y divide-line border-y border-line">
             {
               specs.map((s) => (
@@ -327,12 +355,12 @@ if (!seoDescription) {
               ))
             }
           </dl>
-          <p class="mt-3 text-[11.5px] leading-[1.7] text-ink-500">{d.regions.map((r) => tr.regions[r]).join(' · ')}</p>
+          <p class="mt-3 text-[12px] leading-[1.7] text-ink-500">{d.regions.map((r) => tr.regions[r]).join(' · ')}</p>
 
           {
             ip && ipRows.length > 0 && (
               <section class="mt-7 border-t border-line pt-5">
-                <h2 class="label-mono text-[10px] text-ink-500">{tr.sim.ipProfile}</h2>
+                <h2 class="label-mono text-ink-500">{tr.sim.ipProfile}</h2>
                 <dl class="mt-3 divide-y divide-line border-y border-line">
                   {ipRows.map((row) => (
                     <div class="flex items-baseline gap-4 py-2.5">
@@ -342,7 +370,7 @@ if (!seoDescription) {
                   ))}
                 </dl>
                 {ip.note && pick(ip.note, lang) && (
-                  <p class="mt-3 text-[11px] leading-[1.7] text-ink-500">
+                  <p class="mt-3 text-[12px] leading-[1.7] text-ink-500">
                     {pick(ip.note, lang)}{lang === 'zh' ? '（' : ' ('}{tr.sim.ipConfidence[ip.confidence]}{lang === 'zh' ? '）' : ')'}
                   </p>
                 )}
@@ -350,7 +378,7 @@ if (!seoDescription) {
             )
           }
 
-          <a href={localePath(lang, '/sims')} class="label-mono mt-7 inline-flex items-center gap-1.5 text-[10px] text-ink-500 transition-colors hover:text-ink-950">
+          <a href={localePath(lang, '/sims')} class="label-mono mt-7 inline-flex items-center gap-1.5 text-ink-500 transition-colors hover:text-ink-950">
             ← {tr.sim.backToList}
           </a>
         </div>

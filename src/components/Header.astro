@@ -39,7 +39,7 @@ const linkClass = (href: string) => {
       </svg>
       <span class="flex flex-col justify-center leading-none">
         <span class="text-[15px] font-semibold tracking-[-0.01em] text-ink-950 sm:text-base">SimDirs</span>
-        <span class="label-mono mt-1 hidden text-[9.5px] leading-none text-ink-500 sm:block">{tr.site.kicker}</span>
+        <span class="label-mono mt-1 hidden text-[10px] leading-none text-ink-500 sm:block">{tr.site.kicker}</span>
       </span>
     </a>
 
@@ -55,13 +55,13 @@ const linkClass = (href: string) => {
         {
           locales.map((l, i) => (
             <>
-              {i > 0 && <span class="label-mono text-[10px] text-ink-300">/</span>}
+              {i > 0 && <span class="label-mono text-ink-300">/</span>}
               <a
                 href={translatePath(currentPath, l)}
                 hreflang={l}
                 aria-current={l === lang ? 'true' : undefined}
                 class:list={[
-                  'label-mono whitespace-nowrap text-[11px] transition-colors',
+                  'label-mono whitespace-nowrap transition-colors',
                   l === lang ? 'text-ink-950' : 'text-ink-500 hover:text-ink-700',
                 ]}
               >
