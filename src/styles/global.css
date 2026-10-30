@@ -54,9 +54,16 @@
     'IBM Plex Sans', 'PingFang SC', 'HarmonyOS Sans SC', 'Hiragino Sans GB',
     'Source Han Sans SC', 'Noto Sans SC', 'Microsoft YaHei UI', 'Microsoft YaHei',
     ui-sans-serif, system-ui, sans-serif;
+  /* The CJK faces at the tail are load-bearing: Plex Mono has no Han glyphs, so
+     Chinese inside a mono label (spec keys, section heads, dates) would fall
+     through to the OS mono default — SimSun on Windows, a Song serif sitting
+     next to YaHei body copy. Listing the sans CJK stack keeps Latin in mono and
+     Chinese in the same sans as the rest of the page. */
   --font-mono:
     'IBM Plex Mono', ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas,
-    'Liberation Mono', monospace;
+    'Liberation Mono', 'PingFang SC', 'HarmonyOS Sans SC', 'Hiragino Sans GB',
+    'Source Han Sans SC', 'Noto Sans SC', 'Microsoft YaHei UI', 'Microsoft YaHei',
+    monospace;
 
   /* Graphite, cooled a touch towards blue. Long body copy sits at 600/700. */
   --color-ink-50: #f6f8f9;
@@ -198,7 +205,7 @@
     @apply my-6 w-full border-collapse text-[13.5px];
   }
   & th {
-    @apply border-b border-line py-2 pr-4 text-left font-mono text-[11px] font-medium uppercase tracking-[0.09em] text-ink-400;
+    @apply border-b border-line py-2 pr-4 text-left font-mono text-[12px] font-medium uppercase tracking-[0.09em] text-ink-500;
   }
   & td {
     @apply border-b border-line py-2.5 pr-4 align-top text-ink-700;
