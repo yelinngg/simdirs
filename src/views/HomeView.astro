@@ -32,10 +32,13 @@ const checkedLabel = new Intl.DateTimeFormat(lang === 'zh' ? 'zh-CN' : 'en-US', 
   month: 'short',
 }).format(lastChecked);
 
+// Chinese puts the counter after the number ("40 家供应商"), so the unit rides
+// with the figure and the label is the bare noun. English keeps the zero-padded
+// figure alone: "providers tracked · 08" is a KPI row, "08 providers" is a list.
 const stats = [
-  { value: allSims.length, label: tr.home.stats.providers },
-  { value: new Set(allSims.flatMap((s) => s.data.regions)).size, label: tr.home.stats.regions },
-  { value: latestNews.length, label: tr.home.stats.updates },
+  { value: allSims.length, label: tr.home.stats.providers, unit: lang === 'zh' ? '家' : '' },
+  { value: new Set(allSims.flatMap((s) => s.data.regions)).size, label: tr.home.stats.regions, unit: lang === 'zh' ? '个' : '' },
+  { value: latestNews.length, label: tr.home.stats.updates, unit: lang === 'zh' ? '篇' : '' },
 ];
 
 const pad = (n: number) => String(n).padStart(2, '0');
@@ -83,7 +86,9 @@ const pad = (n: number) => String(n).padStart(2, '0');
             stats.map((s, i) => (
               <div class:list={['flex items-baseline justify-between gap-4 border-b border-line py-3', i === 0 && 'lg:border-t lg:border-line']}>
                 <dt class="label-mono text-ink-500">{s.label}</dt>
-                <dd class="font-mono text-[19px] font-medium leading-none text-ink-950">{pad(s.value)}</dd>
+                <dd class="flex items-baseline justify-end gap-1 font-mono text-[19px] font-medium leading-none text-ink-950">
+                  {lang === 'zh' ? s.value : pad(s.value)}{s.unit && <span class="text-[12px] font-normal text-ink-500">{s.unit}</span>}
+                </dd>
               </div>
             ))
           }

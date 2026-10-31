@@ -58,6 +58,7 @@ The site is written as one editor's notes, not as marketing copy. Rules that kee
 - **No em dashes as glue in short strings.** Labels, taglines and "who it is for" lines use a comma, a colon, parentheses or a second sentence. Long-form notes may still use `——` where Chinese prose calls for it, just not as the default connector.
 - **Avoid the stock adjective set:** seamless, robust, flexible, affordable, premium, privacy-first, all-in-one, 一站式, 灵活, 实惠, 全方位, 赋能. If a claim needs one of these, it needs evidence instead.
 - **Say the downside in the same breath as the upside.** Every "who it is for" line carries its cost ("每 GB 贵一点，换来基本不出问题").
+- **In Chinese the counter follows the number.** "40 家供应商", never "家供应商 40". A label that opens with 家/个/篇/张 is not a word on its own, so labels are bare nouns and the unit rides with the figure (`stats` in `HomeView` pairs `供应商` with `40 家`). The same rule covers `{n} 张SIM卡`, which is why `sims.cards` reads `张SIM卡`: the number is already in front of it.
 - **Keep the sourcing visible.** Verified facts cite the date (`官方 2026-09`); community reports say so and are marked unverified.
 - Do not stack parallel triads ("coverage, price and validity, all in one place"). Vary sentence length instead.
 

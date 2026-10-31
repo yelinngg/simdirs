@@ -181,9 +181,9 @@ const zh: typeof en = {
     latestNews: '最新笔记',
     viewAll: '全部',
     stats: {
-      providers: '家供应商',
-      regions: '个地区',
-      updates: '篇笔记',
+      providers: '供应商',
+      regions: '地区',
+      updates: '笔记',
     },
   },
   sims: {
