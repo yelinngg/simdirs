@@ -93,8 +93,8 @@
     }
   ],
   "plansNote": {
-    "en": "CS-only £7/3GB and £8/8GB plans are not published on any official page and could not be publicly corroborated in the 2026-09 re-check — treat as anecdotal. Storefront PAYG per the 19 Apr 2026 price guide: £10/40GB, £15/100GB, £20/200GB (storefront promo: 120GB for £13.50).",
-    "zh": "客服专享的7镑/3GB与8镑/8GB套餐官网任何页面均未挂出，2026-09复核亦无公开佐证——请当作坊间传闻。官网Paygo按2026-04-19价目表：£10/40GB、£15/100GB、£20/200GB（官网促销：13.5英镑120GB）。"
+    "en": "Storefront PAYG per official Data Packs page (re-verified 2026-11-03): 1-month packs £10/25GB, £15/80GB, £20/160GB, £35/Unlimited; auto-renew versions ~10% cheaper with extra data (e.g. £13.50/80GB, £18/160GB). Keep-alive 180 days confirmed.",
+    "zh": "按官方 Data Packs 页复核（2026-11-03）：30天包 £10/25GB、£15/80GB、£20/160GB、£35/不限量；自动续订版约便宜10%且流量更多（如 £13.50/80GB、£18/160GB）。180天保号已确认。"
   },
   "pros": {
     "en": [
@@ -121,7 +121,7 @@
     ]
   },
   "featured": false,
-  "updatedAt": "2026-09-16",
+  "updatedAt": "2026-11-03",
   "ipProfile": {
     "country": {
       "en": "GB (UK exit when roaming, home-routed; applies post Vodafone-Three merger)",

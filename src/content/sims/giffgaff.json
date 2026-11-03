@@ -29,8 +29,8 @@
     "zh": "按次计费"
   },
   "validity": {
-    "en": "180 days per activity",
-    "zh": "每次使用 180 天"
+    "en": "6 months per chargeable activity",
+    "zh": "每次可计费活动后6个月"
   },
   "network": {
     "en": "O2 (4G)",
@@ -65,8 +65,8 @@
         "zh": "按量计费"
       },
       "validity": {
-        "en": "180 days per activity",
-        "zh": "每次使用后180天"
+        "en": "6 months per chargeable activity (one £0.30 SMS per window keeps it alive)",
+        "zh": "每次可计费活动后6个月（每窗口一条 £0.30 短信即可保号）"
       },
       "price": {
         "en": "£10 first top-up (£5 joiner credit only via referral link); one £0.30 SMS per 180 days keeps it alive",
@@ -107,7 +107,7 @@
     ]
   },
   "featured": true,
-  "updatedAt": "2026-09-16",
+  "updatedAt": "2026-11-03",
   "ipProfile": {
     "country": {
       "en": "GB (UK exit when roaming, home-routed via O2 UK)",

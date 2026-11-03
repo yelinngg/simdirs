@@ -30,8 +30,8 @@
     "zh": "1GB"
   },
   "validity": {
-    "en": "2 years from first connect, extendable",
-    "zh": "首次连接起 2 年，可延长"
+    "en": "No expiry — data never expires",
+    "zh": "数据永不过期——流量永不过期"
   },
   "network": {
     "en": "Singtel 4G/5G (Singapore)",
@@ -90,8 +90,8 @@
         "zh": "1GB永不过期"
       },
       "validity": {
-        "en": "2 years from first connect",
-        "zh": "首次联网起2年"
+        "en": "Never expires",
+        "zh": "永不过期"
       },
       "price": {
         "en": "US$3.90 (promo $2.54)",
@@ -108,8 +108,8 @@
         "zh": "10GB，126国"
       },
       "validity": {
-        "en": "2 years from first connect",
-        "zh": "首次联网起2年"
+        "en": "Never expires",
+        "zh": "永不过期"
       },
       "price": {
         "en": "US$38.90 (promo $23.90)",
@@ -122,7 +122,7 @@
     "zh": "官方套餐页（2026-09-25核验），促销价为官方App价。"
   },
   "featured": false,
-  "updatedAt": "2026-09-25",
+  "updatedAt": "2026-11-03",
   "ipProfile": {
     "country": {
       "en": "Singapore (community consensus; operator Datapro Technologies is Singapore-based)",

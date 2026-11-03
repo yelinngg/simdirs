@@ -61,8 +61,8 @@
   },
   "plans": [],
   "plansNote": {
-    "en": "Holafly sells duration-based unlimited plans (e.g. 5/10/15/20/30... days) with prices set per destination and season. Its storefront is behind a bot challenge, so per-destination day prices are not republished here — check the official site for live rates.",
-    "zh": "Holafly 按有效期售卖不限量套餐（如 5/10/15/20/30 天等），价格随目的地与季节变动。其商店有反爬验证，此处不转载逐目的地日价——请以官网实时价为准。"
+    "en": "Holafly sells duration-based unlimited plans (5/10/15/20/30... days) with per-destination, per-season prices. As of Nov 2026 the storefront also sells monthly/yearly global subscription plans — Light (25GB), Unlimited, Ultra — with \"Cancel renewal anytime\" and a free 1GB/month \"Always On\" benefit, from $49.90/month (re-verified 2026-11-03).",
+    "zh": "Holafly 按天数出售不限量套餐（5/10/15/20/30…天），价格因目的地和季节而异。2026年11月起官网还销售按月/按年的全球订阅计划——Light（25GB）、Unlimited、Ultra 三档，可随时取消续订，附每月 1GB \"Always On\" 免费额度，$49.90/月起（2026-11-03 复核）。"
   },
   "pros": {
     "en": [
@@ -95,7 +95,7 @@
     ]
   },
   "featured": true,
-  "updatedAt": "2026-09-25",
+  "updatedAt": "2026-11-03",
   "ipProfile": {
     "country": {
       "en": "varies (documented routing via China Mobile and other undisclosed networks)",

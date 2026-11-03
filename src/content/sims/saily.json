@@ -75,8 +75,8 @@
         "zh": "按月订阅（社区实测约6.99美元/年档，未核实）"
       },
       "price": {
-        "en": "From US$0.99/mo",
-        "zh": "0.99美元/月起"
+        "en": "US$1.99/mo (call & text add-on plans from US$0.99)",
+        "zh": "1.99美元/月（通话短信附加包0.99美元起）"
       }
     }
   ],
@@ -113,7 +113,7 @@
     ]
   },
   "featured": true,
-  "updatedAt": "2026-10-10",
+  "updatedAt": "2026-11-03",
   "ipProfile": {
     "country": {
       "en": "unknown",

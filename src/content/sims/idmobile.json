@@ -29,8 +29,8 @@
     "zh": "1GB"
   },
   "validity": {
-    "en": "90 days per activity",
-    "zh": "每次使用 90 天"
+    "en": "180 days per chargeable activity; PAYG credit expires 365 days from purchase",
+    "zh": "每次可计费活动后180天；话费余额自购买起365天有效"
   },
   "network": {
     "en": "Three (4G/5G)",
@@ -65,8 +65,8 @@
         "zh": "1GB"
       },
       "validity": {
-        "en": "90 days per activity (T&C: auto-disconnect after 4 months without chargeable events)",
-        "zh": "每次使用后90天（条款：4个月无计费事件自动断开）"
+        "en": "180 days per chargeable activity (official FAQ no longer states the 90-day/4-month rule)",
+        "zh": "每次可计费活动后180天（官方FAQ已不再出现90天/4个月条款）"
       },
       "price": {
         "en": "£6",
@@ -75,8 +75,8 @@
     }
   ],
   "plansNote": {
-    "en": "PAYG terms per iD Mobile official FAQ/T&C (2026-09 re-verify): 90-day inactivity expiry; 4-month no-chargeable-event disconnection.",
-    "zh": "Paygo规则按iD Mobile官方FAQ/条款（2026-09复核）：90天不活动失效；4个月无计费事件断开。"
+    "en": "PAYG bundle ladder per official PAYG page (re-verified 2026-11-03): 1GB £6 / 4GB £8 / 6GB £10 / 20GB £15 / Unlimited £20, all 30-day. SIM expiry: chargeable activity within 180 days; credit expires 365 days from purchase. Site blocks datacenter ASNs (CF Error 1005) — verified via search index.",
+    "zh": "按官方 PAYG 页复核（2026-11-03）：1GB £6 / 4GB £8 / 6GB £10 / 20GB £15 / 不限量 £20，均30天。号码过期：180天内需有计费活动；话费余额自购买起365天有效。官网屏蔽数据中心ASN（CF 1005），经搜索索引核验。"
   },
   "pros": {
     "en": [
@@ -103,7 +103,7 @@
     ]
   },
   "featured": false,
-  "updatedAt": "2026-09-16",
+  "updatedAt": "2026-11-03",
   "ipProfile": {
     "country": {
       "en": "GB (UK exit when roaming, home-routed via Three)",

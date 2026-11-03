@@ -23,10 +23,10 @@
     "asia"
   ],
   "coverage": 95,
-  "plansFrom": 6,
+  "plansFrom": 2.1,
   "dataFrom": {
-    "en": "3GB/day roaming pass",
-    "zh": "3GB/天 漫游通行证"
+    "en": "1GB 3-day high-speed roaming pass",
+    "zh": "1GB 3天高速漫游包"
   },
   "validity": {
     "en": "50 days grace after credit expiry",
@@ -59,134 +59,188 @@
   "plans": [
     {
       "name": {
-        "en": "3-Day Pass (SG/ID/TH)",
-        "zh": "3天包（新印泰）"
+        "en": "SG/ID/TH 3-day High-Speed Pass",
+        "zh": "新马泰 3天高速包"
       },
       "data": {
-        "en": "4GB high-speed",
-        "zh": "4GB 高速"
+        "en": "1GB + 15 min",
+        "zh": "1GB+15分钟"
       },
       "validity": {
         "en": "3 days",
         "zh": "3天"
       },
       "price": {
-        "en": "RM28",
-        "zh": "RM28"
+        "en": "RM10",
+        "zh": "RM10"
       }
     },
     {
       "name": {
-        "en": "3-Day Unlimited Pass (95 countries)",
-        "zh": "3天无限包（95国）"
+        "en": "SG/ID/TH 7-day High-Speed Pass",
+        "zh": "新马泰 7天高速包"
       },
       "data": {
-        "en": "2GB/day high-speed + unlimited 1Mbps",
-        "zh": "每日2GB高速+无限1Mbps"
-      },
-      "validity": {
-        "en": "3 days",
-        "zh": "3天"
-      },
-      "price": {
-        "en": "RM48",
-        "zh": "RM48"
-      }
-    },
-    {
-      "name": {
-        "en": "7-Day Unlimited Pass (95 countries)",
-        "zh": "7天无限包（95国）"
-      },
-      "data": {
-        "en": "2GB/day high-speed + unlimited 1Mbps",
-        "zh": "每日2GB高速+无限1Mbps"
+        "en": "2GB + 30 min",
+        "zh": "2GB+30分钟"
       },
       "validity": {
         "en": "7 days",
         "zh": "7天"
       },
       "price": {
-        "en": "RM58",
-        "zh": "RM58"
+        "en": "RM15",
+        "zh": "RM15"
       }
     },
     {
       "name": {
-        "en": "14-Day Unlimited Pass (95 countries)",
-        "zh": "14天无限包（95国）"
+        "en": "Asia 3-day Pass",
+        "zh": "亚洲 3天包"
       },
       "data": {
-        "en": "3GB/day high-speed + unlimited 1Mbps",
-        "zh": "每日3GB高速+无限1Mbps"
+        "en": "5GB + 15 min",
+        "zh": "5GB+15分钟"
       },
       "validity": {
-        "en": "14 days",
-        "zh": "14天"
+        "en": "3 days",
+        "zh": "3天"
       },
       "price": {
-        "en": "RM98",
-        "zh": "RM98"
+        "en": "RM30",
+        "zh": "RM30"
       }
     },
     {
       "name": {
-        "en": "10-Day Pass (1GB countries)",
-        "zh": "10天包（1GB国家档）"
+        "en": "Asia 7-day Pass",
+        "zh": "亚洲 7天包"
       },
       "data": {
-        "en": "1GB (Afghanistan, Fiji, Iran, Macedonia, Maldives, Mauritius, Mongolia, Morocco, Panama, PNG, Samoa, Tajikistan, Tonga, Turks & Caicos, Vanuatu, Yemen)",
-        "zh": "1GB（阿富汗、斐济、伊朗、马其顿、马尔代夫、毛里求斯、蒙古、摩洛哥、巴拿马、巴新、萨摩亚、塔吉克斯坦、汤加、特克斯和凯科斯、瓦努阿图、也门）"
+        "en": "3GB + 30 min",
+        "zh": "3GB+30分钟"
+      },
+      "validity": {
+        "en": "7 days",
+        "zh": "7天"
+      },
+      "price": {
+        "en": "RM35",
+        "zh": "RM35"
+      }
+    },
+    {
+      "name": {
+        "en": "Asia 10-day Pass",
+        "zh": "亚洲 10天包"
+      },
+      "data": {
+        "en": "8GB + 30 min",
+        "zh": "8GB+30分钟"
       },
       "validity": {
         "en": "10 days",
         "zh": "10天"
       },
       "price": {
-        "en": "RM128",
-        "zh": "RM128"
+        "en": "RM50",
+        "zh": "RM50"
       }
     },
     {
       "name": {
-        "en": "30-Day Unlimited Pass (prepaid: RM148 for China tier)",
-        "zh": "30天无限包（预付含中国档RM148）"
+        "en": "Asia 14-day Pass",
+        "zh": "亚洲 14天包"
       },
       "data": {
-        "en": "3GB/day high-speed + unlimited 1Mbps",
-        "zh": "每日3GB高速+无限1Mbps"
+        "en": "20GB + 30 min",
+        "zh": "20GB+30分钟"
+      },
+      "validity": {
+        "en": "14 days",
+        "zh": "14天"
+      },
+      "price": {
+        "en": "RM60",
+        "zh": "RM60"
+      }
+    },
+    {
+      "name": {
+        "en": "Asia 30-day Pass",
+        "zh": "亚洲 30天包"
+      },
+      "data": {
+        "en": "90GB + 30 min",
+        "zh": "90GB+30分钟"
       },
       "validity": {
         "en": "30 days",
         "zh": "30天"
       },
       "price": {
-        "en": "Prepaid RM118/76 countries; RM148 for Brunei/China/Oman/Turkey/UAE; postpaid RM118/95 countries",
-        "zh": "预付RM118/76国；文莱/中国/阿曼/土耳其/阿联酋为RM148；后付RM118/95国"
+        "en": "RM100–130",
+        "zh": "RM100–130"
       }
     },
     {
       "name": {
-        "en": "Keep-alive (reload-based)",
-        "zh": "保号（充值延期）"
+        "en": "Special 90GB Pass (BN/OM/TR/AE)",
+        "zh": "特别 90GB 包（文莱/阿曼/土耳其/阿联酋）"
       },
       "data": {
-        "en": "Pay per use",
-        "zh": "按需付费"
+        "en": "90GB + 30 min",
+        "zh": "90GB+30分钟"
       },
       "validity": {
-        "en": "RM5=5d … RM100=100d (+50d grace)",
-        "zh": "RM5=5天 … RM100=100天（另50天宽限）"
+        "en": "30 days",
+        "zh": "30天"
       },
       "price": {
-        "en": "from RM5, ~RM192/year via SLL",
-        "zh": "RM5起，Super Long Life年约RM192"
+        "en": "RM148",
+        "zh": "RM148"
+      }
+    },
+    {
+      "name": {
+        "en": "Monthly Roaming Pass 30GB",
+        "zh": "月度漫游包 30GB"
+      },
+      "data": {
+        "en": "30GB (SG/ID/TH), auto-renew",
+        "zh": "30GB（新马泰），自动续订"
+      },
+      "validity": {
+        "en": "30 days",
+        "zh": "30天"
+      },
+      "price": {
+        "en": "RM40/month",
+        "zh": "RM40/月"
+      }
+    },
+    {
+      "name": {
+        "en": "Monthly Roaming Pass 80GB",
+        "zh": "月度漫游包 80GB"
+      },
+      "data": {
+        "en": "80GB in 95 countries, auto-renew",
+        "zh": "80GB，95国，自动续订"
+      },
+      "validity": {
+        "en": "30 days",
+        "zh": "30天"
+      },
+      "price": {
+        "en": "RM70/month",
+        "zh": "RM70/月"
       }
     }
   ],
   "plansNote": {
-    "en": "Pass prices verified on help.celcomdigi.com 'Roaming Passes (Effective date 21 May 2026)' 2026-09-16 (main site geo-blocked from the audit egress); prepaid 30-day split RM118/76 countries vs RM148 China tier confirmed there. Validity rules per CelcomDigi prepaid T&C and Malaysian prepaid termination rules (50-day grace) — T&C pages geo-blocked 2026-09, rules carried from the 2026-08-22 verification with no contradicting source. RM1 ≈ USD 0.21.",
-    "zh": "漫游包价格核验自 help.celcomdigi.com「Roaming Passes (Effective date 21 May 2026)」（2026-09-16；主站对审计出口IP地区屏蔽）；预付30天包 RM118/76国 与 RM148 中国档在该页确认。有效期规则依据 CelcomDigi 预付条款与马来西亚预付卡终止规则（50 天宽限期）——条款页2026-09被地区屏蔽，规则沿用2026-08-22核验口径、未见矛盾来源。RM1 ≈ USD 0.21。"
+    "en": "Pass catalogue REPLACED effective 1 Oct 2026 — old RM28–RM148 passes discontinued; new prepaid High-Speed passes from RM10 and Monthly Roaming Passes RM40/RM70 per official help articles (re-verified 2026-11-03; main site geo-blocked, verified via help.celcomdigi.com articles). Pass prices verified on help.celcomdigi.com 'Roaming Passes (Effective date 21 May 2026)' 2026-09-16 (main site geo-blocked from the audit egress); prepaid 30-day split RM118/76 countries vs RM148 China tier confirmed there. Validity rules per CelcomDigi prepaid T&C and Malaysian prepaid termination rules (50-day grace) — T&C pages geo-blocked 2026-09, rules carried from the 2026-08-22 verification with no contradicting source. RM1 ≈ USD 0.21.",
+    "zh": "漫游包目录已于 2026-10-01 整体更换：原 RM28–RM148 各档停售；新预付高速包 RM10 起、月度漫游包 RM40/RM70（2026-11-03 依官方帮助文章复核；主站地区屏蔽，经帮助中心核验）。漫游包价格核验自 help.celcomdigi.com「Roaming Passes (Effective date 21 May 2026)」（2026-09-16；主站对审计出口IP地区屏蔽）；预付30天包 RM118/76国 与 RM148 中国档在该页确认。有效期规则依据 CelcomDigi 预付条款与马来西亚预付卡终止规则（50 天宽限期）——条款页2026-09被地区屏蔽，规则沿用2026-08-22核验口径、未见矛盾来源。RM1 ≈ USD 0.21。"
   },
   "pros": {
     "en": [
@@ -219,7 +273,7 @@
     ]
   },
   "featured": false,
-  "updatedAt": "2026-09-16",
+  "updatedAt": "2026-11-03",
   "ipProfile": {
     "country": {
       "en": "MY (Malaysia)",

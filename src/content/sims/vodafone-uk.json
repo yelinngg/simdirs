@@ -57,20 +57,20 @@
   "plans": [
     {
       "name": {
-        "en": "PAYG eSIM (CS-only)",
-        "zh": "Paygo eSIM（仅客服）"
+        "en": "Pay as you go Plus £10",
+        "zh": "Pay as you go Plus £10"
       },
       "data": {
-        "en": "Pay per use",
-        "zh": "按量计费"
+        "en": "27GB (19GB extra for first 3 months, then 8GB)",
+        "zh": "27GB（前3个月每月多19GB，之后8GB）"
       },
       "validity": {
-        "en": "90+90 days per activity (warning text at 90, disconnect at 180)",
-        "zh": "每次余额变动后90+90天（90天提醒，180天断号）"
+        "en": "30-day auto-renew; keep-alive 90-day warning then 180-day disconnect",
+        "zh": "30天自动续订；保号90天预警、180天断开"
       },
       "price": {
-        "en": "£10",
-        "zh": "10英镑"
+        "en": "£10/mo, eSIM available, no contract; offer ends 8 Dec 2026 (higher tiers £15/75GB, £20/150GB, £30/300GB)",
+        "zh": "£10/月，支持eSIM，无合约；优惠至2026-12-08（高档 £15/75GB、£20/150GB、£30/300GB）"
       }
     }
   ],
@@ -103,7 +103,7 @@
     ]
   },
   "featured": false,
-  "updatedAt": "2026-09-16",
+  "updatedAt": "2026-11-03",
   "ipProfile": {
     "country": {
       "en": "GB (UK exit when roaming, home-routed)",

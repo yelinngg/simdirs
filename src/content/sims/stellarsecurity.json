@@ -24,14 +24,14 @@
     "europe"
   ],
   "coverage": 140,
-  "plansFrom": 1.3,
+  "plansFrom": 0.4,
   "dataFrom": {
     "en": "1GB",
     "zh": "1GB"
   },
   "validity": {
-    "en": "30–180 days by plan",
-    "zh": "按套餐 30–180 天"
+    "en": "5–180 days by plan (single-day passes available)",
+    "zh": "按套餐5–180天（有单日包）"
   },
   "network": {
     "en": "Local partner networks (4G/5G)",
@@ -94,8 +94,8 @@
         "zh": "30天+VPN"
       },
       "price": {
-        "en": "€1.21",
-        "zh": "1.21欧元"
+        "en": "€0.80 (30 days + VPN; Premium €0.56)",
+        "zh": "0.80欧元（30天+VPN；Premium 0.56欧元）"
       }
     },
     {
@@ -112,8 +112,8 @@
         "zh": "180天+VPN"
       },
       "price": {
-        "en": "€15.27",
-        "zh": "15.27欧元"
+        "en": "€15.28",
+        "zh": "15.28欧元"
       }
     }
   ],
@@ -122,7 +122,7 @@
     "zh": "官网价（2026-09-25核验）。社区流传的100GB约11欧港/新套餐未在官方页找到，仅用户口径。"
   },
   "featured": false,
-  "updatedAt": "2026-09-25",
+  "updatedAt": "2026-11-03",
   "ipProfile": {
     "country": {
       "en": "varies (community/test reports: Hong Kong and Singapore split by destination/service)",

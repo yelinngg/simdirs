@@ -30,8 +30,8 @@
     "zh": "按次计费（欧亚 0.88 欧元/GB）"
   },
   "validity": {
-    "en": "365-day activity window (rule change to balance-based announced)",
-    "zh": "365 天使用窗口（官方已公布改为余额制）"
+    "en": "Balance never expires; keep the number by using it at least once a year",
+    "zh": "余额永不过期；每年至少使用一次即可保留号码"
   },
   "network": {
     "en": "Local partner networks per country",
@@ -66,8 +66,8 @@
         "zh": "按量计费"
       },
       "validity": {
-        "en": "365-day activity window",
-        "zh": "365天活跃期"
+        "en": "Balance never expires; use at least once a year to keep the number",
+        "zh": "余额永不过期；每年至少使用一次即可保留号码"
       },
       "price": {
         "en": "€2.99",
@@ -124,7 +124,7 @@
     ]
   },
   "featured": false,
-  "updatedAt": "2026-09-26",
+  "updatedAt": "2026-11-03",
   "ipProfile": {
     "country": {
       "en": "EE",

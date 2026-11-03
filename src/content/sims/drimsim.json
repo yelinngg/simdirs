@@ -35,8 +35,8 @@
     "zh": "按 MB 计费"
   },
   "validity": {
-    "en": "No expiry",
-    "zh": "不过期"
+    "en": "No expiry with once-a-year use (ToS: 360-day eSIM use window)",
+    "zh": "余额不过期，每年至少使用一次即可（条款：eSIM 360天使用窗口）"
   },
   "network": {
     "en": "4G/5G",
@@ -92,7 +92,7 @@
     ]
   },
   "featured": false,
-  "updatedAt": "2026-08-18",
+  "updatedAt": "2026-11-03",
   "ipProfile": {
     "country": {
       "en": "unknown",

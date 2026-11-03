@@ -69,8 +69,8 @@
         "zh": "每次余额变动后180天（最低充值5英镑）"
       },
       "price": {
-        "en": "From £0 first month via UNiDAYS student offer; standard SIM plans from £10 (45GB; 60GB with the 3x-data promo ending 30/09/2026)",
-        "zh": "UNiDAYS学生认证首月0元起；标准套餐10镑/月起（45GB，3倍流量促销60GB，2026-09-30截止）"
+        "en": "From £10/mo (20GB, unlimited social media; eSIM, price-locked); 3x-data promo: £12/mo 25GB→75GB and £20/mo 100GB→300GB, ends 26 Nov 2026",
+        "zh": "£10/月起（20GB，不限社媒；eSIM，价格锁定）；3倍流量促销：£12/月 25GB→75GB、£20/月 100GB→300GB，至2026-11-26"
       }
     }
   ],
@@ -105,7 +105,7 @@
     ]
   },
   "featured": false,
-  "updatedAt": "2026-09-16",
+  "updatedAt": "2026-11-03",
   "ipProfile": {
     "country": {
       "en": "GB (UK exit when roaming, home-routed via Vodafone UK)",
