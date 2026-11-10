@@ -1,0 +1,249 @@
+{
+  "name": {
+    "en": "esimNB",
+    "zh": "esimNB"
+  },
+  "tagline": {
+    "en": "Travel data eSIMs for 140+ destinations with no eKYC",
+    "zh": "覆盖 140+ 目的地的旅行流量 eSIM，无需 eKYC"
+  },
+  "description": {
+    "en": "esimNB sells data-only travel eSIMs for 140+ countries and regions through its website and an iOS app. Plans run 7-30 days, start at $1.50 for 1GB, and need no eKYC. A rewards/cash-back program is advertised on eligible purchases.",
+    "zh": "esimNB 通过网站与 iOS App 销售覆盖 140+ 国家和地区的纯数据旅行 eSIM，套餐 7-30 天，1GB 起 $1.50，无需 eKYC，并宣称符合条件可获返现奖励。"
+  },
+  "regions": [
+    "global"
+  ],
+  "coverage": 140,
+  "plansFrom": 1.5,
+  "dataFrom": {
+    "en": "Per plan (data-only)",
+    "zh": "按套餐（纯流量）"
+  },
+  "validity": {
+    "en": "7-30 days by plan",
+    "zh": "按套餐 7-30 天"
+  },
+  "network": {
+    "en": "Local networks; varies by destination (not disclosed per plan)",
+    "zh": "目的地本地网络，按套餐未逐一公布"
+  },
+  "device": "esim",
+  "hotspot": true,
+  "rating": 4.0,
+  "website": "https://esimnb.com/",
+  "features": {
+    "en": [
+      "140+ destinations",
+      "No eKYC",
+      "Hotspot supported",
+      "In-app top-up on supported plans",
+      "iOS app (data-only management)"
+    ],
+    "zh": [
+      "140+ 目的地",
+      "无需 eKYC 实名",
+      "支持热点共享",
+      "部分套餐 App 内充值续量",
+      "iOS App 统一管理"
+    ]
+  },
+  "featured": false,
+  "updatedAt": "2026-11-10",
+  "details": {
+    "en": "esimNB is a new travel eSIM storefront (web + iOS). The App Store listing names the seller as New Access LLC, and the app first appeared in late August 2026 - so the brand has a short public track record.\n\nApplication is straightforward: buy a destination pack on the site or in the app, scan the QR code to install, then enable data roaming on arrival. The brand markets no-eKYC checkout and hotspot support, and advertises a cash-back reward on eligible purchases (terms not published on-site).\n\nPrices verified 2026-11-10 by rendering the live destination pages: Japan 1GB/7 days $1.50, 3GB/15 days $3.50, 5GB/30 days $5.50, 10GB/30 days $9.50, 20GB/30 days $16.50, 50GB/30 days $34.50. Thailand and Hong Kong tables sit in the same range (Thailand 10GB $11.50; Hong Kong 10GB $13.00). Some destinations also render a second, higher-priced tier of the same capacity without a plan name - treat the checkout page as the source of truth.\n\nCaveats: all plans are data-only (no number, no SMS), the per-plan underlying network is not disclosed, and the cash-back programme is an official claim without published terms. As with any very new brand, start with a small pack before relying on it for a critical trip.",
+    "zh": "esimNB 是一个较新的旅行 eSIM 品牌（网站 + iOS App）。App Store 卖家显示为 New Access LLC，App 于 2026 年 8 月底上架——品牌公开运营记录还很短。\n\n购买流程直接：在网站或 App 选目的地套餐、扫码安装、落地开启数据漫游即可。品牌主打免 eKYC 下单与热点共享，并宣称符合条件可获返现（条款未在官网公示）。\n\n价格于 2026-11-10 渲染实际售卖页核验：日本 1GB/7 天 $1.50、3GB/15 天 $3.50、5GB/30 天 $5.50、10GB/30 天 $9.50、20GB/30 天 $16.50、50GB/30 天 $34.50；泰国与香港同区间（泰国 10GB $11.50、香港 10GB $13.00）。注意部分目的地同容量还会渲染出第二个更高价的档位且未标名称——以结算页实际价格为准。\n\n注意点：全部为纯流量（无号码、不能收短信）；单套餐底层网络未披露；返现为官方自述、条款未公示。品牌很新，重要行程建议先用小额套餐试水。"
+  },
+  "bestFor": {
+    "en": "Travellers who want a cheap no-KYC data pack for common destinations and are fine with data-only",
+    "zh": "想要便宜、免实名、热门目的地纯流量包的旅行者"
+  },
+  "pros": {
+    "en": [
+      "Low entry price ($1.50 for 1GB/7 days, verified)",
+      "No eKYC required",
+      "Wide destination list (140+)",
+      "Hotspot supported"
+    ],
+    "zh": [
+      "入门价低（$1.50/1GB/7 天，已核验）",
+      "无需 eKYC 实名",
+      "目的地覆盖广（140+）",
+      "支持热点"
+    ]
+  },
+  "cons": {
+    "en": [
+      "Very new brand (app launched 2026-08); limited public track record",
+      "Data-only: no number, cannot receive SMS",
+      "Per-plan underlying network not disclosed",
+      "Cash-back advertised but terms not published",
+      "Some destinations show unnamed duplicate-capacity tiers at higher prices"
+    ],
+    "zh": [
+      "品牌很新（App 2026-08 上架），公开运营记录有限",
+      "纯流量：无号码、收不了短信",
+      "单套餐底层落地网络未披露",
+      "返现仅官方自述，条款未公示",
+      "部分目的地存在同容量无名高价档，下单前需核对结算页"
+    ]
+  },
+  "plans": [
+    {
+      "name": {
+        "en": "Japan 1GB",
+        "zh": "日本 1GB"
+      },
+      "data": {
+        "en": "1GB",
+        "zh": "1GB"
+      },
+      "validity": {
+        "en": "7 days",
+        "zh": "7 天"
+      },
+      "price": {
+        "en": "$1.50",
+        "zh": "$1.50"
+      }
+    },
+    {
+      "name": {
+        "en": "Japan 3GB",
+        "zh": "日本 3GB"
+      },
+      "data": {
+        "en": "3GB",
+        "zh": "3GB"
+      },
+      "validity": {
+        "en": "15 days",
+        "zh": "15 天"
+      },
+      "price": {
+        "en": "$3.50",
+        "zh": "$3.50"
+      }
+    },
+    {
+      "name": {
+        "en": "Japan 5GB",
+        "zh": "日本 5GB"
+      },
+      "data": {
+        "en": "5GB",
+        "zh": "5GB"
+      },
+      "validity": {
+        "en": "30 days",
+        "zh": "30 天"
+      },
+      "price": {
+        "en": "$5.50",
+        "zh": "$5.50"
+      }
+    },
+    {
+      "name": {
+        "en": "Japan 10GB",
+        "zh": "日本 10GB"
+      },
+      "data": {
+        "en": "10GB",
+        "zh": "10GB"
+      },
+      "validity": {
+        "en": "30 days",
+        "zh": "30 天"
+      },
+      "price": {
+        "en": "$9.50",
+        "zh": "$9.50"
+      }
+    },
+    {
+      "name": {
+        "en": "Japan 20GB",
+        "zh": "日本 20GB"
+      },
+      "data": {
+        "en": "20GB",
+        "zh": "20GB"
+      },
+      "validity": {
+        "en": "30 days",
+        "zh": "30 天"
+      },
+      "price": {
+        "en": "$16.50",
+        "zh": "$16.50"
+      }
+    },
+    {
+      "name": {
+        "en": "Japan 50GB",
+        "zh": "日本 50GB"
+      },
+      "data": {
+        "en": "50GB",
+        "zh": "50GB"
+      },
+      "validity": {
+        "en": "30 days",
+        "zh": "30 天"
+      },
+      "price": {
+        "en": "$34.50",
+        "zh": "$34.50"
+      }
+    },
+    {
+      "name": {
+        "en": "Thailand 10GB",
+        "zh": "泰国 10GB"
+      },
+      "data": {
+        "en": "10GB",
+        "zh": "10GB"
+      },
+      "validity": {
+        "en": "30 days",
+        "zh": "30 天"
+      },
+      "price": {
+        "en": "$11.50",
+        "zh": "$11.50"
+      }
+    },
+    {
+      "name": {
+        "en": "Hong Kong 10GB",
+        "zh": "香港 10GB"
+      },
+      "data": {
+        "en": "10GB",
+        "zh": "10GB"
+      },
+      "validity": {
+        "en": "30 days",
+        "zh": "30 天"
+      },
+      "price": {
+        "en": "$13.00",
+        "zh": "$13.00"
+      }
+    }
+  ],
+  "plansNote": {
+    "en": "Prices rendered from live destination pages on 2026-11-10 (Japan/Thailand/Hong Kong). Higher-priced unnamed tiers of the same capacity appear on some pages; checkout shows the final price.",
+    "zh": "价格于 2026-11-10 渲染日本/泰国/香港实际售卖页核验；部分目的地存在同容量未标名的高价档位，以结算页为准。"
+  },
+  "ipProfile": {
+    "type": "unknown",
+    "confidence": "unverified",
+    "note": {
+      "en": "Exit architecture not disclosed by the brand and no community measurements found yet (2026-11-10).",
+      "zh": "品牌未披露落地网络架构，暂无社区实测口径（2026-11-10）。"
+    }
+  }
+}
