@@ -1,0 +1,171 @@
+{
+  "name": {
+    "en": "aloSIM",
+    "zh": "aloSIM"
+  },
+  "tagline": {
+    "en": "Budget travel eSIM for 200+ destinations with a free number from Hushed",
+    "zh": "200+ 目的地平价旅行 eSIM，附赠 Hushed 号码"
+  },
+  "description": {
+    "en": "aloSIM (from the Hushed team, Canada) sells budget data packs for 200+ destinations from $3.50, and bundles a free international phone number for calling and texting alongside the data eSIM.",
+    "zh": "aloSIM（加拿大 Hushed 团队旗下）为 200+ 目的地销售 $3.50 起的平价流量包，购数据 eSIM 同时附赠一个可打电话发短信的国际号码。"
+  },
+  "regions": [
+    "global"
+  ],
+  "coverage": 200,
+  "plansFrom": 3.5,
+  "dataFrom": {
+    "en": "Fixed data packs",
+    "zh": "定额流量包"
+  },
+  "validity": {
+    "en": "7 days typical; varies by pack",
+    "zh": "典型 7 天，按套餐不同"
+  },
+  "network": {
+    "en": "Local networks per destination",
+    "zh": "目的地本地网络"
+  },
+  "device": "esim",
+  "hotspot": true,
+  "rating": 4.3,
+  "website": "https://www.alosim.com/",
+  "features": {
+    "en": [
+      "200+ destinations",
+      "Free Hushed number for calls/texts",
+      "Entry packs from $3.50",
+      "1M+ travellers per site"
+    ],
+    "zh": [
+      "200+ 目的地",
+      "附赠 Hushed 号码可通话短信",
+      "$3.50 起入门包",
+      "站点称 1M+ 用户"
+    ]
+  },
+  "featured": false,
+  "updatedAt": "2026-11-10",
+  "details": {
+    "en": "aloSIM is the travel eSIM brand from the Canadian Hushed team. Its differentiator: every data purchase bundles a free Hushed international number that can place calls and receive SMS - the ability to get verification codes is rare among data-only travel eSIMs. The site quotes 1M+ users and a 4.6-star rating across 28,531+ reviews.\n\nPrices (homepage captured 2026-11-10): single-country packs from $3.50 (US/UK/France/Italy), Mexico $5.00, Europe $5.00, Asia $5.00, North America $5.50, Caribbean $6.50, Global $10.00; the FAQ puts 1GB at about $4.50. Entry packs are small - roughly 1GB for 7 days - aimed at light users.\n\nNotes: the number lives in the Hushed app, so its features and top-up rules follow Hushed terms; regional packs start higher than single-country ones, so short single-country trips are better served by country packs. The full per-GB catalog lives in the app and could not be rendered on the website directly.",
+    "zh": "aloSIM 是加拿大 Hushed 团队推出的旅行 eSIM 品牌，最大差异点：购买流量包同时附赠一个 Hushed 国际号码，可打电话、收短信——在纯数据旅行 eSIM 里能收验证码是稀缺能力。站点自称 1M+ 用户、4.6 星（28,531+ 评价）。\n\n价格（2026-11-10 首页实核）：美国/英国/法国/意大利单国包 $3.50 起，墨西哥 $5.00、欧洲区域 $5.00、亚洲 $5.00、北美 $5.50、加勒比 $6.50、全球 $10.00；FAQ 说明 1GB 约 $4.50 起。入门包普遍只有约 1GB、7 天有效，适合轻度用户。\n\n使用注意：号码功能通过 Hushed App 提供，功能与续费规则以 Hushed 侧为准；区域包起价普遍高于单国包，短途单国游买单国更划算。逐 GB 完整价目表在 App 内，官网未能直接渲染。"
+  },
+  "bestFor": {
+    "en": "Travellers who want cheap data plus a real number for verification texts",
+    "zh": "想要便宜流量并需要一个能收验证短信的真实号码的用户"
+  },
+  "pros": {
+    "en": [
+      "Free international number included (Hushed)",
+      "Very low entry price",
+      "Broad 200+ destination list",
+      "Large review base (28k+)"
+    ],
+    "zh": [
+      "附赠国际号码（Hushed）",
+      "入门价很低",
+      "200+ 目的地覆盖广",
+      "评价基数大（2.8 万+）"
+    ]
+  },
+  "cons": {
+    "en": [
+      "Entry packs are small (about 1GB)",
+      "Number features depend on the Hushed app",
+      "Regional packs start higher than single-country"
+    ],
+    "zh": [
+      "入门包容量小（约 1GB）",
+      "号码功能依赖 Hushed App",
+      "区域包起价高于单国包"
+    ]
+  },
+  "plans": [
+    {
+      "name": {
+        "en": "US/UK/FR/IT entry",
+        "zh": "US/UK/FR/IT entry"
+      },
+      "data": {
+        "en": "~1GB",
+        "zh": "~1GB"
+      },
+      "validity": {
+        "en": "7 days",
+        "zh": "7 days"
+      },
+      "price": {
+        "en": "$3.50",
+        "zh": "$3.50"
+      }
+    },
+    {
+      "name": {
+        "en": "Mexico entry",
+        "zh": "Mexico entry"
+      },
+      "data": {
+        "en": "~1GB",
+        "zh": "~1GB"
+      },
+      "validity": {
+        "en": "7 days",
+        "zh": "7 days"
+      },
+      "price": {
+        "en": "$5.00",
+        "zh": "$5.00"
+      }
+    },
+    {
+      "name": {
+        "en": "Europe entry",
+        "zh": "Europe entry"
+      },
+      "data": {
+        "en": "~1GB",
+        "zh": "~1GB"
+      },
+      "validity": {
+        "en": "7 days",
+        "zh": "7 days"
+      },
+      "price": {
+        "en": "$5.00",
+        "zh": "$5.00"
+      }
+    },
+    {
+      "name": {
+        "en": "Global entry",
+        "zh": "Global entry"
+      },
+      "data": {
+        "en": "~1GB",
+        "zh": "~1GB"
+      },
+      "validity": {
+        "en": "7 days",
+        "zh": "7 days"
+      },
+      "price": {
+        "en": "$10.00",
+        "zh": "$10.00"
+      }
+    }
+  ],
+  "plansNote": {
+    "en": "Homepage destination tiles and FAQ captured 2026-11-10; per-GB tables live in the app and were not directly rendered.",
+    "zh": "2026-11-10 抓取首页目的地卡与 FAQ；逐 GB 价格表在 App 内未能直接渲染。"
+  },
+  "ipProfile": {
+    "type": "unknown",
+    "confidence": "unverified",
+    "note": {
+      "en": "Roaming partners per destination not disclosed (2026-11-10).",
+      "zh": "未按目的地披露漫游合作网络（2026-11-10）。"
+    }
+  }
+}

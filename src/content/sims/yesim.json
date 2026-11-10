@@ -1,0 +1,119 @@
+{
+  "name": {
+    "en": "Yesim",
+    "zh": "Yesim"
+  },
+  "tagline": {
+    "en": "Swiss eSIM service with fixed and unlimited plans for 200+ destinations",
+    "zh": "瑞士 eSIM 服务，200+ 目的地定额与不限量套餐"
+  },
+  "description": {
+    "en": "Yesim is a Switzerland-based eSIM service offering fixed and unlimited data plans for 200+ destinations, with an app-first flow, VPN feature on some tiers and multi-network access.",
+    "zh": "Yesim 是总部在瑞士的 eSIM 服务，为 200+ 目的地提供定额与不限量套餐，以 App 为主流程，部分档位带 VPN 功能，多网接入。"
+  },
+  "regions": [
+    "global"
+  ],
+  "coverage": 200,
+  "plansFrom": 4.2,
+  "dataFrom": {
+    "en": "Fixed or unlimited plans",
+    "zh": "定额或不限量套餐"
+  },
+  "validity": {
+    "en": "1-30 days; fixed packs dated",
+    "zh": "1-30 天；定额包按期"
+  },
+  "network": {
+    "en": "Multi-network access claimed",
+    "zh": "宣称多网接入"
+  },
+  "device": "esim",
+  "hotspot": true,
+  "rating": 4.3,
+  "website": "https://yesim.app/",
+  "features": {
+    "en": [
+      "200+ destinations",
+      "Fixed and unlimited plan types",
+      "Swiss-based provider",
+      "4M+ users per site"
+    ],
+    "zh": [
+      "200+ 目的地",
+      "定额与不限量两种套餐",
+      "瑞士服务商",
+      "站点称 4M+ 用户"
+    ]
+  },
+  "featured": false,
+  "updatedAt": "2026-11-10",
+  "details": {
+    "en": "Yesim is a Switzerland-based eSIM service offering both fixed and unlimited catalogs for 200+ destinations, with 4M+ users claimed. Its differentiators versus peers: a European regulatory footing, dual plan catalogs, and balance top-ups on many plans instead of issuing a new eSIM.\n\nPrices (verified on yesim.app/country/japan, 2026-11-10): unlimited from $4.20 for 1 day, with the daily rate stepping down as days increase; a fixed-plan catalog sits alongside but was not fully rendered this pass - to be captured later. Data-only, with balance top-up supported.\n\nNotes: the unlimited daily rate is mid-pack rather than the cheapest; promo figures quoted by some third-party directories could not be re-verified on the official site; the experience is app-first; and searches can confuse it with the same-named Turkish textile company Yesim (Yesim with cedilla) - the correct domain is yesim.app.",
+    "zh": "Yesim 是总部在瑞士的 eSIM 服务商，同时提供定额与不限量两类套餐，覆盖 200+ 目的地，官方口径 4M+ 用户。相对同行，它的差异化是\"欧洲监管背景 + 双套餐目录 + 多数套餐可充值续用（不必换新 eSIM）\"。\n\n价格（2026-11-10 日本页实核）：不限量 1 天 $4.20 起，天数越多日均价越低（页面按天数阶梯展示）；同页另有定额套餐目录，本轮未完整渲染，补核后再录。纯数据，支持余额充值。\n\n注意点：不限量日均价属中等水平，不是最便宜的一档；部分第三方目录引用的促销价未能在官网复验；体验以 App 为主；搜索时易与土耳其同名纺织公司 Yeşim 混淆，认准 yesim.app。\n\n补充：Yesim 支持余额充值与多套餐共存于同一账户，行程连续多国的用户可在 App 内切换目的地套餐而无需重复安装 eSIM；具体可用性以 App 内实际显示为准。"
+  },
+  "bestFor": {
+    "en": "Travellers who want a European-regulated provider with both plan styles",
+    "zh": "想要欧洲监管背景、定额/不限量都有的旅行者"
+  },
+  "pros": {
+    "en": [
+      "Swiss provider",
+      "Both fixed and unlimited catalogs",
+      "Top-up instead of new eSIM on many plans",
+      "Large user base (4M+)"
+    ],
+    "zh": [
+      "瑞士服务商",
+      "定额/不限量双目录",
+      "多数套餐可充值续用",
+      "用户基数大（4M+）"
+    ]
+  },
+  "cons": {
+    "en": [
+      "Unlimited daily rate is mid-pack, not the cheapest",
+      "Some promo prices third-party quoted could not be re-checked",
+      "App-first experience",
+      "Site mixed with a same-name Turkish company in search results"
+    ],
+    "zh": [
+      "不限量日均价中等偏上",
+      "部分第三方促销价未能复验",
+      "以 App 为主体验",
+      "搜索结果易与土耳其同名公司混淆"
+    ]
+  },
+  "plans": [
+    {
+      "name": {
+        "en": "Japan Unlimited 1 day",
+        "zh": "Japan Unlimited 1 day"
+      },
+      "data": {
+        "en": "Unlimited",
+        "zh": "Unlimited"
+      },
+      "validity": {
+        "en": "1 day",
+        "zh": "1 day"
+      },
+      "price": {
+        "en": "$4.20",
+        "zh": "$4.20"
+      }
+    }
+  ],
+  "plansNote": {
+    "en": "Japan unlimited entry price rendered 2026-11-10; fixed-plan table and other destinations pending a later pass.",
+    "zh": "日本不限量入门价为 2026-11-10 渲染所得；定额套餐表与其他目的地待后续补核。"
+  },
+  "ipProfile": {
+    "type": "unknown",
+    "confidence": "unverified",
+    "note": {
+      "en": "Multi-network per destination; specific partners not disclosed (2026-11-10).",
+      "zh": "按目的地多网接入，未披露具体网络（2026-11-10）。"
+    }
+  }
+}

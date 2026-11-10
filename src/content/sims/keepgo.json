@@ -1,0 +1,98 @@
+{
+  "name": {
+    "en": "KeepGo",
+    "zh": "KeepGo"
+  },
+  "tagline": {
+    "en": "Lifetime no-expiry data eSIMs on 500+ networks in 170+ countries",
+    "zh": "170+ 国家、500+ 网络上的终身不过期流量 eSIM"
+  },
+  "description": {
+    "en": "KeepGo (operating since ~2010-2014 era, per its own footer) specializes in prepaid lifetime data bundles that never expire, refillable by GB, on 500+ networks across 170+ countries. Crypto payments are accepted for anonymity-minded buyers.",
+    "zh": "KeepGo（页脚口径运营至 2026 年已逾十年）主打永不过期的终身流量包，可按 GB 续充，覆盖 170+ 国家、500+ 网络，并支持加密货币付款。"
+  },
+  "regions": [
+    "global"
+  ],
+  "coverage": 170,
+  "plansFrom": 1.0,
+  "dataFrom": {
+    "en": "Lifetime prepaid bundles, refill by GB",
+    "zh": "终身预付包，按 GB 续充"
+  },
+  "validity": {
+    "en": "No expiry - data never lapses",
+    "zh": "无到期日——流量永不过期"
+  },
+  "network": {
+    "en": "500+ networks, wholesale rates claimed",
+    "zh": "宣称 500+ 网络批发价"
+  },
+  "device": "both",
+  "hotspot": true,
+  "rating": 4.2,
+  "website": "https://www.keepgo.com/",
+  "features": {
+    "en": [
+      "Lifetime no-expiry data",
+      "Refill by GB instead of new packs",
+      "Crypto payments accepted",
+      "Also ships physical SIM and IoT options"
+    ],
+    "zh": [
+      "终身不过期流量",
+      "按 GB 续充无需换包",
+      "支持加密货币付款",
+      "另有实体 SIM 与 IoT 卡"
+    ]
+  },
+  "featured": false,
+  "updatedAt": "2026-11-10",
+  "details": {
+    "en": "KeepGo is one of the industry's longest-running players (footer copyright reads 2010-2026), and its direction is unlike travel day-packs: prepaid lifetime data bundles that never expire, refilled by the GB, on 500+ networks across 170+ countries at claimed wholesale rates. Crypto payments are accepted, and there are physical-SIM and IoT product lines alongside. The site claims 1.5M+ customers and a Trustpilot 4.6 (3,000+ reviews).\n\nFlagship eSIMs: Corvus (Europe), Cygnus (USA + Canada) and Eridanus (Worldwide) lifetime profiles. They fit travelers who take one or two trips a year and do not want to re-research a new eSIM annually, or devices that need standing connectivity - car routers, tablets, GPS trackers.\n\nNotes: the Shopify store could not be rendered this pass, so bundle prices were not directly verified (third-party directories quote from about $1 - unverified); per-GB cost typically runs above travel-pack rivals, so the value is \"never expires\", not unit price; coverage of 170+ countries is below the 200+ lists of the leaders.",
+    "zh": "KeepGo 是 eSIM 行业里的\"长寿\"玩家（页脚版权口径 2010-2026），主打方向与旅行日包完全不同：终身不过期的预付流量包，用完按 GB 续充，覆盖 170+ 国家、500+ 网络，官方称批发价接入；还接受加密货币付款，并有实体 SIM 与 IoT 卡产品线。自称 1.5M+ 用户、Trustpilot 4.6（3,000+ 评价）。\n\n旗舰产品：Corvus（欧洲）、Cygnus（美国+加拿大）、Eridanus（全球）三款终身 eSIM。适合一年只出行一两次、不想每年重新研究买哪张卡的用户，也适合给车载路由、平板等长期设备供网。\n\n注意：本轮 Shopify 店铺未能直接渲染，具体包价未直核（第三方目录口径约 $1 起，未核实）；其单位流量成本通常高于旅行日包品牌，性价比来自\"不过期\"而非单价；覆盖 170+ 国小于头部品牌的 200+ 名单。"
+  },
+  "bestFor": {
+    "en": "Occasional travellers who want data that never expires",
+    "zh": "出行不频繁、想让流量永不过期的用户"
+  },
+  "pros": {
+    "en": [
+      "Data never expires",
+      "Crypto payment accepted",
+      "12-year operating history",
+      "Physical SIM + IoT variants"
+    ],
+    "zh": [
+      "流量永不过期",
+      "支持加密货币付款",
+      "十余年运营历史",
+      "另有实体 SIM 与 IoT 卡"
+    ]
+  },
+  "cons": {
+    "en": [
+      "Store prices not directly verified (Shopify render)",
+      "Per-GB cost higher than travel-pack rivals",
+      "Coverage claim (170+) below market leaders"
+    ],
+    "zh": [
+      "店铺价格未能直核（Shopify 渲染）",
+      "单位流量成本高于旅行包对手",
+      "170+ 覆盖面小于头部"
+    ]
+  },
+  "plans": [],
+  "plansNote": {
+    "en": "First-party prices were not rendered on 2026-11-10; plansFrom uses a third-party directory figure, labeled unverified.",
+    "zh": "2026-11-10 未能直抓官方价目；plansFrom 为第三方目录口径，标注未核实。"
+  },
+  "ipProfile": {
+    "type": "unknown",
+    "confidence": "unverified",
+    "note": {
+      "en": "Runs on wholesale multi-network access; per-destination networks not disclosed (2026-11-10).",
+      "zh": "批发多网接入，未按目的地披露网络（2026-11-10）。"
+    }
+  }
+}

@@ -1,0 +1,209 @@
+{
+  "name": {
+    "en": "Jetpac",
+    "zh": "Jetpac"
+  },
+  "tagline": {
+    "en": "Travel eSIM for 200+ destinations with flight-delay lounge access",
+    "zh": "覆盖 200+ 目的地的旅行 eSIM，航班延误送机场贵宾厅"
+  },
+  "description": {
+    "en": "Jetpac (by Circles, Singapore) sells a reusable travel eSIM for 200+ destinations with fixed and unlimited packs, hotspot support and a SmartDelay perk: register your flight and get complimentary lounge access when it is delayed 60+ minutes. Data-only; voice via in-app packs.",
+    "zh": "Jetpac（新加坡 Circles 旗下）提供可复用的旅行 eSIM，覆盖 200+ 目的地，有定额与不限量套餐，支持热点，并带 SmartDelay 权益：登记航班后延误 60 分钟以上可免费进贵宾厅。纯数据上网，通话走 App 内语音包。"
+  },
+  "regions": [
+    "global"
+  ],
+  "coverage": 200,
+  "plansFrom": 10.0,
+  "dataFrom": {
+    "en": "Fixed or unlimited packs",
+    "zh": "定额或不限量套餐"
+  },
+  "validity": {
+    "en": "1/4/7/30 days by pack",
+    "zh": "按套餐 1/4/7/30 天"
+  },
+  "network": {
+    "en": "Local networks; multi-network auto-selection",
+    "zh": "目的地本地网络，多网自动选网"
+  },
+  "device": "esim",
+  "hotspot": true,
+  "rating": 4.5,
+  "website": "https://www.jetpacglobal.com/",
+  "features": {
+    "en": [
+      "200+ destinations",
+      "Reusable eSIM, top up per trip",
+      "SmartDelay lounge access on delays",
+      "Hotspot supported",
+      "Unlimited packs: first 3GB/day full speed"
+    ],
+    "zh": [
+      "200+ 目的地",
+      "一张 eSIM 反复用、按行程充值",
+      "航班延误赠贵宾厅（SmartDelay）",
+      "支持热点",
+      "不限量档每日前 3GB 全速"
+    ]
+  },
+  "featured": false,
+  "updatedAt": "2026-11-10",
+  "details": {
+    "en": "Jetpac is the travel eSIM brand of Circles (Singapore), with a Trustpilot 4.8 shown in its site footer. Its core pitch is one reusable eSIM: register once, buy packs per trip across 200+ destinations and keep the same profile - no re-installing each time.\n\nBuying and activation: pick a destination and pack on the site or app, pay, download the eSIM, then enable data roaming on arrival to latch onto the strongest local network. It is data-only - no local number; in-app voice packs (50+ countries, from $1.99 per 5 minutes) cover calls.\n\nPlans and prices (verified on the live Japan page, 2026-11-10): fixed packs valid 30 days - 5GB $10, 10GB $16, 15GB $21, 30GB $29.99, 40GB $34.99; unlimited 30 days $65.99 with the first 3GB per day at full speed, then 1 Mbps until the 24-hour cycle refreshes. Shorter 1/4/7-day windows exist for some packs.\n\nPerks and caveats: packs of 3GB+ keep WhatsApp, Uber, Grab and Google Maps reachable after data runs out; registering a flight grants SmartDelay lounge access (LoungeKey, 1,000+ lounges) when it is delayed 60+ minutes. Note the Japan page prices 20GB ($40) above 30GB ($29.99) - compare tiers before checkout; the strikethrough anchor prices were not trusted.",
+    "zh": "Jetpac 是新加坡 Circles 旗下的旅行 eSIM 品牌，官网页脚标注 Trustpilot 4.8 分。其主打卖点是\"一张 eSIM 反复用\"：注册一次后可在 200+ 目的地按行程购买新包并复用同一配置文件，无需每次重新安装。\n\n购买与激活流程：官网或 App 选目的地与套餐，支付后下载 eSIM；落地插卡开启数据漫游即自动接入当地最优网络。纯数据上网，无本地号码；需要通话可购买 App 内语音包（50+ 国家 5 分钟 $1.99 起）。\n\n套餐与价格（2026-11-10 日本页实核）：定额档 30 天有效，5GB $10、10GB $16、15GB $21、30GB $29.99、40GB $34.99；不限量档 30 天 $65.99，每日前 3GB 全速、超出后限速 1 Mbps，次日刷新。另有 1/4/7 天短周期可选。\n\n权益与坑点：3GB 及以上套餐在数据用尽后仍保留 WhatsApp、Uber、Grab 与谷歌地图的基础连接；登记航班后若延误 60 分钟以上可获 SmartDelay 贵宾厅券（LoungeKey 1000+ 厅）。注意日本页 20GB 定价（$40）反而高于 30GB（$29.99），下单前建议逐档对比；页面划线原价未采信。"
+  },
+  "bestFor": {
+    "en": "Frequent travellers who want one reusable eSIM plus delay protection",
+    "zh": "常出行、想要一张反复用的 eSIM 并附带延误保障的用户"
+  },
+  "pros": {
+    "en": [
+      "Lounge access on flight delays (SmartDelay)",
+      "One eSIM reused across trips",
+      "Free essential-app data (WhatsApp/Uber/Grab) on 3GB+ packs",
+      "Moneyback guarantee"
+    ],
+    "zh": [
+      "航班延误免费贵宾厅",
+      "一张 eSIM 多次行程复用",
+      "3GB+ 套餐数据用尽后 WhatsApp/Uber/Grab 仍可用",
+      "有退款保障"
+    ]
+  },
+  "cons": {
+    "en": [
+      "Data-only: no SMS, calls via in-app voice packs",
+      "Unlimited tier throttles to 1 Mbps after 3GB/day",
+      "20GB tier priced above 30GB tier on the Japan page"
+    ],
+    "zh": [
+      "纯数据无短信，通话走 App 内语音包",
+      "不限量档每日 3GB 后限速 1 Mbps",
+      "日本页 20GB 定价反而高于 30GB 档，选购前留意"
+    ]
+  },
+  "plans": [
+    {
+      "name": {
+        "en": "Japan 5GB",
+        "zh": "Japan 5GB"
+      },
+      "data": {
+        "en": "5GB",
+        "zh": "5GB"
+      },
+      "validity": {
+        "en": "30 days",
+        "zh": "30 days"
+      },
+      "price": {
+        "en": "$10",
+        "zh": "$10"
+      }
+    },
+    {
+      "name": {
+        "en": "Japan 10GB",
+        "zh": "Japan 10GB"
+      },
+      "data": {
+        "en": "10GB",
+        "zh": "10GB"
+      },
+      "validity": {
+        "en": "30 days",
+        "zh": "30 days"
+      },
+      "price": {
+        "en": "$16",
+        "zh": "$16"
+      }
+    },
+    {
+      "name": {
+        "en": "Japan 15GB",
+        "zh": "Japan 15GB"
+      },
+      "data": {
+        "en": "15GB",
+        "zh": "15GB"
+      },
+      "validity": {
+        "en": "30 days",
+        "zh": "30 days"
+      },
+      "price": {
+        "en": "$21",
+        "zh": "$21"
+      }
+    },
+    {
+      "name": {
+        "en": "Japan 30GB",
+        "zh": "Japan 30GB"
+      },
+      "data": {
+        "en": "30GB",
+        "zh": "30GB"
+      },
+      "validity": {
+        "en": "30 days",
+        "zh": "30 days"
+      },
+      "price": {
+        "en": "$29.99",
+        "zh": "$29.99"
+      }
+    },
+    {
+      "name": {
+        "en": "Japan 40GB",
+        "zh": "Japan 40GB"
+      },
+      "data": {
+        "en": "40GB",
+        "zh": "40GB"
+      },
+      "validity": {
+        "en": "30 days",
+        "zh": "30 days"
+      },
+      "price": {
+        "en": "$34.99",
+        "zh": "$34.99"
+      }
+    },
+    {
+      "name": {
+        "en": "Japan Unlimited 30d",
+        "zh": "Japan Unlimited 30d"
+      },
+      "data": {
+        "en": "Unlimited (3GB/day full speed)",
+        "zh": "Unlimited (3GB/day full speed)"
+      },
+      "validity": {
+        "en": "30 days",
+        "zh": "30 days"
+      },
+      "price": {
+        "en": "$65.99",
+        "zh": "$65.99"
+      }
+    }
+  ],
+  "plansNote": {
+    "en": "Japan page rendered and prices captured on 2026-11-10; discount anchors shown on site were ignored.",
+    "zh": "2026-11-10 渲染日本页取价；页面上的划线原价未采信。"
+  },
+  "ipProfile": {
+    "type": "unknown",
+    "confidence": "unverified",
+    "note": {
+      "en": "Exit network selection is multi-network per destination; specifics not disclosed (2026-11-10).",
+      "zh": "按目的地多网接入，具体落地未披露（2026-11-10）。"
+    }
+  }
+}

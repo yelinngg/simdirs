@@ -1,0 +1,98 @@
+{
+  "name": {
+    "en": "Instabridge",
+    "zh": "Instabridge"
+  },
+  "tagline": {
+    "en": "eSIM store from the WiFi-app maker; pay-as-you-go data that never expires",
+    "zh": "WiFi 应用出品的 eSIM 商店，支持不过期按量付费"
+  },
+  "description": {
+    "en": "Instabridge started as a crowdsourced WiFi-hotspot app (200M+ downloads) and now sells travel eSIMs for 190+ countries, including pay-as-you-go data where unused balance does not expire.",
+    "zh": "Instabridge 以众包 WiFi 热点应用起家（200M+ 下载），现销售 190+ 国家和地区的旅行 eSIM，含不过期的按量付费数据。"
+  },
+  "regions": [
+    "global"
+  ],
+  "coverage": 190,
+  "plansFrom": 1.0,
+  "dataFrom": {
+    "en": "Fixed packs or pay-as-you-go",
+    "zh": "定额包或按量付费"
+  },
+  "validity": {
+    "en": "Fixed packs dated; PAYG balance does not expire",
+    "zh": "定额包按期；按量余额不过期"
+  },
+  "network": {
+    "en": "Local networks per destination",
+    "zh": "目的地本地网络"
+  },
+  "device": "esim",
+  "hotspot": true,
+  "rating": 3.6,
+  "website": "https://www.instabridge.com/",
+  "features": {
+    "en": [
+      "190+ destinations",
+      "PAYG data never expires",
+      "From a widely used consumer app",
+      "Simple setup without verification"
+    ],
+    "zh": [
+      "190+ 目的地",
+      "按量余额不过期",
+      "出自亿级用户的消费应用",
+      "开通流程简单免核验"
+    ]
+  },
+  "featured": false,
+  "updatedAt": "2026-11-10",
+  "details": {
+    "en": "Instabridge began as a crowdsourced WiFi-hotspot app (200M+ downloads per its own claims) and later layered an eSIM store on top, now covering 190+ countries and regions. Its structural difference is pay-as-you-go data whose balance does not expire: third-party directories quote never-expiring PAYG plus a ~$16/30-day 10GB Europe pack - both are third-party figures; the official store renders client-side and its price list could not be captured on 2026-11-10, so treat the in-app checkout as the source of truth.\n\nWho it fits: light users with irregular trips who hate expiring data; onboarding needs no eKYC.\n\nRisks and notes: third-party reviews are mixed (one comparison directory scores it 3.0); as an eSIM seller it is less specialized than travel-eSIM natives, with thinner plan depth and support; per-destination networks are not disclosed. Start with a small top-up.",
+    "zh": "Instabridge 起家于众包 WiFi 热点应用（官方口径 200M+ 下载），后来在应用内叠加了 eSIM 商店，现覆盖 190+ 国家和地区。它的结构性差异是\"按量付费余额不过期\"：第三方目录口径称其 PAYG 余额永不过期，另有约 $16/30 天的欧洲 10GB 定额包——这两条均为第三方口径，官网商店为客户端渲染，2026-11-10 未能直抓价目，以 App 内结算页为准。\n\n适合人群：用量轻、行程不定期、讨厌\"流量到期作废\"的用户；开通免 eKYC。\n\n风险与注意：第三方评价两极（某对比目录仅 3.0 分）；作为 eSIM 卖家其专注度低于专业旅行品牌，套餐深度与客服面较薄；官网未披露逐目的地落地网络。建议首次小额试用。\n\n如需长期持有，其按量余额不过期的特性比定额日包更适合保存\"应急流量\"；但正因商店为 JS 渲染、价格与套餐变动无法在网页层留痕，建议购买前截图结算页留证。"
+  },
+  "bestFor": {
+    "en": "Light users who hate expiring data",
+    "zh": "讨厌流量过期、用量轻的用户"
+  },
+  "pros": {
+    "en": [
+      "PAYG balance never expires (third-party profile)",
+      "Backed by a large consumer app",
+      "No eKYC onboarding",
+      "Broad 190+ country list"
+    ],
+    "zh": [
+      "按量余额不过期（第三方口径）",
+      "亿级用户消费应用背书",
+      "开通免实名",
+      "190+ 国家覆盖广"
+    ]
+  },
+  "cons": {
+    "en": [
+      "Own-store pricing could not be verified (JS store)",
+      "Third-party reviews are mixed (3.0 on one directory)",
+      "Feature set thinner than travel-eSIM specialists"
+    ],
+    "zh": [
+      "自营商店价格未能直核（JS 渲染）",
+      "第三方评价两极（某目录仅 3.0）",
+      "功能面窄于专业旅行 eSIM 品牌"
+    ]
+  },
+  "plans": [],
+  "plansNote": {
+    "en": "No first-party price table was capturable on 2026-11-10; plansFrom uses a third-party directory figure and is labeled unverified.",
+    "zh": "2026-11-10 无法直抓官方价目；plansFrom 采用第三方目录口径并标注未核实。"
+  },
+  "ipProfile": {
+    "type": "unknown",
+    "confidence": "unverified",
+    "note": {
+      "en": "Exit networks not disclosed (2026-11-10).",
+      "zh": "落地网络未披露（2026-11-10）。"
+    }
+  }
+}

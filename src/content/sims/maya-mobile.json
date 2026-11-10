@@ -1,0 +1,173 @@
+{
+  "name": {
+    "en": "Maya Mobile",
+    "zh": "Maya Mobile"
+  },
+  "tagline": {
+    "en": "One global unlimited eSIM for 165+ countries, from $9.99",
+    "zh": "一张全球不限量 eSIM 覆盖 165+ 国家，$9.99 起"
+  },
+  "description": {
+    "en": "Maya Mobile sells a single global eSIM with unlimited data in 165+ countries - no per-country plans. Three fixed durations (3/7/14/30 days) priced from $9.99, plus a Travel Mode that auto-renews while on and can be switched off. Cruise coverage is included on the Global + Cruise option.",
+    "zh": "Maya Mobile 只卖一张全球 eSIM：165+ 国家统一不限量，没有分国家套餐。固定 3/7/14/30 天四档，$9.99 起；另有 Travel Mode 开启时自动续订、可随时关闭。Global + Cruise 档含邮轮覆盖。"
+  },
+  "regions": [
+    "global"
+  ],
+  "coverage": 165,
+  "plansFrom": 9.99,
+  "dataFrom": {
+    "en": "Unlimited data, auto-renewing cycles",
+    "zh": "不限量，按周期自动续订"
+  },
+  "validity": {
+    "en": "3/7/14/30-day cycles",
+    "zh": "3/7/14/30 天周期"
+  },
+  "network": {
+    "en": "Same network selection across destinations; not disclosed per country",
+    "zh": "各目的地网络选择一致，未按国家披露"
+  },
+  "device": "esim",
+  "hotspot": true,
+  "rating": 4.2,
+  "website": "https://maya.net/",
+  "features": {
+    "en": [
+      "165+ countries on one eSIM",
+      "Flat per-day unlimited pricing",
+      "Cruise coverage option",
+      "No per-country plans to compare"
+    ],
+    "zh": [
+      "一张 eSIM 覆盖 165+ 国",
+      "统一按天计价的不限量",
+      "可选含邮轮覆盖档",
+      "无需逐国比价"
+    ]
+  },
+  "featured": false,
+  "updatedAt": "2026-11-10",
+  "details": {
+    "en": "Maya Mobile sells a single global eSIM - a model that is rare among travel eSIM brands: 165+ countries share one price list, with no per-country or regional catalogs to compare.\n\nPlan structure (verified on maya.net/plans/usa, 2026-11-10; the site states it applies worldwide): unlimited 3 days $9.99, 7 days $19.99, 14 days $27.99, 30 days $49.99 - $1.67-3.33 per day. The Global + Cruise option additionally covers 20+ major cruise lines at sea.\n\nMechanics: Travel Mode auto-renews the plan while on and stops when switched off - convenient for digital nomads who toggle by trip, but auto-renewal being the default is the main trap; short-stay users should switch it off after each trip.\n\nThird-party reference: esims.io measured a ~143 Mbps median download for Maya, the fastest in its comparison table - a third-party test, not an official claim. Coverage of 165+ countries is below the 200+ lists of Airalo/Nomad; data-only, no number.",
+    "zh": "Maya Mobile 只卖一张全球 eSIM 的模式在旅行 eSIM 行业里比较少见：165+ 国家共用同一价目，没有分国家、分区域的套餐表，也不需要逐国比价。\n\n套餐结构（2026-11-10 在 maya.net/plans/usa 实核，站点声明全球适用）：不限量 3 天 $9.99、7 天 $19.99、14 天 $27.99、30 天 $49.99，按天折算 $1.67-3.33。Global + Cruise 档额外覆盖 20+ 大型邮轮公司的海上场景。\n\n使用机制：Travel Mode 开启时按周期自动续订、关闭即停，适合\"用时开、不用时关\"的数字游民；自动续费默认开启是最大的坑点，短期出行用户建议用完即关。\n\n第三方参考：esims.io 实测中位下载速率约 143 Mbps，为其对比表中最快；该口径为第三方实测，非官方宣称。注意其覆盖 165+ 国，小于 Airalo/Nomad 的 200+ 名单；纯数据、无号码。"
+  },
+  "bestFor": {
+    "en": "Short trips and multi-country itineraries that want zero plan-picking",
+    "zh": "短途或多国行程、不想挑套餐的用户"
+  },
+  "pros": {
+    "en": [
+      "Unlimited data everywhere on one eSIM",
+      "Same price in every country",
+      "Cruise ships covered on Global + Cruise",
+      "Fast third-party speed test results"
+    ],
+    "zh": [
+      "一张 eSIM 全球不限量",
+      "全球统一价",
+      "可选覆盖邮轮",
+      "第三方实测速率快"
+    ]
+  },
+  "cons": {
+    "en": [
+      "Auto-renewal is on by default while Travel Mode is enabled",
+      "Unlimited-only: no cheaper small fixed packs",
+      "Coverage list (165+) smaller than some rivals",
+      "No number, data only"
+    ],
+    "zh": [
+      "Travel Mode 开启时默认自动续订",
+      "只有不限量档，没有更便宜的小定额包",
+      "165+ 覆盖面小于部分对手",
+      "无号码纯数据"
+    ]
+  },
+  "plans": [
+    {
+      "name": {
+        "en": "Unlimited 3 days",
+        "zh": "Unlimited 3 days"
+      },
+      "data": {
+        "en": "Unlimited",
+        "zh": "Unlimited"
+      },
+      "validity": {
+        "en": "3 days",
+        "zh": "3 days"
+      },
+      "price": {
+        "en": "$9.99",
+        "zh": "$9.99"
+      }
+    },
+    {
+      "name": {
+        "en": "Unlimited 7 days",
+        "zh": "Unlimited 7 days"
+      },
+      "data": {
+        "en": "Unlimited",
+        "zh": "Unlimited"
+      },
+      "validity": {
+        "en": "7 days",
+        "zh": "7 days"
+      },
+      "price": {
+        "en": "$19.99",
+        "zh": "$19.99"
+      }
+    },
+    {
+      "name": {
+        "en": "Unlimited 14 days",
+        "zh": "Unlimited 14 days"
+      },
+      "data": {
+        "en": "Unlimited",
+        "zh": "Unlimited"
+      },
+      "validity": {
+        "en": "14 days",
+        "zh": "14 days"
+      },
+      "price": {
+        "en": "$27.99",
+        "zh": "$27.99"
+      }
+    },
+    {
+      "name": {
+        "en": "Unlimited 30 days",
+        "zh": "Unlimited 30 days"
+      },
+      "data": {
+        "en": "Unlimited",
+        "zh": "Unlimited"
+      },
+      "validity": {
+        "en": "30 days",
+        "zh": "30 days"
+      },
+      "price": {
+        "en": "$49.99",
+        "zh": "$49.99"
+      }
+    }
+  ],
+  "plansNote": {
+    "en": "Rendered maya.net/plans/usa on 2026-11-10; the site states the same unlimited price list applies across destinations.",
+    "zh": "2026-11-10 渲染 maya.net/plans/usa；站点声明该不限量价目全球适用。"
+  },
+  "ipProfile": {
+    "type": "unknown",
+    "confidence": "unverified",
+    "note": {
+      "en": "Network partners not disclosed per country (2026-11-10).",
+      "zh": "未按国家披露合作网络（2026-11-10）。"
+    }
+  }
+}
