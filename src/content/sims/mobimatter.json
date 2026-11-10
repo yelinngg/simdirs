@@ -1,0 +1,189 @@
+{
+  "name": {
+    "en": "MobiMatter",
+    "zh": "MobiMatter"
+  },
+  "tagline": {
+    "en": "eSIM marketplace reselling multiple brands at wholesale-style prices",
+    "zh": "聚合多品牌的 eSIM 市场，批发式低价转售"
+  },
+  "description": {
+    "en": "MobiMatter is a marketplace rather than a carrier: it resells eSIM plans from multiple suppliers (Sparks, NextLink, IIJ, TSimTech, even Airalo packs) across 200+ countries, often below the brands' own prices. Payment and support run through MobiMatter, not the underlying brand.",
+    "zh": "MobiMatter 是市场聚合商而非运营商：转售 Sparks、NextLink、IIJ、TSimTech 乃至 Airalo 等多供应商的 eSIM 套餐，覆盖 200+ 国家，价格常低于品牌自营。付款与售后经 MobiMatter 而非底层品牌。"
+  },
+  "regions": [
+    "global"
+  ],
+  "coverage": 200,
+  "plansFrom": 8.99,
+  "dataFrom": {
+    "en": "Fixed packs from multiple suppliers",
+    "zh": "多供应商定额包"
+  },
+  "validity": {
+    "en": "Varies per pack",
+    "zh": "按套餐不同"
+  },
+  "network": {
+    "en": "Depends on the underlying supplier (e.g. IIJ in Japan)",
+    "zh": "取决于底层供应商（如日本 IIJ）"
+  },
+  "device": "esim",
+  "hotspot": true,
+  "rating": 4.2,
+  "website": "https://mobimatter.com/",
+  "features": {
+    "en": [
+      "Marketplace of many suppliers",
+      "Often below brand-direct prices",
+      "Supplier name shown per plan",
+      "200+ countries"
+    ],
+    "zh": [
+      "多供应商聚合市场",
+      "常低于品牌直售价",
+      "每个套餐标明供应商",
+      "200+ 国家"
+    ]
+  },
+  "featured": false,
+  "updatedAt": "2026-11-10",
+  "details": {
+    "en": "MobiMatter is a marketplace rather than a carrier: one cart resells eSIM plans from multiple suppliers (Sparks, NextLink, IIJ, TSimTech, even Airalo packs) across 200+ countries, frequently below brand-direct prices - its homepage showed Japan 20GB (supplier IIJ) $13.99, Thailand 50GB $9.99 and Turkey 12GB $8.99 (live offers rendered 2026-11-10).\n\nValue and risk sit together: cross-brand comparison is efficient and every plan names its underlying supplier, but payment and support run through MobiMatter rather than the network brand, activation/refund terms differ from buying direct, and the offer list moves fast - hot deals can disappear any time.\n\nWho it fits: price hunters with basic supplier literacy who enjoy comparing across brands.\n\nNotes: the marketplace states final prices bind at checkout; before stocking up on promo packs, confirm validity and the activation window so nothing expires unused.",
+    "zh": "MobiMatter 是市场聚合商而非运营商：一个购物车里转售多家供应商（Sparks、NextLink、IIJ、TSimTech 乃至 Airalo 包）的 eSIM 套餐，覆盖 200+ 国家，常低于品牌直售价——比如其首页日本 20GB（IIJ 供应商）$13.99、泰国 50GB $9.99、土耳其 12GB $8.99（2026-11-10 渲染首页实时报价）。\n\n价值与风险并存：比价效率高、每单明示底层供应商；但付款与售后全部经 MobiMatter 中转，激活与退款条款与品牌直购不同，报价变动频繁，热促销档可能随时下架。\n\n适合人群：愿意花时间跨品牌比价、对供应商品牌有基本判断力的用户。\n\n注意：市场页明示「最终价格以结算为准」；囤促销包前先确认有效期与激活窗口，避免过期作废。"
+  },
+  "bestFor": {
+    "en": "Price hunters comparing cross-brand deals in one cart",
+    "zh": "想在一个购物车里跨品牌比价的比价型用户"
+  },
+  "pros": {
+    "en": [
+      "Cross-brand price comparison in one place",
+      "Supplier transparency per plan",
+      "Sometimes far below brand-direct pricing",
+      "No need for multiple apps"
+    ],
+    "zh": [
+      "一站式跨品牌比价",
+      "每单明示底层供应商",
+      "常低于品牌直售价",
+      "无需装多个 App"
+    ]
+  },
+  "cons": {
+    "en": [
+      "Support mediated by marketplace, not the network brand",
+      "Offer list changes frequently",
+      "Refund/activation terms differ from brand-direct"
+    ],
+    "zh": [
+      "售后由市场方中转而非网络品牌",
+      "报价变动频繁",
+      "退款与激活条款与品牌直购不同"
+    ]
+  },
+  "plans": [
+    {
+      "name": {
+        "en": "Turkey 12GB (NextLink)",
+        "zh": "Turkey 12GB (NextLink)"
+      },
+      "data": {
+        "en": "12GB",
+        "zh": "12GB"
+      },
+      "validity": {
+        "en": "30 days",
+        "zh": "30 days"
+      },
+      "price": {
+        "en": "$8.99",
+        "zh": "$8.99"
+      }
+    },
+    {
+      "name": {
+        "en": "Japan 20GB (IIJ)",
+        "zh": "Japan 20GB (IIJ)"
+      },
+      "data": {
+        "en": "20GB",
+        "zh": "20GB"
+      },
+      "validity": {
+        "en": "30 days",
+        "zh": "30 days"
+      },
+      "price": {
+        "en": "$13.99",
+        "zh": "$13.99"
+      }
+    },
+    {
+      "name": {
+        "en": "Thailand 50GB",
+        "zh": "Thailand 50GB"
+      },
+      "data": {
+        "en": "50GB",
+        "zh": "50GB"
+      },
+      "validity": {
+        "en": "10 days",
+        "zh": "10 days"
+      },
+      "price": {
+        "en": "$9.99",
+        "zh": "$9.99"
+      }
+    },
+    {
+      "name": {
+        "en": "USA 15GB (NextLink)",
+        "zh": "USA 15GB (NextLink)"
+      },
+      "data": {
+        "en": "15GB",
+        "zh": "15GB"
+      },
+      "validity": {
+        "en": "30 days",
+        "zh": "30 days"
+      },
+      "price": {
+        "en": "$12.99",
+        "zh": "$12.99"
+      }
+    },
+    {
+      "name": {
+        "en": "Global 13GB yearly",
+        "zh": "Global 13GB yearly"
+      },
+      "data": {
+        "en": "13GB",
+        "zh": "13GB"
+      },
+      "validity": {
+        "en": "365 days",
+        "zh": "365 days"
+      },
+      "price": {
+        "en": "$41.99",
+        "zh": "$41.99"
+      }
+    }
+  ],
+  "plansNote": {
+    "en": "Live homepage offers captured 2026-11-10; the marketplace updates its offer list frequently.",
+    "zh": "2026-11-10 抓取首页实时报价；市场报价更新频繁。"
+  },
+  "ipProfile": {
+    "type": "unknown",
+    "confidence": "unverified",
+    "note": {
+      "en": "Network depends on each underlying supplier; listed per plan (2026-11-10).",
+      "zh": "网络取决于底层供应商，逐单标注（2026-11-10）。"
+    }
+  }
+}

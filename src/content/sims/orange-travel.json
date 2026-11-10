@@ -1,0 +1,153 @@
+{
+  "name": {
+    "en": "Orange Travel",
+    "zh": "Orange Travel"
+  },
+  "tagline": {
+    "en": "Orange SA official travel eSIM: data, calls and SMS in 200+ destinations",
+    "zh": "Orange SA 官方旅行 eSIM：200+ 目的地含通话短信"
+  },
+  "description": {
+    "en": "Orange Travel is the official travel eSIM brand of Orange SA (France) - a real carrier product rather than a reseller. Plans cover 200+ destinations with data-only or data+calls+SMS options, 7/14/30/90-day lengths and top-up/reuse on the same eSIM.",
+    "zh": "Orange Travel 是法国 Orange SA 的官方旅行 eSIM 品牌——是真正的运营商产品而非转售商。套餐覆盖 200+ 目的地，提供纯流量或流量+通话+短信两种形态，7/14/30/90 天档位，同一 eSIM 可充值复用。"
+  },
+  "regions": [
+    "global"
+  ],
+  "coverage": 200,
+  "plansFrom": 4.99,
+  "dataFrom": {
+    "en": "Data-only or data+calls+SMS",
+    "zh": "纯流量或流量+通话短信"
+  },
+  "validity": {
+    "en": "7/14/30/90 days by plan",
+    "zh": "按套餐 7/14/30/90 天"
+  },
+  "network": {
+    "en": "Orange group partnerships with local operators",
+    "zh": "Orange 集团与当地运营商合作网络"
+  },
+  "device": "both",
+  "hotspot": true,
+  "rating": 4.6,
+  "website": "https://travel.orange.com/en",
+  "features": {
+    "en": [
+      "Carrier brand (Orange SA)",
+      "Calls + SMS options, not data-only",
+      "Reusable and top-upable eSIM",
+      "App one-click activation (no QR)"
+    ],
+    "zh": [
+      "运营商官方品牌（Orange SA）",
+      "有含通话短信的套餐，非纯流量",
+      "同一 eSIM 可充值复用",
+      "App 内一键开通免扫码"
+    ]
+  },
+  "featured": false,
+  "updatedAt": "2026-11-10",
+  "details": {
+    "en": "Orange Travel is the official travel brand of French carrier group Orange SA (travel.orange.com) - fundamentally different from resellers: it rides Orange group operator partnerships, offers both data-only and data+calls+SMS plan shapes in 7/14/30/90-day lengths, with 1-500GB allowances and 24/7 support stated on its official app listing.\n\nBuying and activation: pick a destination on the web or in the app; in-app activation is one click (no QR scan), and the same eSIM can be topped up repeatedly - no card swap when your destination changes. Prices (rendered from the destination grid, 2026-11-10): from $4.99, with $5.99/$9.99/$19.99/$34.99/$57.99 tiers visible; allowances bind at checkout.\n\nNotes: as a major-carrier product the entry price sits above reseller brands; promo codes (such as 5% off in-app) are time-limited - trust the checkout page; and plan names/allowances only attach at the final step, so comparison shopping takes patience.",
+    "zh": "Orange Travel 是法国电信巨头 Orange SA 的官方旅行品牌（travel.orange.com），与转售商有本质区别：底层是 Orange 集团的运营商合作网络，提供纯流量与「流量+通话+短信」两种套餐形态，7/14/30/90 天档位，官方 App 页说明数据量 1-500GB，并有 7x24 客服。\n\n购买与激活：网页或 App 选目的地套餐，App 内开通可一键激活（免扫码）；同一 eSIM 可反复充值，换目的地不必换卡。价格（2026-11-10 渲染目的地价目卡实核）：$4.99 起，同页可见 $5.99/$9.99/$19.99/$34.99/$57.99 等档位；具体流量额度在结算页绑定。\n\n注意：作为大运营商产品，入门价高于转售品牌；促销代码（如 App 内 95 折）时效性强的以结算页为准；套餐名与额度的绑定要到下单最后一步才展示，比价时要有耐心。"
+  },
+  "bestFor": {
+    "en": "Travellers who want a major-carrier product with calls and SMS included",
+    "zh": "想要大运营商正品、需要通话短信能力的旅行者"
+  },
+  "pros": {
+    "en": [
+      "Real carrier backing (Orange SA)",
+      "Voice+SMS plans available",
+      "Reusable eSIM with top-ups",
+      "24/7 support per official listing"
+    ],
+    "zh": [
+      "Orange SA 大运营商背书",
+      "有含通话+短信套餐",
+      "eSIM 可充值复用",
+      "官方标注 7x24 客服"
+    ]
+  },
+  "cons": {
+    "en": [
+      "Entry price higher than reseller brands",
+      "Plan names only bind at checkout",
+      "App-centric purchase flow"
+    ],
+    "zh": [
+      "入门价高于转售品牌",
+      "套餐名要到结算页才能确认",
+      "购买流程以 App 为主"
+    ]
+  },
+  "plans": [
+    {
+      "name": {
+        "en": "Destination entry tier",
+        "zh": "Destination entry tier"
+      },
+      "data": {
+        "en": "varies by destination",
+        "zh": "varies by destination"
+      },
+      "validity": {
+        "en": "varies",
+        "zh": "varies"
+      },
+      "price": {
+        "en": "$4.99",
+        "zh": "$4.99"
+      }
+    },
+    {
+      "name": {
+        "en": "Mid tier",
+        "zh": "Mid tier"
+      },
+      "data": {
+        "en": "varies",
+        "zh": "varies"
+      },
+      "validity": {
+        "en": "varies",
+        "zh": "varies"
+      },
+      "price": {
+        "en": "$9.99",
+        "zh": "$9.99"
+      }
+    },
+    {
+      "name": {
+        "en": "Higher tier",
+        "zh": "Higher tier"
+      },
+      "data": {
+        "en": "varies",
+        "zh": "varies"
+      },
+      "validity": {
+        "en": "varies",
+        "zh": "varies"
+      },
+      "price": {
+        "en": "$34.99",
+        "zh": "$34.99"
+      }
+    }
+  ],
+  "plansNote": {
+    "en": "Destination-grid prices rendered 2026-11-10; allowances and validity attach per plan at checkout (official app listing states 1-500GB, 7/14/30/90 days).",
+    "zh": "2026-11-10 渲染目的地价目卡；具体流量与有效期在结算页绑定（官方 App 页说明 1-500GB、7/14/30/90 天）。"
+  },
+  "ipProfile": {
+    "type": "unknown",
+    "confidence": "unverified",
+    "note": {
+      "en": "Runs on Orange group operator partnerships; per-destination networks not published (2026-11-10).",
+      "zh": "依托 Orange 集团运营商合作网络，未逐目的地公布（2026-11-10）。"
+    }
+  }
+}

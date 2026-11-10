@@ -1,0 +1,117 @@
+{
+  "name": {
+    "en": "Global YO",
+    "zh": "Global YO"
+  },
+  "tagline": {
+    "en": "Gamified travel eSIM for 200+ countries with rewards coins",
+    "zh": "游戏化旅行 eSIM，200+ 国家带奖励金币"
+  },
+  "description": {
+    "en": "Global YO sells travel eSIMs for 200+ countries with a gamified twist: YO coins/rewards, social-style app and frequent in-app deals. Prices on its homepage start around $2.19.",
+    "zh": "Global YO 面向 200+ 国家销售旅行 eSIM，走游戏化路线：YO 金币奖励、社区风格 App 与高频应用内优惠。首页价格约 $2.19 起。"
+  },
+  "regions": [
+    "global"
+  ],
+  "coverage": 200,
+  "plansFrom": 2.19,
+  "dataFrom": {
+    "en": "Fixed data packs",
+    "zh": "定额流量包"
+  },
+  "validity": {
+    "en": "Varies by plan",
+    "zh": "按套餐不同"
+  },
+  "network": {
+    "en": "Local networks per destination",
+    "zh": "目的地本地网络"
+  },
+  "device": "esim",
+  "hotspot": true,
+  "rating": 4.0,
+  "website": "https://www.globalyo.com/",
+  "features": {
+    "en": [
+      "200+ countries",
+      "Rewards coins and in-app deals",
+      "Low entry prices",
+      "Community-style app"
+    ],
+    "zh": [
+      "200+ 国家",
+      "金币奖励与应用内优惠",
+      "入门价低",
+      "社区风格 App"
+    ]
+  },
+  "featured": false,
+  "updatedAt": "2026-11-10",
+  "details": {
+    "en": "Global YO takes a \"gamified + community\" approach: YO coins and rewards, a social-style app and frequent in-app deals, covering 200+ countries and regions. Homepage rendered 2026-11-10: price tiles from $2.19 (also $2.89/$3.89/$4.89/$5.89 tiers).\n\nThe real pitch is a low-price-and-discounts ecosystem: coins offset costs, referrals pay out, and promotions run constantly. The trade-off is limited transparency - little disclosed corporate information, per-plan tables only in the app, and poorly maintained category deep-links (404 on the site).\n\nWho it fits: budget-sensitive younger travellers willing to work the app for deals.\n\nNotes: cheap packs are usually tiny; per-destination networks are not disclosed; and for critical trips do not stake your only connectivity on a promo tier - validate with a small purchase first.",
+    "zh": "Global YO 走「游戏化 + 社区」路线：YO 金币奖励、社交风格 App 与高频应用内优惠，覆盖 200+ 国家和地区。2026-11-10 渲染首页实核：价格卡 $2.19 起（另见 $2.89/$3.89/$4.89/$5.89 档）。\n\n它的实际卖点是低价与折扣生态：金币可以抵扣、邀请有奖励、促销频繁；但对应代价是信息透明度一般——品牌主体披露有限、逐套餐表只在 App 内、分类深链（官网 404）维护不佳。\n\n适合人群：预算敏感、愿意花时间在 App 里「薅羊毛」的年轻旅行者。\n\n注意：低价包容量通常很小；落地网络未按目的地披露；重要行程不建议把唯一上网手段押在促销档上，先小额验证再加大用量。\n\n补充：YO 金币体系与折扣档常随活动变化，本文价格仅为 2026-11-10 快照；下单前在 App 内以当日报价为准，并优先选择可热点的档位。"
+  },
+  "bestFor": {
+    "en": "Young travellers who like gamified rewards",
+    "zh": "喜欢游戏化奖励的年轻旅行者"
+  },
+  "pros": {
+    "en": [
+      "Very low entry prices",
+      "Rewards/coins ecosystem",
+      "200+ country list",
+      "Frequent in-app deals"
+    ],
+    "zh": [
+      "入门价很低",
+      "金币奖励生态",
+      "200+ 国家",
+      "应用内优惠频繁"
+    ]
+  },
+  "cons": {
+    "en": [
+      "Gamification over substance - plan depth unclear",
+      "Per-plan tables in app only",
+      "Brand disclosures limited"
+    ],
+    "zh": [
+      "游戏化多于实质——套餐深度不明",
+      "逐套餐表仅在 App",
+      "品牌信息披露有限"
+    ]
+  },
+  "plans": [
+    {
+      "name": {
+        "en": "Entry tiers",
+        "zh": "Entry tiers"
+      },
+      "data": {
+        "en": "varies",
+        "zh": "varies"
+      },
+      "validity": {
+        "en": "varies",
+        "zh": "varies"
+      },
+      "price": {
+        "en": "$2.19",
+        "zh": "$2.19"
+      }
+    }
+  ],
+  "plansNote": {
+    "en": "Homepage price tiles rendered 2026-11-10 ($2.19-$5.89); deep catalog pages 404 - full catalog lives in the app.",
+    "zh": "2026-11-10 渲染首页价格卡（$2.19-5.89）；分类深链 404，完整目录在 App 内。"
+  },
+  "ipProfile": {
+    "type": "unknown",
+    "confidence": "unverified",
+    "note": {
+      "en": "Network partners not disclosed per destination (2026-11-10).",
+      "zh": "未按目的地披露合作网络（2026-11-10）。"
+    }
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "name": {
+    "en": "BNESIM",
+    "zh": "BNESIM"
+  },
+  "tagline": {
+    "en": "Long-running global eSIM brand with subscription unlimited plans",
+    "zh": "老牌全球 eSIM 品牌，带订阅制不限量"
+  },
+  "description": {
+    "en": "BNESIM is a long-running global eSIM brand marketing \"Zero Roaming\" in 200+ countries, with pay-as-you-go packs, subscription-based unlimited tiers and lifetime-validity options. The site shows 4.x ratings and frequent double-data promotions.",
+    "zh": "BNESIM 是运营多年的老牌全球 eSIM 品牌，主打\"Zero Roaming\"，覆盖 200+ 国家，有按量包、订阅制不限量档与终身有效选项，站点常驻翻倍流量促销。"
+  },
+  "regions": [
+    "global"
+  ],
+  "coverage": 200,
+  "plansFrom": 0.62,
+  "dataFrom": {
+    "en": "Pay-as-you-go, subscription or lifetime",
+    "zh": "按量、订阅制或终身有效"
+  },
+  "validity": {
+    "en": "Pay-as-you-go dated; subscription/lifetime options exist",
+    "zh": "按量按期；订阅/终身选项不过期"
+  },
+  "network": {
+    "en": "Multi-network per destination",
+    "zh": "目的地多网接入"
+  },
+  "device": "esim",
+  "hotspot": true,
+  "rating": 4.0,
+  "website": "https://www.bnesim.com/",
+  "features": {
+    "en": [
+      "200+ countries",
+      "Subscription unlimited tiers",
+      "Lifetime-validity options",
+      "Frequent double-data promos"
+    ],
+    "zh": [
+      "200+ 国家",
+      "订阅制不限量档",
+      "终身有效选项",
+      "常驻流量翻倍促销"
+    ]
+  },
+  "featured": false,
+  "updatedAt": "2026-11-10",
+  "details": {
+    "en": "BNESIM is a long-running global eSIM brand (\"Zero Roaming\" positioning) covering 200+ countries, with a product line more complex than typical travel brands: pay-as-you-go packs, subscription-based unlimited tiers and lifetime-validity options coexist - suited to heavy and long-horizon users.\n\nStore rendering note: destination pages render client-side, and a first-party price table could not be captured on 2026-11-10; only a DOUBLE11 double-data promo (valid to Nov 22, 2026) was visible. Third-party directories list entry pricing around $0.62 - recorded here as unverified third-party pricing; trust the app/checkout for actual figures.\n\nWho it fits: heavy long-term data needs (subscription unlimited) and buyers who want a lifetime pack with no expiry worry. Caveats: the three-layer pricing structure (PAYG/subscription/lifetime) is hard to compare; promo-driven pricing moves often; per-destination networks are not disclosed.",
+    "zh": "BNESIM 是运营多年的老牌全球 eSIM 品牌（\"Zero Roaming\" 口径），覆盖 200+ 国家和地区，产品线比一般旅行品牌复杂：按量付费包、订阅制不限量档与终身有效包并存，适合重度用户长期持有。\n\n官网渲染说明：商店按目的地页为客户端渲染，2026-11-10 未能直抓第一方价目，仅见 2026-11-22 前有效的 DOUBLE11 翻倍流量促销码；第三方目录列其入门价约 $0.62——本条按「未核实的第三方口径」记录，实际以 App/结算页为准。\n\n适合人群：大流量长期需求（订阅不限量）、想要终身包不担心过期的用户。坑点：定价体系三层（按量/订阅/终身）较难比价；促销驱动定价变动频繁；未按目的地披露落地网络。"
+  },
+  "bestFor": {
+    "en": "Heavy data users who want subscription unlimited or lifetime validity",
+    "zh": "大流量用户、想要订阅制不限量或终身有效包"
+  },
+  "pros": {
+    "en": [
+      "Very low entry price (third-party quoted)",
+      "Subscription unlimited option",
+      "Lifetime packs available",
+      "200+ country coverage"
+    ],
+    "zh": [
+      "第三方口径入门价很低",
+      "有订阅制不限量",
+      "终身有效包",
+      "200+ 国家覆盖"
+    ]
+  },
+  "cons": {
+    "en": [
+      "First-party price table not capturable (JS store)",
+      "Pricing structure complex (PAYG/subscription/lifetime)",
+      "Promo-heavy pricing changes often"
+    ],
+    "zh": [
+      "第一方价目未能直核（JS 商店）",
+      "定价体系复杂（按量/订阅/终身）",
+      "促销频繁价格变动大"
+    ]
+  },
+  "plans": [],
+  "plansNote": {
+    "en": "plansFrom uses a third-party directory figure (about $0.62), labeled unverified; first-party capture pending.",
+    "zh": "plansFrom 为第三方目录口径（约 $0.62），标注未核实；待补第一方抓取。"
+  },
+  "ipProfile": {
+    "type": "unknown",
+    "confidence": "unverified",
+    "note": {
+      "en": "Multi-network wholesale access; per-destination details not disclosed (2026-11-10).",
+      "zh": "多网批发接入，未按目的地披露细节（2026-11-10）。"
+    }
+  }
+}

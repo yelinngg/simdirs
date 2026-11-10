@@ -1,0 +1,117 @@
+{
+  "name": {
+    "en": "GoMoWorld",
+    "zh": "GoMoWorld"
+  },
+  "tagline": {
+    "en": "App-first European eSIM brand, prepaid plans from EUR 3.99",
+    "zh": "App 优先的欧洲 eSIM 品牌，€3.99 起"
+  },
+  "description": {
+    "en": "GoMoWorld is an app-first European eSIM brand covering 200+ destinations, with prepaid plans from EUR 3.99 and an average of two networks per country for coverage redundancy.",
+    "zh": "GoMoWorld 是 App 优先的欧洲 eSIM 品牌，覆盖 200+ 目的地，预付套餐 €3.99 起，平均每个国家接入两条网络以保障覆盖。"
+  },
+  "regions": [
+    "global"
+  ],
+  "coverage": 200,
+  "plansFrom": 4.3,
+  "dataFrom": {
+    "en": "Fixed prepaid packs",
+    "zh": "定额预付包"
+  },
+  "validity": {
+    "en": "Varies by plan",
+    "zh": "按套餐不同"
+  },
+  "network": {
+    "en": "~2 networks per country on average (official claim)",
+    "zh": "官方称平均每国约 2 条网络"
+  },
+  "device": "esim",
+  "hotspot": true,
+  "rating": 4.2,
+  "website": "https://gomoworld.com/",
+  "features": {
+    "en": [
+      "200+ destinations",
+      "Plans from EUR 3.99",
+      "Average two networks per country",
+      "App-first activation"
+    ],
+    "zh": [
+      "200+ 目的地",
+      "€3.99 起",
+      "平均每国约 2 条网络",
+      "App 优先开通"
+    ]
+  },
+  "featured": false,
+  "updatedAt": "2026-11-10",
+  "details": {
+    "en": "GoMoWorld is a European, app-first eSIM brand covering 200+ destinations, advertising \"an average of two networks per country\" for coverage redundancy and prepaid plans from EUR 3.99 (rendered from the homepage and plans page, 2026-11-10; plansFrom converted to about $4.30).\n\nProduct shape: fixed prepaid packs, bought and activated entirely in-app - the website has no web checkout and does not expose a per-GB catalog, so comparing prices requires installing the app or reading store screenshots.\n\nWho it fits: light travellers who prefer a European brand and do not mind an app-only flow.\n\nNotes: entry packs are small; the dual-network redundancy is an official claim, not an independent measurement; and store ratings vary notably between app stores - check recent reviews before buying.",
+    "zh": "GoMoWorld 是一家欧洲 App 优先的 eSIM 品牌，覆盖 200+ 目的地，官方宣传「平均每国接入约 2 条网络」做覆盖冗余，预付套餐 €3.99 起（2026-11-10 渲染官网首页与套餐页实核；plansFrom 按 ≈$4.30 折算）。\n\n产品形态：定额预付包，购买与激活全部在 App 内完成，官网没有网页结算通道，也未在网页展开逐 GB 价目——比价时需要装 App 或看应用商店截图。\n\n适合人群：轻度出行、喜欢欧洲品牌、不介意纯 App 流程的用户。\n\n注意：入门包容量小；双网络冗余是官方口径而非独立实测；同一品牌在不同应用商店的评分差异较大，购买前建议翻近期评价。\n\n补充：其「每国约 2 条网络」的冗余设计对城市旅行通常够用，但偏远地区单网故障时没有第三备选；跨区行程建议在 App 内检查目的地清单后再下单。"
+  },
+  "bestFor": {
+    "en": "Light-travel users who prefer an app-managed European brand",
+    "zh": "偏好欧洲品牌、App 管理的轻度出行用户"
+  },
+  "pros": {
+    "en": [
+      "Low EUR entry price",
+      "Dual-network redundancy claim",
+      "Simple app-first flow",
+      "200+ destinations"
+    ],
+    "zh": [
+      "欧元入门价低",
+      "双网络冗余覆盖",
+      "流程简单 App 优先",
+      "200+ 目的地"
+    ]
+  },
+  "cons": {
+    "en": [
+      "In-app purchase only (no web checkout)",
+      "Per-GB catalog not exposed on web",
+      "Entry packs are small"
+    ],
+    "zh": [
+      "仅 App 内购买（无网页结算）",
+      "逐 GB 价目未在网页展开",
+      "入门包容量小"
+    ]
+  },
+  "plans": [
+    {
+      "name": {
+        "en": "Entry pack",
+        "zh": "Entry pack"
+      },
+      "data": {
+        "en": "~1GB",
+        "zh": "~1GB"
+      },
+      "validity": {
+        "en": "varies",
+        "zh": "varies"
+      },
+      "price": {
+        "en": "EUR 3.99",
+        "zh": "EUR 3.99"
+      }
+    }
+  ],
+  "plansNote": {
+    "en": "EUR 3.99 entry rendered 2026-11-10 (converted to about $4.30 for plansFrom); full catalog lives in the app.",
+    "zh": "2026-11-10 渲染 €3.99 入门价（plansFrom 按 ≈$4.30 折算）；完整目录在 App 内。"
+  },
+  "ipProfile": {
+    "type": "unknown",
+    "confidence": "unverified",
+    "note": {
+      "en": "About two networks per destination on average (official claim); specifics not disclosed (2026-11-10).",
+      "zh": "平均每目的地约 2 条网络（官方口径），具体未披露（2026-11-10）。"
+    }
+  }
+}
