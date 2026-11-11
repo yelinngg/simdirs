@@ -47,10 +47,10 @@
     ]
   },
   "featured": false,
-  "updatedAt": "2026-11-10",
+  "updatedAt": "2026-11-11T00:00:00",
   "details": {
-    "en": "GigSky is a US eSIM brand (founded around 2010, over a decade of operation) differentiated in two scenarios: cruise and offshore coverage (its nav carries Countries/Regions/Cruises & Offshore categories) and an \"Official Visa Partner\" relationship stated on the homepage, alongside a GigSky Rewards program. Directories put coverage at 193 countries.\n\nPrices: homepage rendered 2026-11-10 with entry plans from $2.99 (multiple $2.99 tiles). Destination pages use a different URL scheme and were not captured this pass - per-country prices to be verified later.\n\nWho it fits: cruise passengers (connectivity at sea is a scarce capability) and users needing connectivity beyond ordinary destinations.\n\nNotes: entry pricing sits slightly above reseller brands; management is app-first; per-destination networks are not disclosed.",
-    "zh": "GigSky 是美国 eSIM 品牌（2010 年前后创立，运营十余年），差异化在两类场景：邮轮与海上覆盖（Countries/Regions/Cruises & Offshore 四类目）和 Visa 官方合作关系（首页标注「Official Visa Partner」，并附 GigSky Rewards 积分计划）。目录口径覆盖 193 国。\n\n价格：2026-11-10 渲染首页实核入门套餐 $2.99 起（多个 $2.99 卡片同现）。目的地价目页采用不同 URL 结构，本轮未抓取，逐国价格待补核。\n\n适合人群：邮轮乘客（海上有网是稀缺能力）、需要常规目的地之外（如海上作业、离岸场景）联网的用户。\n\n注意：入门价略高于转售品牌；管理以 App 为主；未按目的地披露底层网络。"
+    "en": "GigSky is a US eSIM brand (founded around 2010, over a decade of operation) differentiated in two scenarios: cruise and offshore coverage (its nav carries Countries/Regions/Cruises & Offshore categories) and an \"Official Visa Partner\" relationship stated on the homepage, alongside a GigSky Rewards program. Directories put coverage at 193 countries.\n\nPrices: homepage rendered 2026-11-10 with entry plans from $2.99 (multiple $2.99 tiles). Destination pages use a different URL scheme and were not captured this pass - per-country prices to be verified later.\n\nWho it fits: cruise passengers (connectivity at sea is a scarce capability) and users needing connectivity beyond ordinary destinations.\n\nNotes: entry pricing sits slightly above reseller brands; management is app-first; per-destination networks are not disclosed.\n\nFollow-up (2026-11-11): the Japan page lists an unlimited plan at $3.32/day and fixed tiers in the $3.49-$14.99 band (tier sizes not labeled on-page).",
+    "zh": "GigSky 是美国 eSIM 品牌（2010 年前后创立，运营十余年），差异化在两类场景：邮轮与海上覆盖（Countries/Regions/Cruises & Offshore 四类目）和 Visa 官方合作关系（首页标注「Official Visa Partner」，并附 GigSky Rewards 积分计划）。目录口径覆盖 193 国。\n\n价格：2026-11-10 渲染首页实核入门套餐 $2.99 起（多个 $2.99 卡片同现）。目的地价目页采用不同 URL 结构，本轮未抓取，逐国价格待补核。\n\n适合人群：邮轮乘客（海上有网是稀缺能力）、需要常规目的地之外（如海上作业、离岸场景）联网的用户。\n\n注意：入门价略高于转售品牌；管理以 App 为主；未按目的地披露底层网络。\n\n补充（2026-11-11）：日本页显示不限量套餐 $3.32/天，定额档位在 $3.49-14.99 区间（页面未标注各档 GB 数）。"
   },
   "bestFor": {
     "en": "Cruise passengers and travellers needing offshore coverage",
@@ -100,11 +100,29 @@
         "en": "$2.99",
         "zh": "$2.99"
       }
+    },
+    {
+      "name": {
+        "en": "Japan unlimited",
+        "zh": "日本不限量"
+      },
+      "data": {
+        "en": "Unlimited daily",
+        "zh": "每日不限量"
+      },
+      "validity": {
+        "en": "days-based cycles",
+        "zh": "按天周期"
+      },
+      "price": {
+        "en": "$3.32/day",
+        "zh": "$3.32/天"
+      }
     }
   ],
   "plansNote": {
-    "en": "Homepage entry price rendered 2026-11-10; per-destination tables pending.",
-    "zh": "2026-11-10 渲染首页入门价；逐目的地价目待补。"
+    "en": "Homepage entry price $2.99 rendered 2026-11-10; Japan page rendered 2026-11-11 shows unlimited at $3.32/day and fixed tiers from ~$3.49 ($3.49/$6.99/$9.97/$10.49/$14.24/$14.99) - allowance sizes per tier not yet mapped, so only the range is recorded.",
+    "zh": "首页入门价 $2.99 于 2026-11-10 渲染；2026-11-11 渲染日本页：不限量 $3.32/天，定额档 $3.49/$6.99/$9.97/$10.49/$14.24/$14.99（各档 GB 数未标明，仅记录区间）。"
   },
   "ipProfile": {
     "type": "unknown",

@@ -47,10 +47,10 @@
     ]
   },
   "featured": false,
-  "updatedAt": "2026-11-10",
+  "updatedAt": "2026-11-11T00:00:00",
   "details": {
-    "en": "Yesim is a Switzerland-based eSIM service offering both fixed and unlimited catalogs for 200+ destinations, with 4M+ users claimed. Its differentiators versus peers: a European regulatory footing, dual plan catalogs, and balance top-ups on many plans instead of issuing a new eSIM.\n\nPrices (verified on yesim.app/country/japan, 2026-11-10): unlimited from $4.20 for 1 day, with the daily rate stepping down as days increase; a fixed-plan catalog sits alongside but was not fully rendered this pass - to be captured later. Data-only, with balance top-up supported.\n\nNotes: the unlimited daily rate is mid-pack rather than the cheapest; promo figures quoted by some third-party directories could not be re-verified on the official site; the experience is app-first; and searches can confuse it with the same-named Turkish textile company Yesim (Yesim with cedilla) - the correct domain is yesim.app.",
-    "zh": "Yesim 是总部在瑞士的 eSIM 服务商，同时提供定额与不限量两类套餐，覆盖 200+ 目的地，官方口径 4M+ 用户。相对同行，它的差异化是\"欧洲监管背景 + 双套餐目录 + 多数套餐可充值续用（不必换新 eSIM）\"。\n\n价格（2026-11-10 日本页实核）：不限量 1 天 $4.20 起，天数越多日均价越低（页面按天数阶梯展示）；同页另有定额套餐目录，本轮未完整渲染，补核后再录。纯数据，支持余额充值。\n\n注意点：不限量日均价属中等水平，不是最便宜的一档；部分第三方目录引用的促销价未能在官网复验；体验以 App 为主；搜索时易与土耳其同名纺织公司 Yeşim 混淆，认准 yesim.app。\n\n补充：Yesim 支持余额充值与多套餐共存于同一账户，行程连续多国的用户可在 App 内切换目的地套餐而无需重复安装 eSIM；具体可用性以 App 内实际显示为准。"
+    "en": "Yesim is a Switzerland-based eSIM service offering both fixed and unlimited catalogs for 200+ destinations, with 4M+ users claimed. Its differentiators versus peers: a European regulatory footing, dual plan catalogs, and balance top-ups on many plans instead of issuing a new eSIM.\n\nPrices (verified on yesim.app/country/japan, 2026-11-10): unlimited from $4.20 for 1 day, with the daily rate stepping down as days increase; the fixed catalog was captured the same session: 1GB/30d $4.44, 5GB $10.56, 10GB $19.20, 20GB $29.76, 30GB $39.60 (Japan). Data-only, with balance top-up supported.\n\nNotes: the unlimited daily rate is mid-pack rather than the cheapest; promo figures quoted by some third-party directories could not be re-verified on the official site; the experience is app-first; and searches can confuse it with the same-named Turkish textile company Yesim (Yesim with cedilla) - the correct domain is yesim.app.",
+    "zh": "Yesim 是总部在瑞士的 eSIM 服务商，同时提供定额与不限量两类套餐，覆盖 200+ 目的地，官方口径 4M+ 用户。相对同行，它的差异化是\"欧洲监管背景 + 双套餐目录 + 多数套餐可充值续用（不必换新 eSIM）\"。\n\n价格（2026-11-10 日本页实核）：不限量 1 天 $4.20 起，天数越多日均价越低（页面按天数阶梯展示）；定额目录已同场核验：日本 1GB/30 天 $4.44、5GB $10.56、10GB $19.20、20GB $29.76、30GB $39.60。纯数据，支持余额充值。\n\n注意点：不限量日均价属中等水平，不是最便宜的一档；部分第三方目录引用的促销价未能在官网复验；体验以 App 为主；搜索时易与土耳其同名纺织公司 Yeşim 混淆，认准 yesim.app。\n\n补充：Yesim 支持余额充值与多套餐共存于同一账户，行程连续多国的用户可在 App 内切换目的地套餐而无需重复安装 eSIM；具体可用性以 App 内实际显示为准。"
   },
   "bestFor": {
     "en": "Travellers who want a European-regulated provider with both plan styles",
@@ -87,6 +87,96 @@
   "plans": [
     {
       "name": {
+        "en": "Japan Fixed 1GB",
+        "zh": "Japan Fixed 1GB"
+      },
+      "data": {
+        "en": "1GB",
+        "zh": "1GB"
+      },
+      "validity": {
+        "en": "30 days",
+        "zh": "30 days"
+      },
+      "price": {
+        "en": "$4.44",
+        "zh": "$4.44"
+      }
+    },
+    {
+      "name": {
+        "en": "Japan Fixed 5GB",
+        "zh": "Japan Fixed 5GB"
+      },
+      "data": {
+        "en": "5GB",
+        "zh": "5GB"
+      },
+      "validity": {
+        "en": "30 days",
+        "zh": "30 days"
+      },
+      "price": {
+        "en": "$10.56",
+        "zh": "$10.56"
+      }
+    },
+    {
+      "name": {
+        "en": "Japan Fixed 10GB",
+        "zh": "Japan Fixed 10GB"
+      },
+      "data": {
+        "en": "10GB",
+        "zh": "10GB"
+      },
+      "validity": {
+        "en": "30 days",
+        "zh": "30 days"
+      },
+      "price": {
+        "en": "$19.20",
+        "zh": "$19.20"
+      }
+    },
+    {
+      "name": {
+        "en": "Japan Fixed 20GB",
+        "zh": "Japan Fixed 20GB"
+      },
+      "data": {
+        "en": "20GB",
+        "zh": "20GB"
+      },
+      "validity": {
+        "en": "30 days",
+        "zh": "30 days"
+      },
+      "price": {
+        "en": "$29.76",
+        "zh": "$29.76"
+      }
+    },
+    {
+      "name": {
+        "en": "Japan Fixed 30GB",
+        "zh": "Japan Fixed 30GB"
+      },
+      "data": {
+        "en": "30GB",
+        "zh": "30GB"
+      },
+      "validity": {
+        "en": "30 days",
+        "zh": "30 days"
+      },
+      "price": {
+        "en": "$39.60",
+        "zh": "$39.60"
+      }
+    },
+    {
+      "name": {
         "en": "Japan Unlimited 1 day",
         "zh": "Japan Unlimited 1 day"
       },
@@ -105,8 +195,8 @@
     }
   ],
   "plansNote": {
-    "en": "Japan unlimited entry price rendered 2026-11-10; fixed-plan table and other destinations pending a later pass.",
-    "zh": "日本不限量入门价为 2026-11-10 渲染所得；定额套餐表与其他目的地待后续补核。"
+    "en": "Japan fixed-plan tiers and the unlimited daily rate rendered from yesim.app/country/japan on 2026-11-11 (Fixed-plans tab opened); cross-out anchor prices ignored. Other destinations not yet captured.",
+    "zh": "日本定额阶梯与不限量日价于 2026-11-11 渲染 yesim.app/country/japan 实核（点开 Fixed plans 页签）；划线原价未采信。其他目的地价格待补。"
   },
   "ipProfile": {
     "type": "unknown",
