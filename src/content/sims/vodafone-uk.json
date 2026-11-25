@@ -1,44 +1,177 @@
 {
-  "name": {"en": "Vodafone UK", "zh": "Vodafone 英国"},
-  "tagline": {"en": "UK-number SIM and eSIM: separate PAYG keep-alive from Plus bundles", "zh": "英国号码 SIM 与 eSIM，分清 PAYG 保号和 Plus 套餐"},
+  "name": {
+    "en": "Vodafone UK",
+    "zh": "Vodafone 英国"
+  },
+  "tagline": {
+    "en": "UK-number SIM and eSIM: separate PAYG keep-alive from Plus bundles",
+    "zh": "英国号码 SIM 与 eSIM，分清 PAYG 保号和 Plus 套餐"
+  },
   "description": {
-    "en": "Vodafone UK publicly sells Pay as you go Plus with an eSIM option; you do not have to negotiate a customer-service-only deal. Checked 25 November 2026: the £10 plan includes 27GB per 30 days for the first three months, then 8GB, with the offer ending 8 December 2026. Plus uses a payment card and the My Vodafone smartphone app, with optional auto-renew. Traditional PAYG has a separate 180-day chargeable-activity rule. Neither a digital SIM nor free incoming texts alone guarantees that a number stays active.",
-    "zh": "Vodafone 英国已在官网公开销售支持 eSIM 的 Pay as you go Plus，无需把客服议价当作唯一购买路径。2026-11-25 核查，£10 档前 3 个月每 30 天含 27GB，之后为 8GB，活动截止 2026-12-08。Plus 使用支付卡与 My Vodafone 手机 App 管理，可关闭自动续订。传统 PAYG 则另有 180 天内发生付费活动的保号规则。下载 eSIM、收到免费短信，都不能直接当作保号已完成的凭证。"
+    "en": "Vodafone UK publicly sells Pay as you go Plus with SIM and eSIM options. Checked 25 November 2026: £10 buys 8GB per 30 days as standard. The advertised 27GB for three consecutive plans is for eligible new Plus customers resident in the UK with a UK-registered payment card and successful auto-renewals; entry closes 8 December 2026. Traditional PAYG has a separate 180-day chargeable-activity rule. Check UK activation and destination-specific roaming before relying on a number abroad.",
+    "zh": "Vodafone 英国在官网公开销售支持 SIM 与 eSIM 的 Pay as you go Plus。2026-11-25 核查，£10 档标准额度为每 30 天 8GB；广告中的 27GB 优惠仅适用于符合条件的新 Plus 用户，要求居住在英国、使用在英国登记的支付卡，并成功连续自动续订，优惠覆盖三个连续周期，参与截止 2026-12-08。传统 PAYG 另有 180 天付费活动保号规则，境外使用前还需确认英国激活与漫游费用。"
   },
   "details": {
-    "en": "### Public eSIM purchase and activation\n\nChecked 25 November 2026 against Vodafone's [Plus storefront](https://www.vodafone.co.uk/sim-only/pay-as-you-go-sim) and [Plus help page](https://www.vodafone.co.uk/sim-only/pay-as-you-go-sim/how-payg-plus-works). Compatible phones can select an eSIM on a publicly listed Plus plan. Vodafone emails the download instructions; physical SIMs remain available too. The earlier customer-service-only description was based on a March 2026 review and no longer describes the public sales route. The current storefront says no contract or credit check. That is not a promise of anonymous registration or exemption from account checks.\n\n### What the £10 bundle buys\n\nThe £10 Plus plan gives 27GB per 30-day period for the first three months and 8GB afterwards, plus unlimited UK minutes and texts. The £15, £20 and £30 tiers also have three-month data promotions, shown separately below. The advertised offer ends 8 December 2026; this is the promotion deadline, not a guarantee that the extra allowance lasts indefinitely. Auto-renew charges the registered payment card every 30 days. Turn it off in My Vodafone if you want the plan to pause after the paid period. Plus needs a smartphone and the app.\n\n### Keep-alive and roaming are separate questions\n\nThe official [traditional PAYG page](https://www.vodafone.co.uk/sim-only/pay-as-you-go-sim/payg-1) requires a chargeable activity within 180 days, with a reminder after 90 days without use or top-up. Receiving an incoming text is not the chargeable outbound activity described there. Do not assume that pausing a Plus bundle automatically switches the line onto PAYG 1, or that the two products have identical charging rules. Check the agreement attached to the actual line. Vodafone's Plus activation help says to activate the SIM in the UK before travelling abroad. An emailed eSIM QR code alone does not establish that first activation from China is supported.\n\n### Choosing a UK number for use abroad\n\nThis is a local UK-number product, not a generic travel-data eSIM. Check the intended destination's roaming charges and the cost of a qualifying activity before relying on it for long-term number retention. The public UK bundle allowance does not by itself prove that China or EU roaming is included. We have not re-verified the old festival-trial or customer-service-only offers and do not list them as current deals. Compare the [UK keep-alive guide](/news/uk-sim-keep-alive-guide-2026/) for other retention rules; no option guarantees that a particular website will accept its number.",
-    "zh": "### 官网可以买到 eSIM\n\n本页于 2026-11-25 对照 Vodafone 的 [Plus 套餐页](https://www.vodafone.co.uk/sim-only/pay-as-you-go-sim)与 [Plus 使用说明](https://www.vodafone.co.uk/sim-only/pay-as-you-go-sim/how-payg-plus-works)复核。支持 eSIM 的手机可在公开销售的 Plus 套餐中选择 eSIM，下载说明由邮件发送，也可以选实体卡。旧版“便宜 eSIM 只能找客服”的说法来自 2026 年 3 月盘点，已不适合描述当前购买路径。官网写明无需合约或信用审查，但这不代表匿名开户，也不保证账户不会被要求补充资料。\n\n### £10 套餐包含什么\n\n£10 的 Plus 套餐前 3 个月每个 30 天周期含 27GB，之后恢复 8GB，并有英国境内无限通话与短信。£15、£20 和 £30 档也有前三个月额外流量，具体数量列在套餐表。官网所写的 2026-12-08 是这次优惠的截止日，不能理解成额外流量永久有效。自动续订会每 30 天从登记的支付卡扣款；不打算继续用时，可在 My Vodafone 关闭续订，让当前付费周期结束后暂停套餐。Plus 需要智能手机和 App 管理。\n\n### 保号与漫游要分开核对\n\n官方[传统 PAYG 说明](https://www.vodafone.co.uk/sim-only/pay-as-you-go-sim/payg-1)要求 180 天内发生符合规则的付费活动，90 天无使用或充值会先提醒。只收到一条免费短信，不能当作已完成付费使用。也不要默认关闭 Plus 续订后就会自动转成 PAYG 1，或把两种产品的计费规则直接混用，应查看自己号码实际适用的协议。Plus 激活说明要求出国前先在英国激活；收到邮件里的 eSIM 二维码，不等于已证明可从中国完成首次激活。\n\n### 适合什么用途\n\nVodafone UK 是带英国号码的本地通信产品，与只提供上网的旅行 eSIM 不同。长期在海外持有号码前，要先查目的地漫游价格，再算一次有效付费活动的实际成本。英国本地套餐额度不能直接理解为中国或欧盟漫游也包含在内。旧版提到的音乐节免费试用与客服专属报价，本轮没有复核为当前可购活动，不列作现行优惠。可结合站内[英国保号卡指南](/zh/news/uk-sim-keep-alive-guide-2026/)比较其他号码的规则；任何运营商号码都不保证某个网站一定接受。"
+    "en": "### Public eSIM purchase and activation\n\nChecked 25 November 2026 against Vodafone's [Plus storefront](https://www.vodafone.co.uk/sim-only/pay-as-you-go-sim) and [Plus help page](https://www.vodafone.co.uk/sim-only/pay-as-you-go-sim/how-payg-plus-works). Compatible phones can select an eSIM on a publicly listed Plus plan. Vodafone emails the download instructions; physical SIMs remain available too. The earlier customer-service-only description was based on a March 2026 review and no longer describes the public sales route. The current storefront says no contract or credit check. That is not a promise of anonymous registration or exemption from account checks.\n\n### What the £10 bundle buys\n\nThe £10 Plus plan has a standard 8GB per 30-day period, plus unlimited UK minutes and texts. The [official promotion terms](https://www.vodafone.co.uk/terms-and-conditions/mobile/offers/data-promotion-pay-as-you-go-plus-july-2026) restrict the 27GB offer to new Plus customers resident in the UK with a UK-registered payment card. Extra data lasts for three consecutive plans and requires successful auto-renewal with sufficient card funds; a failed renewal removes eligibility for the next plan. Switching auto-renew off is allowed, but you should not expect to keep the continuing extra-data offer. The £15, £20 and £30 tiers also have three-month data promotions, shown separately below. The advertised offer ends 8 December 2026; this is the promotion deadline, not a guarantee that the extra allowance lasts indefinitely. Auto-renew charges the registered payment card every 30 days. Turn it off in My Vodafone if you want the plan to pause after the paid period. Plus needs a smartphone and the app.\n\n### Keep-alive and roaming are separate questions\n\nThe official [traditional PAYG page](https://www.vodafone.co.uk/sim-only/pay-as-you-go-sim/payg-1) requires a chargeable activity within 180 days, with a reminder after 90 days without use or top-up. Receiving an incoming text is not the chargeable outbound activity described there. Do not assume that pausing a Plus bundle automatically switches the line onto PAYG 1, or that the two products have identical charging rules. Check the agreement attached to the actual line. Vodafone's Plus activation help says to activate the SIM in the UK before travelling abroad. An emailed eSIM QR code alone does not establish that first activation from China is supported.\n\n### Choosing a UK number for use abroad\n\nThis is a local UK-number product, not a generic travel-data eSIM. Check the intended destination's roaming charges and the cost of a qualifying activity before relying on it for long-term number retention. The public UK bundle allowance does not by itself prove that China or EU roaming is included. We have not re-verified the old festival-trial or customer-service-only offers and do not list them as current deals. Compare the [UK keep-alive guide](/news/uk-sim-keep-alive-guide-2026/) for other retention rules; no option guarantees that a particular website will accept its number.",
+    "zh": "### 官网可以买到 eSIM\n\n本页于 2026-11-25 对照 Vodafone 的 [Plus 套餐页](https://www.vodafone.co.uk/sim-only/pay-as-you-go-sim)与 [Plus 使用说明](https://www.vodafone.co.uk/sim-only/pay-as-you-go-sim/how-payg-plus-works)复核。支持 eSIM 的手机可在公开销售的 Plus 套餐中选择 eSIM，下载说明由邮件发送，也可以选实体卡。旧版“便宜 eSIM 只能找客服”的说法来自 2026 年 3 月盘点，已不适合描述当前购买路径。官网写明无需合约或信用审查，但这不代表匿名开户，也不保证账户不会被要求补充资料。\n\n### £10 套餐包含什么\n\n£10 的 Plus 套餐标准额度为每 30 天 8GB，并有英国境内无限通话与短信。[官方优惠条款](https://www.vodafone.co.uk/terms-and-conditions/mobile/offers/data-promotion-pay-as-you-go-plus-july-2026)明确要求参与者是新的 Plus 用户、居住在英国，并使用在英国登记的支付卡。27GB 只覆盖三个连续套餐周期，继续获得额外流量要求支付卡余额足够且自动续订成功；续订失败，下一个周期会失去额外流量资格。虽然可以关闭自动续订，但不能同时假设仍会继续获得优惠流量。£15、£20 和 £30 档也有前三个月额外流量，具体数量列在套餐表。官网所写的 2026-12-08 是这次优惠的截止日，不能理解成额外流量永久有效。自动续订会每 30 天从登记的支付卡扣款；不打算继续用时，可在 My Vodafone 关闭续订，让当前付费周期结束后暂停套餐。Plus 需要智能手机和 App 管理。\n\n### 保号与漫游要分开核对\n\n官方[传统 PAYG 说明](https://www.vodafone.co.uk/sim-only/pay-as-you-go-sim/payg-1)要求 180 天内发生符合规则的付费活动，90 天无使用或充值会先提醒。只收到一条免费短信，不能当作已完成付费使用。也不要默认关闭 Plus 续订后就会自动转成 PAYG 1，或把两种产品的计费规则直接混用，应查看自己号码实际适用的协议。Plus 激活说明要求出国前先在英国激活；收到邮件里的 eSIM 二维码，不等于已证明可从中国完成首次激活。\n\n### 适合什么用途\n\nVodafone UK 是带英国号码的本地通信产品，与只提供上网的旅行 eSIM 不同。长期在海外持有号码前，要先查目的地漫游价格，再算一次有效付费活动的实际成本。英国本地套餐额度不能直接理解为中国或欧盟漫游也包含在内。旧版提到的音乐节免费试用与客服专属报价，本轮没有复核为当前可购活动，不列作现行优惠。可结合站内[英国保号卡指南](/zh/news/uk-sim-keep-alive-guide-2026/)比较其他号码的规则；任何运营商号码都不保证某个网站一定接受。"
   },
-  "bestFor": {"en": "Users who need a UK number and a publicly purchasable SIM or eSIM, and can check UK activation and destination-specific roaming terms.", "zh": "需要英国号码及公开可购 SIM/eSIM，并能确认英国激活条件与目的地漫游费用的用户。"},
-  "regions": ["europe"],
+  "bestFor": {
+    "en": "Users who need a UK number and a publicly purchasable SIM or eSIM, and can check UK activation and destination-specific roaming terms.",
+    "zh": "需要英国号码及公开可购 SIM/eSIM，并能确认英国激活条件与目的地漫游费用的用户。"
+  },
+  "regions": [
+    "europe"
+  ],
   "coverage": 1,
   "plansFrom": 13.1,
-  "dataFrom": {"en": "27GB for first 3 months; then 8GB", "zh": "前 3 个月 27GB，之后 8GB"},
-  "validity": {"en": "Plus: 30 days; traditional PAYG: 180-day activity rule", "zh": "Plus 每期 30 天；传统 PAYG 为 180 天活动规则"},
-  "network": {"en": "Vodafone UK (4G/5G, subject to coverage)", "zh": "Vodafone 英国（4G/5G，以覆盖为准）"},
+  "dataFrom": {
+    "en": "8GB standard; 27GB eligible new-customer offer",
+    "zh": "标准 8GB；符合条件的新客优惠 27GB"
+  },
+  "validity": {
+    "en": "Plus: 30 days; traditional PAYG: 180-day activity rule",
+    "zh": "Plus 每期 30 天；传统 PAYG 为 180 天活动规则"
+  },
+  "network": {
+    "en": "Vodafone UK (4G/5G, subject to coverage)",
+    "zh": "Vodafone 英国（4G/5G，以覆盖为准）"
+  },
   "device": "both",
   "hotspot": true,
   "rating": 3.8,
   "website": "https://www.vodafone.co.uk/",
   "features": {
-    "en": ["Public Plus plans offer both eSIM and physical SIM", "£10: 27GB for three months, then 8GB per 30 days", "Optional payment-card auto-renew, managed in My Vodafone", "Traditional PAYG retention requires qualifying activity"],
-    "zh": ["Plus 公开套餐支持 eSIM 与实体卡", "£10 档前三个月每期 27GB，之后 8GB", "支付卡可选自动续订，My Vodafone 管理", "传统 PAYG 保号需要符合要求的活动"]
+    "en": [
+      "Public Plus plans offer both eSIM and physical SIM",
+      "£10 standard 8GB; 27GB offer has UK-residency and renewal conditions",
+      "Optional payment-card auto-renew, managed in My Vodafone",
+      "Traditional PAYG retention requires qualifying activity"
+    ],
+    "zh": [
+      "Plus 公开套餐支持 eSIM 与实体卡",
+      "£10 标准 8GB；27GB 优惠有英国居住及续订条件",
+      "支付卡可选自动续订，My Vodafone 管理",
+      "传统 PAYG 保号需要符合要求的活动"
+    ]
   },
   "plans": [
-    {"name": {"en": "Pay as you go Plus £10", "zh": "Pay as you go Plus £10"}, "data": {"en": "27GB for first 3 months, then 8GB", "zh": "前 3 个月 27GB，之后 8GB"}, "validity": {"en": "30 days", "zh": "30 天"}, "price": {"en": "£10 per 30 days; optional auto-renew; offer ends 8 Dec 2026", "zh": "每 30 天 £10；可选自动续订；优惠至 2026-12-08"}},
-    {"name": {"en": "Pay as you go Plus £15", "zh": "Pay as you go Plus £15"}, "data": {"en": "75GB for first 3 months, then 25GB", "zh": "前 3 个月 75GB，之后 25GB"}, "validity": {"en": "30 days", "zh": "30 天"}, "price": {"en": "£15 per 30 days; offer ends 8 Dec 2026", "zh": "每 30 天 £15；优惠至 2026-12-08"}},
-    {"name": {"en": "Pay as you go Plus £20", "zh": "Pay as you go Plus £20"}, "data": {"en": "150GB for first 3 months, then 50GB", "zh": "前 3 个月 150GB，之后 50GB"}, "validity": {"en": "30 days", "zh": "30 天"}, "price": {"en": "£20 per 30 days; offer ends 8 Dec 2026", "zh": "每 30 天 £20；优惠至 2026-12-08"}},
-    {"name": {"en": "Pay as you go Plus £30", "zh": "Pay as you go Plus £30"}, "data": {"en": "300GB for first 3 months, then 150GB", "zh": "前 3 个月 300GB，之后 150GB"}, "validity": {"en": "30 days", "zh": "30 天"}, "price": {"en": "£30 per 30 days; offer ends 8 Dec 2026", "zh": "每 30 天 £30；优惠至 2026-12-08"}}
+    {
+      "name": {
+        "en": "Pay as you go Plus £10",
+        "zh": "Pay as you go Plus £10"
+      },
+      "data": {
+        "en": "8GB standard; 27GB for 3 eligible consecutive auto-renewed plans",
+        "zh": "标准 8GB；符合条件并连续自动续订的前三期 27GB"
+      },
+      "validity": {
+        "en": "30 days",
+        "zh": "30 天"
+      },
+      "price": {
+        "en": "£10 per 30 days; optional auto-renew; offer ends 8 Dec 2026",
+        "zh": "每 30 天 £10；可选自动续订；优惠至 2026-12-08"
+      }
+    },
+    {
+      "name": {
+        "en": "Pay as you go Plus £15",
+        "zh": "Pay as you go Plus £15"
+      },
+      "data": {
+        "en": "25GB standard; 75GB for 3 eligible consecutive auto-renewed plans",
+        "zh": "标准 25GB；符合条件并连续自动续订的前三期 75GB"
+      },
+      "validity": {
+        "en": "30 days",
+        "zh": "30 天"
+      },
+      "price": {
+        "en": "£15 per 30 days; offer ends 8 Dec 2026",
+        "zh": "每 30 天 £15；优惠至 2026-12-08"
+      }
+    },
+    {
+      "name": {
+        "en": "Pay as you go Plus £20",
+        "zh": "Pay as you go Plus £20"
+      },
+      "data": {
+        "en": "50GB standard; 150GB for 3 eligible consecutive auto-renewed plans",
+        "zh": "标准 50GB；符合条件并连续自动续订的前三期 150GB"
+      },
+      "validity": {
+        "en": "30 days",
+        "zh": "30 天"
+      },
+      "price": {
+        "en": "£20 per 30 days; offer ends 8 Dec 2026",
+        "zh": "每 30 天 £20；优惠至 2026-12-08"
+      }
+    },
+    {
+      "name": {
+        "en": "Pay as you go Plus £30",
+        "zh": "Pay as you go Plus £30"
+      },
+      "data": {
+        "en": "150GB standard; 300GB for 3 eligible consecutive auto-renewed plans",
+        "zh": "标准 150GB；符合条件并连续自动续订的前三期 300GB"
+      },
+      "validity": {
+        "en": "30 days",
+        "zh": "30 天"
+      },
+      "price": {
+        "en": "£30 per 30 days; offer ends 8 Dec 2026",
+        "zh": "每 30 天 £30；优惠至 2026-12-08"
+      }
+    }
   ],
-  "plansNote": {"en": "Tariffs verified on Vodafone's public Plus pages on 25 Nov 2026. Prices are GBP per 30 days, not calendar-month fees. The directory USD floor is approximately $13.10 for £10 using ECB reference rates dated 24 Nov 2026, not a USD billing offer. Plus renewal, traditional PAYG retention and overseas roaming have separate rules.", "zh": "2026-11-25 核对 Vodafone 公开 Plus 套餐页。账单单位为英镑，每期 30 天，并非自然月。目录美元起价按 2026-11-24 欧洲央行参考汇率，将 £10 估算为 $13.10，不代表可用美元按此价购买。Plus 续订、传统 PAYG 保号与境外漫游须分别核对。"},
-  "pros": {"en": ["Official public eSIM ordering rather than a CS-only route", "No-contract Plus plans with optional auto-renew", "Clear promotional and post-promotion data allowances"], "zh": ["官网公开提供 eSIM 下单路径", "Plus 无合约，可关闭自动续订", "活动期与活动后流量分别列明"]},
-  "cons": {"en": ["Plus requires a smartphone, app and payment card", "UK activation guidance matters before use abroad", "UK bundle allowances do not establish included China or EU roaming", "Receiving free texts alone is not proof of qualifying keep-alive activity"], "zh": ["Plus 需要智能手机、App 与支付卡", "境外使用前应确认先在英国激活的要求", "英国套餐额度不等于包含中国或欧盟漫游", "只接收免费短信不能当作有效保号活动的凭证"]},
+  "plansNote": {
+    "en": "Tariffs verified on Vodafone's public Plus pages on 25 Nov 2026. Prices are GBP per 30 days, not calendar-month fees. The directory USD floor is approximately $13.10 for £10 using ECB reference rates dated 24 Nov 2026, not a USD billing offer. Plus renewal, traditional PAYG retention and overseas roaming have separate rules. Promotional extra data requires a new Plus account, UK residence, a UK-registered payment card and consecutive successful auto-renewals. A non-resident visitor should not assume eligibility.",
+    "zh": "2026-11-25 核对 Vodafone 公开 Plus 套餐页。账单单位为英镑，每期 30 天，并非自然月。目录美元起价按 2026-11-24 欧洲央行参考汇率，将 £10 估算为 $13.10，不代表可用美元按此价购买。Plus 续订、传统 PAYG 保号与境外漫游须分别核对。 额外流量要求新的 Plus 账户、英国居住资格、在英国登记的支付卡及连续成功自动续订，非英国居民访客不能默认符合条件。"
+  },
+  "pros": {
+    "en": [
+      "Official public eSIM ordering rather than a CS-only route",
+      "No-contract Plus plans with optional auto-renew",
+      "Clear promotional and post-promotion data allowances"
+    ],
+    "zh": [
+      "官网公开提供 eSIM 下单路径",
+      "Plus 无合约，可关闭自动续订",
+      "活动期与活动后流量分别列明"
+    ]
+  },
+  "cons": {
+    "en": [
+      "Plus requires a smartphone, app and payment card",
+      "UK activation guidance matters before use abroad",
+      "UK bundle allowances do not establish included China or EU roaming",
+      "Receiving free texts alone is not proof of qualifying keep-alive activity",
+      "Extra-data offers require UK residence, a UK-registered payment card and successful consecutive auto-renewals"
+    ],
+    "zh": [
+      "Plus 需要智能手机、App 与支付卡",
+      "境外使用前应确认先在英国激活的要求",
+      "英国套餐额度不等于包含中国或欧盟漫游",
+      "只接收免费短信不能当作有效保号活动的凭证",
+      "额外流量优惠要求英国居住资格、在英国登记的支付卡及连续成功自动续订"
+    ]
+  },
   "featured": false,
   "updatedAt": "2026-11-25",
   "ipProfile": {
-    "country": {"en": "GB (UK exit when roaming, home-routed)", "zh": "英国 GB（漫游时仍从英国出口，归属地回传）"},
+    "country": {
+      "en": "GB (UK exit when roaming, home-routed)",
+      "zh": "英国 GB（漫游时仍从英国出口，归属地回传）"
+    },
     "type": "mobile",
     "confidence": "medium",
-    "note": {"en": "A motorhome forum thread reports a dealer-verified case: Vodafone UK SIMs roaming in Portugal kept a UK IP and streamed iPlayer fine, matching what multiple customers reported. Consistent with UK MNO home-routing practice; no official Vodafone doc on exit IP.", "zh": "房车论坛帖子（经销商验证）称 Vodafone UK 卡在葡萄牙漫游保持英国 IP、iPlayer 正常，多个客户反馈一致；符合英国运营商母网回程惯例，但官方无出口 IP 文档。"}
+    "note": {
+      "en": "A motorhome forum thread reports a dealer-verified case: Vodafone UK SIMs roaming in Portugal kept a UK IP and streamed iPlayer fine, matching what multiple customers reported. Consistent with UK MNO home-routing practice; no official Vodafone doc on exit IP.",
+      "zh": "房车论坛帖子（经销商验证）称 Vodafone UK 卡在葡萄牙漫游保持英国 IP、iPlayer 正常，多个客户反馈一致；符合英国运营商母网回程惯例，但官方无出口 IP 文档。"
+    }
   }
 }
